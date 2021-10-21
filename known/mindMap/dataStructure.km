@@ -1,0 +1,621 @@
+{
+    "root": {
+        "data": {
+            "id": "ccmxistewgo0",
+            "created": 1625663236345,
+            "text": "数据结构"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ccmxl12due80",
+                    "created": 1625663411030,
+                    "text": "树与二叉树",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmxml3m5r40",
+                            "created": 1625663533004,
+                            "text": "二叉树",
+                            "resource": []
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmxrxyrqzs0",
+                                    "created": 1625663952830,
+                                    "text": "特点",
+                                    "background": "#dbe5f1"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmxtaaw9ko0",
+                                            "created": 1625664058049,
+                                            "text": "顺序和链式都可以实现"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmxtqxniqo0",
+                                            "created": 1625664094253,
+                                            "text": "遍历方式",
+                                            "background": "#fbd4b4"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmxua7cy1c0",
+                                                    "created": 1625664136199,
+                                                    "text": "广度优先搜索"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmxuisqe080",
+                                                    "created": 1625664154905,
+                                                    "text": "深度优先搜索"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmxupw971k0",
+                                                            "created": 1625664170356,
+                                                            "text": "前序遍历"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmxusocuew0",
+                                                            "created": 1625664176410,
+                                                            "text": "中序遍历"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmxut7ckv40",
+                                                            "created": 1625664177557,
+                                                            "text": "后序遍历"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxqwgcxyg0",
+                                    "created": 1625663871176,
+                                    "text": "完全二叉树",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxqz163tc0",
+                                    "created": 1625663876787,
+                                    "text": "满二叉树",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxqzi0fq00",
+                                    "created": 1625663877806,
+                                    "text": "二叉搜索树",
+                                    "priority": 3
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxr0phtk00",
+                                    "created": 1625663880435,
+                                    "text": "平衡二叉搜索树",
+                                    "priority": 4
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmxvithtp40",
+                                            "created": 1625664233316,
+                                            "text": "红黑树"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmxmm4ak1c0",
+                            "created": 1625663535222,
+                            "text": "哈夫曼树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccmxmn5lpao0",
+                            "created": 1625663537477,
+                            "text": "字典树"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmxl36mrio0",
+                    "created": 1625663415640,
+                    "text": "排序",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmxwnpvb4o0",
+                            "created": 1625664322345,
+                            "text": "O(n^2)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmxx360t5s0",
+                                    "created": 1625664355973,
+                                    "text": "冒泡排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxx3i00g00",
+                                    "created": 1625664356697,
+                                    "text": "插入排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxx3qcpm00",
+                                    "created": 1625664357202,
+                                    "text": "选择排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmxwogj1j40",
+                            "created": 1625664323957,
+                            "text": "O(nlogn)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmxzthq5y00",
+                                    "created": 1625664570005,
+                                    "text": "快速排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmxztyb7cg0",
+                                    "created": 1625664571008,
+                                    "text": "归并排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmxwop5kd40",
+                            "created": 1625664324478,
+                            "text": "O(n)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmy03lggbk0",
+                                    "created": 1625664591999,
+                                    "text": "桶排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmy03vedr40",
+                                    "created": 1625664592600,
+                                    "text": "计数排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmy0439u1s0",
+                                    "created": 1625664593076,
+                                    "text": "基数排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmxla536z40",
+                    "created": 1625663430784,
+                    "text": "非受限线性表",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmy0kgyxo00",
+                            "created": 1625664628733,
+                            "text": "顺序结构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmy0yqp59s0",
+                                    "created": 1625664659796,
+                                    "text": "数组"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmy16rb3vs0",
+                                            "created": 1625664677247,
+                                            "text": "支持O(1)的随机访问",
+                                            "priority": null,
+                                            "background": "#fbd4b4"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmy173fdk00",
+                                            "created": 1625664677980,
+                                            "text": "平均为O(n)的插入和删除",
+                                            "priority": null,
+                                            "background": "#fbd4b4"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmy17ccjbs0",
+                                            "created": 1625664678519,
+                                            "text": "警惕越界错误，导致Stack Over Flow",
+                                            "priority": null,
+                                            "background": "#fbd4b4"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmy0kqk0iw0",
+                            "created": 1625664629312,
+                            "text": "链式结构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmy1nvlx280",
+                                    "created": 1625664714512,
+                                    "text": "单链表",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmy25jrujk0",
+                                            "created": 1625664752979,
+                                            "text": "不支持随机访问，需要遍历去访问节点",
+                                            "background": "#e5b8b7"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmy25ssscg0",
+                                            "created": 1625664753525,
+                                            "text": "插入和删除只需要移动指针，时间复杂度为O(1)",
+                                            "background": "#e5b8b7"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmy25ycvjk0",
+                                            "created": 1625664753861,
+                                            "text": "每个结点需要额外的空间存储指针，需要的内存比数组大",
+                                            "layout_left_offset": {
+                                                "x": -13,
+                                                "y": 0
+                                            },
+                                            "background": "#e5b8b7"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmy1o5dgyo0",
+                                    "created": 1625664715103,
+                                    "text": "双链表",
+                                    "priority": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyck1migg0",
+                                            "created": 1625665568175,
+                                            "text": "在单链表的基础上，除头节点外，每个节点多了一个存放前驱结点内存地址的指针",
+                                            "background": "#b8cce4"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmy1oce7340",
+                                    "created": 1625664715527,
+                                    "text": "循环链表",
+                                    "priority": 3
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmycyp34t40",
+                                            "created": 1625665600069,
+                                            "text": "尾节点指针指向头节点尾节点指针指向头节点",
+                                            "background": "#c2d69b"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmy1ok6veg0",
+                                    "created": 1625664715999,
+                                    "text": "静态链表",
+                                    "priority": 4
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyd738vu00",
+                                            "created": 1625665618339,
+                                            "text": "借助数组，伴随指向后继节点的指针",
+                                            "background": "#fabf8f"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmxlfa44rs0",
+                    "created": 1625663441972,
+                    "text": "受限线性表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmydsfa0ew0",
+                            "created": 1625665664779,
+                            "text": "栈"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyeafzv4g0",
+                                    "created": 1625665704004,
+                                    "text": "顺序和链式都可以实现，先进后出",
+                                    "layout_left_offset": {
+                                        "x": -72,
+                                        "y": -1
+                                    },
+                                    "background": "#f2f2f2"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyebc60g80",
+                                    "created": 1625665705950,
+                                    "text": "实际应用",
+                                    "background": "#548dd4"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyeq5ttvc0",
+                                            "created": 1625665738218,
+                                            "text": "浏览器的前进与后退"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmyeqj28u00",
+                                            "created": 1625665739018,
+                                            "text": "括号匹配"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmyeqq57zs0",
+                                            "created": 1625665739447,
+                                            "text": "表达式计算 "
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmydt038m80",
+                            "created": 1625665666037,
+                            "text": "堆"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyf1lzk0o0",
+                                    "created": 1625665763140,
+                                    "text": "大顶堆",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyf26xnw00",
+                                    "created": 1625665764406,
+                                    "text": "小顶堆",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyf2f7fog0",
+                                    "created": 1625665764907,
+                                    "text": "实际应用",
+                                    "background": "#548dd4"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyfgilui00",
+                                            "created": 1625665795587,
+                                            "text": "找第K大元素"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmydt6utmw0",
+                            "created": 1625665666446,
+                            "text": "队列 "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyfmpildc0",
+                                    "created": 1625665809066,
+                                    "text": "普通队列",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyg4elq7k0",
+                                            "created": 1625665847588,
+                                            "text": "顺序和链式都可以实现，先进先出"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyfn7ek2w0",
+                                    "created": 1625665810147,
+                                    "text": "双边队列",
+                                    "priority": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyg51k6800",
+                                            "created": 1625665848976,
+                                            "text": "入口和出口可以进队和出队"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyfndqv5s0",
+                                    "created": 1625665810531,
+                                    "text": "优先级队列",
+                                    "priority": 3
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmyg5rssv40",
+                                            "created": 1625665850563,
+                                            "text": "根据优先级来出队"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyfnp8zfs0",
+                                    "created": 1625665811226,
+                                    "text": "实际应用",
+                                    "background": "#548dd4"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmygidt8i80",
+                                            "created": 1625665878015,
+                                            "text": "LUR Cache"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

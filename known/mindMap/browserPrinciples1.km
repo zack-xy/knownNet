@@ -1,0 +1,594 @@
+{
+    "root": {
+        "data": {
+            "id": "ccmzmrkq38g0",
+            "created": 1625669189319,
+            "text": "浏览器架构"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ccmzoqhnqs80",
+                    "created": 1625669343685,
+                    "text": "单进程浏览器",
+                    "layout_bottom_offset": {
+                        "x": -92,
+                        "y": 4
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmzp9jsmzk0",
+                            "created": 1625669385173,
+                            "text": "缺点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzpmbxtyo0",
+                                    "created": 1625669412996,
+                                    "text": "不稳定",
+                                    "priority": 1,
+                                    "note": "插件运行在进程中，易崩溃 \n渲染引擎模块，易崩溃"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzpohp3eg0",
+                                    "created": 1625669417698,
+                                    "text": "不流畅",
+                                    "priority": 2,
+                                    "note": "单线程等待执行  \n页面存在内存泄漏"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzpor3b1k0",
+                                    "created": 1625669418266,
+                                    "text": "不安全",
+                                    "priority": 3,
+                                    "note": "插件用C/C++编写可获取系统资源\n页面脚本通过浏览器漏洞获取系统权限"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmzoreh10g0",
+                    "created": 1625669345669,
+                    "text": "多进程浏览器",
+                    "layout_bottom_offset": {
+                        "x": 80,
+                        "y": -2
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmzso46iio0",
+                            "created": 1625669651973,
+                            "text": "早期架构",
+                            "background": "#73a1bf",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzwy6o4pc0",
+                                    "created": 1625669987348,
+                                    "text": "解决单进程3个问题",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzxa0e4io0",
+                                            "created": 1625670013090,
+                                            "text": "不稳定",
+                                            "priority": 1,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmzxn8y1vs0",
+                                                    "created": 1625670041905,
+                                                    "text": "进程隔离，崩溃不影响浏览器和其他页面"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzxau15v40",
+                                            "created": 1625670014882,
+                                            "text": "不流畅",
+                                            "priority": 2,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmzxoy5ors0",
+                                                    "created": 1625670045607,
+                                                    "text": "JS阻塞渲染进程，不影响其他页面，关页面，进程关闭，内存回收"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzxb27b3c0",
+                                            "created": 1625670015376,
+                                            "text": "不安全",
+                                            "priority": 3,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmzxqgkmkw0",
+                                                    "created": 1625670048897,
+                                                    "text": "安全沙箱"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccn08887p4w0",
+                                    "created": 1625670871215,
+                                    "text": "进程划分",
+                                    "background": "#e5b8b7",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccn08dy67a80",
+                                            "created": 1625670883669,
+                                            "text": "浏览器主进程",
+                                            "priority": 1,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0a0mgsew0",
+                                                    "created": 1625671011391,
+                                                    "text": "下载资源",
+                                                    "layout_filetree-down_offset": {
+                                                        "x": 50,
+                                                        "y": 4
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0bht6y8w0",
+                                                    "created": 1625671127167,
+                                                    "text": "管理IPC(进程间通信)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0byehpco0",
+                                                    "created": 1625671163284,
+                                                    "text": "显示渲染进程生成的图片"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn08eqa0l40",
+                                            "created": 1625670885368,
+                                            "text": "插件进程（多个）",
+                                            "priority": 2,
+                                            "note": "部分系统支持的sandbox"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn08f0sjn40",
+                                            "created": 1625670886004,
+                                            "text": "渲染进程",
+                                            "priority": 3,
+                                            "note": "运行在沙箱里，不能读写硬盘数据 \n不能获得操作系统权限",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0cghl91s0",
+                                                    "created": 1625671202653,
+                                                    "text": "解析"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0ch2wfk80",
+                                                    "created": 1625671203942,
+                                                    "text": "渲染"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0chbxqds0",
+                                                    "created": 1625671204488,
+                                                    "text": "js执行合成网页图片"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmzspb11ig0",
+                            "created": 1625669654564,
+                            "text": "最新架构",
+                            "background": "#73a1bf",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccn0dy2ccaw0",
+                                    "created": 1625671319277,
+                                    "text": "进程划分",
+                                    "background": "#e5b8b7",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccn0e5ve0m00",
+                                            "created": 1625671336271,
+                                            "text": "浏览器主进程",
+                                            "priority": 1,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0fw00wog0",
+                                                    "created": 1625671471512,
+                                                    "text": "界面显示"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0g0y2zh40",
+                                                    "created": 1625671482278,
+                                                    "text": "用户交互"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0g18bzjk0",
+                                                    "created": 1625671482898,
+                                                    "text": "子进程管理"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0g9keufk0",
+                                                    "created": 1625671501043,
+                                                    "text": "提供存储"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0e6cno6w0",
+                                            "created": 1625671337315,
+                                            "text": "GPU进程",
+                                            "priority": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0giga8bk0",
+                                                    "created": 1625671520384,
+                                                    "text": "3D css的效果"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0gsa1cns0",
+                                                    "created": 1625671541774,
+                                                    "text": "绘制网页、Chrome的UI界面"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0e6kf7kw0",
+                                            "created": 1625671337785,
+                                            "text": "网络进程",
+                                            "priority": 3
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0ho84a5c0",
+                                                    "created": 1625671611315,
+                                                    "text": "页面网络资源下载"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0epqhyso0",
+                                            "created": 1625671379511,
+                                            "text": "渲染进程",
+                                            "priority": 4
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0htx95000",
+                                                    "created": 1625671623719,
+                                                    "text": "将Html、Css和Js转换为用户可交互的网页"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ccn0j05b6rs0",
+                                                            "created": 1625671715631,
+                                                            "text": "排版引擎Blink"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccn0j10l3kg0",
+                                                            "created": 1625671717522,
+                                                            "text": "JS引擎V8"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccn0iegqr340",
+                                                    "created": 1625671668433,
+                                                    "text": "通常每个Tab标签创建一个渲染进程，运行在沙箱模式"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0eq13c0g0",
+                                            "created": 1625671380152,
+                                            "text": "插件进程(多个)",
+                                            "priority": 5
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0jkhlzt40",
+                                                    "created": 1625671759910,
+                                                    "text": "负责插件的运行",
+                                                    "note": "插件易崩溃，通过插件进程隔离"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccn0nnrn2oo0",
+                                    "created": 1625672080504,
+                                    "text": "缺点"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccn0ntc9t1s0",
+                                            "created": 1625672092635,
+                                            "text": "更高的资源占用",
+                                            "note": "每个进程包含公共基础结构的副本\n如JS运行环境，消耗更多内存"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0o23jlqo0",
+                                            "created": 1625672111699,
+                                            "text": "更复杂的体系架构",
+                                            "note": "各模块耦合性高，扩展性差"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccn0peiuilk0",
+                                            "created": 1625672217110,
+                                            "text": "如何解决？"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccn0pilj9ls0",
+                                                    "created": 1625672225979,
+                                                    "text": "2016年后提出“面向服务架构”",
+                                                    "note": "+ 1.各个模块重构成独立的服务\n+ 2.每个服务在独立的进程中运行\n+ 3.访问服务使用定义好的接口\n+ 4.通过IPC通信\n+ 5.内存足，多进程，内存不足，合并1个进程\n\n\n渲染进程\n插件进程\n浏览器主进程\n#### Chrome基础服务{\n  profile进程\n  网络进程\n  Audio进程\n  UI进程\n  文件进程\n  vedio进程\n  GPU进程\n  设备进程\n  .\n  .\n  .\n}\n"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmzt24t8co0",
+                            "created": 1625669682486,
+                            "text": "线程和进程",
+                            "background": "#ffff00",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzu5mypy80",
+                                    "created": 1625669768478,
+                                    "text": "线程",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzuf2nve80",
+                                            "created": 1625669789019,
+                                            "text": "依附于进程，进程中使用多线程并行提升运算效率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzu5x11ko0",
+                                    "created": 1625669769087,
+                                    "text": "进程",
+                                    "priority": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzusoujn40",
+                                            "created": 1625669818658,
+                                            "text": "一个程序的运行实例"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmztw6ifw80",
+                            "created": 1625669747892,
+                            "text": "特点",
+                            "background": "#76923c",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzvag6tdc0",
+                                    "created": 1625669857317,
+                                    "text": "任一线程出错，进程崩溃",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzve9d5sw0",
+                                    "created": 1625669865611,
+                                    "text": "线程间共享进程数据",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzvei81sw0",
+                                    "created": 1625669866147,
+                                    "text": "进程关闭，操作系统回收占用内存",
+                                    "priority": 3
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzverdh4o0",
+                                    "created": 1625669866700,
+                                    "text": "进程间内容相互隔离",
+                                    "priority": 4
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccn0klui0ao0",
+                            "created": 1625671841231,
+                            "text": "问题",
+                            "font-style": "italic",
+                            "color": "#000000",
+                            "font-size": 18,
+                            "background": "#fde9d9"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccn0li80i000",
+                                    "created": 1625671911705,
+                                    "text": "为什么打开一个页面要4个进程？",
+                                    "note": "1. 浏览器主进程\n2. 网络进程\n3. GPU进程\n4. 1个渲染进程\n5. 有插件的话还有插件进程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccn0zu5p9680",
+                                    "created": 1625673034785,
+                                    "text": "新架构下，有时一个页面崩溃导致浏览器崩溃的原因？",
+                                    "note": "通常一个页面一个进程\n但同一站点(根域名，例：baidu.com)且同协议(例：https)新页面复用父页面渲染进程 \n\n#### 为什么要这样？\n\n在一个渲染进程，共享Js的执行环境，A页面可以在B页面执行脚本，同一个站点有这个需求"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

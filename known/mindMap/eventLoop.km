@@ -1,0 +1,710 @@
+{
+    "root": {
+        "data": {
+            "id": "ccmywwuq1bc0",
+            "created": 1625667163339,
+            "text": "事件循环"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ccmyxde9frc0",
+                    "created": 1625667199349,
+                    "text": "概念",
+                    "background": "#73a1bf"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmyxdnrhc80",
+                            "created": 1625667199923,
+                            "text": "进程",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyz13itao0",
+                                    "created": 1625667329307,
+                                    "text": "CPU资源分配的最小单位（是能拥有资源和独立运行的最小单位）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmyypd3li00",
+                            "created": 1625667303764,
+                            "text": "线程",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyz8y4t8o0",
+                                    "created": 1625667346395,
+                                    "text": "CPU调度的最小单位（线程是建立在进程的基础上的一次程序运行单位，一个进程中可以有多个线程）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmyxeuwgg80",
+                            "created": 1625667202532,
+                            "text": "JS"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmyzdkhumo0",
+                                    "created": 1625667356454,
+                                    "text": "单线程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmyze3mpc80",
+                                    "created": 1625667357611,
+                                    "text": "为了提高系统资源（CPU、磁盘）利用率，使用异步I/O方式完成并行处理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmyxfzouow0",
+                    "created": 1625667204998,
+                    "text": "参考资料",
+                    "background": "#73a1bf"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmyzwdr05k0",
+                            "created": 1625667397405,
+                            "text": "源码解读",
+                            "hyperlink": "https://juejin.cn/post/6844903621444763662#heading-5",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccmyzwqacxc0",
+                            "created": 1625667398163,
+                            "text": "完整描述",
+                            "hyperlink": "https://blog.csdn.net/weixin_33720956/article/details/88015216",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccmyzwxoaao0",
+                            "created": 1625667398610,
+                            "text": "精炼版总结",
+                            "hyperlink": "https://www.jianshu.com/p/49b6009650ef",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccmyzx5lgog0",
+                            "created": 1625667399089,
+                            "text": "目前最全面的解释",
+                            "hyperlink": "https://juejin.cn/post/6844904079353708557#heading-16",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmyxssy7vc0",
+                    "created": 1625667232889,
+                    "text": "Node"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmyxt40op40",
+                            "created": 1625667233558,
+                            "text": "libuv原理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmz5dpmmuw0",
+                                    "created": 1625667826950,
+                                    "text": "node初始化",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmz5rw2pb40",
+                                            "created": 1625667857814,
+                                            "text": "同步代码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz5s5tasg0",
+                                            "created": 1625667858403,
+                                            "text": "清空NextTick Queue"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz5sdqzeg0",
+                                            "created": 1625667858883,
+                                            "text": "清空Microtask Queue"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmz5earlk00",
+                                    "created": 1625667828228,
+                                    "text": "event-loop",
+                                    "priority": 2
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmz6c9gn0w0",
+                                            "created": 1625667902159,
+                                            "text": "timers",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmz7n5ndlk0",
+                                                    "created": 1625668004238,
+                                                    "text": "执行满足条件的setTimeout、setInterval回调。",
+                                                    "priority": 1
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz81m45y80",
+                                                            "created": 1625668035708,
+                                                            "text": "setTimeout"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz81wfg3s0",
+                                                            "created": 1625668036332,
+                                                            "text": "setTimeout"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmz7nep7vk0",
+                                                    "created": 1625668004785,
+                                                    "text": "清空NextTick Queue",
+                                                    "priority": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz8ed71l40",
+                                                            "created": 1625668063467,
+                                                            "text": "topicprocess.nextstick"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmz7nmbmxs0",
+                                                    "created": 1625668005246,
+                                                    "text": "清空Microtask Queue",
+                                                    "priority": 3
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz8pkuyg80",
+                                                            "created": 1625668087875,
+                                                            "text": "原生Promise"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz8pw56xk0",
+                                                            "created": 1625668088557,
+                                                            "text": "Object.observe（已废弃）"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz8q120ds0",
+                                                            "created": 1625668088855,
+                                                            "text": "MutationObserver（监控DOM变化 已废弃）"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ccmz8q8y68w0",
+                                                            "created": 1625668089332,
+                                                            "text": "MessageChannel（vue中 nextClick 实现原理）"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6clb5hc0",
+                                            "created": 1625667902876,
+                                            "text": "I/O callbacks",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmz9glmlnk0",
+                                                    "created": 1625668146695,
+                                                    "text": "是否有已完成的I/O操作的回调函数，来自上一轮的poll残留。"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmz9gv3yqg0",
+                                                    "created": 1625668147268,
+                                                    "text": "清空NextTick Queue"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmz9h4bons0",
+                                                    "created": 1625668147825,
+                                                    "text": "清空Microtask Queue"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6cyulhk0",
+                                            "created": 1625667903695,
+                                            "text": "idle，prepare"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmz9sh4npk0",
+                                                    "created": 1625668172544,
+                                                    "text": "可忽略"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6d9yug80",
+                                            "created": 1625667904367,
+                                            "text": "poll"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmz9z1o8ag0",
+                                                    "created": 1625668186847,
+                                                    "text": "等待还没完成的I/O事件，会因timers和超时时间等结束等待。"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6dlapt40",
+                                            "created": 1625667905052,
+                                            "text": "check",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmza3d6uoo0",
+                                                    "created": 1625668196250,
+                                                    "text": "执行setImmediate的回调"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmza3mrspc0",
+                                                    "created": 1625668196830,
+                                                    "text": "清空NextTick Queue "
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmza3vlnio0",
+                                                    "created": 1625668197364,
+                                                    "text": "清空Microtask Queue"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6dv206g0",
+                                            "created": 1625667905642,
+                                            "text": "close callbacks"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmzbdpp0io0",
+                                                    "created": 1625668297139,
+                                                    "text": "关闭所有的closing handles，一些onclose事件。"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmzbdznd5s0",
+                                                    "created": 1625668297740,
+                                                    "text": "清空NextTick Queue"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmzbe8sezk0",
+                                                    "created": 1625668298293,
+                                                    "text": "清空Microtask Queue"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmz6e4aem80",
+                                            "created": 1625667906200,
+                                            "text": "注意事项"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ccmzbm2hf2w0",
+                                                    "created": 1625668315326,
+                                                    "text": " ",
+                                                    "layout_left_offset": {
+                                                        "x": 24.999993368983496,
+                                                        "y": 7.499999888241234
+                                                    },
+                                                    "note": "如果在timers阶段执行时创建了setImmediate则会在此轮循环的check阶段执行，如果在timers阶段创建了setTimeout，由于timers已取出完毕，则会进入下轮循环，check阶段创建timers任务同理。",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ccmzbmby06g0",
+                                                    "created": 1625668315898,
+                                                    "text": " ",
+                                                    "priority": 2,
+                                                    "note": "setTimeout优先级比setImmediate高，但是由于setTimeout(fn,0)的真正延迟不可能完全为0秒，可能出现先创建的setTimeout(fn,0)而比setImmediate的回调后执行的情况",
+                                                    "layout_left_offset": {
+                                                        "x": 23.74999964609742,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmz4oliz140",
+                            "created": 1625667772282,
+                            "text": "总结",
+                            "background": "#73a1bf"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzejxzo6w0",
+                                    "created": 1625668545793,
+                                    "text": " ",
+                                    "priority": 1,
+                                    "note": "同一个上下文下，MicroTask微任务会比MacroTask宏任务先运行。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzek93zrc0",
+                                    "created": 1625668546466,
+                                    "text": " ",
+                                    "priority": 2,
+                                    "note": "浏览器是先取出一个MacroTask宏任务执行，再执行MicroTask微任务中的所有任务。Node是按照六个阶段执行，每个阶段切换时，再执行MicroTask微任务队列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzekcveyw0",
+                                    "created": 1625668546693,
+                                    "text": "",
+                                    "priority": 3,
+                                    "note": "同个MicroTask队列下process.tick()会优于Promise"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzekkruf40",
+                                    "created": 1625668547171,
+                                    "text": " ",
+                                    "priority": 4,
+                                    "note": "setImmdieate()和setTimeout()，如果他们在异步i/o callback之外调用（在i/o内调用因为下一阶段为check阶段），其执行先后顺序是不确定的,需要看loop的执行前的耗时情况。"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ccmyxu5buiw0",
+                    "created": 1625667235814,
+                    "text": "浏览器"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ccmzfosvk800",
+                            "created": 1625668634732,
+                            "text": "Browser进程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzfzovnxc0",
+                                    "created": 1625668658435,
+                                    "text": "GUI渲染线程",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzglloqug0",
+                                            "created": 1625668706131,
+                                            "text": "负责渲染浏览器界面"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzgn1ahao0",
+                                            "created": 1625668709252,
+                                            "text": "当界面需要重绘"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzgnbg0bs0",
+                                            "created": 1625668709866,
+                                            "text": "与JS线程互斥"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzfzygo5s0",
+                                    "created": 1625668659015,
+                                    "text": "JS引擎线程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzh1szk200",
+                                            "created": 1625668741401,
+                                            "text": "同步JS"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzh23vvc00",
+                                            "created": 1625668742060,
+                                            "text": "与GUI线程互斥"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzg09pn9k0",
+                                    "created": 1625668659695,
+                                    "text": "事件触发线程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzh9omv340",
+                                            "created": 1625668758552,
+                                            "text": "控制事件循环"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzhb4fcm00",
+                                            "created": 1625668761684,
+                                            "text": "",
+                                            "note": "如setTimeOut时（也可来自浏览器内核的其他线程,如鼠标点击、AJAX异步请求等），会将对应任务添加到事件线程中"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzg0l454w0",
+                                    "created": 1625668660384,
+                                    "text": "定时触发器线程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzhocism80",
+                                            "created": 1625668790472,
+                                            "text": "setTimeout计数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ccmzhonb12g0",
+                                            "created": 1625668791124,
+                                            "text": "setInterval计数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzg0uoys80",
+                                    "created": 1625668660963,
+                                    "text": "异步http请求线程 "
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ccmzhwavvuo0",
+                                            "created": 1625668807787,
+                                            "text": "XMLHttpRequest"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ccmzfpol2lc0",
+                            "created": 1625668636650,
+                            "text": "总体描述",
+                            "background": "#73a1bf"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ccmzi0crkj40",
+                                    "created": 1625668816608,
+                                    "text": "",
+                                    "priority": 1,
+                                    "note": "所有同步任务都在主线程上执行，形成一个执行栈"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzi0mldxc0",
+                                    "created": 1625668817202,
+                                    "text": "",
+                                    "priority": 2,
+                                    "note": "主线程之外，还存在一个任务队列。只要异步任务有了运行结果，就在任务队列之中放置一个事件。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzi0u2xao0",
+                                    "created": 1625668817655,
+                                    "text": "",
+                                    "priority": 3,
+                                    "note": "一旦执行栈中的所有同步任务执行完毕，系统就会读取任务队列然后渲染,将队列中的事件放到执行栈中依次执行"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ccmzi15ay7k0",
+                                    "created": 1625668818333,
+                                    "text": " ",
+                                    "priority": 4,
+                                    "note": "主线程从任务队列中读取事件，这个过程是循环不断的"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
