@@ -76,7 +76,7 @@ export default {
   },
   data () {
     return {
-      fixedUrl: 'https://gitee.com/zackzhengxy/knownNet/blob/master/known/',
+      fixedUrl: 'https://gitee.com/zackzhengxy/knownNet/blob/main/known/',
       activities: [],
       dialogVisible: false,
       form: {
