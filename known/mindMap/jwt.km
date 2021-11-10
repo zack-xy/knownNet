@@ -1,0 +1,187 @@
+{
+    "root": {
+        "data": {
+            "id": "cfm451xvt9k0",
+            "created": 1636548822240,
+            "text": "JWT（JSON Web Tokens）"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cfm45ijhld40",
+                    "created": 1636548858375,
+                    "text": "是一种跨域认证解决方案",
+                    "layout_mind_offset": {
+                        "x": -54,
+                        "y": 0
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cfm4d9pcw940",
+                    "created": 1636549466052,
+                    "text": "解决问题"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfm4dew4n1c0",
+                            "created": 1636549477346,
+                            "text": "数据传输简单、高效"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4douwwjs0",
+                            "created": 1636549499040,
+                            "text": "jwt会生成签名，保证传输安全"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4dz9g2e80",
+                            "created": 1636549521687,
+                            "text": "jwt具有时效性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4e680qmo0",
+                            "created": 1636549536838,
+                            "text": "jwt更高效利用集群做好单点登录"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cfm4gsmpyvc0",
+                    "created": 1636549742344,
+                    "text": "原理",
+                    "layout_mind_offset": {
+                        "x": 11,
+                        "y": -1
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfm4iibdt8o0",
+                            "created": 1636549876619,
+                            "text": "服务器无状态，无session"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4gxe135s0",
+                            "created": 1636549752703,
+                            "text": "服务器认证后，生成一个JSON对象，发送给用户"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4hiln6eo0",
+                            "created": 1636549798876,
+                            "text": "用户与服务器端通信的时候，发回这个JSON对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4huub6000",
+                            "created": 1636549825521,
+                            "text": "为防止用户篡改数据，服务器在生成JSON对象时，会加上签名"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4or944q00",
+                            "created": 1636550366258,
+                            "text": "客户端收到服务器返回的 JWT，可以储存在 Cookie 里面，也可以储存在 localStorage"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4p87ql5c0",
+                            "created": 1636550403180,
+                            "text": "此后，客户端每次与服务器通信，都要带上这个 JWT。你可以把它放在 Cookie 里面自动发送，但是这样不能跨域，所以更好的做法是放在 HTTP 请求的头信息Authorization字段里面"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4pbe176o0",
+                            "created": 1636550410091,
+                            "text": "另一种做法是，跨域的时候，JWT 就放在 POST 请求的数据体里面"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cfm4jhowr3s0",
+                    "created": 1636549953625,
+                    "text": "组成"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfm4jkrhklk0",
+                            "created": 1636549960311,
+                            "text": "Header（头部）"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfm4kwaba2w0",
+                                    "created": 1636550063758,
+                                    "text": "{  \"alg\": \"HS256\",  \"typ\": \"JWT\"}",
+                                    "note": "alg属性表示签名的算法（algorithm），默认是 HMAC SHA256（写成 HS256）；typ属性表示这个令牌（token）的类型（type），JWT 令牌统一写为JWT\n\n最后，将上面的 JSON 对象使用 Base64URL 算法,转成字符串"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4jlh9me80",
+                            "created": 1636549961870,
+                            "text": "Payload(负载)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfm4mhvcqew0",
+                                    "created": 1636550189107,
+                                    "text": "对象",
+                                    "note": "JWT 规定了7个官方字段\niss (issuer)：签发人\nexp (expiration time)：过期时间\nsub (subject)：主题\naud (audience)：受众\nnbf (Not Before)：生效时间\niat (Issued At)：签发时间\njti (JWT ID)：编号\n\n可自定义字段\nJWT 默认是不加密的，任何人都可以读到，所以不要把秘密信息放在这个部分"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfm4jlpb4wg0",
+                            "created": 1636549962356,
+                            "text": "Signature(签名)",
+                            "note": "Signature 部分是对前两部分的签名，防止数据篡改。\n\n首先，需要指定一个密钥（secret）。这个密钥只有服务器才知道，不能泄露给用户。然后，使用 Header 里面指定的签名算法（默认是 HMAC SHA256），按照下面的公式产生签名。\n\n```\nHMACSHA256(\n  base64UrlEncode(header) + \".\" +\n  base64UrlEncode(payload),\n  secret)\n````\n  \n  算出签名以后，把 Header、Payload、Signature 三个部分拼成一个字符串，每个部分之间用\"点\"（.）分隔，就可以返回给用户"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}
