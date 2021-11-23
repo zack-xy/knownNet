@@ -1,0 +1,359 @@
+{
+    "root": {
+        "data": {
+            "id": "cfvbyep6imo0",
+            "created": 1637484909952,
+            "text": "知识",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cfvc9xowrhc0",
+                    "created": 1637485813301,
+                    "text": "认知层次",
+                    "layout_mind_offset": {
+                        "x": 37,
+                        "y": 175
+                    },
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfvcacbn81s0",
+                            "created": 1637485845150,
+                            "text": "1、记忆（识别、回忆）",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcallivcg0",
+                            "created": 1637485865339,
+                            "text": "2、理解(解释、举例、分类、总结、推理、比较、说明)",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcb5g9n9k0",
+                            "created": 1637485908557,
+                            "text": "3、应用（执行、运用）",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcbbuf0d40",
+                            "created": 1637485922473,
+                            "text": "4、分析（区别、组织、归因）",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcbqfq5mw0",
+                            "created": 1637485954236,
+                            "text": "5、评价（检查、评论）",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcc10101s0",
+                            "created": 1637485977232,
+                            "text": "6、创造(产生、计划、生产)",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cfvcgxkxgnk0",
+                    "created": 1637486361609,
+                    "text": "信息检索",
+                    "expandState": "collapse",
+                    "layout_mind_offset": {
+                        "x": 16,
+                        "y": 201
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfvchmj08yo0",
+                            "created": 1637486415913,
+                            "text": "检索的有效性",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvchrxnqy00",
+                            "created": 1637486427682,
+                            "text": "信息的真实性",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvcs1u5ta00",
+                            "created": 1637487232880,
+                            "text": "检索策略",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvcs5m50i80",
+                                    "created": 1637487241102,
+                                    "text": "系统化结构式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvcsbczbe80",
+                                    "created": 1637487253609,
+                                    "text": "关联网络式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvcsmfx2mo0",
+                                    "created": 1637487277732,
+                                    "text": "地毯式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cfvch5ixfxc0",
+                    "created": 1637486378903,
+                    "text": "知识分类",
+                    "expandState": "collapse",
+                    "layout_mind_offset": {
+                        "x": 429,
+                        "y": -118
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfvc0lxnm340",
+                            "created": 1637485082431,
+                            "text": "1、事实性知识",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 369,
+                                "y": -159
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvc1f6kyuo0",
+                                    "created": 1637485146097,
+                                    "text": "术语、要素",
+                                    "layout_right_offset": {
+                                        "x": 291,
+                                        "y": 0
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfvc0w1ogbc0",
+                            "created": 1637485104442,
+                            "text": "2、概念性知识",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 384,
+                                "y": -148
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvc1mi6qk00",
+                                    "created": 1637485162036,
+                                    "text": "结构、分类、原理",
+                                    "layout_right_offset": {
+                                        "x": 311,
+                                        "y": 5
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfvc0s7n1yo0",
+                            "created": 1637485096095,
+                            "text": "3、程序性知识",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 379,
+                                "y": -140
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvc1tdgp4g0",
+                                    "created": 1637485176988,
+                                    "text": "技能、算法、使用准则",
+                                    "layout_right_offset": {
+                                        "x": 410,
+                                        "y": 9
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfvc0ztew7k0",
+                            "created": 1637485112649,
+                            "text": "4、元认知知识",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 389,
+                                "y": -125
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvc232pins0",
+                                    "created": 1637485198106,
+                                    "text": "策略知识、任务知识、自我知识",
+                                    "layout_right_offset": {
+                                        "x": 460,
+                                        "y": 10
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cfvd0zoepu80",
+                    "created": 1637487933456,
+                    "text": "记笔记",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfvd14irgxc0",
+                            "created": 1637487943999,
+                            "text": "一眼望穿想关系，时刻都问为什么",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cfvd3vtii200",
+                            "created": 1637488160151,
+                            "text": "分三区"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvd46vcrf40",
+                                    "created": 1637488184206,
+                                    "text": "what 事实"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvd47ib8l40",
+                                    "created": 1637488185595,
+                                    "text": "why 解释"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvd47qoy080",
+                                    "created": 1637488186101,
+                                    "text": "how 行动"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfvd6y11qw80",
+                            "created": 1637488400052,
+                            "text": "分关系"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfvd76pg2qo0",
+                                    "created": 1637488418942,
+                                    "text": "线性关系"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvd7713pko0",
+                                    "created": 1637488419646,
+                                    "text": "对比关系"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cfvd7788op40",
+                                    "created": 1637488420078,
+                                    "text": "层级关系"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
