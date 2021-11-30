@@ -1,0 +1,178 @@
+{
+    "root": {
+        "data": {
+            "text": "js正则RegExp"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1637915430122,
+                    "text": "RegExp实例属性",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -591,
+                        "y": 6
+                    },
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915448778,
+                            "text": "global：布尔值，表示是否设置了g标记(全局模式)",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915473154,
+                            "text": "ignoreCase：布尔值，表示是否设置了i标记（忽略大小写）",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915546506,
+                            "text": "unicode：布尔值，表示是否设置了u标记(Unicode模式，启用Unicode匹配)",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915561546,
+                            "text": "sticky：布尔值，表示是否设置了y标记(粘附模式，表示只查找从lastIndex开始及之后的字符串)",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915572073,
+                            "text": "lastIndex：整数，表示在源字符串中下一次搜索的开始位置，始终从0开始",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915592842,
+                            "text": "multiline：布尔值，表示是否设置了m标记(多行模式，表示查找到一行文本末尾时会继续查找)",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915607529,
+                            "text": "dotAll：布尔值，表示是否设置了s标记(dotAll模式，表示元字符.匹配任何字符)",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915626033,
+                            "text": "source：正则表达式的字面量字符串（不是传给构造函数的模式字符串），没有开头和结尾的斜杠",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1637916029834,
+                    "text": "RegExp实例方法",
+                    "layout_mind_offset": {
+                        "x": 577,
+                        "y": -1
+                    },
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637916058594,
+                            "text": "exec()",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916075681,
+                                    "text": "方法说明：配合捕获组使用，即()",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916301465,
+                                    "text": "参数：待捕获字符串",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916332490,
+                                    "text": "返回：捕获的数组，未捕获返回null",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916393186,
+                                    "text": "返回数组第一项为匹配整个正则的字符串",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916420706,
+                                    "text": "数组后续项为捕获项",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916464844,
+                                    "text": "数组有两个额外属性index(匹配模式的起始位置)和input(要查找字符串)",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
