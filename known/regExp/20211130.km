@@ -7,116 +7,151 @@
             {
                 "data": {
                     "id": 0,
-                    "created": 1637915430122,
-                    "text": "RegExp实例属性",
-                    "expandState": "expand",
-                    "layout_mind_offset": {
-                        "x": -591,
-                        "y": 6
-                    },
-                    "layout": null
+                    "created": 1638496118677,
+                    "text": "构造函数属性",
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
                             "id": 0,
-                            "created": 1637915448778,
-                            "text": "global：布尔值，表示是否设置了g标记(全局模式)",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915473154,
-                            "text": "ignoreCase：布尔值，表示是否设置了i标记（忽略大小写）",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915546506,
-                            "text": "unicode：布尔值，表示是否设置了u标记(Unicode模式，启用Unicode匹配)",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915561546,
-                            "text": "sticky：布尔值，表示是否设置了y标记(粘附模式，表示只查找从lastIndex开始及之后的字符串)",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915572073,
-                            "text": "lastIndex：整数，表示在源字符串中下一次搜索的开始位置，始终从0开始",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915592842,
-                            "text": "multiline：布尔值，表示是否设置了m标记(多行模式，表示查找到一行文本末尾时会继续查找)",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915607529,
-                            "text": "dotAll：布尔值，表示是否设置了s标记(dotAll模式，表示元字符.匹配任何字符)",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637915626033,
-                            "text": "source：正则表达式的字面量字符串（不是传给构造函数的模式字符串），没有开头和结尾的斜杠",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": 0,
-                    "created": 1637916029834,
-                    "text": "RegExp实例方法",
-                    "layout_mind_offset": {
-                        "x": 577,
-                        "y": -1
-                    },
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1637916058594,
-                            "text": "exec()",
-                            "expandState": "expand",
+                            "created": 1638496135652,
+                            "text": "简写：$_  （input）",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916075681,
-                                    "text": "方法说明：配合捕获组使用，即()",
+                                    "created": 1638496272279,
+                                    "text": "最后搜索的字符串（非标准特性）",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638496183938,
+                            "text": "简写：$& （lastMatch）",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638496281455,
+                                    "text": "最后匹配的文本",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638496213289,
+                            "text": "简写：$+  （lastParen）",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638496293127,
+                                    "text": "最后匹配的捕获组（非标准特性）",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638496216456,
+                            "text": "简写：$` （leftContext）",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638496301209,
+                                    "text": "input字符串中出现在lastMatch前面的文本",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638496219016,
+                            "text": "简写：$'  （rightContext）",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638496312496,
+                                    "text": "input字符串中出现在lastMatch后面的文本",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638498124349,
+                            "text": "简写：$1-$9",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638498151715,
+                                    "text": "存储最多9个捕获组(小括号)的匹配项，配合test、exec使用",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1638497980937,
+                    "text": "RegExp实例",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637915430122,
+                            "text": "RegExp实例属性",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637915448778,
+                                    "text": "修饰符：g   |  global：布尔值，表示是否设置了g标记(全局模式)",
                                     "layout": null
                                 },
                                 "children": []
@@ -124,8 +159,8 @@
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916301465,
-                                    "text": "参数：待捕获字符串",
+                                    "created": 1637915473154,
+                                    "text": "修饰符：i  |  ignoreCase：布尔值，表示是否设置了i标记（忽略大小写）",
                                     "layout": null
                                 },
                                 "children": []
@@ -133,8 +168,8 @@
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916332490,
-                                    "text": "返回：捕获的数组，未捕获返回null",
+                                    "created": 1637915546506,
+                                    "text": "修饰符：u   |  unicode：布尔值，表示是否设置了u标记(Unicode模式，启用Unicode匹配)",
                                     "layout": null
                                 },
                                 "children": []
@@ -142,8 +177,8 @@
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916393186,
-                                    "text": "返回数组第一项为匹配整个正则的字符串",
+                                    "created": 1637915561546,
+                                    "text": "修饰符：y   |  sticky：布尔值，表示是否设置了y标记(粘附模式，表示只查找从lastIndex开始及之后的字符串)",
                                     "layout": null
                                 },
                                 "children": []
@@ -151,8 +186,8 @@
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916420706,
-                                    "text": "数组后续项为捕获项",
+                                    "created": 1637915572073,
+                                    "text": "lastIndex：整数，表示在源字符串中下一次搜索的开始位置，始终从0开始",
                                     "layout": null
                                 },
                                 "children": []
@@ -160,11 +195,715 @@
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1637916464844,
-                                    "text": "数组有两个额外属性index(匹配模式的起始位置)和input(要查找字符串)",
+                                    "created": 1637915592842,
+                                    "text": "修饰符：m   |  multiline：布尔值，表示是否设置了m标记(多行模式，表示查找到一行文本末尾时会继续查找)",
                                     "layout": null
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637915607529,
+                                    "text": "修饰符：s   |  dotAll：布尔值，表示是否设置了s标记(dotAll模式，表示元字符.匹配任何字符)",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637915626033,
+                                    "text": "source：正则表达式的字面量字符串（不是传给构造函数的模式字符串），没有开头和结尾的斜杠",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1637916029834,
+                            "text": "RegExp实例方法",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1637916058594,
+                                    "text": "exec()",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916075681,
+                                            "text": "方法说明：配合捕获组使用，即()",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916301465,
+                                            "text": "参数：待捕获字符串",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916332490,
+                                            "text": "返回：捕获的数组，未捕获返回null",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916393186,
+                                            "text": "返回数组第一项为匹配整个正则的字符串",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916420706,
+                                            "text": "数组后续项为捕获项",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1637916464844,
+                                            "text": "数组有两个额外属性index(匹配模式的起始位置)和input(要查找字符串)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638495972593,
+                                    "text": "test()",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638496046271,
+                                            "text": "输入的文本与模式是否匹配，匹配返回true，否则false",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1638499310926,
+                    "text": "匹配模式",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638499321366,
+                            "text": "匹配字符",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638495627396,
+                                    "text": "模糊匹配",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638495639747,
+                                            "text": "横向模糊匹配",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638495686698,
+                                                    "text": "匹配长度不固定",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638495707074,
+                                                            "text": "譬如{m,n}，表示连续出现最少 m 次，最多 n 次",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638496959970,
+                                                            "text": "量词:{m,n}",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1638496981488,
+                                                                    "text": "常见简写",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638497001751,
+                                                                            "text": "{m,}  ： 表示至少出现 m 次",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638497027623,
+                                                                            "text": "{m}  ：表示出现 m 次",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638497052657,
+                                                                            "text": "?： 出现或者不出现，等价：{0,1}",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638497084949,
+                                                                            "text": "+  ：至少出现1次，等价{1,}",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638497127892,
+                                                                            "text": "* : 出现任意次，也可以不出现，等价：{0,}",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638495640644,
+                                            "text": "纵向模糊匹配",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638495726215,
+                                                    "text": "某一位字符，有多个可能",
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638495735803,
+                                                            "text": "譬如[abc]，表示该字符是可以字符\"a\"、\"b\"、\"c\"中的任何一个",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638495781374,
+                                                            "text": "字符组：[]",
+                                                            "layout": null,
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1638495825318,
+                                                                    "text": "[abc]，表示匹配一个字符，它可以是\"a\"、\"b\"、\"c\"之一",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1638495832557,
+                                                                    "text": "范围:比如[123456abcdefGHIJKLM]，可以写成[1-6a-fG-M]",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1638495880860,
+                                                                    "text": "排除：[^abc]，表示除\"a\"、\"b\"、\"c\"外的任意一个字符",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1638496413395,
+                                                                    "text": "常见简写",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496427618,
+                                                                            "text": "\\d  ： 数字，表示[0-9] 英文：digit数字",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496460233,
+                                                                            "text": "\\D ： 除数字外，表示[^0-9]",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496499247,
+                                                                            "text": "\\w : 数字字母和下划线，表示：[0-9a-zA-Z_]",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496542074,
+                                                                            "text": "\\W：非单字，表示：[^0-9a-zA-Z_]",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496588373,
+                                                                            "text": "\\s ：空白、换行等，表示：表示[ \\t\\v\\n\\r\\f] 英文：space空白",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496651691,
+                                                                            "text": "\\S：非空白，表示：[^ \\t\\v\\n\\r\\f]",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496693586,
+                                                                            "text": ".  :所有除换行符、回车符、行分隔符和段分隔符，表示：[^\\n\\r\\u2028\\u2029]",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1638496880587,
+                                                                            "text": "匹配任意字符",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": 0,
+                                                                                    "created": 1638496892563,
+                                                                                    "text": "[\\d\\D]、[\\w\\W]、[\\s\\S]和[^]中任何的一个",
+                                                                                    "layout": null
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638497268040,
+                                    "text": "贪婪匹配和惰性匹配",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638497285943,
+                                            "text": "贪婪匹配",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497331422,
+                                                    "text": "假如正则：/\\d{2,5}/",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638497362364,
+                                                            "text": "【表示数字2-5个】如果字符串6个数字，就会匹配到5个数字，如果字符串3个数字，就会匹配3个数字",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638497298656,
+                                            "text": "惰性匹配",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497491073,
+                                                    "text": "假如正则：/\\d{2,5}?/",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1638497500064,
+                                                            "text": "【表示数字2-5个都行，如果有2个就不继续匹配】，如果字符串有6个数字，就匹配2个",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638497610933,
+                                            "text": "量词后面加?实现惰性匹配",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497642444,
+                                                    "text": "贪婪：{m,n}  / 惰性：{m,n}?",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497683241,
+                                                    "text": "贪婪：{m,} / 惰性：{m,}?",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497709512,
+                                                    "text": "贪婪：? / 惰性：??",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497771607,
+                                                    "text": "贪婪：+ / 惰性：+?",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638497824334,
+                                                    "text": "贪婪：* / 惰性：*?",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638498328381,
+                                    "text": "多选分支",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638498371677,
+                                            "text": "支持多个子模式任选一：(p1|p2|p3)，其中p1、p2和p3是子模式，用|（管道符）分隔，表示其中任何之一",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638498439914,
+                                            "text": "分支结构是惰性的，匹配一个子模式后，不再向后匹配其他子模式",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638499327950,
+                            "text": "匹配位置",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638499490553,
+                                    "text": "字符间的位置：锚",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638499885810,
+                                            "text": "^（脱字符）匹配开头，在多行匹配中匹配行开头",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638499898708,
+                                            "text": "$（美元符号）匹配结尾，在多行匹配中匹配行结尾",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638499931250,
+                                            "text": "\\b是单词边界，\\w与\\W、^、$之间的位置",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638500086125,
+                                            "text": "\\B就是\\b的反面的意思，非单词边界。\\w与\\w、\\W与\\W、^与\\W，\\W与$之间的位置",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638500109629,
+                                                    "text": "在字符串中所有位置中，扣掉\\b，剩下的都是\\B的",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638512757487,
+                                            "text": "(?=p) 其中p是一个子模式，即p前面的位置",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638513028781,
+                                                    "text": "正向先行断言",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638512936937,
+                                            "text": "(?!p) 除了P前面的位置",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638513048301,
+                                                    "text": "负向先行断言",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638513017302,
+                                            "text": "(?<=p)",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638513279261,
+                                                    "text": "p后面的位置",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638513066165,
+                                            "text": "(?<!p)",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1638513295293,
+                                                    "text": "除了P后面的位置",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638514510414,
+                                            "text": "位置可以理解为空字符"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }

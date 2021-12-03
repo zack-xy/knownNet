@@ -1,0 +1,161 @@
+{
+    "root": {
+        "data": {
+            "text": "红宝书读书笔记"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1638519108236,
+                    "text": "介绍JS"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1638519165361,
+                            "text": "JS实现"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638519180537,
+                                    "text": "核心:ECMAScript"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519273621,
+                                            "text": "ECMA-262"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638519203264,
+                                    "text": "DOM:文档对象模型"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519343859,
+                                            "text": "应用编程接口(API)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519411257,
+                                            "text": "HTML被抽象为分层节点，DOM树"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519467016,
+                                            "text": "DOM API可以添加、删除、修改节点"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1638519220209,
+                                    "text": "BOM：浏览器对象模型"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519652073,
+                                            "text": "针对浏览器窗口和子窗口（frame）"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519659587,
+                                            "text": "弹出新浏览器窗口的能力"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519668635,
+                                            "text": "移动、缩放和关闭浏览器窗口的能力"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519679481,
+                                            "text": "navigator对象，提供关于浏览器的详尽信息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519689016,
+                                            "text": "location对象，提供浏览器加载页面的详尽信息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519703480,
+                                            "text": "screen对象，提供关于用户屏幕分辨率的详尽信息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519712119,
+                                            "text": "performance对象，提供浏览器内存占用、导航行为和时间统计的详尽信息"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519714984,
+                                            "text": "对cookie的支持"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1638519723215,
+                                            "text": "其他自定义对象，如XMLHttpRequest和IE的ActiveXObject"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
