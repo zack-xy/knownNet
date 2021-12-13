@@ -8,28 +8,34 @@
                 "data": {
                     "id": 0,
                     "created": 1638519108236,
-                    "text": "介绍JS"
+                    "text": "介绍JS",
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
                             "id": 0,
                             "created": 1638519165361,
-                            "text": "JS实现"
+                            "text": "JS实现",
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1638519180537,
-                                    "text": "核心:ECMAScript"
+                                    "text": "核心:ECMAScript",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1638519273621,
-                                            "text": "ECMA-262"
+                                            "text": "ECMA-262",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -39,14 +45,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1638519203264,
-                                    "text": "DOM:文档对象模型"
+                                    "text": "DOM:文档对象模型",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1638519343859,
-                                            "text": "应用编程接口(API)"
+                                            "text": "应用编程接口(API)",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -54,7 +62,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519411257,
-                                            "text": "HTML被抽象为分层节点，DOM树"
+                                            "text": "HTML被抽象为分层节点，DOM树",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -62,7 +71,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519467016,
-                                            "text": "DOM API可以添加、删除、修改节点"
+                                            "text": "DOM API可以添加、删除、修改节点",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -72,14 +82,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1638519220209,
-                                    "text": "BOM：浏览器对象模型"
+                                    "text": "BOM：浏览器对象模型",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1638519652073,
-                                            "text": "针对浏览器窗口和子窗口（frame）"
+                                            "text": "针对浏览器窗口和子窗口（frame）",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -87,7 +99,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519659587,
-                                            "text": "弹出新浏览器窗口的能力"
+                                            "text": "弹出新浏览器窗口的能力",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -95,7 +108,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519668635,
-                                            "text": "移动、缩放和关闭浏览器窗口的能力"
+                                            "text": "移动、缩放和关闭浏览器窗口的能力",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -103,7 +117,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519679481,
-                                            "text": "navigator对象，提供关于浏览器的详尽信息"
+                                            "text": "navigator对象，提供关于浏览器的详尽信息",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -111,7 +126,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519689016,
-                                            "text": "location对象，提供浏览器加载页面的详尽信息"
+                                            "text": "location对象，提供浏览器加载页面的详尽信息",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -119,7 +135,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519703480,
-                                            "text": "screen对象，提供关于用户屏幕分辨率的详尽信息"
+                                            "text": "screen对象，提供关于用户屏幕分辨率的详尽信息",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -127,7 +144,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519712119,
-                                            "text": "performance对象，提供浏览器内存占用、导航行为和时间统计的详尽信息"
+                                            "text": "performance对象，提供浏览器内存占用、导航行为和时间统计的详尽信息",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -135,7 +153,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519714984,
-                                            "text": "对cookie的支持"
+                                            "text": "对cookie的支持",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -143,13 +162,2066 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1638519723215,
-                                            "text": "其他自定义对象，如XMLHttpRequest和IE的ActiveXObject"
+                                            "text": "其他自定义对象，如XMLHttpRequest和IE的ActiveXObject",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
                                 ]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1639362308949,
+                    "text": "将JS插入Html",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639362353502,
+                            "text": "使用<script>元素",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639362468628,
+                                    "text": "几个主要的属性",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362387668,
+                                            "text": "async",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639362397789,
+                                                    "text": "立即下载，但不能阻止其他页面动作，比如下载资源或等待其他脚本加载。只对外部脚本文件有效",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639363653804,
+                                                            "text": "不可在加载的时候修改DOM",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639363688752,
+                                                            "text": "保证会在页面的load事件前执行",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639364448909,
+                                                            "text": "多个无依赖关系async，不保证执行顺序",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639363704333,
+                                                            "text": "可能会在DOMContentLoaded之前或之后",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362494597,
+                                            "text": "defer",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639362517355,
+                                                    "text": "脚本立即下载，但延迟到文档完全被解析和显示之后再执行。只对外部脚本文件有效",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639363431588,
+                                                            "text": "基本会在DOMContentLoaded事件之前执行，不保证总是（有多个defer的时候）",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362566365,
+                                            "text": "src",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639362575148,
+                                                    "text": "表示包含要执行的代码的外部文件",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362601379,
+                                            "text": "type",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639362611365,
+                                                    "text": "表示代码块中脚本语言的内容类型",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639362625340,
+                                                            "text": "如果这个值是module，则代码会被当成ES6模块，而且只有这时候代码中才能出现import和export关键字",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639362650508,
+                                    "text": "方式",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362655718,
+                                            "text": "标签内直接写js代码(行内)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362680357,
+                                            "text": "引用外部js",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639362711493,
+                                    "text": "特点",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362716205,
+                                            "text": "包含在<script>内的代码会被从上到下解释，没有async和defer的话<script>也是从上到下解析",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362725589,
+                                            "text": "<script>元素中的代码被计算完成之前，页面的其余内容不会被加载，也不会被显示",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362794013,
+                                            "text": "如果有src定义和行内代码，行内代码会被忽略",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362881893,
+                                            "text": "src发送一个GET请求获取js文件，请求不受浏览器同源策略限制",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639362977245,
+                                            "text": "src返回并被执行的JavaScript则受同源策略限制",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639363156628,
+                                    "text": "放的位置",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639363175972,
+                                            "text": "head 里：为了css和js都放在一起，但是src阻塞解析不了html，会有空白",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639363223340,
+                                            "text": "放在body里，最后面，为了减少空白感",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639363775645,
+                            "text": "动态加载",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639363790077,
+                                    "text": "DOM动态添加script元素",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639363864836,
+                                            "text": "let script = document.createElement('script'); script.src = 'gibberish.js'; document.head.appendChild(script); ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639363924764,
+                                            "text": "异步加载js，相当于添加了async",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639363951356,
+                                            "text": "⚠️注意：并不是所有浏览器都支持async属性，设置script.async = false; 统一行为",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364034716,
+                                            "text": "对浏览器预加载器不可见，可能严重影响性能",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639364092173,
+                                                    "text": "如何让预加载器知道？",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639364098552,
+                                                            "text": "文档头部显式声明",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639364150144,
+                                                                    "text": "<link rel=\"preload\" href=\"gibberish.js\">",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639364337213,
+                            "text": "特殊标签：<noscript>",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639364360708,
+                                    "text": "浏览器不支持脚本或关闭脚本，渲染标签内内容",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364399780,
+                                            "text": "<noscript> <p>This page requires a JavaScript-enabled browser.</p> </noscript> ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1639364556981,
+                    "text": "语法",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639364793662,
+                            "text": "变量",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639364799548,
+                                    "text": "var",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364842518,
+                                            "text": "保存任意类型值，为初始化：undefined",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364888893,
+                                            "text": "函数体内声明，函数退出则变量销毁",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364924917,
+                                            "text": "函数体内声明，不使用var操作符，则为全局变量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639364982363,
+                                            "text": "定义多个：var message = \"hi\",     found = false,      age = 29;",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365020573,
+                                            "text": "声明提升",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365079029,
+                                                    "text": "var a = 'zack'等价为var a;a='zack'",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365028892,
+                                                    "text": "可以在声明变量前使用变量",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365054523,
+                                                    "text": "可反复声明同一个变量",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365171461,
+                                            "text": "函数作用域",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365503932,
+                                            "text": "全局作用域声明，成为window对象的属性",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365765709,
+                                            "text": "for中的var",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365788565,
+                                                    "text": "for (var i = 0; i < 5; ++i) {   // 循环逻辑} console.log(i); // 5",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639365793180,
+                                                            "text": "for外仍可访问var",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365811908,
+                                                    "text": "for中异步",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639365826037,
+                                                            "text": "退出循环时，迭代变量保存的是导致循环退出的值",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639364806437,
+                                    "text": "let",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365192180,
+                                            "text": "块作用域",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365316236,
+                                                    "text": "函数作用域子集",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365334325,
+                                            "text": "不同块即{}中可重复声明",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365376709,
+                                            "text": "不可与var同时声明一个变量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365462637,
+                                            "text": "没有变量提升",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365417341,
+                                            "text": "暂时性死区",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365426038,
+                                                    "text": "let声明之前的执行瞬间",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365659157,
+                                            "text": "不可在声明前使用",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365530397,
+                                            "text": "全局声明，不成为window属性，但生命周期仍为整个页面",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365729125,
+                                            "text": "for中的let",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365738917,
+                                                    "text": "for外不可访问，因为块作用域",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639365890269,
+                                                    "text": "for中异步",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639365912389,
+                                                            "text": "JavaScript引擎在后台会为每个迭代循环声明一个新的迭代变量",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639364810702,
+                                    "text": "const",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365966436,
+                                            "text": "基本同let",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639365973637,
+                                            "text": "声明变量时必须同时初始化变量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366004348,
+                                            "text": "不可更改变量（的引用）",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366073149,
+                                                    "text": "对象的属性可以更改",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366104909,
+                                            "text": "for中的const",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366114214,
+                                                    "text": "每次迭代只是创建一个新变量（for in/for of有意义）",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639366128173,
+                                                            "text": "for (const key in {a: 1, b: 2}) {   console.log(key); }",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639366205437,
+                                    "text": "最佳实践",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366213956,
+                                            "text": "不使用var",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366225182,
+                                            "text": "优先const其次let",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639366425557,
+                            "text": "数据类型",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639366437030,
+                                    "text": "原始数据类型/简单数据类型",
+                                    "expandState": "collapse",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366455692,
+                                            "text": "Undefined",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366463430,
+                                            "text": "Null",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366779893,
+                                                    "text": "空对象指针",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366469364,
+                                            "text": "Boolean",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366838636,
+                                                    "text": "Boolean()转为布尔值",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366882564,
+                                                    "text": "!!转为布尔值",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366475902,
+                                            "text": "Number",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366929877,
+                                                    "text": "NaN：不是一个数字，表示本来要返回数值的操作失败",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639366975845,
+                                                            "text": "NaN不等于(==)任何值，除NaN",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367020405,
+                                                            "text": "isNaN()判断是否是NaN",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367079757,
+                                                            "text": "typeof NaN == 'number'",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367121374,
+                                                    "text": "数值转换",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367128133,
+                                                            "text": "Number()",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367254877,
+                                                                    "text": "忽略开头0",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367135316,
+                                                            "text": "parseInt()",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367209085,
+                                                                    "text": "开头忽略空格，末尾忽略非数字",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367143133,
+                                                            "text": "parseFloat()",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367266989,
+                                                                    "text": "忽略开头0",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366482365,
+                                            "text": "String",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367294469,
+                                                    "text": "字符串转换",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367316667,
+                                                            "text": "toString()",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367330437,
+                                                                    "text": "null和undefined值没有toString()方法",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367356717,
+                                                    "text": "字符串插值",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367364004,
+                                                            "text": "let str = `${name}`;",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367412484,
+                                                    "text": "模板字面量标签函数",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366488549,
+                                            "text": "Symbol",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367553469,
+                                                    "text": "符号实例是唯一、不可变的。符号的用途是确保对象属性使用唯一标识符，不会发生属性冲突的危险",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639367607807,
+                                                    "text": "常用内置",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367625444,
+                                                            "text": "Symbol.iterator",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367666517,
+                                                                    "text": "for...of",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367674309,
+                                                            "text": "Symbol.asyncIterator",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367690287,
+                                                                    "text": "for-await-of",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367718093,
+                                                            "text": "Symbol.hasInstance",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367730053,
+                                                                    "text": "instanceof",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367756076,
+                                                            "text": "Symbol.isConcatSpreadable",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367773045,
+                                                                    "text": "Array.prototype.concat()",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367807172,
+                                                            "text": "Symbol.match",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367822973,
+                                                                    "text": "String.prototype.match()",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367849957,
+                                                            "text": "Symbol.replace",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367859741,
+                                                                    "text": "String.prototype.replace()",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367883486,
+                                                            "text": "Symbol.search",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639367892292,
+                                                                    "text": "String.prototype.search()",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367939596,
+                                                            "text": "Symbol.species",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367966309,
+                                                            "text": "Symbol.split",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367977452,
+                                                            "text": "Symbol.toPrimitive",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639367990303,
+                                                            "text": "Symbol.toStringTag",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639368031118,
+                                                                    "text": "Object.prototype.toString()",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639368007565,
+                                                            "text": "Symbol.unscopables",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1639368021844,
+                                                                    "text": "with环境",
+                                                                    "layout": null
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639366545437,
+                                    "text": "复杂数据类型",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366561469,
+                                            "text": "Object",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639366601573,
+                                    "text": "如何确认数据类型",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639366620064,
+                                            "text": "typeof",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366634668,
+                                                    "text": "例：typeof 变量名",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639366660956,
+                                                    "text": "返回：",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639366719724,
+                                                            "text": "\"object\"表示值为对象（而不是函数）或null",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639366731436,
+                                                            "text": "\"function\"表示值为函数",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639377244697,
+                            "text": "操作符和语句"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1639377414112,
+                    "text": "变量、作用域和内存",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639377447456,
+                            "text": "变量",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639378688945,
+                                    "text": "原始值 / 简单(基本)数据类型"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639378782984,
+                                            "text": "保存原始值的变量是按值访问的"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639380486065,
+                                            "text": "复制值，会将值复制到新的位置"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639378729202,
+                                    "text": "引用值(多个值构成的对象)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639379649440,
+                                            "text": "引用值的变量是按引用（by reference）访问"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639380605905,
+                                            "text": "复制值，复制一个指针(对象的引用)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639380649760,
+                            "text": "传递参数",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639380656328,
+                                    "text": "ECMAScript中所有函数的参数都是按值传递的"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639380782307,
+                                    "text": "传递参数就相当于参数复制，简单类型是简单类型的复制，引用值是复制指针"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639381185128,
+                            "text": "执行上下文和作用域",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381258799,
+                                    "text": "每一个上下文都有一个关联的变量对象，上下文的变量和函数都存在这个对象上(无法用代码访问，处理数据会用到)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381362424,
+                                    "text": "全局上下文(window)是最外层的上下文"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381438764,
+                                    "text": "上下文在代码解析后销毁，包括定义的变量和函数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381481049,
+                                    "text": "全局上下文在应用退出前销毁"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381552504,
+                                    "text": "执行到某函数，函数上下文会推入到上下文栈中，执行完成，弹出函数上下文栈，交还执行权给之前的执行上下文"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381715080,
+                                    "text": "上下文关联的变量对象会组成【作用域链】"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639381908040,
+                                    "text": "上下文种类"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639381919001,
+                                            "text": "全局上下文"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639381928361,
+                                            "text": "函数上下文"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639381961299,
+                                            "text": "eval()调用内部"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639381979056,
+                                            "text": "try..catch / with"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639381997856,
+                                                    "text": "会在作用域链前加一个变量对象，width加指定的对象，cacth加error"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639382241280,
+                            "text": "垃圾回收"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639382265672,
+                                    "text": "标记清理"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382394583,
+                                            "text": "当变量进入上下文，添加\"引用\"标记，离开上下文，标记“离开”"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639382271283,
+                                    "text": "引用计数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382534843,
+                                            "text": "被引用加1，引用指向新值，引用减1，清除引用0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382597472,
+                                            "text": "问题：循环引用，A->B,B->A不会被清理"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382689601,
+                                            "text": "早期(IE8)：BOM和DOM底层C++使用引用计数，使用null指定要被回收的对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639382877977,
+                                    "text": "性能"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382900770,
+                                            "text": "垃圾回收程序周期性运行"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382914339,
+                                            "text": "在内存有限的移动设备上，垃圾回收有可能会明显拖慢渲染的速度和帧速率"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639382997968,
+                                            "text": "内存占用量保持在一个较小的值可以让页面性能更好"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639383038058,
+                                            "text": "保证在执行代码时只保存必要的数据,数据不再必要，那么把它设置为null,【解除引用】"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639383106513,
+                                            "text": "【解除引用】要保证该变量不在上下文里了，否则因为【标记清理】的原因，仍不会被垃圾回收"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639383196312,
+                                            "text": "如何做？"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639383212608,
+                                                    "text": "通过const和let声明提升性能(垃圾回收更早介入)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639383314944,
+                                                    "text": "隐藏类和删除操作"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383330441,
+                                                            "text": "一个类实例的两个对象，如果不动态添加属性和动态删除属性，则共享一个隐藏类，性能好"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383394049,
+                                                            "text": "尽量将类一次声明完整，触发隐藏类/不删除属性，将不用属性，设置为null"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639383479816,
+                                                    "text": "警惕内存泄漏"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383493311,
+                                                            "text": "意外的全局变量(如未使用var)"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383533640,
+                                                            "text": "js闭包"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639383612912,
+                                                    "text": "静态分配与对象池"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383635185,
+                                                            "text": "避免一次性创建大量对象，短时间内又一次性释放大量对象，会频繁导致垃圾回收"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639383752345,
+                                                            "text": "极端情况(大多数情况属于过早优化)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1639386816841,
+                    "text": "迭代器和生成器"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639387482024,
+                            "text": "迭代器",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639386851584,
+                                    "text": "可迭代对象实现了Iterable接口，即可通过迭代器Iterator消费"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639386985775,
+                                    "text": "暴露Symbol.iterator属性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387700592,
+                                            "text": "改属性是一个函数，返回Iterator，包含next()方法，返回IteratorResult对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639387047599,
+                                    "text": "可迭代对象自动兼容属性",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387084560,
+                                            "text": "for-of循环"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387091944,
+                                            "text": "数组解构"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387099241,
+                                            "text": "扩展操作符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387107439,
+                                            "text": "Array.from()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387121539,
+                                            "text": "创建集合"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387124016,
+                                            "text": "创建映射"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387130353,
+                                            "text": "Promise.all()接收由期约组成的可迭代对象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387140095,
+                                            "text": "Promise.race()接收由期约组成的可迭代对象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387157696,
+                                            "text": "yield*操作符，在生成器中使用"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639387226400,
+                                    "text": "迭代器协议"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387242627,
+                                            "text": "迭代器API使用next()方法在可迭代对象中遍历数据"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387253841,
+                                            "text": "每次成功调用next()，都会返回一个IteratorResult对象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387268265,
+                                            "text": "迭代器对象IteratorResult包含两个属性：done和value"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387278960,
+                                            "text": "done是一个布尔值，表示是否还可以再次调用next()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639387292769,
+                                            "text": "value包含可迭代对象的下一个值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639387433793,
+                                    "text": "如果可迭代对象在迭代期间被修改了，那么迭代器也会反映相应的变化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639387457496,
+                                    "text": "⚠️注意：迭代器维护着一个指向可迭代对象的引用，因此迭代器会阻止垃圾回收程序回收可迭代对象"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639388006760,
+                                    "text": "自定义迭代器例子"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639388017672,
+                                            "text": "class Counter {    constructor(limit) {     this.limit = limit;   }   [Symbol.iterator]() { let count = 1, limit = this.limit; return { next() { if (count <= limit) { return { done: false, value: count++ }; } else { return { done: true, value: undefined }; } } };   } }  let counter = new Counter(3);for (let i of counter) { console.log(i); }"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1639388185999,
+                                    "text": "终止迭代器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639388203632,
+                                            "text": "for-of循环通过break、continue、return或throw提前退出"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639388206417,
+                                            "text": "解构操作并未消费所有值"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1639388216833,
+                                            "text": "自定义迭代器终止"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1639388227272,
+                                                    "text": "默认会调用return方法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639388300209,
+                                                            "text": "同next同级"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1639388318648,
+                                                            "text": "return() { console.log('Exiting early'); return { done: true }; } "
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1639387505481,
+                            "text": "生成器"
+                        },
+                        "children": []
                     }
                 ]
             }
