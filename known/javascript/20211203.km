@@ -18,7 +18,7 @@
                             "id": 0,
                             "created": 1638519165361,
                             "text": "JS实现",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -977,7 +977,7 @@
                             "id": 0,
                             "created": 1639366425557,
                             "text": "数据类型",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -986,7 +986,7 @@
                                     "id": 0,
                                     "created": 1639366437030,
                                     "text": "原始数据类型/简单数据类型",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -1462,7 +1462,7 @@
                                     "created": 1639366545437,
                                     "text": "复杂数据类型",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1482,7 +1482,7 @@
                                     "created": 1639366601573,
                                     "text": "如何确认数据类型",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1540,7 +1540,8 @@
                         "data": {
                             "id": 0,
                             "created": 1639377244697,
-                            "text": "操作符和语句"
+                            "text": "操作符和语句",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -1551,7 +1552,8 @@
                     "id": 0,
                     "created": 1639377414112,
                     "text": "变量、作用域和内存",
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -1559,21 +1561,24 @@
                             "id": 0,
                             "created": 1639377447456,
                             "text": "变量",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1639378688945,
-                                    "text": "原始值 / 简单(基本)数据类型"
+                                    "text": "原始值 / 简单(基本)数据类型",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639378782984,
-                                            "text": "保存原始值的变量是按值访问的"
+                                            "text": "保存原始值的变量是按值访问的",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1581,7 +1586,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639380486065,
-                                            "text": "复制值，会将值复制到新的位置"
+                                            "text": "复制值，会将值复制到新的位置",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1591,14 +1597,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639378729202,
-                                    "text": "引用值(多个值构成的对象)"
+                                    "text": "引用值(多个值构成的对象)",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639379649440,
-                                            "text": "引用值的变量是按引用（by reference）访问"
+                                            "text": "引用值的变量是按引用（by reference）访问",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1606,7 +1614,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639380605905,
-                                            "text": "复制值，复制一个指针(对象的引用)"
+                                            "text": "复制值，复制一个指针(对象的引用)",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1619,14 +1628,16 @@
                             "id": 0,
                             "created": 1639380649760,
                             "text": "传递参数",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1639380656328,
-                                    "text": "ECMAScript中所有函数的参数都是按值传递的"
+                                    "text": "ECMAScript中所有函数的参数都是按值传递的",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1634,7 +1645,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639380782307,
-                                    "text": "传递参数就相当于参数复制，简单类型是简单类型的复制，引用值是复制指针"
+                                    "text": "传递参数就相当于参数复制，简单类型是简单类型的复制，引用值是复制指针",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -1645,14 +1657,16 @@
                             "id": 0,
                             "created": 1639381185128,
                             "text": "执行上下文和作用域",
-                            "expandState": "collapse"
+                            "expandState": "collapse",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1639381258799,
-                                    "text": "每一个上下文都有一个关联的变量对象，上下文的变量和函数都存在这个对象上(无法用代码访问，处理数据会用到)"
+                                    "text": "每一个上下文都有一个关联的变量对象，上下文的变量和函数都存在这个对象上(无法用代码访问，处理数据会用到)",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1660,7 +1674,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381362424,
-                                    "text": "全局上下文(window)是最外层的上下文"
+                                    "text": "全局上下文(window)是最外层的上下文",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1668,7 +1683,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381438764,
-                                    "text": "上下文在代码解析后销毁，包括定义的变量和函数"
+                                    "text": "上下文在代码解析后销毁，包括定义的变量和函数",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1676,7 +1692,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381481049,
-                                    "text": "全局上下文在应用退出前销毁"
+                                    "text": "全局上下文在应用退出前销毁",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1684,7 +1701,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381552504,
-                                    "text": "执行到某函数，函数上下文会推入到上下文栈中，执行完成，弹出函数上下文栈，交还执行权给之前的执行上下文"
+                                    "text": "执行到某函数，函数上下文会推入到上下文栈中，执行完成，弹出函数上下文栈，交还执行权给之前的执行上下文",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1692,7 +1710,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381715080,
-                                    "text": "上下文关联的变量对象会组成【作用域链】"
+                                    "text": "上下文关联的变量对象会组成【作用域链】",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1700,14 +1719,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639381908040,
-                                    "text": "上下文种类"
+                                    "text": "上下文种类",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639381919001,
-                                            "text": "全局上下文"
+                                            "text": "全局上下文",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1715,7 +1736,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639381928361,
-                                            "text": "函数上下文"
+                                            "text": "函数上下文",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1723,7 +1745,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639381961299,
-                                            "text": "eval()调用内部"
+                                            "text": "eval()调用内部",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1731,14 +1754,16 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639381979056,
-                                            "text": "try..catch / with"
+                                            "text": "try..catch / with",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639381997856,
-                                                    "text": "会在作用域链前加一个变量对象，width加指定的对象，cacth加error"
+                                                    "text": "会在作用域链前加一个变量对象，width加指定的对象，cacth加error",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1752,21 +1777,24 @@
                         "data": {
                             "id": 0,
                             "created": 1639382241280,
-                            "text": "垃圾回收"
+                            "text": "垃圾回收",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1639382265672,
-                                    "text": "标记清理"
+                                    "text": "标记清理",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639382394583,
-                                            "text": "当变量进入上下文，添加\"引用\"标记，离开上下文，标记“离开”"
+                                            "text": "当变量进入上下文，添加\"引用\"标记，离开上下文，标记“离开”",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1776,14 +1804,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639382271283,
-                                    "text": "引用计数"
+                                    "text": "引用计数",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639382534843,
-                                            "text": "被引用加1，引用指向新值，引用减1，清除引用0"
+                                            "text": "被引用加1，引用指向新值，引用减1，清除引用0",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1791,7 +1821,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639382597472,
-                                            "text": "问题：循环引用，A->B,B->A不会被清理"
+                                            "text": "问题：循环引用，A->B,B->A不会被清理",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1799,7 +1830,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639382689601,
-                                            "text": "早期(IE8)：BOM和DOM底层C++使用引用计数，使用null指定要被回收的对象"
+                                            "text": "早期(IE8)：BOM和DOM底层C++使用引用计数，使用null指定要被回收的对象",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1809,14 +1841,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639382877977,
-                                    "text": "性能"
+                                    "text": "性能",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639382900770,
-                                            "text": "垃圾回收程序周期性运行"
+                                            "text": "垃圾回收程序周期性运行",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1824,7 +1858,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639382914339,
-                                            "text": "在内存有限的移动设备上，垃圾回收有可能会明显拖慢渲染的速度和帧速率"
+                                            "text": "在内存有限的移动设备上，垃圾回收有可能会明显拖慢渲染的速度和帧速率",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1832,7 +1867,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639382997968,
-                                            "text": "内存占用量保持在一个较小的值可以让页面性能更好"
+                                            "text": "内存占用量保持在一个较小的值可以让页面性能更好",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1840,7 +1876,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639383038058,
-                                            "text": "保证在执行代码时只保存必要的数据,数据不再必要，那么把它设置为null,【解除引用】"
+                                            "text": "保证在执行代码时只保存必要的数据,数据不再必要，那么把它设置为null,【解除引用】",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1848,7 +1885,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639383106513,
-                                            "text": "【解除引用】要保证该变量不在上下文里了，否则因为【标记清理】的原因，仍不会被垃圾回收"
+                                            "text": "【解除引用】要保证该变量不在上下文里了，否则因为【标记清理】的原因，仍不会被垃圾回收",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -1856,14 +1894,16 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639383196312,
-                                            "text": "如何做？"
+                                            "text": "如何做？",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639383212608,
-                                                    "text": "通过const和let声明提升性能(垃圾回收更早介入)"
+                                                    "text": "通过const和let声明提升性能(垃圾回收更早介入)",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -1871,14 +1911,16 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639383314944,
-                                                    "text": "隐藏类和删除操作"
+                                                    "text": "隐藏类和删除操作",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383330441,
-                                                            "text": "一个类实例的两个对象，如果不动态添加属性和动态删除属性，则共享一个隐藏类，性能好"
+                                                            "text": "一个类实例的两个对象，如果不动态添加属性和动态删除属性，则共享一个隐藏类，性能好",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1886,7 +1928,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383394049,
-                                                            "text": "尽量将类一次声明完整，触发隐藏类/不删除属性，将不用属性，设置为null"
+                                                            "text": "尽量将类一次声明完整，触发隐藏类/不删除属性，将不用属性，设置为null",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1896,14 +1939,16 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639383479816,
-                                                    "text": "警惕内存泄漏"
+                                                    "text": "警惕内存泄漏",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383493311,
-                                                            "text": "意外的全局变量(如未使用var)"
+                                                            "text": "意外的全局变量(如未使用var)",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1911,7 +1956,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383533640,
-                                                            "text": "js闭包"
+                                                            "text": "js闭包",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1921,14 +1967,16 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639383612912,
-                                                    "text": "静态分配与对象池"
+                                                    "text": "静态分配与对象池",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383635185,
-                                                            "text": "避免一次性创建大量对象，短时间内又一次性释放大量对象，会频繁导致垃圾回收"
+                                                            "text": "避免一次性创建大量对象，短时间内又一次性释放大量对象，会频繁导致垃圾回收",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -1936,7 +1984,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639383752345,
-                                                            "text": "极端情况(大多数情况属于过早优化)"
+                                                            "text": "极端情况(大多数情况属于过早优化)",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -1954,7 +2003,9 @@
                 "data": {
                     "id": 0,
                     "created": 1639386816841,
-                    "text": "迭代器和生成器"
+                    "text": "迭代器和生成器",
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1962,14 +2013,16 @@
                             "id": 0,
                             "created": 1639387482024,
                             "text": "迭代器",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1639386851584,
-                                    "text": "可迭代对象实现了Iterable接口，即可通过迭代器Iterator消费"
+                                    "text": "可迭代对象实现了Iterable接口，即可通过迭代器Iterator消费",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1977,14 +2030,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639386985775,
-                                    "text": "暴露Symbol.iterator属性"
+                                    "text": "暴露Symbol.iterator属性",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639387700592,
-                                            "text": "改属性是一个函数，返回Iterator，包含next()方法，返回IteratorResult对象"
+                                            "text": "改属性是一个函数，返回Iterator，包含next()方法，返回IteratorResult对象",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1995,14 +2050,16 @@
                                     "id": 0,
                                     "created": 1639387047599,
                                     "text": "可迭代对象自动兼容属性",
-                                    "expandState": "collapse"
+                                    "expandState": "collapse",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639387084560,
-                                            "text": "for-of循环"
+                                            "text": "for-of循环",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2010,7 +2067,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387091944,
-                                            "text": "数组解构"
+                                            "text": "数组解构",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2018,7 +2076,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387099241,
-                                            "text": "扩展操作符"
+                                            "text": "扩展操作符",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2026,7 +2085,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387107439,
-                                            "text": "Array.from()"
+                                            "text": "Array.from()",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2034,7 +2094,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387121539,
-                                            "text": "创建集合"
+                                            "text": "创建集合",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2042,7 +2103,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387124016,
-                                            "text": "创建映射"
+                                            "text": "创建映射",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2050,7 +2112,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387130353,
-                                            "text": "Promise.all()接收由期约组成的可迭代对象"
+                                            "text": "Promise.all()接收由期约组成的可迭代对象",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2058,7 +2121,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387140095,
-                                            "text": "Promise.race()接收由期约组成的可迭代对象"
+                                            "text": "Promise.race()接收由期约组成的可迭代对象",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2066,7 +2130,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387157696,
-                                            "text": "yield*操作符，在生成器中使用"
+                                            "text": "yield*操作符，在生成器中使用",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2076,14 +2141,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639387226400,
-                                    "text": "迭代器协议"
+                                    "text": "迭代器协议",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639387242627,
-                                            "text": "迭代器API使用next()方法在可迭代对象中遍历数据"
+                                            "text": "迭代器API使用next()方法在可迭代对象中遍历数据",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2091,7 +2158,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387253841,
-                                            "text": "每次成功调用next()，都会返回一个IteratorResult对象"
+                                            "text": "每次成功调用next()，都会返回一个IteratorResult对象",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2099,7 +2167,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387268265,
-                                            "text": "迭代器对象IteratorResult包含两个属性：done和value"
+                                            "text": "迭代器对象IteratorResult包含两个属性：done和value",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2107,7 +2176,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387278960,
-                                            "text": "done是一个布尔值，表示是否还可以再次调用next()"
+                                            "text": "done是一个布尔值，表示是否还可以再次调用next()",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2115,7 +2185,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639387292769,
-                                            "text": "value包含可迭代对象的下一个值"
+                                            "text": "value包含可迭代对象的下一个值",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2125,7 +2196,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639387433793,
-                                    "text": "如果可迭代对象在迭代期间被修改了，那么迭代器也会反映相应的变化"
+                                    "text": "如果可迭代对象在迭代期间被修改了，那么迭代器也会反映相应的变化",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -2133,7 +2205,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639387457496,
-                                    "text": "⚠️注意：迭代器维护着一个指向可迭代对象的引用，因此迭代器会阻止垃圾回收程序回收可迭代对象"
+                                    "text": "⚠️注意：迭代器维护着一个指向可迭代对象的引用，因此迭代器会阻止垃圾回收程序回收可迭代对象",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -2141,14 +2214,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639388006760,
-                                    "text": "自定义迭代器例子"
+                                    "text": "自定义迭代器例子",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639388017672,
-                                            "text": "class Counter {    constructor(limit) {     this.limit = limit;   }   [Symbol.iterator]() { let count = 1, limit = this.limit; return { next() { if (count <= limit) { return { done: false, value: count++ }; } else { return { done: true, value: undefined }; } } };   } }  let counter = new Counter(3);for (let i of counter) { console.log(i); }"
+                                            "text": "class Counter {    constructor(limit) {     this.limit = limit;   }   [Symbol.iterator]() { let count = 1, limit = this.limit; return { next() { if (count <= limit) { return { done: false, value: count++ }; } else { return { done: true, value: undefined }; } } };   } }  let counter = new Counter(3);for (let i of counter) { console.log(i); }",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -2158,14 +2233,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639388185999,
-                                    "text": "终止迭代器"
+                                    "text": "终止迭代器",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1639388203632,
-                                            "text": "for-of循环通过break、continue、return或throw提前退出"
+                                            "text": "for-of循环通过break、continue、return或throw提前退出",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2173,7 +2250,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639388206417,
-                                            "text": "解构操作并未消费所有值"
+                                            "text": "解构操作并未消费所有值",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -2181,21 +2259,24 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1639388216833,
-                                            "text": "自定义迭代器终止"
+                                            "text": "自定义迭代器终止",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1639388227272,
-                                                    "text": "默认会调用return方法"
+                                                    "text": "默认会调用return方法",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639388300209,
-                                                            "text": "同next同级"
+                                                            "text": "同next同级",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -2203,7 +2284,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1639388318648,
-                                                            "text": "return() { console.log('Exiting early'); return { done: true }; } "
+                                                            "text": "return() { console.log('Exiting early'); return { done: true }; } ",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -2219,15 +2301,207 @@
                         "data": {
                             "id": 0,
                             "created": 1639387505481,
-                            "text": "生成器"
+                            "text": "生成器",
+                            "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge7ddig36o0",
+                                    "created": 1639401616458,
+                                    "text": "基本概念",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge79qleprk0",
+                                            "created": 1639401331479,
+                                            "text": "生成器的形式是一个函数，函数名称前面加一个星号（*）表示它是一个生成器",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7b3qeb5c0",
+                                            "created": 1639401438443,
+                                            "text": "箭头函数不能用来定义生成器函数。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7bilk8lk0",
+                                            "created": 1639401470802,
+                                            "text": "调用生成器函数会产生一个生成器对象",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7bnv8xsw0",
+                                            "created": 1639401482272,
+                                            "text": "生成器对象也实现了Iterator接口，因此具有next()方法",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7c54oyvs0",
+                                            "created": 1639401519848,
+                                            "text": "next()方法的返回值类似于迭代器，有一个done属性和一个value属性",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7cnhatz40",
+                                            "created": 1639401559793,
+                                            "text": "生成器函数只会在初次调用next()方法后开始执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cge7dilwi9k0",
+                                    "created": 1639401627551,
+                                    "text": "yield",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge7dtbli4g0",
+                                            "created": 1639401650872,
+                                            "text": "遇到yield关键字之前会正常执行。遇到这个关键字后，执行会停止",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7dv0jgt40",
+                                            "created": 1639401654558,
+                                            "text": "通过在生成器对象上调用next()方法来恢复执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cge7hd3jiuo0",
+                                    "created": 1639401929014,
+                                    "text": "作用",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge7hftyj3s0",
+                                            "created": 1639401934964,
+                                            "text": "生成器对象作为可迭代对象",
+                                            "note": null,
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge7sqfnrj40",
+                                                    "created": 1639402820050,
+                                                    "text": "nTimes",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7i7fnla00",
+                                            "created": 1639401995049,
+                                            "text": "使用yield实现输入和输出",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge7tgya36o0",
+                                                    "created": 1639402877772,
+                                                    "text": "function* nTimes (n) {\n  for (let i = 0; i < n; ++i) {\n\tyield i\n  }\n}\n\nfor (let x of nTimes(3)) {\n  console.log(x)\n}",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7s9jv8c80",
+                                            "created": 1639402783299,
+                                            "text": "产生可迭代对象",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge7vzo7avk0",
+                                                    "created": 1639403075250,
+                                                    "text": "使用*增强yield",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cge7xqnfxl40",
+                                                            "created": 1639403212342,
+                                                            "text": "function* generatorFn () {\n  yield* [1, 2, 3]\n}\n\nlet generatorObject = generatorFn()\n\nfor (const x of generatorObject) {\n  console.log(x);\n}\n\n// 1\n// 2\n// 3",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge7z2mm5qw0",
+                                            "created": 1639403316777,
+                                            "text": "使用yield*实现递归算法",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge83dlpsso0",
+                                                    "created": 1639403654124,
+                                                    "text": "function* nTimes (n) {\n  if (n > 0) {\n\tyield* nTimes(n - 1);\n\tyield n - 1;\n  }\n}\n\nfor (const x of nTimes(3)) {\n  console.log(x);\n}",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
+    "template": "default",
+    "theme": "fresh-green",
     "version": "1.4.43"
 }
