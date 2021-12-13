@@ -2310,7 +2310,7 @@
                                     "id": "cge7ddig36o0",
                                     "created": 1639401616458,
                                     "text": "基本概念",
-                                    "expandState": "expand",
+                                    "expandState": "collapse",
                                     "layout": null
                                 },
                                 "children": [
@@ -2375,7 +2375,8 @@
                                     "id": "cge7dilwi9k0",
                                     "created": 1639401627551,
                                     "text": "yield",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -2403,7 +2404,8 @@
                                     "id": "cge7hd3jiuo0",
                                     "created": 1639401929014,
                                     "text": "作用",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -2487,6 +2489,72 @@
                                                     "id": "cge83dlpsso0",
                                                     "created": 1639403654124,
                                                     "text": "function* nTimes (n) {\n  if (n > 0) {\n\tyield* nTimes(n - 1);\n\tyield n - 1;\n  }\n}\n\nfor (const x of nTimes(3)) {\n  console.log(x);\n}",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cge8zi3nxeg0",
+                                    "created": 1639406171570,
+                                    "text": "提前终止生成器",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge8zmny1480",
+                                            "created": 1639406181503,
+                                            "text": "return()",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge902ocfmo0",
+                                                    "created": 1639406216356,
+                                                    "text": "。提供给return()方法的值，就是终止迭代器对象的值",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cge90cesrs80",
+                                                    "created": 1639406237546,
+                                                    "text": "只要通过它进入关闭状态，就无法恢复",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9119lyeo0",
+                                            "created": 1639406291652,
+                                            "text": "throw()",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cge932ayc6g0",
+                                                    "created": 1639406450639,
+                                                    "text": "throw()方法会在暂停的时候将一个提供的错误注入到生成器对象中。如果错误未被处理，生成器就会关闭",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cge954ovfmo0",
+                                                    "created": 1639406612562,
+                                                    "text": "function* generatorFn () {\n  for (const x of [1, 2, 3]) {\n\ttry {\n\t  yield x;\n\t} catch (error) {\n\n\t}\n  }\n}\n\nconst g = generatorFn()\nconsole.log(g.next());\ng.throw('foo')\nconsole.log(g.next())",
                                                     "layout": null
                                                 },
                                                 "children": []

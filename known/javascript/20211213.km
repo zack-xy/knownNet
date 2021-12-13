@@ -1,0 +1,379 @@
+{
+    "root": {
+        "data": {
+            "id": "cge98kj4de00",
+            "created": 1639406882135,
+            "text": "红宝书"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cge98v2ibts0",
+                    "created": 1639406905076,
+                    "text": "对象",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cge9956hqw00",
+                            "created": 1639406927085,
+                            "text": "属性类型",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge99asj6r40",
+                                    "created": 1639406939301,
+                                    "text": "数据属性",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge99ufh2800",
+                                            "created": 1639406982047,
+                                            "text": "[[Configurable]]：表示属性是否可以通过delete删除并重新定义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9a1kxy540",
+                                            "created": 1639406997615,
+                                            "text": "[[Enumerable]]：表示属性是否可以通过for-in循环返回",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9a7so6740",
+                                            "created": 1639407011143,
+                                            "text": "[[Writable]]：表示属性的值是否可以被修改",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9agbhsr40",
+                                            "created": 1639407029695,
+                                            "text": "[[Value]]：包含属性实际的值",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cge99fyumsg0",
+                                    "created": 1639406950567,
+                                    "text": "访问器属性",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge9dpa1hw00",
+                                            "created": 1639407284291,
+                                            "text": "包含一个获取（getter）函数和一个设置（setter）函数，非必须",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9ekhovrs0",
+                                            "created": 1639407352234,
+                                            "text": "[[Configurable]]：表示属性是否可以通过delete删除并重新定义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9et9culk0",
+                                            "created": 1639407371321,
+                                            "text": "[[Enumerable]]：表示属性是否可以通过for-in循环返回",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9fa6nk1s0",
+                                            "created": 1639407408163,
+                                            "text": "[[Get]]：获取函数，在读取属性时调用。默认值为undefined。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9fetk5sg0",
+                                            "created": 1639407418255,
+                                            "text": "[[Set]]：设置函数，在写入属性时调用。默认值为undefined",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cge9av7tffk0",
+                            "created": 1639407062125,
+                            "text": "修改属性的默认特性，就必须使用Object.defineProperty()方法",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge9bbph8ps0",
+                                    "created": 1639407098021,
+                                    "text": "接收3个参数：要给其添加属性的对象、属性的名称和一个描述符对象",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cge9bryxt7s0",
+                                    "created": 1639407133422,
+                                    "text": "let person = {};\nObject.defineProperty(person, \"name\", { writable: false, value: \"Nicholas\" });",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cge9m16wlg00",
+                            "created": 1639407937136,
+                            "text": "定义多个属性",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge9m4sksp40",
+                                    "created": 1639407944977,
+                                    "text": "Object.defineProperties",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cge9ooi9nhc0",
+                            "created": 1639408144618,
+                            "text": "合并对象",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge9ospqihs0",
+                                    "created": 1639408153776,
+                                    "text": "Object.assign()方法",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge9oz7belc0",
+                                            "created": 1639408167900,
+                                            "text": "可枚举（Object.propertyIsEnumerable()返回true）和自有（Object.hasOwnProperty()返回true）属性复制到目标对象",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9po6nhxc0",
+                                            "created": 1639408222279,
+                                            "text": "浅复制",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9q78ot3k0",
+                                            "created": 1639408263761,
+                                            "text": "如果中间出错，可能只复制一部分",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cge9rk20r6g0",
+                            "created": 1639408370021,
+                            "text": "对象标识及相等判定",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge9rlyts9k0",
+                                    "created": 1639408374181,
+                                    "text": "Object.is()，这个方法与===很像",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cge9wi4e2m00",
+                    "created": 1639408757631,
+                    "text": "创建对象",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cge9wu2pms00",
+                            "created": 1639408783651,
+                            "text": "构造函数模式",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cge9ye4f2i80",
+                                    "created": 1639408905654,
+                                    "text": "function Person (name, age, job) {\n  this.name = name;\n  this.job = job;\n  this.sayName = function () {\n\tconsole.log(this.name);\n  }\n}\n\nlet person1 = new Person('Nicholas', 29, 'coder')",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cge9yldnkig0",
+                                    "created": 1639408921450,
+                                    "text": "构造函数执行步骤",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cge9z4uqizk0",
+                                            "created": 1639408963842,
+                                            "text": "(1) 在内存中创建一个新对象。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9zacxx3c0",
+                                            "created": 1639408975826,
+                                            "text": "(2) 这个新对象内部的[[Prototype]]特性被赋值为构造函数的prototype属性。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9zgxtn8g0",
+                                            "created": 1639408990150,
+                                            "text": "(3) 构造函数内部的this被赋值为这个新对象（即this指向新对象）。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9zoe9oc80",
+                                            "created": 1639409006382,
+                                            "text": "(4) 执行构造函数内部的代码（给新对象添加属性）。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cge9zskbxsw0",
+                                            "created": 1639409015455,
+                                            "text": "5) 如果构造函数返回非空对象，则返回该对象；否则，返回刚创建的新对象。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgea0mlrwcw0",
+                                    "created": 1639409080846,
+                                    "text": "特点",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgea0r1csgw0",
+                                            "created": 1639409090495,
+                                            "text": "构造函数也是函数",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgea1tyod3c0",
+                                            "created": 1639409175228,
+                                            "text": "构造函数定义的方法会在每个实例上都创建一遍",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgea32ontxc0",
+                                                    "created": 1639409272577,
+                                                    "text": "function Person (name, age, job) {\n  this.name = name;\n  this.job = job;\n}\n\nPerson.prototype.sayName = function () {\n  console.log(this.name);\n}",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgea381ua6o0",
+                                                    "created": 1639409284258,
+                                                    "text": "解决如上，方法定义在原型上",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}
