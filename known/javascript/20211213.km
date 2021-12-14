@@ -370,6 +370,199 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "cgf3bxhzz7s0",
+                    "created": 1639491778755,
+                    "text": "原型模式",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgf3ca8wdjk0",
+                            "created": 1639491806503,
+                            "text": "每个函数都会创建一个prototype属性，该属性是一个对象，是构造函数创建的对象的原型",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3f9hukko0",
+                            "created": 1639492039960,
+                            "text": "prototype指向原型对象，原型对象有一个constructor属性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3ghm4m4w0",
+                            "created": 1639492135997,
+                            "text": "例如：Person.prototype.constructor指向Person",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3ig1x34g0",
+                            "created": 1639492289327,
+                            "text": "原型对象其他所有方法继承自Object",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3ixa53bc0",
+                            "created": 1639492326829,
+                            "text": "每次创建的实例内部[[Prototype]]，也就是__proto__指针赋值为构造函数的原型对象",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3m7hys2w0",
+                            "created": 1639492584163,
+                            "text": "in操作符会在可以通过对象访问指定属性时返回true，无论该属性是在实例上还是在原型上",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgf3mo5v5ao0",
+                                    "created": 1639492620436,
+                                    "text": "hasOwnProperty()只有属性存在于实例上时才返回true",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgf3mwwucwo0",
+                                    "created": 1639492639482,
+                                    "text": "只要in操作符返回true且hasOwnProperty()返回false，就说明该属性是一个原型属性",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3qzwkcgo0",
+                            "created": 1639492959452,
+                            "text": "原型模式的问题",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgf3r4f9pnk0",
+                                    "created": 1639492969290,
+                                    "text": "原型上有复杂数据类型，一个实例改了对象，会反映到其他实例上",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3u48kob40",
+                            "created": 1639493203978,
+                            "text": "原型模式问题的解决",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgf3uapr70g0",
+                                    "created": 1639493218079,
+                                    "text": "盗用构造函数",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgf3v0x6euo0",
+                                    "created": 1639493275123,
+                                    "text": "组合继承（伪经典继承）",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgf3zy0f65s0",
+                                            "created": 1639493660609,
+                                            "text": "function SuperType (name) {\n  this.name = name;\n  this.colors = ['red', 'blue', 'green']\n}\n\nSuperType.prototype.sayName = function () {\n  console.log(this.name);\n}\n\nfunction SubType (name, age) {\n  // 继承属性\n  SuperType.call(this, name)\n\n  this.age = age\n}\n\nSubType.prototype = new SuperType()\n\nSubType.prototype.sayAge = funtion() {\n  console.log(this.age);\n}",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgf43e7axzk0",
+                                    "created": 1639493930946,
+                                    "text": "CMAScript 5通过增加Object.create()方法将原型式继承的概念规范化了。这个方法接收两个参数：作为新对象原型的对象，以及给新对象定义额外属性的对象（第二个可选）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgf43zt4x3k0",
+                                    "created": 1639493977979,
+                                    "text": "寄生式继承"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgf3nysc7fc0",
+                    "created": 1639492721927,
+                    "text": "对象属性",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgf3oi8hqns0",
+                            "created": 1639492764263,
+                            "text": "Object.keys()可枚举属性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3orxfutc0",
+                            "created": 1639492785363,
+                            "text": "Object.getOwnPropertyNames()所有实例属性",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgf3piooiyg0",
+                            "created": 1639492843606,
+                            "text": "Object.getOwnPropertySymbols()符号为键的属性",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
