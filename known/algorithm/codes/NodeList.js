@@ -1,3 +1,9 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable eqeqeq */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable space-before-function-paren */
+/* eslint-disable spaced-comment */
+/* eslint-disable prefer-const */
 //声明链表节点
 class Node {
   constructor(value) {
@@ -70,7 +76,7 @@ function reverseNodeList (head) {
   let curr = head
   while (curr) {
     let cnext = curr.next
-    curr.next = prev ? prev : null
+    curr.next = prev || null
     prev = curr
     curr = cnext
   }

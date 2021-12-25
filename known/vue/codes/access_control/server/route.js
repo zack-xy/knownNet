@@ -15,13 +15,13 @@ router.post('/mock/treeData', (ctx, next) => {
 
 // Mock保存接口
 router.post('/mock/saveData', (ctx, next) => {
-  ctx.body = ctx.request.body;
+  ctx.body = ctx.request.body
   fs.writeFile(path.join(__dirname, './json/save_access_tree.json'), JSON.stringify(ctx.body), (err) => {
     if (err) {
-        throw err;
+      throw err
     }
-    console.log("保存树的状态");
-  });
+    console.log('保存树的状态')
+  })
   const content = fs.readFileSync(path.join(__dirname, './json/save_res.json'))
   ctx.body = JSON.parse(content)
 })
