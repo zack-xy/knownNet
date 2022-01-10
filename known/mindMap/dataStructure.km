@@ -161,7 +161,8 @@
                     "id": "ccmxl36mrio0",
                     "created": 1625663415640,
                     "text": "排序",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "note": "##### 常见排序js实现\n\nknown\\algorithm\\codes\\Sort.js"
                 },
                 "children": [
                     {
@@ -262,7 +263,7 @@
                     "id": "ccmxla536z40",
                     "created": 1625663430784,
                     "text": "非受限线性表",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -325,7 +326,8 @@
                                     "id": "ccmy1nvlx280",
                                     "created": 1625664714512,
                                     "text": "单链表",
-                                    "priority": 1
+                                    "priority": 1,
+                                    "note": "#### 链表js实现\nknown\\algorithm\\codes\\NodeList.js"
                                 },
                                 "children": [
                                     {

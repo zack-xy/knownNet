@@ -339,6 +339,15 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "cgsqgh900ps0",
+                    "created": 1640877300168,
+                    "text": "文件操作",
+                    "note": "[链接文字](E:\\VSCodeProject\\gitHub\\knownNet\\known\\node\\002.km)"
+                },
+                "children": []
             }
         ]
     },

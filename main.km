@@ -1,0 +1,305 @@
+{
+    "root": {
+        "data": {
+            "id": "ch1652q5wbk0",
+            "created": 1641734023960,
+            "text": "知识网络",
+            "note": "https://gitee.com/zackzhengxy/knownNet/blob/main/known/"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ch1663r2qbc0",
+                    "created": 1641734104556,
+                    "text": "前端"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch21xueswcg0",
+                            "created": 1641823732827,
+                            "text": "Html"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21xzgdgao0",
+                                    "created": 1641823743806,
+                                    "text": "标签和特殊符号",
+                                    "note": "known\\html\\20210926.md"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ch166o4wzb40",
+                            "created": 1641734148929,
+                            "text": "JavaScript"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21kxdp4go0",
+                                    "created": 1641822720556,
+                                    "text": "红宝书笔记",
+                                    "note": "known\\javascript\\20211203.km\nknown\\javascript\\20211213.km\nknown\\javascript\\20211215.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21ndpviz40",
+                                    "created": 1641822912850,
+                                    "text": "JWT介绍",
+                                    "note": "known\\mindMap\\jwt.km"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ch21stevtns0",
+                            "created": 1641823338834,
+                            "text": "CSS"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21syys2x40",
+                                    "created": 1641823350921,
+                                    "text": "Flex介绍",
+                                    "note": "known\\css\\cssFlex.png"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21t692r7c0",
+                                    "created": 1641823366781,
+                                    "text": "常见布局",
+                                    "note": "known\\css\\cssLayout.png"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21w6bhb540",
+                                    "created": 1641823602019,
+                                    "text": "CSS选择器",
+                                    "note": "known\\css\\20210926_01.md"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21wi78cyo0",
+                                    "created": 1641823627884,
+                                    "text": "常见概念"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ch21wlcnelc0",
+                                            "created": 1641823634742,
+                                            "text": "外边距塌陷",
+                                            "note": "known\\css\\20210926_02.md"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ch166vis3so0",
+                            "created": 1641734165005,
+                            "text": "Vue"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ch21md01u940",
+                            "created": 1641822832924,
+                            "text": "浏览器"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21minddr40",
+                                    "created": 1641822845218,
+                                    "text": "浏览器架构",
+                                    "note": "known\\mindMap\\browserPrinciples1.km"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ch21nvjd7sg0",
+                                            "created": 1641822951638,
+                                            "text": "事件循环",
+                                            "note": "known\\mindMap\\eventLoop.km"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ch1670cml800",
+                            "created": 1641734175517,
+                            "text": "VS Code快捷键",
+                            "note": "mindMap\\vsCodeOperation.km"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ch21p2q7pn40",
+                            "created": 1641823045654,
+                            "text": "NodeJS"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21p6redaw0",
+                                    "created": 1641823054433,
+                                    "text": "基础",
+                                    "note": "known\\node\\001.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21p9rjsmo0",
+                                    "created": 1641823060972,
+                                    "text": "文件操作",
+                                    "note": "known\\node\\002.km"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ch1665gxb1s0",
+                    "created": 1641734108296,
+                    "text": "后端"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch21jrw38s80",
+                            "created": 1641822630244,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21ju6u0o00",
+                                    "created": 1641822635247,
+                                    "text": "Linux命令参考",
+                                    "note": "known\\linux\\linuxCmd.jpg"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ch16679yxi80",
+                    "created": 1641734112229,
+                    "text": "算法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch21myc2lts0",
+                            "created": 1641822879363,
+                            "text": "数据结构",
+                            "note": "known\\mindMap\\dataStructure.km"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ch1669tzvfk0",
+                    "created": 1641734117794,
+                    "text": "杂项"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch166dkpqrc0",
+                            "created": 1641734125940,
+                            "text": "正则",
+                            "note": "known\\regExp\\20211130.km"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21q32zhyo0",
+                                    "created": 1641823124790,
+                                    "text": "速查表",
+                                    "note": "known\\regExp\\regExpSearch.jpg"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ch166k2a66o0",
+                            "created": 1641734140063,
+                            "text": "Git",
+                            "note": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch21rjp9fw00",
+                                    "created": 1641823239330,
+                                    "text": "Git基础",
+                                    "note": "known\\git\\gitAndGithub.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21rmh7sbc0",
+                                    "created": 1641823245374,
+                                    "text": "Git操作",
+                                    "note": "known\\git\\gitAndGithub2.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch21xch9aww0",
+                                    "created": 1641823693793,
+                                    "text": "Git Emoji",
+                                    "note": "known\\git\\20210926.md"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

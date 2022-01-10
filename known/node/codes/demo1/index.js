@@ -1,5 +1,8 @@
-function print (x) {
-  console.log(x)
-}
+const fs = require('fs')
+const nameList = fs.readdirSync(__dirname)
 
-print('aaa')
+nameList.forEach(currFileName => {
+  if (currFileName.endsWith('.js')) {
+    fs.renameSync(currFileName, `zack${currFileName}`)
+  }
+})
