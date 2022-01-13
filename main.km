@@ -56,6 +56,24 @@
                                     "note": "known\\mindMap\\jwt.km"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch4k0qqf8f40",
+                                    "created": 1642077859807,
+                                    "text": "作用域",
+                                    "note": "known\\javascript\\scope.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch4k22uhkow0",
+                                    "created": 1642077964538,
+                                    "text": "闭包",
+                                    "note": "known\\javascript\\closure.km"
+                                },
+                                "children": []
                             }
                         ]
                     },

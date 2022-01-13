@@ -1,0 +1,173 @@
+{
+    "root": {
+        "data": {
+            "text": "模块"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642060860765,
+                    "text": "好处"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642060875245,
+                            "text": "代码分块，减少代码量，提高了代码的可维护性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642060907204,
+                            "text": "模块可以被多次调用，减少了重复工作"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642061079490,
+                            "text": "避免变量和函数命名冲突"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642061340328,
+                                    "text": "为什么？"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642061361703,
+                                            "text": "库没有将标识符加入到全局作用域中，通过依赖管理器的机制，将库的标识符显式的导入到另外一个特定的作用域中"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642064097826,
+                    "text": "commonJS规范"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642064220745,
+                            "text": "怎么用？",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642064121243,
+                                    "text": "module.exports = variable;"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642064125010,
+                                    "text": "var ref = require('module_name');"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642064232729,
+                            "text": "原理"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642066174926,
+                    "text": "ES6模块"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642066222947,
+                    "text": "ES6模块和CommonJS模块差异"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642066246909,
+                            "text": "CommonJS模块输出的是一个值的拷贝，ES6模块输出的是值的引用"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642066278125,
+                            "text": "CommonJS模块是运行时加载，ES6模块是编译时输出接口"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642066321148,
+                                    "text": "为什么？"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642066340149,
+                                            "text": "CommonJS加载的是一个对象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642066354276,
+                                            "text": "ES6模块不是对象，是一种静态定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642066376483,
+                                            "text": "对象只能在脚本运行完才会生成，静态定义在代码静态解析阶段就会完成"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
