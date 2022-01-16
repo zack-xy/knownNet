@@ -8,14 +8,16 @@
                 "data": {
                     "id": 0,
                     "created": 1642060860765,
-                    "text": "好处"
+                    "text": "好处",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": 0,
                             "created": 1642060875245,
-                            "text": "代码分块，减少代码量，提高了代码的可维护性"
+                            "text": "代码分块，减少代码量，提高了代码的可维护性",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -23,7 +25,8 @@
                         "data": {
                             "id": 0,
                             "created": 1642060907204,
-                            "text": "模块可以被多次调用，减少了重复工作"
+                            "text": "模块可以被多次调用，减少了重复工作",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -31,21 +34,24 @@
                         "data": {
                             "id": 0,
                             "created": 1642061079490,
-                            "text": "避免变量和函数命名冲突"
+                            "text": "避免变量和函数命名冲突",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1642061340328,
-                                    "text": "为什么？"
+                                    "text": "为什么？",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1642061361703,
-                                            "text": "库没有将标识符加入到全局作用域中，通过依赖管理器的机制，将库的标识符显式的导入到另外一个特定的作用域中"
+                                            "text": "库没有将标识符加入到全局作用域中，通过依赖管理器的机制，将库的标识符显式的导入到另外一个特定的作用域中",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -58,31 +64,367 @@
             {
                 "data": {
                     "id": 0,
-                    "created": 1642064097826,
-                    "text": "commonJS规范"
+                    "created": 1642066222947,
+                    "text": "模块规范",
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": 0,
-                            "created": 1642064220745,
-                            "text": "怎么用？",
-                            "expandState": "expand"
+                            "created": 1642123537154,
+                            "text": "CommonJS和ES6差异",
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1642064121243,
-                                    "text": "module.exports = variable;"
+                                    "created": 1642066246909,
+                                    "text": "CommonJS模块输出的是一个值的拷贝，ES6模块输出的是值的引用",
+                                    "layout": null
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1642064125010,
-                                    "text": "var ref = require('module_name');"
+                                    "created": 1642066278125,
+                                    "text": "CommonJS模块是运行时加载，ES6模块是编译时输出接口",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642066321148,
+                                            "text": "为什么？",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642066340149,
+                                                    "text": "CommonJS加载的是一个对象",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642066354276,
+                                                    "text": "ES6模块不是对象，是一种静态定义",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642066376483,
+                                                    "text": "对象只能在脚本运行完才会生成，静态定义在代码静态解析阶段就会完成",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642064097826,
+                            "text": "commonJS",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642064220745,
+                                    "text": "怎么用？",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642064121243,
+                                            "text": "module.exports = variable;",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642064125010,
+                                            "text": "var ref = require('module_name');",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642064232729,
+                                    "text": "原理",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642143439351,
+                                            "text": "CommonJS的一个模块就是一个脚本文件",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642143469790,
+                                            "text": "require命令第一次加载该脚本，就会执行整个脚本，在内存生成一个对象{id: '.....',exports:{....},loaded: true}",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642143544870,
+                                            "text": "再次执行require命令，从缓存中取值",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642128666548,
+                                    "text": "特点",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642128706292,
+                                            "text": "无论一个模块在require()中被引用多少次，模块永远是单例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642128786923,
+                                                    "text": "什么是单例，即：var a1 = require('./moduleA'); var a2 = require('./moduleA');a1===a2为true",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642128712660,
+                                            "layout": null,
+                                            "text": "无论请求多少次，只会加载一次"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642128846442,
+                                            "text": "加载一次会被缓存",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642128870730,
+                                            "text": "模块加载是模块系统执行的同步操作",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642128911906,
+                                                    "text": "可以动态依赖，比如可以写在代码里，通过判断条件是否依赖",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642139229994,
+                                            "text": "nodejs应用在服务器，不需要考虑网络延迟",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642140043561,
+                                    "text": "浏览器如何支持？",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642140054197,
+                                            "text": "需要实现require和exports",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642139211450,
+                            "text": "AMD",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642139349177,
+                                    "text": "异步模块定义",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642139425634,
+                                    "text": "特点",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642139431208,
+                                            "text": "以浏览器为目标执行环境，需要考虑网络延迟",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642139468199,
+                                            "text": "模块需要声明自己的依赖，浏览器按需获取依赖，依赖加载完成后立即执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642139514431,
+                                    "text": "原理",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642139522287,
+                                            "text": "函数包装模块定义",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642139721326,
+                                                    "text": "包装模块的函数是全局define的参数",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642140083569,
+                                    "text": "如何支持commonjs？",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642140103604,
+                                            "text": "在AMD模块工厂函数内部定义CommonJS",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642140151633,
+                                                    "text": "AMD加载器会将其识别为原生AMD结构",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642140125658,
+                                            "text": "define('moduleA', ['require', 'exports'], function(require, exports) {     var moduleB = require('moduleB')      exports.stuff = moduleB.doStuff()       // \b动态依赖     if(condition) {         var moduleB = require('moduleB')     } })",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642140366743,
+                                    "text": "更详细的代码",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -91,77 +433,434 @@
                     {
                         "data": {
                             "id": 0,
-                            "created": 1642064232729,
-                            "text": "原理"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": 0,
-                    "created": 1642066174926,
-                    "text": "ES6模块"
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": 0,
-                    "created": 1642066222947,
-                    "text": "ES6模块和CommonJS模块差异"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1642066246909,
-                            "text": "CommonJS模块输出的是一个值的拷贝，ES6模块输出的是值的引用"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": 0,
-                            "created": 1642066278125,
-                            "text": "CommonJS模块是运行时加载，ES6模块是编译时输出接口"
+                            "created": 1642140404695,
+                            "text": "通用模块定义",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
-                                    "created": 1642066321148,
-                                    "text": "为什么？"
+                                    "created": 1642140416422,
+                                    "text": "为了统一CommonJS和AMD生态系统",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642140448718,
+                                    "text": "启动时检测使用哪个模块系统，进行适配",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
-                                            "created": 1642066340149,
-                                            "text": "CommonJS加载的是一个对象"
+                                            "created": 1642140505829,
+                                            "text": "具体实现示例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642140950885,
+                                                    "text": "(function() {  })(this, function(moduleB) {     // 以某种方式使用moduleB      // 将返回值作为模块的导出     // 这个例子返回了一个对象     // 但是模块页可以返回函数作为导出值     return {}; })   (function (root, factory) {     if(typeof define === 'function' && define.amd) {         // AMD 注册为匿名模块         define(['modules'], factory)     } else if(typeof module === 'object' && module.exports) {         // Node 不支持严格CommonJS         // 但可以在Node这样支持\bmodule.exports         // 类CommonJS环境\b下使用     } else {         // 浏览器全局上下文(root\b还是window)         root.returnExports = factory(root, modules)     } }(this, function (moduleB) {     // 以某种方式使用moduleB      // 将返回值作为模块的导出     // 这个例子返回了一个对象     // 但是模块页可以返回函数作为导出值     return {}; }))",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642066174926,
+                            "text": "ES6模块",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch56spm2ogo0",
+                                    "created": 1642142115981,
+                                    "text": "带有type=\"module\"属性的<script>标签代表相关代码为模块",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch56tjz5aiw0",
+                                    "created": 1642142182075,
+                                    "text": "所有模块像<script defer>加载脚本一样按顺序执行",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ch56ucgi82g0",
+                                            "created": 1642142244075,
+                                            "text": "立即下载，文件解析完成执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ch56w98q10g0",
+                                    "created": 1642142393802,
+                                    "text": "同一个模块无论在页面中被加载多少次，实际只会加载一次",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642142627122,
+                                    "text": "特点",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142631752,
+                                            "text": "模块代码只在加载后执行",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
                                             "id": 0,
-                                            "created": 1642066354276,
-                                            "text": "ES6模块不是对象，是一种静态定义"
+                                            "created": 1642142648520,
+                                            "text": "模块只能加载一次",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
                                             "id": 0,
-                                            "created": 1642066376483,
-                                            "text": "对象只能在脚本运行完才会生成，静态定义在代码静态解析阶段就会完成"
+                                            "created": 1642142658240,
+                                            "text": "模块是单例",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142668679,
+                                            "text": "模块可以定义公共接口，其他模块可以基于这个公共接口观察和交互",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142714790,
+                                            "text": "模块可以请求加载其他模块",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142735094,
+                                            "text": "支持循环依赖",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142747894,
+                                            "text": "默认在严格模式下执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142757326,
+                                            "text": "不共享全局命名空间",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142772366,
+                                            "text": "模块顶级this的值是undefined",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142787654,
+                                            "text": "模块中的var声明不会添加到window对象",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642142806342,
+                                            "text": "异步加载和执行",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642143091235,
+                                    "text": "如何兼容不支持的浏览器",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642143102833,
+                                            "text": "提供回退<script nomodule  src=\"\">标签",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
                                 ]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642122391438,
+                    "text": "本质",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642122399421,
+                            "text": "键/值实体",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642122560508,
+                            "text": "每个模块都有一个同于引用它的唯一标识符",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642122892440,
+                                    "text": "通常是文件路径",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642122988943,
+                    "text": "3个要点",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642122998031,
+                            "text": "模块依赖",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642123034663,
+                                    "text": "模块系统要检视依赖，保证外部模块能够加载并在本地模块运行时初始化所有依赖",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642123105718,
+                            "text": "模块加载",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642123139734,
+                                    "text": "执行模块的代码",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642123158173,
+                                            "text": "需所有模块都加载后",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642123193078,
+                                            "text": "可能要网络请求，需等到请求后请求到依赖的代码",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642123234973,
+                                                    "text": "需要分析请求到的代码是否还有依赖",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642123295148,
+                            "text": "入口",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642123306140,
+                                    "text": "相互依赖的模块必须指定一个入口作为代码执行的起点",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642123357636,
+                                    "text": "入口可能依赖其他模块，其他模块可能相互依赖，所以构成依赖图",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642142846614,
+                    "text": "如何解决循环依赖",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642143600029,
+                            "text": "commonJS",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642143608581,
+                                    "text": "一旦出现某个模块被“循环加载”，就只输出已经执行的部分，还未执行的部分不会输出",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642144048371,
+                            "text": "ES6",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642144063224,
+                                    "text": "遇到import时，不会执行模块，生成一个引用，等真正需要用到时，再到模块里去取值",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642144256007,
+                                    "text": "ES6不关心是否发生了“循环加载”，只是生成一个指向被加载模块的引用，需要开发者自己保证，真正取值的时候能够取到值",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642143938138,
+                            "text": "资料链接:http://www.ruanyifeng.com/blog/2015/11/circular-dependency.html",
+                            "layout": null
+                        },
+                        "children": []
                     }
                 ]
             }
