@@ -9,7 +9,8 @@
                     "id": 0,
                     "created": 1641541815954,
                     "text": "什么是作用域",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -17,28 +18,32 @@
                             "id": 0,
                             "created": 1641538198305,
                             "text": "编译原理",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1641538225192,
-                                    "text": "传统编译语言编译的3个步骤"
+                                    "text": "传统编译语言编译的3个步骤",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641538240832,
-                                            "text": "1: 分词/词法分析"
+                                            "text": "1: 分词/词法分析",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641538327837,
-                                                    "text": "将代码字符串分解为有意义的代码块（词法单元）"
+                                                    "text": "将代码字符串分解为有意义的代码块（词法单元）",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -46,7 +51,8 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641538414402,
-                                                    "text": "例如把:var a = 2;分解为：var、a、=、 2、 ;"
+                                                    "text": "例如把:var a = 2;分解为：var、a、=、 2、 ;",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -56,21 +62,24 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641538260024,
-                                            "text": "2: 解析/语法分析"
+                                            "text": "2: 解析/语法分析",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641538559469,
-                                                    "text": "将词法单元流(数组)转换成一个由元素逐级嵌套所组成的代表了程序语法结构的树"
+                                                    "text": "将词法单元流(数组)转换成一个由元素逐级嵌套所组成的代表了程序语法结构的树",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641538624996,
-                                                            "text": "这个树就是抽象语法树(Abstract Syntax Tree, AST)"
+                                                            "text": "这个树就是抽象语法树(Abstract Syntax Tree, AST)",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -88,14 +97,16 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641538821384,
-                                                            "text": "叫VariableDeclaration的顶级节点"
+                                                            "text": "叫VariableDeclaration的顶级节点",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": 0,
                                                                     "created": 1641538839085,
-                                                                    "text": "叫Identifier（值是a）的子节点"
+                                                                    "text": "叫Identifier（值是a）的子节点",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             },
@@ -103,14 +114,16 @@
                                                                 "data": {
                                                                     "id": 0,
                                                                     "created": 1641538882147,
-                                                                    "text": "叫AssignmentExpression的子节点"
+                                                                    "text": "叫AssignmentExpression的子节点",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": 0,
                                                                             "created": 1641538909818,
-                                                                            "text": "叫NumericLiteral（值是2）的子节点"
+                                                                            "text": "叫NumericLiteral（值是2）的子节点",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -126,14 +139,16 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641538275103,
-                                            "text": "3: 代码生成"
+                                            "text": "3: 代码生成",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539005975,
-                                                    "text": "将AST转换为可执行代码的过程，与语言、目标平台等信息相关"
+                                                    "text": "将AST转换为可执行代码的过程，与语言、目标平台等信息相关",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -141,7 +156,8 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539065405,
-                                                    "text": "如1:声明语句，将AST转化为一组机器指令，创建a的变量（分配内存），将一个值存储在a中"
+                                                    "text": "如1:声明语句，将AST转化为一组机器指令，创建a的变量（分配内存），将一个值存储在a中",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -153,21 +169,24 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641539302973,
-                                    "text": "JS与传统编译语言的区别"
+                                    "text": "JS与传统编译语言的区别",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641539315333,
-                                            "text": "编译不是发生在构建之前的"
+                                            "text": "编译不是发生在构建之前的",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539354043,
-                                                    "text": "所以没有大量的时间优化"
+                                                    "text": "所以没有大量的时间优化",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -177,21 +196,24 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641539381083,
-                                            "text": "编译发生在代码执行前几微秒"
+                                            "text": "编译发生在代码执行前几微秒",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539414602,
-                                                    "text": "为保证性能采用的技术"
+                                                    "text": "为保证性能采用的技术",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641539435776,
-                                                            "text": "JIT编译(即时编译)"
+                                                            "text": "JIT编译(即时编译)",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -199,7 +221,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641539506046,
-                                                            "text": "延迟编译"
+                                                            "text": "延迟编译",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -207,7 +230,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641539518718,
-                                                            "text": "实施重编译"
+                                                            "text": "实施重编译",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -224,7 +248,8 @@
                             "id": 0,
                             "created": 1641539659273,
                             "text": "从3个点来理解作用域",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -232,21 +257,24 @@
                                     "id": 0,
                                     "created": 1641540003078,
                                     "text": "以var a = 2;为例",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641539692439,
-                                            "text": "引擎"
+                                            "text": "引擎",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539711184,
-                                                    "text": "负责整个js程序的编译和执行过程"
+                                                    "text": "负责整个js程序的编译和执行过程",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -254,14 +282,16 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641540083308,
-                                                    "text": "在作用域中查找变量a，如果找到对其赋值"
+                                                    "text": "在作用域中查找变量a，如果找到对其赋值",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641540189768,
-                                                            "text": "对变量a进行LHS查询"
+                                                            "text": "对变量a进行LHS查询",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -269,21 +299,24 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641540216911,
-                                                            "text": "⚠️注：变量出现在赋值操作左侧进行LHS查询，在右侧进行RHS查询"
+                                                            "text": "⚠️注：变量出现在赋值操作左侧进行LHS查询，在右侧进行RHS查询",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": 0,
                                                                     "created": 1641540299372,
-                                                                    "text": "LHS试图找到变量容器本身"
+                                                                    "text": "LHS试图找到变量容器本身",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": 0,
                                                                             "created": 1641540392681,
-                                                                            "text": "如：a=2是LHS查询，不关心值，需要找到一个容器存2"
+                                                                            "text": "如：a=2是LHS查询，不关心值，需要找到一个容器存2",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -293,14 +326,16 @@
                                                                 "data": {
                                                                     "id": 0,
                                                                     "created": 1641540327027,
-                                                                    "text": "RHS试图找到变量的值"
+                                                                    "text": "RHS试图找到变量的值",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": 0,
                                                                             "created": 1641540357971,
-                                                                            "text": "如：console.log(a)就是RHS查询，试图找到a的值"
+                                                                            "text": "如：console.log(a)就是RHS查询，试图找到a的值",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -316,14 +351,16 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641539697025,
-                                            "text": "编译器"
+                                            "text": "编译器",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539731470,
-                                                    "text": "负责语法分析和代码生成"
+                                                    "text": "负责语法分析和代码生成",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -331,7 +368,8 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641540033652,
-                                                    "text": "声明一个变量a"
+                                                    "text": "声明一个变量a",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -341,14 +379,16 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641539701145,
-                                            "text": "作用域"
+                                            "text": "作用域",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641539746526,
-                                                    "text": "负责收集和维护所有声明的标识符(变量)组成的查询、确定当前代码对标识符的访问权限"
+                                                    "text": "负责收集和维护所有声明的标识符(变量)组成的查询、确定当前代码对标识符的访问权限",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -356,14 +396,16 @@
                                                 "data": {
                                                     "id": 0,
                                                     "created": 1641540992700,
-                                                    "text": "查找变量的规则"
+                                                    "text": "查找变量的规则",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641541140816,
-                                                            "text": "一个块或者函数就是一个作用域"
+                                                            "text": "一个块或者函数就是一个作用域",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -371,7 +413,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641541160338,
-                                                            "text": "从当前作用域依次向外层作用域查找，直到查找到全局作用域"
+                                                            "text": "从当前作用域依次向外层作用域查找，直到查找到全局作用域",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -379,7 +422,8 @@
                                                         "data": {
                                                             "id": 0,
                                                             "created": 1641541305178,
-                                                            "text": "找不到抛出ReferenceError异常"
+                                                            "text": "找不到抛出ReferenceError异常",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -398,10 +442,7 @@
                     "id": 0,
                     "created": 1641541851233,
                     "text": "词法作用域",
-                    "layout_mind_offset": {
-                        "x": 13,
-                        "y": -6
-                    }
+                    "layout": null
                 },
                 "children": [
                     {
@@ -409,21 +450,24 @@
                             "id": 0,
                             "created": 1641542511770,
                             "text": "概念",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1641541913879,
-                                    "text": "两种主要工作模型之一，大多数编程语言采用的作用域"
+                                    "text": "两种主要工作模型之一，大多数编程语言采用的作用域",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641541949406,
-                                            "text": "另外一个工作模型为动态作用域，Bash脚本、Perl中的一些模式使用"
+                                            "text": "另外一个工作模型为动态作用域，Bash脚本、Perl中的一些模式使用",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -433,7 +477,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542056426,
-                                    "text": "定义在词法阶段(编译第1阶段)的作用域"
+                                    "text": "定义在词法阶段(编译第1阶段)的作用域",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -441,7 +486,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542303633,
-                                    "text": "无论函数在哪里被调用，如何被调用，它的词法作用域都只由函数被声明时所处的位置决定"
+                                    "text": "无论函数在哪里被调用，如何被调用，它的词法作用域都只由函数被声明时所处的位置决定",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -451,21 +497,24 @@
                         "data": {
                             "id": 0,
                             "created": 1641542535977,
-                            "text": "词法作用域的修改"
+                            "text": "词法作用域的修改",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": 0,
                                     "created": 1641542556785,
-                                    "text": "eval"
+                                    "text": "eval",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641542575649,
-                                            "text": "接收字符串，字符串作为代码放置在eval的位置"
+                                            "text": "接收字符串，字符串作为代码放置在eval的位置",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -473,7 +522,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641542692804,
-                                            "text": "严格模式不会修改所在的作用域"
+                                            "text": "严格模式不会修改所在的作用域",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -483,7 +533,8 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542742811,
-                                    "text": "setTimeout/setInterval第一个参数字符串⚠️⚠️过时不提倡"
+                                    "text": "setTimeout/setInterval第一个参数字符串⚠️⚠️过时不提倡",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -491,14 +542,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542894095,
-                                    "text": "with(不推荐使用)"
+                                    "text": "with(不推荐使用)",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641542958668,
-                                            "text": "将对象处理为词法作用域"
+                                            "text": "将对象处理为词法作用域",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -506,7 +559,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641542990995,
-                                            "text": "创造了一个新的词法作用域"
+                                            "text": "创造了一个新的词法作用域",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -514,7 +568,8 @@
                                         "data": {
                                             "id": 0,
                                             "created": 1641543054169,
-                                            "text": "严格模式禁止"
+                                            "text": "严格模式禁止",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -524,14 +579,16 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542808289,
-                                    "text": "new Function(...)"
+                                    "text": "new Function(...)",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": 0,
                                             "created": 1641542828033,
-                                            "text": "比eval(...)略安全"
+                                            "text": "比eval(...)略安全",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -541,7 +598,37 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1641542846935,
-                                    "text": "修改词法作用域会造成性能损失"
+                                    "text": "修改词法作用域会造成性能损失",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ch70ljgbpj40",
+                    "created": 1642327747278,
+                    "text": "块作用域",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch70ln49vmw0",
+                            "created": 1642327755256,
+                            "text": "考虑es6之前块作用域如何实现？",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch70lyopxr40",
+                                    "created": 1642327780437,
+                                    "text": "使用try{}catch(){}：try{throw 2;}catch(a){    console.log( a ); // 2}  // a变量在外面无法访问",
+                                    "layout": null
                                 },
                                 "children": []
                             }
