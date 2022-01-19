@@ -1,0 +1,778 @@
+{
+    "root": {
+        "data": {
+            "text": "React"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642406065255,
+                    "text": "预备知识",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642406037407,
+                            "text": "create-react-app",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642406056254,
+                                    "text": "创建项目demo",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642406101383,
+                                            "text": "npx create-react-app demo",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642406118079,
+                                    "text": "启动项目",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642406130527,
+                                            "text": "npm start",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642406143015,
+                                    "text": "暴露配置项",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642406153439,
+                                            "text": "npm run eject",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642411051098,
+                            "text": "JSX",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642411090194,
+                                    "text": "表达式使用{}包裹"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411304002,
+                                            "text": "变量"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411311996,
+                                            "text": "函数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411316066,
+                                            "text": "jsx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642411798786,
+                                    "text": "html属性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411805321,
+                                            "text": "<img src={logo} className=\"logo\" style={{width:'100px,height:'100px''}}>"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642411851057,
+                                    "text": "导入css文件",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411734049,
+                                            "text": "css模块化"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642411887057,
+                            "text": "组件",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642411892345,
+                                    "text": "class组件",
+                                    "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/ClassComponent.js",
+                                    "hyperlinkTitle": "示例代码"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411923961,
+                                            "text": "通常拥有状态和生命周期"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642411943177,
+                                            "text": "继承于Component，实现render方法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490074352,
+                                            "text": "基本代码"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642411893145,
+                                    "text": "function组件",
+                                    "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/FunctionComponent.js",
+                                    "hyperlinkTitle": "示例代码"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490080880,
+                                            "text": "基本代码"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642490097665,
+                            "text": "正确使用setState",
+                            "expandState": "expand",
+                            "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/SetStateComponent.js",
+                            "hyperlinkTitle": "示例代码"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642490114465,
+                                    "text": "setState(partialState,callback)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490175880,
+                                            "text": "partialState: Object | Function"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642490209048,
+                                                    "text": "用于产生和当前state合并的子集"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490229992,
+                                            "text": "callback: Function"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642490242856,
+                                                    "text": "state更新之后被调用"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642490364696,
+                                    "text": "3个注意"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490371168,
+                                            "text": "不要直接修改(赋值)State"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642490446400,
+                                            "text": "State的更新可能是异步的"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642490754991,
+                                                    "text": "setState在合成事件和生命周期中是异步的，（异步指批量更新）"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642490791263,
+                                                            "text": "怎么理解？比如setState改一个值，立即打印这个值，并不是打印改之后的值"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642490912112,
+                                                            "layout": null,
+                                                            "text": "为啥？优化性能，setState之后要更新渲染组件，防止频繁渲染"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642491491615,
+                                                    "text": "如何同步"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642491500462,
+                                                            "text": "setState外面包一层setTimeout，在setTimeout中是同步的"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642491530663,
+                                                                    "text": "        setTimeout(() => {             this.setState({                 counter: this.state.counter + 2             })             console.log('counter', this.state.counter);         }, 0);"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642491675910,
+                                                            "text": "原生事件中"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642491919447,
+                                                                    "text": "比如dom.addEventListener('click', this.setState)"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642491987559,
+                                                            "text": "setState的回调"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642492051574,
+                                            "text": "State的更新会被合并"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642492110198,
+                                                    "text": "比如对一个state连续写两个setState,第一个不生效"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642492172175,
+                                                    "text": "如果就是要更新两(多)次呢？"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642492199422,
+                                                            "text": "setState第一个参数要为函数"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642492247695,
+                                                                    "text": "比如：        this.setState(state => {             return {                 counter: state.counter + v             }         })"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": 0,
+                                                                            "created": 1642492321790,
+                                                                            "text": "更新counter，v是外部传进来的"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642492431623,
+                            "text": "生命周期",
+                            "expandState": "expand",
+                            "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/LifeCyclePage.js",
+                            "hyperlinkTitle": "示例代码"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642576463528,
+                                    "text": "V16.4之前",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576485481,
+                                            "text": "componentWillMount"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576496312,
+                                            "text": "componentDidMount"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576502575,
+                                            "text": "shouldComponentUpdate"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576516767,
+                                            "text": "componentWillUpdate"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576509095,
+                                            "text": "componentDidUpdate"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576538311,
+                                            "text": "componentWillUnmount"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576544855,
+                                            "text": "componentWillReceiveProps"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642576472480,
+                                    "text": "V16.4之后",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642576575495,
+                                            "text": "新增生命周期"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642576584007,
+                                                    "text": "static getDerivedStateFromProps"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642576602031,
+                                                            "text": "替换"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576606639,
+                                                                    "text": "componentWillMount"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576614119,
+                                                                    "text": "componentWillUpdate"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576620447,
+                                                                    "text": "componentWillReceiveProps"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642576592280,
+                                                            "text": "render之前执行"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576635199,
+                                                                    "text": "参数(props, state)"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576645641,
+                                                                    "text": "返回一个对象更新state，返回null什么也不更新"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642576669407,
+                                                    "text": "getSnapshotBeforeUpdate"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": 0,
+                                                            "created": 1642576681215,
+                                                            "text": "获取上一次state"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576688135,
+                                                                    "text": "参数(prevProps, prevState)"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": 0,
+                                                                    "created": 1642576703007,
+                                                                    "layout_right_offset": {
+                                                                        "x": 7,
+                                                                        "y": 10
+                                                                    },
+                                                                    "text": "返回的数据传递给componentDidUpdate(prevProps,prevState, snapShot)，第3个参数"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642577323991,
+                            "text": "组件复合",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642577703614,
+                                    "text": "this.props.children"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642577932710,
+                                            "text": "react.element"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642577941319,
+                                    "text": "this.props"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642578745422,
+                            "text": "redux",
+                            "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/ReduxPage.js",
+                            "hyperlinkTitle": "示例代码"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642578751869,
+                                    "text": "何时使用？"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642578774437,
+                                            "text": "大量随时间变化的数据"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642578793093,
+                                            "text": "state需要一个单一可靠数据来源"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642578819213,
+                                            "text": "state放在顶层组件不满足需要"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642578832101,
+                                            "text": "组件状态需要共享"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642583395477,
+                            "text": "react-redux",
+                            "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/codes/react-demo/src/pages/ReactReduxPage.js",
+                            "hyperlinkTitle": "示例代码"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642583624477,
+                                    "text": "Provider"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642583648540,
+                                            "text": "为后代组件提供store"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642583632479,
+                                    "text": "connect"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642583660789,
+                                            "text": "为组件提供数据和变更方法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
