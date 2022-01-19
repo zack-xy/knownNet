@@ -10,5 +10,5 @@ app.use(bodyParser())
 app.use(route.routes(), route.allowedMethods())
 
 app.listen(3070, () => {
-  console.log(chalk.green('Mock服务器已在3070端口启动，'))
+    console.log(chalk.green('Mock服务器已在3070端口启动，'))
 })

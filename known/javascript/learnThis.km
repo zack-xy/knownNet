@@ -1,0 +1,48 @@
+{
+    "root": {
+        "data": {
+            "id": "ch73f5zwub40",
+            "created": 1642335711132,
+            "text": "this"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ch73h2kkcug0",
+                    "created": 1642335860402,
+                    "text": "this绑定规则"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ch73ix8qczk0",
+                            "created": 1642336005531,
+                            "text": "默认绑定"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ch73j0xzt8o0",
+                                    "created": 1642336013589,
+                                    "text": "严格模式：this为undefined"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ch73jn4kq8o0",
+                                    "created": 1642336061876,
+                                    "text": "非严格模式：this为全局对象"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
