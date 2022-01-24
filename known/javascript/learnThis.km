@@ -1,40 +1,333 @@
 {
     "root": {
         "data": {
-            "id": "ch73f5zwub40",
-            "created": 1642335711132,
-            "text": "this"
+            "text": "理解this"
         },
         "children": [
             {
                 "data": {
-                    "id": "ch73h2kkcug0",
-                    "created": 1642335860402,
-                    "text": "this绑定规则"
+                    "id": 0,
+                    "created": 1642659570875,
+                    "text": "是什么"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "ch73ix8qczk0",
-                            "created": 1642336005531,
+                            "id": 0,
+                            "created": 1642659577002,
+                            "text": "函数被调用，记录执行上下文"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642659679027,
+                    "text": "调用位置"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642659750724,
                             "text": "默认绑定"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "ch73j0xzt8o0",
-                                    "created": 1642336013589,
-                                    "text": "严格模式：this为undefined"
+                                    "id": 0,
+                                    "created": 1642659771610,
+                                    "text": "全局对象/undefined"
                                 },
                                 "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642659818386,
+                            "text": "隐式绑定"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642659846971,
+                                    "text": "上下文对象的最后一层"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642659942474,
+                            "text": "显式绑定"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642659975025,
+                                    "text": "call"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660138986,
+                                            "text": "单个参数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "ch73jn4kq8o0",
-                                    "created": 1642336061876,
-                                    "text": "非严格模式：this为全局对象"
+                                    "id": 0,
+                                    "created": 1642659979627,
+                                    "text": "apply"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660131522,
+                                            "text": "参数数组"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642659983827,
+                                    "text": "bind"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660551594,
+                                            "text": "使用apply简单实现bind"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": 0,
+                                                    "created": 1642660571637,
+                                                    "text": "function bind(fn, obj) {     return function() {         return fn.apply(obj, arguments)     } }"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642660890131,
+                            "text": "new绑定"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642660901210,
+                                    "text": " new的过程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660912546,
+                                            "text": "1.创建（或者说构造）一个全新的对象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660942427,
+                                            "text": "2.这个对象会被执行[[原型]]连接"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660974570,
+                                            "text": "3.这个新对象会绑定到函数调用的this"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642660996818,
+                                            "text": "4.如果函数没有返回其他对象，那么new表达式中的函数调用会自动返回这个新对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642661131371,
+                                    "text": "new新对象绑定到构造函数调用中的this上（new的新对象就是构造函数中的this）"
                                 },
                                 "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": 0,
+                    "created": 1642668190026,
+                    "text": "判断this"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642668204786,
+                            "text": "1.函数是否在new中调用（new绑定）？如果是的话，this绑定的是新创建的对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642668244017,
+                            "text": "2.函数是否通过call、apply（显式绑定）或者硬绑定调用？如果是的话，this绑定的是指定的对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642668288834,
+                            "text": "3.函数是否在某个上下文对象中调用（隐式绑定）？如果是的话，this绑定的是那个上下文对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642668334723,
+                            "text": "4.如果都不是的话，使用默认绑定，在严格模式下，绑定到undefined，否则绑定到全局对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": 0,
+                            "created": 1642668417466,
+                            "text": "其他异常情况"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642668426684,
+                                    "text": "null或者undefined作为this传入call、apply、bind，应用默认绑定"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642668733858,
+                                            "text": "⚠️应避免传入null或undefined"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642668753459,
+                                            "text": "可以传入空对象如：Object.create(null)，避免传入null"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642668929099,
+                                    "text": "间接引用，应用默认绑定"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642668947377,
+                                            "text": "function foo() {     console.log(this.a) }  var a = 2; var o = {a: 3, foo: foo}; var p = {a: 4}  o.foo() // 3 (p.foo = o.foo)() //2"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642669286634,
+                                    "text": "自实现软绑定"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642669551843,
+                                            "text": "if(!Function.prototype.softBind) {     Function.prototype.softBind = function(obj) {         var fn = this         var curried = [].slice.call(arguments, 1)         var bound = function() {             return fn.apply(                 (!this || this === (window || global)) ? obj : this,                 curried.concat.apply(curried, arguments)             )         }         bound.prototype = Object.create(fn.prototype)         return bound     } }"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": 0,
+                                    "created": 1642669613426,
+                                    "text": "箭头函数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642669636074,
+                                            "text": "不适应以上规则，根据外层（函数或者全局）作用域来决定this"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642669731914,
+                                            "text": "函数a内部的箭头函数会捕获调用函数a时的this，绑定无法被修改，new也无法修改"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": 0,
+                                            "created": 1642669897778,
+                                            "text": "继承外部函数调用的this绑定，和手动指定self=this类似"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
