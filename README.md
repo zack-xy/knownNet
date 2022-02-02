@@ -18,5 +18,4 @@ resourceUrl // 资源链接
 vue // Vue相关
 readme.md // markdown常用语法
 ```
-2. 文件夹`codes`示例代码
-3. `main.km`  主脑图，知识结构入口
+2. `main.km`  主脑图，知识结构入口
