@@ -585,6 +585,84 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "chkpiluaxko0",
+                    "created": 1643718324569,
+                    "text": "浏览器内核和JS引擎的关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chkpjislfa80",
+                            "created": 1643718396299,
+                            "text": "WebCore"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chkpjmvvzp40",
+                                    "created": 1643718405206,
+                                    "text": "负责HTML解析、布局、渲染等等相关的工作"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chkpjyj11wg0",
+                            "created": 1643718430549,
+                            "text": "JavaScriptCore"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chkpk3t8zxk0",
+                                    "created": 1643718442051,
+                                    "text": "解析、执行JavaScript代码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chkpl7k7pk80",
+                    "created": 1643718528576,
+                    "text": "V8引擎"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chkplhr38ps0",
+                            "created": 1643718550760,
+                            "text": "C++编写JavaScript和WebAssembly引擎"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chkpm6kknhk0",
+                            "created": 1643718604785,
+                            "text": "V8可以独立运行，也可以嵌入到任何C++应用程序中"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chkq6gw8g9c0",
+                            "created": 1643720194541,
+                            "text": "JS执行过程",
+                            "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/known/mindMap/images/JSRun.png",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },

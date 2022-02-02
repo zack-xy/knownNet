@@ -1,0 +1,111 @@
+{
+    "root": {
+        "data": {
+            "id": "chkp3oinkv40",
+            "created": 1643717154932,
+            "text": "浏览器渲染过程"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chkp3v0h0u80",
+                    "created": 1643717169070,
+                    "text": "HTML"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chkp4fw0l9c0",
+                            "created": 1643717214513,
+                            "text": "HTML Parser"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chkp4m6bd5c0",
+                                    "created": 1643717228197,
+                                    "text": "DOM Tree"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chkp6c5w44o0",
+                                            "created": 1643717363131,
+                                            "text": "+Style Rules"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chkp6vyjaf40",
+                                                    "created": 1643717406222,
+                                                    "text": "Render Tree"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chkp71z6je80",
+                                                            "created": 1643717419322,
+                                                            "text": "Painting"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chkp7832coo0",
+                                                                    "created": 1643717432618,
+                                                                    "text": "Display"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "chkp7gka0g80",
+                                                            "created": 1643717451073,
+                                                            "text": "Layout"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chkp3xho4ko0",
+                    "created": 1643717174464,
+                    "text": "Style Sheets"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chkp4teoonc0",
+                            "created": 1643717243940,
+                            "text": "CSS Parser",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chkp50383yo0",
+                                    "created": 1643717258485,
+                                    "text": "Style Rules"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
