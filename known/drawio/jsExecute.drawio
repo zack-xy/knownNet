@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="V652wJky_bePcJq_C6Fc" name="Page-1">
-        <mxGraphModel dx="1484" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1039" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -72,8 +72,8 @@
                 <mxCell id="25" value="{&lt;br&gt;m:&lt;br&gt;undefined,&lt;br&gt;n:undefined&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
                     <mxGeometry x="380" y="80" width="135" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="AO(Activation Object)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="50" width="130" height="20" as="geometry"/>
+                <mxCell id="26" value="AO(Activation Object)&lt;br&gt;激活对象&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="45" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="函数内部变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
                     <mxGeometry x="370" y="80" width="80" height="20" as="geometry"/>
@@ -89,6 +89,48 @@
                 </mxCell>
                 <mxCell id="37" value="函数执行完，弹栈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
                     <mxGeometry x="10" y="420" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="环境变量和记录" style="shape=table;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;pointerEvents=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="450" width="490" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="41">
+                    <mxGeometry y="40" width="490" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font style=&quot;font-size: 18px&quot;&gt;早期ECMA规范&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="42">
+                    <mxGeometry width="90" height="93" as="geometry">
+                        <mxRectangle width="90" height="93" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 18px&quot;&gt;每个执行上下文会被关联到一个变量环境（varible object， VO），在源代码中的变量&lt;br&gt;和函数声明会被作为属性添加到VO中&lt;br&gt;对于函数来说，参数也会被添加到VO中&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="42">
+                    <mxGeometry x="90" width="400" height="93" as="geometry">
+                        <mxRectangle width="400" height="93" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="41">
+                    <mxGeometry y="133" width="490" height="163" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 18px&quot;&gt;最新的ECMA&lt;br&gt;规范&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="45">
+                    <mxGeometry width="90" height="163" as="geometry">
+                        <mxRectangle width="90" height="163" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;font style=&quot;font-size: 18px&quot;&gt;每一个执行上下文会关联到一个变量环境（VaribleEnvironment）中，在执行代码中&lt;br&gt;变量和函数的声明会作为环境记录（Environment Record）添加到变量环境中&lt;br&gt;对于函数来说，参数也会作为环境记录添加到环境变量中&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="45">
+                    <mxGeometry x="90" width="400" height="163" as="geometry">
+                        <mxRectangle width="400" height="163" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="41">
+                    <mxGeometry y="296" width="490" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="48">
+                    <mxGeometry width="90" height="30" as="geometry">
+                        <mxRectangle width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontSize=10;" vertex="1" parent="48">
+                    <mxGeometry x="90" width="400" height="30" as="geometry">
+                        <mxRectangle width="400" height="30" as="alternateBounds"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -571,7 +571,7 @@
                     "created": 1639364556981,
                     "text": "语法",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -579,7 +579,7 @@
                             "id": 0,
                             "created": 1639364793662,
                             "text": "变量",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -660,6 +660,16 @@
                                                     "created": 1639365054523,
                                                     "text": "可反复声明同一个变量",
                                                     "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chliw69t5sg0",
+                                                    "created": 1643801199963,
+                                                    "text": "变量提升的代码面试题",
+                                                    "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsScope.js",
+                                                    "hyperlinkTitle": ""
                                                 },
                                                 "children": []
                                             }
