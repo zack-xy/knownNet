@@ -2072,7 +2072,7 @@
                             "id": 0,
                             "created": 1639387482024,
                             "text": "迭代器",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -2354,7 +2354,7 @@
                             "created": 1639387505481,
                             "text": "生成器",
                             "layout": null,
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2362,7 +2362,7 @@
                                     "id": "cge7ddig36o0",
                                     "created": 1639401616458,
                                     "text": "基本概念",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -2428,7 +2428,7 @@
                                     "created": 1639401627551,
                                     "text": "yield",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -2457,7 +2457,7 @@
                                     "created": 1639401929014,
                                     "text": "作用",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -2466,7 +2466,8 @@
                                             "created": 1639401934964,
                                             "text": "生成器对象作为可迭代对象",
                                             "note": null,
-                                            "layout": null
+                                            "layout": null,
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -2492,8 +2493,10 @@
                                                 "data": {
                                                     "id": "cge7tgya36o0",
                                                     "created": 1639402877772,
-                                                    "text": "function* nTimes (n) {\n  for (let i = 0; i < n; ++i) {\n\tyield i\n  }\n}\n\nfor (let x of nTimes(3)) {\n  console.log(x)\n}",
-                                                    "layout": null
+                                                    "text": "代码1",
+                                                    "layout": null,
+                                                    "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsGenerator.js",
+                                                    "hyperlinkTitle": ""
                                                 },
                                                 "children": []
                                             }
@@ -2519,8 +2522,10 @@
                                                         "data": {
                                                             "id": "cge7xqnfxl40",
                                                             "created": 1639403212342,
-                                                            "text": "function* generatorFn () {\n  yield* [1, 2, 3]\n}\n\nlet generatorObject = generatorFn()\n\nfor (const x of generatorObject) {\n  console.log(x);\n}\n\n// 1\n// 2\n// 3",
-                                                            "layout": null
+                                                            "text": "代码2：",
+                                                            "layout": null,
+                                                            "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsGenerator.js",
+                                                            "hyperlinkTitle": ""
                                                         },
                                                         "children": []
                                                     }
@@ -2540,8 +2545,10 @@
                                                 "data": {
                                                     "id": "cge83dlpsso0",
                                                     "created": 1639403654124,
-                                                    "text": "function* nTimes (n) {\n  if (n > 0) {\n\tyield* nTimes(n - 1);\n\tyield n - 1;\n  }\n}\n\nfor (const x of nTimes(3)) {\n  console.log(x);\n}",
-                                                    "layout": null
+                                                    "text": "代码3：",
+                                                    "layout": null,
+                                                    "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsGenerator.js",
+                                                    "hyperlinkTitle": ""
                                                 },
                                                 "children": []
                                             }
@@ -2606,8 +2613,10 @@
                                                 "data": {
                                                     "id": "cge954ovfmo0",
                                                     "created": 1639406612562,
-                                                    "text": "function* generatorFn () {\n  for (const x of [1, 2, 3]) {\n\ttry {\n\t  yield x;\n\t} catch (error) {\n\n\t}\n  }\n}\n\nconst g = generatorFn()\nconsole.log(g.next());\ng.throw('foo')\nconsole.log(g.next())",
-                                                    "layout": null
+                                                    "text": "代码4：",
+                                                    "layout": null,
+                                                    "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsGenerator.js",
+                                                    "hyperlinkTitle": ""
                                                 },
                                                 "children": []
                                             }
