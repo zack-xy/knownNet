@@ -10,7 +10,7 @@
                     "created": 1638519108236,
                     "text": "介绍JS",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -18,7 +18,7 @@
                             "id": 0,
                             "created": 1638519165361,
                             "text": "JS实现",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -187,7 +187,8 @@
                             "id": 0,
                             "created": 1639362353502,
                             "text": "使用<script>元素",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -251,6 +252,49 @@
                                                             "layout": null
                                                         },
                                                         "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "chljytw78io0",
+                                                            "created": 1643804229221,
+                                                            "text": "补充知识：DOMContentLoaded和Load"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chljz68b2qo0",
+                                                                    "created": 1643804256075,
+                                                                    "text": "DOMContentLoaded"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "chljzg2b8nc0",
+                                                                            "created": 1643804277480,
+                                                                            "text": "HTML 文档被完全加载和解析完成之后，DOMContentLoaded 事件被触发，而无需等待样式表、图像和子框架的完成加载。"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "chljzdqan2w0",
+                                                                    "created": 1643804272400,
+                                                                    "text": "Load"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "chljzvxfwrc0",
+                                                                            "created": 1643804312014,
+                                                                            "text": "load 仅用于检测一个完全加载的页面，页面的html、css、js、图片等资源都已经加载完之后才会触发 load 事件"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -571,7 +615,7 @@
                     "created": 1639364556981,
                     "text": "语法",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -579,7 +623,7 @@
                             "id": 0,
                             "created": 1639364793662,
                             "text": "变量",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -588,7 +632,7 @@
                                     "id": 0,
                                     "created": 1639364799548,
                                     "text": "var",
-                                    "expandState": "expand",
+                                    "expandState": "collapse",
                                     "layout": null
                                 },
                                 "children": [
@@ -748,7 +792,7 @@
                                     "id": 0,
                                     "created": 1639364806437,
                                     "text": "let",
-                                    "expandState": "expand",
+                                    "expandState": "collapse",
                                     "layout": null
                                 },
                                 "children": [
@@ -996,7 +1040,7 @@
                                     "id": 0,
                                     "created": 1639366437030,
                                     "text": "原始数据类型/简单数据类型",
-                                    "expandState": "expand",
+                                    "expandState": "collapse",
                                     "layout": null
                                 },
                                 "children": [
@@ -1562,7 +1606,7 @@
                     "id": 0,
                     "created": 1639377414112,
                     "text": "变量、作用域和内存",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -1788,7 +1832,9 @@
                             "id": 0,
                             "created": 1639382241280,
                             "text": "垃圾回收",
-                            "layout": null
+                            "layout": null,
+                            "note": "known\\javascript\\memoryManage.km",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1796,7 +1842,8 @@
                                     "id": 0,
                                     "created": 1639382265672,
                                     "text": "标记清理",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1815,7 +1862,8 @@
                                     "id": 0,
                                     "created": 1639382271283,
                                     "text": "引用计数",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1852,7 +1900,8 @@
                                     "id": 0,
                                     "created": 1639382877977,
                                     "text": "性能",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -2225,19 +2274,11 @@
                                     "id": 0,
                                     "created": 1639388006760,
                                     "text": "自定义迭代器例子",
-                                    "layout": null
+                                    "layout": null,
+                                    "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsInterator.js",
+                                    "hyperlinkTitle": ""
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": 0,
-                                            "created": 1639388017672,
-                                            "text": "class Counter {    constructor(limit) {     this.limit = limit;   }   [Symbol.iterator]() { let count = 1, limit = this.limit; return { next() { if (count <= limit) { return { done: false, value: count++ }; } else { return { done: true, value: undefined }; } } };   } }  let counter = new Counter(3);for (let i of counter) { console.log(i); }",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
+                                "children": []
                             },
                             {
                                 "data": {
@@ -2312,7 +2353,8 @@
                             "id": 0,
                             "created": 1639387505481,
                             "text": "生成器",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "collapse"
                         },
                         "children": [
                             {

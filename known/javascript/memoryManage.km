@@ -1,0 +1,58 @@
+{
+    "root": {
+        "data": {
+            "id": "chljimkufyo0",
+            "created": 1643802959471,
+            "text": "js内存管理",
+            "note": "known\\javascript\\20211020_03.md"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chljj2hh8fk0",
+                    "created": 1643802994096,
+                    "text": "栈结构"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chljjph2asw0",
+                            "created": 1643803044137,
+                            "text": "基本数据类型内存分配在栈结构"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chljj8u3w1c0",
+                    "created": 1643803007920,
+                    "text": "堆结构"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chljk0cbrq80",
+                            "created": 1643803067795,
+                            "text": "复杂数据类型会在堆内存开辟空间，将这块空间的指针返回值变量引用"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chljnzyjkug0",
+                    "created": 1643803380418,
+                    "text": "垃圾回收机制GC",
+                    "note": "known\\javascript\\20211203.km"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

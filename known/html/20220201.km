@@ -10,49 +10,56 @@
                 "data": {
                     "id": "chkp3v0h0u80",
                     "created": 1643717169070,
-                    "text": "HTML"
+                    "text": "HTML",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "chkp4fw0l9c0",
                             "created": 1643717214513,
-                            "text": "HTML Parser"
+                            "text": "HTML Parser",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "chkp4m6bd5c0",
                                     "created": 1643717228197,
-                                    "text": "DOM Tree"
+                                    "text": "DOM Tree",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "chkp6c5w44o0",
                                             "created": 1643717363131,
-                                            "text": "+Style Rules"
+                                            "text": "+Style Rules",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "chkp6vyjaf40",
                                                     "created": 1643717406222,
-                                                    "text": "Render Tree"
+                                                    "text": "Render Tree",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "chkp71z6je80",
                                                             "created": 1643717419322,
-                                                            "text": "Painting"
+                                                            "text": "Painting",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": "chkp7832coo0",
                                                                     "created": 1643717432618,
-                                                                    "text": "Display"
+                                                                    "text": "Display",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             }
@@ -62,13 +69,50 @@
                                                         "data": {
                                                             "id": "chkp7gka0g80",
                                                             "created": 1643717451073,
-                                                            "text": "Layout"
+                                                            "text": "Layout",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
                                                 ]
                                             }
                                         ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chlk1bmqhb40",
+                                    "created": 1643804424559,
+                                    "text": "浏览器会对这个 html 文件进行编译，浏览器会对转化后的数据结构自上而下进行分析：首先开启下载线程，对所有的资源进行优先级排序下载（注意，这里仅仅是下载）。同时主线程会对文档进行解析： ",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chlk1ubpj0w0",
+                                            "created": 1643804465252,
+                                            "text": "遇到 script 标签时，首先阻塞后续内容的解析，同时检查该script是否已经下载下来，如果已下载，便执行代码。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chlk1x0qrgw0",
+                                            "created": 1643804471119,
+                                            "text": "遇到 link 标签时，不会阻塞后续内容的解析（比如 DOM 构建），检查 link 资源是否已下载，如果已下载，则构建 cssom。",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chlk26xnh1s0",
+                                            "created": 1643804492700,
+                                            "text": "遇到 DOM 标签时，执行 DOM 构建，将该 DOM 元素添加到文档树中。"
+                                        },
+                                        "children": []
                                     }
                                 ]
                             }
@@ -80,7 +124,8 @@
                 "data": {
                     "id": "chkp3xho4ko0",
                     "created": 1643717174464,
-                    "text": "Style Sheets"
+                    "text": "Style Sheets",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -88,18 +133,170 @@
                             "id": "chkp4teoonc0",
                             "created": 1643717243940,
                             "text": "CSS Parser",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "chkp50383yo0",
                                     "created": 1643717258485,
-                                    "text": "Style Rules"
+                                    "text": "Style Rules",
+                                    "layout": null
                                 },
                                 "children": []
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chlk2l0b8yo0",
+                    "created": 1643804523336,
+                    "text": "在 body 中第一个 script 资源下载完成之前，浏览器会进行首次渲染，将该 script 标签前面的 DOM 树和 CSSOM 合并成一棵 Render 树，渲染到页面中。这是页面从白屏到首次渲染的时间节点。",
+                    "layout_right_offset": {
+                        "x": 13,
+                        "y": 0
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chlko0mksrk0",
+                            "created": 1643806202981,
+                            "text": "1. DNS解析优化\n针对DNS Lookup环节，我们可以针对性的进行DNS解析优化。\nDNS缓存优化\n\nDNS预加载策略\n\n稳定可靠的DNS服务器\n\n\n2. TCP网络链路优化\n针对网络链路的优化，好像除了花钱没有什么更好的方式！\n3. 服务端处理优化\n服务端的处理优化，是一个非常庞大的话题，会涉及到如Redis缓存、数据库存储优化或是系统内的各种中间件以及Gzip压缩等...\n4. 浏览器下载、解析、渲染页面优化\n根据浏览器对页面的下载、解析、渲染过程，可以考虑一下的优化处理：\n尽可能的精简HTML的代码和结构\n\n尽可能的优化CSS文件和结构\n\n一定要合理的放置JS代码，尽量不要使用内联的JS代码",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chlk33nxn4o0",
+                    "created": 1643804563946,
+                    "text": "HTML文档的加载与页面的首次渲染"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chlk37ps0j40",
+                            "created": 1643804572765,
+                            "text": "1、浏览器首先下载该地址所对应的 html 页面。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chlk3bgewyo0",
+                            "created": 1643804580906,
+                            "text": "2、浏览器解析 html 页面的 DOM 结构。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chlk3gk4lew0",
+                            "created": 1643804592014,
+                            "text": "3、开启下载线程对文档中的所有资源按优先级排序下载。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chlk3k31ozs0",
+                            "created": 1643804599688,
+                            "text": "4、主线程继续解析文档，到达 head 节点 ，head 里的外部资源是外链样式表和外链 js。",
+                            "layout_right_offset": {
+                                "x": 17,
+                                "y": 0
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chlk3rjb2ow0",
+                                    "created": 1643804615909,
+                                    "text": " 发现有外链 css 或者外链 js，如果是外链 js ，则停止解析后续内容，等待该资源下载，下载完后立刻执行。如果是外链 css，继续解析后续内容。"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chlk3nplewo0",
+                            "created": 1643804607582,
+                            "text": "5、解析到 body"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chlk44r22000",
+                                    "created": 1643804644676,
+                                    "text": "【只有 DOM 元素】  这种情况比较简单了，DOM 树构建完，页面首次渲染。"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chlk4iknwuo0",
+                                    "created": 1643804674764,
+                                    "text": "【有DOM元素，外链js】当解析到外链js的时候，该js尚未下载到本地，则js之前的DOM会被渲染到页面上，同事js会阻止后面的DOM构建，即后面的DOM节点不会添加到文档的DOM树种，所以，js执行完成之前，我们在页面上看不到该js后面的DOM"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chlk6s58bns0",
+                                    "created": 1643804852327,
+                                    "text": "【有DOM元素，外链css】外链css不会影响css后面的DOM构建，但是会阻碍渲染，简单说，外链css加载完之前，页面还是白屏"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chlk7llivpk0",
+                                    "created": 1643804916439,
+                                    "text": "【有DOM元素、外链js、外链css】"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chlk86nw32g0",
+                                            "created": 1643804962295,
+                                            "text": "外链js和外链css的顺序会影响页面渲染，当body中js之前的外链css未加载完之前，页面是不会被渲染的"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chlk91eyil40",
+                                            "created": 1643805029235,
+                                            "text": "当body中js之前的外链css加载完之后，js之前的DOM树和css合并渲染树，页面渲染出该js之前的DOM结构"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chlka0op3p40",
+                            "created": 1643805106011,
+                            "text": "6、文档解析完毕，页面重新渲染。当页面引用的所有 js 同步代码执行完毕，触发 DOMContentLoaded 事件。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chlkadvl8hs0",
+                            "created": 1643805134726,
+                            "text": " 7、html 文档中的图片资源，js 代码中有异步加载的 css、js 、图片资源都加载完毕之后，load 事件触发。"
+                        },
+                        "children": []
                     }
                 ]
             }
