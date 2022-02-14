@@ -524,6 +524,16 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "chvtfzljz9k0",
+                            "created": 1644846563385,
+                            "text": "原型代码示例",
+                            "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/blob/main/demoCodes/javaScript/jsPrototype.js",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
                     }
                 ]
             },
