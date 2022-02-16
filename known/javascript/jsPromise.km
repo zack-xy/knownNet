@@ -35,8 +35,8 @@
                         "data": {
                             "id": "chxaptk4fvs0",
                             "created": 1644996852704,
-                            "text": "添加onFinally处理程序，不论",
-                            "expandState": "collapse"
+                            "text": "状态3",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -234,7 +234,9 @@
                                     "id": "chxbin2bnbs0",
                                     "created": 1644999111128,
                                     "text": "返回一个新的期约实例",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/tree/main/demoCodes/javaScript/jsPromise.js",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": [
                                     {
