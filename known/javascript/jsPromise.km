@@ -1,0 +1,587 @@
+{
+    "root": {
+        "data": {
+            "id": "chxap88cogg0",
+            "created": 1644996806280,
+            "text": "异步和期约Promise"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chxapf9k44o0",
+                    "created": 1644996821591,
+                    "text": "Promise基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chxasd70v540",
+                            "created": 1644997052176,
+                            "text": "创建promise需要传入一个执行器函数作为参数",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxasrl3zfk0",
+                                    "created": 1644997083503,
+                                    "text": "new Promise(() => {})"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxaptk4fvs0",
+                            "created": 1644996852704,
+                            "text": "添加onFinally处理程序，不论",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxaq5kd37k0",
+                                    "created": 1644996878840,
+                                    "text": "待定 pending"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxaqozg8xs0",
+                                    "created": 1644996921112,
+                                    "text": "兑现 fulfilled / resolved"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxardbv7c00",
+                                            "created": 1644996974105,
+                                            "text": "兑现则会有一个私有内部值value"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chxaqz310io0",
+                                    "created": 1644996943096,
+                                    "text": "拒绝 rejected"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxarpzic0g0",
+                                            "created": 1644997001656,
+                                            "text": "拒绝则会有一个私有内部理由reason"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxat7f3jd40",
+                            "created": 1644997117968,
+                            "text": "控制状态转换，使用2个函数参数",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxatkpx0gw0",
+                                    "created": 1644997146920,
+                                    "text": "resolve()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxattapr1c0",
+                                            "created": 1644997165592,
+                                            "text": "将状态切换为兑现"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chxatplv9ow0",
+                                    "created": 1644997157560,
+                                    "text": "reject()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxau0pu0a00",
+                                            "created": 1644997181744,
+                                            "text": "将状态切换为拒绝"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chxbbd0y7uw0",
+                                    "created": 1644998540728,
+                                    "text": "无论resolve和reject哪一个被调用，状态不可撤销，再次修改会静默失败"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxbcauewv40",
+                                            "created": 1644998614344,
+                                            "text": "避免promise卡在待定(10s后拒绝)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxbckqq5yg0",
+                                                    "created": 1644998635889,
+                                                    "text": "new Promise((resolve, reject) => { setTimeout(reject, 10000) })"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxbbz5tcc80",
+                            "created": 1644998588912,
+                            "text": "实例化既定状态Promise",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxbe5dye9s0",
+                                    "created": 1644998759193,
+                                    "text": "let p = Promise.resolve()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxbevfhai00",
+                                            "created": 1644998815881,
+                                            "text": "幂等"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chxbei9ogk80",
+                                    "created": 1644998787232,
+                                    "text": "let p = Promise.reject()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxbf7y7sbs0",
+                            "created": 1644998843136,
+                            "text": "Promise.prototype.then()",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxbff6zxt40",
+                                    "created": 1644998858904,
+                                    "text": "接收2个参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxbfn6vw3k0",
+                                            "created": 1644998876312,
+                                            "text": "onResolved函数  / 兑现执行 "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chxbg2otsvk0",
+                                            "created": 1644998910048,
+                                            "text": "onRejected函数  /  拒绝执行"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chxbgt3yoyg0",
+                                    "created": 1644998967560,
+                                    "text": "如果只提供onRejected参数，onResolved位置需要传undefined"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxbin2bnbs0",
+                                    "created": 1644999111128,
+                                    "text": "返回一个新的期约实例",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxbox1j1400",
+                                            "created": 1644999603033,
+                                            "text": "看有没有onResolved处理程序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxbp3p8rjs0",
+                                                    "created": 1644999617528,
+                                                    "text": "有"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chxbqta6nbc0",
+                                                            "created": 1644999751578,
+                                                            "text": "处理程序返回promise"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chxbr9wkpi80",
+                                                                    "created": 1644999787760,
+                                                                    "text": "返回这个promise"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "chxbqyb1gzc0",
+                                                            "created": 1644999762513,
+                                                            "text": "处理程序返回值"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chxbremnsco0",
+                                                                    "created": 1644999798044,
+                                                                    "text": "返回Promise.resolve()值就是这个返回值"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "chxbr4nddk00",
+                                                            "created": 1644999776320,
+                                                            "text": " 处理程序无返回值"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chxbrvpxz9c0",
+                                                                    "created": 1644999835248,
+                                                                    "text": "返回Promise.resolve()值是undefined"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "chxbte110io0",
+                                                            "created": 1644999953465,
+                                                            "text": "抛出异常"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chxbtkcbi7c0",
+                                                                    "created": 1644999967208,
+                                                                    "text": "返回Promise.reject()值是异常"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chxbp5oyqpc0",
+                                                    "created": 1644999621864,
+                                                    "text": "没有"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chxbp7of0io0",
+                                                            "created": 1644999626185,
+                                                            "text": "传递父promise的状态，这里就是resolve"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chxbv8jlqyg0",
+                                            "created": 1645000098256,
+                                            "text": "onRejected同onResolved"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxcafyvyhk0",
+                            "created": 1645001289880,
+                            "text": "Promise.prototype.catch()",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxcas0yvm80",
+                                    "created": 1645001316127,
+                                    "text": "语法糖，相当于Promise.prototype.then(null, onRejected)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxcbvrh0kw0",
+                                    "created": 1645001402624,
+                                    "text": "返回一个新的Promise"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxcdwwhlhc0",
+                                            "created": 1645001561832,
+                                            "text": "⚠️同then是返回Promise.resolve()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxcexr3xuw0",
+                            "created": 1645001642048,
+                            "text": "Promise.prototye.finally()",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxcf7gnq2w0",
+                                    "created": 1645001663184,
+                                    "text": "添加onFinally处理程序，无论兑现或拒绝都执行"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxcgahwaxk0",
+                                    "created": 1645001748153,
+                                    "text": "返回一个新的promise",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chxcirxsexs0",
+                                            "created": 1645001942848,
+                                            "text": "onFinally处理程序返回待定promise"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxcj0rqmvc0",
+                                                    "created": 1645001962073,
+                                                    "text": "返回这个promise"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chxcj7hkteo0",
+                                            "created": 1645001976696,
+                                            "text": "onFinally处理程序返回拒绝promise"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxcjikqvl40",
+                                                    "created": 1645002000832,
+                                                    "text": "返回这个promise"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chxcjq7y3fk0",
+                                            "created": 1645002017473,
+                                            "text": "onFinally处理程序抛出错误"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxcju9h5x40",
+                                                    "created": 1645002026272,
+                                                    "text": "返回拒绝promise"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chxck2u576g0",
+                                            "created": 1645002044936,
+                                            "text": "除以上情况外",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chxcgqdowdc0",
+                                                    "created": 1645001782728,
+                                                    "text": "传递父promise的状态"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxcvbx4i9k0",
+                            "created": 1645002926713,
+                            "text": "在期约中抛出异常，期约状态为拒绝，值(理由)为错误对象",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxcwx8a1pc0",
+                                    "created": 1645003051464,
+                                    "text": "期约中抛出异常不会阻止程序继续运行"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxcxw7tso00",
+                                    "created": 1645003127624,
+                                    "text": "⚠️异常不能在promise外部的同步代码中捕获，可在catch中捕获"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxd8szkvo00",
+                            "created": 1645003982601,
+                            "text": "Promise.all()",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxd98m041c0",
+                                    "created": 1645004016609,
+                                    "text": "接收可迭代对象，返回新的promise"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxd9i8vzts0",
+                                    "created": 1645004037584,
+                                    "text": "所以promise解决则解决，有待定则待定，有拒绝则拒绝(第一个拒绝的值为合成拒绝的值)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxdaedwu5c0",
+                                    "created": 1645004107544,
+                                    "text": "可迭代对象不是promise，则会通过Promise.resolve()转为promise"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxdda2mqow0",
+                            "created": 1645004333248,
+                            "text": "Promise.race()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chxddlw01eg0",
+                                    "created": 1645004358968,
+                                    "text": "接收可迭代对象，返回新的promise"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxddt9xpjk0",
+                                    "created": 1645004375048,
+                                    "text": "返回最先解决或拒绝的promise镜像"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chxdecpp7y00",
+                                    "created": 1645004417360,
+                                    "text": "可迭代对象不是promise，则会通过Promise.resolve()转为promise"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

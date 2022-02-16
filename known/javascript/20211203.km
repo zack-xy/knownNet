@@ -1615,7 +1615,7 @@
                             "id": 0,
                             "created": 1639377447456,
                             "text": "变量",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -2055,6 +2055,15 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "chxi41r7q0w0",
+                            "created": 1645017715415,
+                            "text": "类型转换",
+                            "note": "knownNet\\known\\javascript\\jsTypeSwitch.km"
+                        },
+                        "children": []
                     }
                 ]
             },
