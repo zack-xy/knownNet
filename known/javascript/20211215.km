@@ -437,7 +437,7 @@
                             "id": 0,
                             "created": 1639537872561,
                             "text": "概念",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -542,7 +542,9 @@
                                 "data": {
                                     "id": 0,
                                     "created": 1639552163276,
-                                    "text": "尾调用优化"
+                                    "text": "尾调用优化",
+                                    "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/tree/main/demoCodes/javaScript/jsRecursion.js",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             },

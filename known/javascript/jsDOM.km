@@ -1,0 +1,719 @@
+{
+    "root": {
+        "data": {
+            "id": "chy6prc3e1s0",
+            "created": 1645087123382,
+            "text": "DOM"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chy6qluxupk0",
+                    "created": 1645087189825,
+                    "text": "节点(Node)类型12种",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chy6s8m2xgw0",
+                            "created": 1645087317720,
+                            "text": "elementNode:1"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7w92rqo00",
+                                    "created": 1645090453296,
+                                    "text": "getAttribute()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7wi711hc0",
+                                    "created": 1645090473144,
+                                    "text": "setAttribute()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7wmsszu00",
+                                    "created": 1645090483168,
+                                    "text": "removeAttribute()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy83hq0kug0",
+                                    "created": 1645091020665,
+                                    "text": "attributes属性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy83kb52w00",
+                                            "created": 1645091026296,
+                                            "text": "返回NamedNodeMap"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy83yincaw0",
+                                                    "created": 1645091057224,
+                                                    "text": "getNamedItem(name)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy844mt1yw0",
+                                                    "created": 1645091070537,
+                                                    "text": "removeNamedItem(name)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy8499n4ag0",
+                                                    "created": 1645091080624,
+                                                    "text": "setNamedItem(node)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy84d0ptv40",
+                                                    "created": 1645091088792,
+                                                    "text": "item(pos)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6si43p9c0",
+                            "created": 1645087338401,
+                            "text": "attributeNode:2"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6sq5zbuw0",
+                            "created": 1645087355929,
+                            "text": "textNode:3"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6sttcu5c0",
+                            "created": 1645087363872,
+                            "text": "cdataSectionNode:4"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6t5ndnwg0",
+                            "created": 1645087389632,
+                            "text": "entityReferenceNode:5"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6te5sag80",
+                            "created": 1645087408160,
+                            "text": "entityNode:6"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6tlnp0480",
+                            "created": 1645087424480,
+                            "text": "processingInstructionNode:7"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6tuiad600",
+                            "created": 1645087443744,
+                            "text": "commentNode:8"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6tymlfo00",
+                            "created": 1645087452712,
+                            "text": "documentNode:9",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7iis8hpc0",
+                                    "created": 1645089377328,
+                                    "text": "document.URL/domain/referrer"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7iz8zdv40",
+                                    "created": 1645089413169,
+                                    "text": "getElementById()",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy7kbiit7s0",
+                                            "created": 1645089518232,
+                                            "text": "多个id返回第1个"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7ja61ops0",
+                                    "created": 1645089436936,
+                                    "text": "getElementByTagName()",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy7jrx6ydc0",
+                                            "created": 1645089475583,
+                                            "text": "HTMLCollection对象（实时）"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy7kul268w0",
+                                                    "created": 1645089559744,
+                                                    "text": "HTMLCollection的方法namedItem()通过标签name属性获取引用"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy7lv0zrbc0",
+                                                    "created": 1645089639072,
+                                                    "text": "也可以[\"nameValue\"]底层调用nameItem()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7mslwat40",
+                                            "created": 1645089712169,
+                                            "text": "传入*，则所有"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7ng6mf600",
+                                    "created": 1645089763489,
+                                    "text": "getElementByName()",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy7o8tjhco0",
+                                            "created": 1645089825824,
+                                            "text": "返回HTMLCollection对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy852jbge00",
+                                    "created": 1645091144336,
+                                    "text": "createElement()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy85bv3j0w0",
+                                            "created": 1645091164640,
+                                            "text": "接收1个参数，标签名"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7opew11k0",
+                                    "created": 1645089861944,
+                                    "text": "其他集合",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy7p9vubkw0",
+                                            "created": 1645089906504,
+                                            "text": "document.anchors // 所有带name属性的<a>元素"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7pb9ucl40",
+                                            "created": 1645089909529,
+                                            "text": "document.forms // 所有<form>元素"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7pohcia80",
+                                            "created": 1645089938280,
+                                            "text": "document.images // 所有<img>元素"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7pwziefk0",
+                                            "created": 1645089956792,
+                                            "text": "document.links // 所有带href的<a>元素"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy7rxtxhy00",
+                                    "created": 1645090115360,
+                                    "text": "文档写入"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy7s1eealk0",
+                                            "created": 1645090123128,
+                                            "text": "write()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy7ssat2d40",
+                                                    "created": 1645090181684,
+                                                    "text": "接收字符串"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chy7tl4a0js0",
+                                                            "created": 1645090244416,
+                                                            "text": "写入js"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chy7tnxdl5c0",
+                                                                    "created": 1645090250529,
+                                                                    "text": "documen.write(\"<script type=\\\"text/javascript\\\" src=\\\"file.js\\\"><\\/script>\")"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7s5j47uw0",
+                                            "created": 1645090132120,
+                                            "text": "writeln()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7sb11vag0",
+                                            "created": 1645090144089,
+                                            "text": "open()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy7sduwq4w0",
+                                            "created": 1645090150248,
+                                            "text": "close()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6u3qdbeg0",
+                            "created": 1645087463824,
+                            "text": "documentTypeNode:10"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6u89wkio0",
+                            "created": 1645087473712,
+                            "text": "documentFragmentNode:11"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy6ugbnrtk0",
+                            "created": 1645087491232,
+                            "text": "notationNode:12"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chy6uyi1x7k0",
+                    "created": 1645087530801,
+                    "text": "节点属性",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chy6yxv4tps0",
+                            "created": 1645087842872,
+                            "text": "nodeType / 判断节点类型",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy6vc0xqv40",
+                                    "created": 1645087560241,
+                                    "text": "someNode.nodeType == Node.ELEMENT_NODE / "
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6z7jvxlk0",
+                            "created": 1645087863961,
+                            "text": "nodeName"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy6zi2xynk0",
+                                    "created": 1645087886880,
+                                    "text": "对元素而言，等于元素标签名"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6zq6aa1s0",
+                            "created": 1645087904496,
+                            "text": "nodeValue"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy6zvw5fts0",
+                                    "created": 1645087916944,
+                                    "text": "对元素而言，始终为null"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6zupf28o0",
+                            "created": 1645087914360,
+                            "text": "childNodes",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy70mzmss00",
+                                    "created": 1645087975928,
+                                    "text": "NodeList的实例，类数组对象"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy72j6yivs0",
+                                    "created": 1645088124392,
+                                    "text": "NodeList是实时的，反应dom结构变化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy73mmq0ig0",
+                                    "created": 1645088210240,
+                                    "text": "类数组转换为数组"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy73qb21g00",
+                                            "created": 1645088218241,
+                                            "text": "Array.prototype.slice.call(someNode.childNodes,0)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy747hfpb40",
+                                            "created": 1645088255632,
+                                            "text": "Array.from(someNode.childNodes)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy75n7hrpc0",
+                            "created": 1645088368224,
+                            "text": "parentNode"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy75qt15ao0",
+                            "created": 1645088376056,
+                            "text": "previousSibling"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7670w2bc0",
+                                    "created": 1645088411360,
+                                    "text": "只有1个节点，为null"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy75xjxz3c0",
+                            "created": 1645088390744,
+                            "text": "nextSibling"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7670w2bc0",
+                                    "created": 1645088411360,
+                                    "text": "只有1个节点，为null"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy76x180uw0",
+                            "created": 1645088467977,
+                            "text": "firstChild"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy771vqsk00",
+                            "created": 1645088478529,
+                            "text": "lastChild"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy78dnajpc0",
+                            "created": 1645088582504,
+                            "text": "ownerDocument"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy78n95syw0",
+                                    "created": 1645088603417,
+                                    "text": "整个文档指针"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "chy77knk4hk0",
+                    "created": 1645088519393,
+                    "text": "节点方法",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chy77o1ndsw0",
+                            "created": 1645088526776,
+                            "text": "hasChildNodes()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy790coltk0",
+                            "created": 1645088631928,
+                            "text": "appendChild()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy797c6wkw0",
+                                    "created": 1645088647136,
+                                    "text": "childNodes末尾添加节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy79jqkytc0",
+                            "created": 1645088674128,
+                            "text": "insertBefore()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy79onh8rk0",
+                                    "created": 1645088684824,
+                                    "text": "2个参数，待插入节点、参照节点(传null相当于appendChild)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy7b1k7p4o0",
+                            "created": 1645088791289,
+                            "text": "replaceChild()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7b6to0eg0",
+                                    "created": 1645088802744,
+                                    "text": "2个参数，待插入的节点、要替换的节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy7bu4cdio0",
+                            "created": 1645088853457,
+                            "text": "removeChild()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7byph3uo0",
+                                    "created": 1645088863441,
+                                    "text": "1个参数，要移除的节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy7cg084qo0",
+                            "created": 1645088901096,
+                            "text": "cloneNode()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7cl2jbu00",
+                                    "created": 1645088912120,
+                                    "text": "1个参数，代表是否深复制该节点，浅复制，则只复制一层节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy7ej9b5so0",
+                            "created": 1645089064904,
+                            "text": "normalize()"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy7ewebof40",
+                                    "created": 1645089093505,
+                                    "text": "处理文本节点，空文本节点删除，连续文本节点合并为1个文本节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

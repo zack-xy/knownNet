@@ -101,6 +101,24 @@
                                     "layout": null
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chybxp2pb1k0",
+                                    "created": 1645101850924,
+                                    "text": "BOM",
+                                    "note": "known\\javascript\\jsBOM.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chybxx4h9kw0",
+                                    "created": 1645101868446,
+                                    "text": "DOM",
+                                    "note": "known\\javascript\\jsDOM.km"
+                                },
+                                "children": []
                             }
                         ]
                     },

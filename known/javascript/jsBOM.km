@@ -1,0 +1,891 @@
+{
+    "root": {
+        "data": {
+            "id": "chy38gakn3k0",
+            "created": 1645077303825,
+            "text": "BOM"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chy39n52xuw0",
+                    "created": 1645077397095,
+                    "text": "window"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chy39wse78g0",
+                            "created": 1645077418096,
+                            "text": "表示浏览器实例，是ECMAScripta中的Global对象，是浏览器窗口的JS接口"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "chy40b6ytxs0",
+                            "created": 1645079486920,
+                            "text": "窗口位置",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy40s9njew0",
+                                    "created": 1645079524088,
+                                    "text": "窗口相对于屏幕左侧和顶部的位置",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy40hmsfzc0",
+                                            "created": 1645079500937,
+                                            "text": "screenLeft"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy40l8tpq80",
+                                            "created": 1645079508801,
+                                            "text": "screenTop"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy418ax9gg0",
+                                    "created": 1645079558993,
+                                    "text": "窗口移动(可能被浏览器禁用)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy41cxqqy00",
+                                            "created": 1645079569080,
+                                            "text": "moveTo / 新位置的绝对x,y坐标"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy41s9uli80",
+                                            "created": 1645079602464,
+                                            "text": "moveBy  / 相对当前位置移动的像素数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy44e0tryo0",
+                            "created": 1645079806536,
+                            "text": "像素比",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy44jys4wo0",
+                                    "created": 1645079819473,
+                                    "text": "为一个角度：0.0213度，如果距离屏幕一臂长，以该角度计算css像素大小为1/96英寸"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy45qle0hc0",
+                                    "created": 1645079912265,
+                                    "text": "为了不同设备统一标准，即低分辨率平板和高清4K的12像素都一样大"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy46hukieg0",
+                                    "created": 1645079971593,
+                                    "text": "但是，不同的屏幕有不同的像素密度，比如手机屏幕物理像素点可能很小，所以就有了像素比"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy47g0qqbk0",
+                            "created": 1645080045977,
+                            "text": "窗口大小",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy47ogrids0",
+                                    "created": 1645080064360,
+                                    "text": "inner",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy47w5ordc0",
+                                            "created": 1645080081104,
+                                            "text": "innerWidth",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4bujl6n40",
+                                                    "created": 1645080391048,
+                                                    "text": "等于document.documentElement.clientWidth"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy480xyrs80",
+                                            "created": 1645080091521,
+                                            "text": "innerHeight"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4biccmz40",
+                                                    "created": 1645080364489,
+                                                    "text": "等于document.documentElement.clientHeight"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy48aa9g400",
+                                            "created": 1645080111856,
+                                            "text": "返回浏览器窗口中页面视口的大小（不包含浏览器边框和工具栏）/ 移动设备上返回页面可视区域的大小"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy47tgkn6w0",
+                                    "created": 1645080075232,
+                                    "text": "outer",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy49ljgr340",
+                                            "created": 1645080214721,
+                                            "text": "outerWidth"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy49rtb3200",
+                                            "created": 1645080228377,
+                                            "text": "outerHeight"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy49vqzlts0",
+                                            "created": 1645080236944,
+                                            "text": "返回浏览器窗口自身的大小"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy4evqiacg0",
+                                    "created": 1645080628736,
+                                    "text": "调整窗口大小(默认被浏览器禁用)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy4f07opk00",
+                                            "created": 1645080638481,
+                                            "text": "resizeTo()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4fg3ri540",
+                                                    "created": 1645080673073,
+                                                    "text": "调整成新的宽度和高度值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4f6455h40",
+                                            "created": 1645080651328,
+                                            "text": "resizeBy()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4fn46x1s0",
+                                                    "created": 1645080688336,
+                                                    "text": "调整缩放多少"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy4gwavmk80",
+                            "created": 1645080786696,
+                            "text": "视口位置",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy4hzei3eg0",
+                                    "created": 1645080871809,
+                                    "text": "文档相对于视口滚动的距离",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy4h5o5hiw0",
+                                            "created": 1645080807089,
+                                            "text": "window.pageXoffset/window.scrollX"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4hh6e3h40",
+                                            "created": 1645080832137,
+                                            "text": "window.pageYoffset/window.scrollY"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy4iaybtyo0",
+                                    "created": 1645080896953,
+                                    "text": "滚动方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy4ifgnfwo0",
+                                            "created": 1645080906768,
+                                            "text": "scroll()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4ii93gq00",
+                                            "created": 1645080912841,
+                                            "text": "scrollTo()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4ilecd1c0",
+                                            "created": 1645080919689,
+                                            "text": "scrollBy()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4j1k7q480",
+                                            "created": 1645080954872,
+                                            "text": "以上3个方法均接收相对视图距离x,y，前2个方法表示坐标，scrollBy表示距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4m4nskls0",
+                                            "created": 1645081196712,
+                                            "text": "可以接收一个ScrollToOptions字典，配是否平滑滚动"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4mrgmc0w0",
+                                                    "created": 1645081246344,
+                                                    "text": "window.scrollTo({left:100,top:100,behavior:'smooth'})"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy4nzhdoq00",
+                            "created": 1645081342168,
+                            "text": "导航和新窗口"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy4o4azfd40",
+                                    "created": 1645081352665,
+                                    "text": "window.open()",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy4oal7od40",
+                                            "created": 1645081366345,
+                                            "text": "参数4:要加载的URL、目标窗口、特性字符串、新窗口是否在浏览器历史记录替代当前页"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4rlt73sg0",
+                                            "created": 1645081625864,
+                                            "text": "参数2可以是：_self、_parent、_top、_blank"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4t8pjsko0",
+                                                    "created": 1645081754074,
+                                                    "text": "我理解参数2就是窗口的名字"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4tzb5hxk0",
+                                            "created": 1645081811977,
+                                            "text": "参数3可以指定：窗口是否最大化、窗口的宽高、位置、是否有地址栏、是否有菜单栏、是否可拖拽、滚动等"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy4waz2y4o0",
+                                            "created": 1645081994096,
+                                            "text": "方法返回对新建窗口的引用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy4wu8hujs0",
+                                                    "created": 1645082036025,
+                                                    "text": "操作移动窗口"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy4z21iiv40",
+                                                    "created": 1645082209745,
+                                                    "text": "调用close()关闭窗口"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chy4z9pw9280",
+                                                            "created": 1645082226457,
+                                                            "text": "调用close后，窗口的引用依然存在"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy5076ivq00",
+                                                    "created": 1645082299296,
+                                                    "text": "具有opener属性，指向打开自己的窗口"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chy50wnnoa80",
+                                                            "created": 1645082354752,
+                                                            "text": "将opener设置为null，表示新开的窗口运行在独立的进程中，父子窗口不通信"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy52xwrz000",
+                                                    "created": 1645082514208,
+                                                    "text": "如果返回null则弹窗浏览器屏蔽了，如果报错，则是被插件或其他程序屏蔽了"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy547mo8ow0",
+                            "created": 1645082613729,
+                            "text": "定时器",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy54akwuj40",
+                                    "created": 1645082620153,
+                                    "text": "setTimeout()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy54jsv2m80",
+                                            "created": 1645082640225,
+                                            "text": "在一定时间后执行某些代码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy552nkuhs0",
+                                            "created": 1645082681264,
+                                            "text": "2参数：执行代码(函数或者函数的字符串)、等待时间（多长时间后将函数添加到任务队列）"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy57858r2g0",
+                                            "created": 1645082849944,
+                                            "text": "返回唯一标识符数值ID，用于取消,作为参数传入"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy57lcw3i00",
+                                                    "created": 1645082878705,
+                                                    "text": "clearTimeout()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy5834p5dc0",
+                                            "created": 1645082917392,
+                                            "text": "待执行的函数会在全局作用域中的一个匿名函数中执行"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy58glm0sg0",
+                                                    "created": 1645082946713,
+                                                    "text": "函数中的this，非严格模式下始终指向windo，严格模式下undefined，箭头函数保有定义时的词法作用域"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy54ewhbk80",
+                                    "created": 1645082629560,
+                                    "text": "setInterval()"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy54sw6bxc0",
+                                            "created": 1645082660016,
+                                            "text": "每隔一段时间执行某些代码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy59ksd0qw0",
+                                            "created": 1645083034192,
+                                            "text": "基本同setTimeout"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy59qx1p740",
+                                                    "created": 1645083047536,
+                                                    "text": "clearInterval()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy5b5xkt200",
+                            "created": 1645083158584,
+                            "text": "系统对话框",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy5bkhmq800",
+                                    "created": 1645083190272,
+                                    "text": "alert()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy5bmjq3ts0",
+                                    "created": 1645083194752,
+                                    "text": "confirm()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy5bqjf9t40",
+                                    "created": 1645083203441,
+                                    "text": "prompt()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy5c1ay2n40",
+                                    "created": 1645083226873,
+                                    "text": "对话框样式由系统或者浏览器决定无法设置，且对话框显示的时候，代码停止执行"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy5cua1f540",
+                            "created": 1645083289945,
+                            "text": "location对象",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy5d1eyoq00",
+                                    "created": 1645083305480,
+                                    "text": "当前窗口中加载文档的信息及导航功能"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy5dm4djig0",
+                                            "created": 1645083350553,
+                                            "text": "既是window属性也是document属性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy5futtafs0",
+                                    "created": 1645083526233,
+                                    "text": "查询url中的参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy5g0v1m000",
+                                            "created": 1645083539368,
+                                            "text": "new URLSearchParams()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy5gg687m00",
+                                                    "created": 1645083572696,
+                                                    "text": "has/get/set/delete"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy5jhgl9g80",
+                                    "created": 1645083810592,
+                                    "text": "修改浏览器地址",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy5jlsuakw0",
+                                            "created": 1645083820040,
+                                            "text": "location.assign(\"http://www.wrox.com\")"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy5k9vqed40",
+                                                    "created": 1645083872457,
+                                                    "text": "立即导航至新地址"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy5kgsko540",
+                                                    "created": 1645083887504,
+                                                    "text": "浏览器历史中增加一条记录"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy5ks2mx600",
+                                                    "created": 1645083912057,
+                                                    "text": "如果给location.href或window.location设置新URL，也是调用assign方法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy5mb5rbqw0",
+                                            "created": 1645084031968,
+                                            "text": "location.replace(\"http://www.wrox.com\")"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy5mt0dh8g0",
+                                                    "created": 1645084070825,
+                                                    "text": "浏览器不增加历史，无法返回前一页"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy5n493dnc0",
+                                            "created": 1645084095297,
+                                            "text": "reload()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy5njv4js00",
+                                                    "created": 1645084129281,
+                                                    "text": "不传参数，重载当前页，可能从缓存中加载页面"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy5nyc9ry80",
+                                                    "created": 1645084160792,
+                                                    "text": "传true，从服务器重新加载"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy628t530w0",
+                            "created": 1645085280679,
+                            "text": "navigator对象",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy62mvmhxs0",
+                                    "created": 1645085311305,
+                                    "text": "浏览器全名、版本、构建编号、是否启用cookie、设备内存、不追踪设置、处理器核心数、是否启用Java、浏览器主语言、媒体设备、触摸屏最大触点数、是否联网、系统、触发震动.........."
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chy64q92v6o0",
+                                    "created": 1645085475376,
+                                    "text": "检测插件"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy656ub9pk0",
+                                            "created": 1645085511488,
+                                            "text": "window.navigator.plugins"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chy6967je9s0",
+                            "created": 1645085823568,
+                            "text": "history对象"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chy69fp11ds0",
+                                    "created": 1645085844217,
+                                    "text": "go(1)前进1、go(-1)后退1"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy6a46flmg0",
+                                            "created": 1645085897512,
+                                            "text": "back()/forward()"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "chy6bjffjpk0",
+                                    "created": 1645086009072,
+                                    "text": "hashchange事件（URL散列变化触发）"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chy6c3ffp200",
+                                            "created": 1645086052608,
+                                            "text": "history.pushState()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy6g8eg99s0",
+                                                    "created": 1645086376889,
+                                                    "text": "改浏览器地址，不加载新页面"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chy6jum0q000",
+                                                            "created": 1645086660328,
+                                                            "text": "要保证有这个URL，否则刷新页面就404，SPA应用需要服务器或者客户端配置解决这个问题"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy6cbfh3940",
+                                                    "created": 1645086070024,
+                                                    "text": "3个参数：1个state对象(大小500KB-1MB)、1个新状态的标题、1个可选相对URL"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy6d3y5y0o0",
+                                                    "created": 1645086132104,
+                                                    "text": "pushState()执行后，状态信息记录历史记录，浏览器不发请求"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chy6h2hr4d40",
+                                                    "created": 1645086442392,
+                                                    "text": "触发window上的popstate事件，事件event上又一个state属性，即传入的state对象"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "chy6ijrxj5c0",
+                                            "created": 1645086558377,
+                                            "text": "history.replaceState()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chy6ipznmy00",
+                                                    "created": 1645086571904,
+                                                    "text": "更新状态，不创建历史，覆盖当前状态"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
