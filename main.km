@@ -119,6 +119,33 @@
                                     "note": "known\\javascript\\jsDOM.km"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ci2m5awtjhc0",
+                                    "created": 1645536897932,
+                                    "text": "事件",
+                                    "note": "known\\javascript\\jsEvent.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ci2m619l2wg0",
+                                    "created": 1645536955301,
+                                    "text": "动画",
+                                    "note": "known\\javascript\\jsAnimation.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ci2mbnj3w880",
+                                    "created": 1645537395586,
+                                    "text": "客户端存储/流/工作者线程",
+                                    "note": "known\\javascript\\jsStorage.km"
+                                },
+                                "children": []
                             }
                         ]
                     },
