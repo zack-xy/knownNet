@@ -1,0 +1,39 @@
+{
+    "root": {
+        "data": {
+            "id": "cisx1zsafzs0",
+            "created": 1648208229704,
+            "text": "经济学"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cisx23xwths0",
+                    "created": 1648208238751,
+                    "text": "2个假设"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cisx26umeeo0",
+                            "created": 1648208245082,
+                            "text": "资源是稀缺的"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cisx2gmzxfs0",
+                            "created": 1648208266389,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

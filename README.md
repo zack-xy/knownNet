@@ -1,5 +1,5 @@
 ## 知识点笔记
-1. 文件夹`known` 目录结构
+1. 文件夹`known` 目录结构（编程技术相关）
 ```
 algorithm // 算法(已废弃，另立项目o-algorithm)
 css // Css相关
@@ -18,4 +18,6 @@ resourceUrl // 资源链接
 vue // Vue相关
 readme.md // markdown常用语法
 ```
-2. `main.km`  主脑图，知识结构入口
+2. `main.km`  主脑图，知识结构入口（编程技术相关）
+3. interview 技术面试相关
+4. 经济学

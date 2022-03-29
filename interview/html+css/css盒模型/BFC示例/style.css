@@ -1,0 +1,59 @@
+body,dl,dd,h2 { 
+  margin: 0;
+}
+h2{
+  font-size:20px;
+}
+.box{
+  overflow: hidden;
+  width:276px;
+  padding:10px;
+  background-color: #ddd;
+  text-align: center;
+  position:relative;
+  font:18px/1.2 "宋体";
+} 
+.con{
+  float:left;
+  width:100%;
+}
+.show{
+  float:left;
+  width:100%;
+}
+.show-body{
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 5%;
+  background:pink;
+  position:relative;
+}
+#show-img{
+  min-height: 20px;
+  font-size:14px;
+}
+.con dl *{
+  float: left;
+  overflow:hidden;
+}
+.con dl+dl{
+  margin-top: 1%;
+} 
+.con dt{
+  font-weight: bold;
+  width: 100%; 
+}
+.con dd{
+  background-color: rgba(255,255,255,0.3);
+  margin: 1%;
+  cursor: pointer;
+  width: 31%;
+} 
+.con :nth-of-type(2) ~ dl dd{
+  width: 48%;
+} 
+@media (min-width:600px) {
+  .con{width:50%;}.show{width:50%;}.box{width:580px;}}
+#oShow{
+  border: 1px solid black;
+}

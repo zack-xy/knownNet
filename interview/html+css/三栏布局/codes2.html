@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面布局</title>
+  <style>
+    html * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .layout article div {
+      min-height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="layout absolute">
+    <style media="screen">
+      .layout.absolute .left-center-right>div {
+        position: absolute;
+      }
+
+      .layout.absolute .left {
+        left: 0;
+        width: 300px;
+        background: red;
+      }
+
+      .layout.absolute .center {
+        left: 300px;
+        right: 300px;
+        background: yellow;
+      }
+
+      .layout.absolute .right {
+        right: 0;
+        width: 300px;
+        background: blue;
+      }
+    </style>
+    <article class="left-center-right">
+      <div class="left"></div>
+      <div class="center">
+        <h2>绝对定位解决方案</h2>
+        这是三栏布局的中间部分
+      </div>
+      <div class="right"></div>
+    </article>
+  </section>
+</body>
+
+</html>

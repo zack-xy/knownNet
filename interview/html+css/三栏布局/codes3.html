@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>页面布局</title>
+  <style>
+    html * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .layout article div {
+      min-height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="layout flexbox">
+    <style media="screen">
+      .layout.flexbox .left-center-right {
+        display: flex;
+      }
+
+      .layout.flexbox .left {
+        width: 300px;
+        background: red;
+      }
+
+      .layout.flexbox .center {
+        flex: 1;
+        background: yellow;
+      }
+
+      .layout.flexbox .right {
+        width: 300px;
+        background: blue;
+      }
+    </style>
+    <article class="left-center-right">
+      <div class="left"></div>
+      <div class="center">
+        <h2>flex box解决方案</h2>
+        1. 这是三栏布局的中间部分
+      </div>
+      <div class="right"></div>
+    </article>
+  </section>
+</body>
+
+</html>
