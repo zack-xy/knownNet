@@ -146,6 +146,15 @@
                                     "note": "known\\javascript\\jsStorage.km"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj235z5b0800",
+                                    "created": 1649139508040,
+                                    "text": "函数式编程",
+                                    "note": "javascript\\jsFunctional.km"
+                                },
+                                "children": []
                             }
                         ]
                     },
