@@ -1,0 +1,22 @@
+{
+    "root": {
+        "data": {
+            "id": "cj4mtl9jeu00",
+            "created": 1649398079563,
+            "text": "http"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj4mtp7yqtc0",
+                    "created": 1649398088174,
+                    "text": "浏览器发起http请求的典型场景"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
