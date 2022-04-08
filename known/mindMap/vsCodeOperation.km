@@ -310,6 +310,23 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj42nsdw64g0",
+                            "created": 1649341202680,
+                            "text": "包裹选中的代码块"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj42o49t28w0",
+                                    "created": 1649341228554,
+                                    "text": "F1 / ctrl+shift+p  输入wrap 输入标签名"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },

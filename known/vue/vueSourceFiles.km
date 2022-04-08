@@ -1,0 +1,181 @@
+{
+    "root": {
+        "data": {
+            "id": "cj3zmwf1gcg0",
+            "created": 1649332669763,
+            "text": "vue源码文件依赖关系"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj3zne5vx680",
+                    "created": 1649332708391,
+                    "text": "起始入口src/core/index.js"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj3zoacwdso0",
+                            "created": 1649332778472,
+                            "text": "引入：Vue"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj3zp3zxsg00",
+                                    "created": 1649332842992,
+                                    "text": "src/core/instance/index"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj3zokllpiw0",
+                            "created": 1649332800767,
+                            "text": "做了什么"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj3zpngtqyg0",
+                                    "created": 1649332885372,
+                                    "text": "初始化全局API:  initGlobalAPI"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj3zt69dkh40",
+                                            "created": 1649333161373,
+                                            "text": "Vue.util"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj3ztl84pa80",
+                                                    "created": 1649333193949,
+                                                    "text": "warn"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj3zto31miw0",
+                                                    "created": 1649333200172,
+                                                    "text": "extend"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj3zts7ua8o0",
+                                                    "created": 1649333209169,
+                                                    "text": "mergeOptions"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cj3ztyixpls0",
+                                                    "created": 1649333222901,
+                                                    "text": "defineReactive"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj3zt9wjn740",
+                                            "created": 1649333169304,
+                                            "text": "Vue.set"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj3ztcshh940",
+                                            "created": 1649333175589,
+                                            "text": "Vue.delete"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj3zthcwl280",
+                                            "created": 1649333185531,
+                                            "text": "Vue.nextTick"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj3zr0ov8aw0",
+                                    "created": 1649332992521,
+                                    "text": "vue原型对象上绑几个对象"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj3zrb5n5a00",
+                                            "created": 1649333015303,
+                                            "text": "$isServer"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj3zrfwt9880",
+                                            "created": 1649333025653,
+                                            "text": "$ssrContext"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj3zrkagkvk0",
+                                            "created": 1649333035185,
+                                            "text": "FuncationalRenderContext"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj3zwewj2js0",
+                                    "created": 1649333415280,
+                                    "text": "初始化"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj3zwikgeh40",
+                                            "created": 1649333423257,
+                                            "text": "  initUse(Vue)\n  initMixin(Vue)\n  initExtend(Vue)\n  initAssetRegisters(Vue)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj3zohkb8bk0",
+                            "created": 1649332794158,
+                            "text": "导出:Vue"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

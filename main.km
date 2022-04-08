@@ -225,7 +225,36 @@
                             "text": "Vue",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj417t6s2ag0",
+                                    "created": 1649337129490,
+                                    "text": "new Vue",
+                                    "note": "knownNet\\known\\vue\\newVue.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj41883erc80",
+                                    "created": 1649337161938,
+                                    "text": "vue源码文件结构",
+                                    "note": "knownNet\\known\\vue\\vueSourceFiles.km"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj418mo13s00",
+                                    "created": 1649337193660,
+                                    "text": "事件总线的实现",
+                                    "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/tree/main/demoCodes/javaScript/jsVueBus.js",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
