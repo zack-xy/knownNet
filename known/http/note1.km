@@ -327,7 +327,81 @@
                                 "height": 99
                             }
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8cq2eujv40",
+                                    "created": 1649775832160,
+                                    "text": "属性过滤2：",
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/属性过滤2.PNG",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 200,
+                                        "height": 102
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj8cwelgxts0",
+                            "created": 1649776328867,
+                            "text": "查看请求上下游"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8cwim1pbk0",
+                                    "created": 1649776337609,
+                                    "text": "按住shift鼠标悬停在请求上，绿色是上游，红色是下游"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj8czrqceio0",
+                            "created": 1649776592552,
+                            "text": "请求时间分布"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8d010hrgo0",
+                                    "created": 1649776612757,
+                                    "text": "分布1",
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/请求时间分布1.PNG",
+                                    "hyperlinkTitle": "",
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/请求时间分布1.PNG",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 200,
+                                        "height": 114
+                                    },
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cj8d03eovts0",
+                                    "created": 1649776617969,
+                                    "text": "分布2",
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/请求时间分布2.PNG",
+                                    "hyperlinkTitle": "",
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/请求时间分布2.PNG",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 200,
+                                        "height": 109
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
