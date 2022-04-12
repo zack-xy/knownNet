@@ -3,7 +3,8 @@
         "data": {
             "id": "cge98kj4de00",
             "created": 1639406882135,
-            "text": "红宝书"
+            "text": "红宝书",
+            "resource": []
         },
         "children": [
             {
@@ -531,7 +532,10 @@
                             "created": 1644846563385,
                             "text": "原型代码示例",
                             "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/blob/main/demoCodes/javaScript/jsPrototype.js",
-                            "hyperlinkTitle": ""
+                            "hyperlinkTitle": "",
+                            "resource": [
+                                "代码"
+                            ]
                         },
                         "children": []
                     }

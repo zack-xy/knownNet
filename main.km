@@ -4,7 +4,7 @@
             "id": "ch1652q5wbk0",
             "created": 1641734023960,
             "text": "知识网络",
-            "note": "https://gitee.com/zackzhengxy/knownNet/blob/main/known/"
+            "note": null
         },
         "children": [
             {
@@ -28,8 +28,10 @@
                                     "id": "ch21xzgdgao0",
                                     "created": 1641823743806,
                                     "text": "标签和特殊符号",
-                                    "note": "known\\html\\20210926.md",
-                                    "layout": null
+                                    "note": null,
+                                    "layout": null,
+                                    "hyperlink": "https://github.com/ZackZheng-xy/knownNet/blob/9c9453917c0c650e0b15d8e66b353dfc8d07acff/known/html/20210926.md",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             },
@@ -38,7 +40,12 @@
                                     "id": "chkp7rbkf4g0",
                                     "created": 1643717474491,
                                     "text": "浏览器渲染过程",
-                                    "note": "known\\html\\20220201.km"
+                                    "note": "known\\html\\20220201.km",
+                                    "hyperlink": "",
+                                    "hyperlinkTitle": "",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -58,7 +65,10 @@
                                     "created": 1641822720556,
                                     "text": "红宝书笔记",
                                     "note": "known\\javascript\\20211203.km\nknown\\javascript\\20211213.km\nknown\\javascript\\20211215.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -68,7 +78,10 @@
                                     "created": 1641822912850,
                                     "text": "JWT介绍",
                                     "note": "known\\mindMap\\jwt.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -78,7 +91,10 @@
                                     "created": 1642077859807,
                                     "text": "作用域",
                                     "note": "known\\javascript\\scope.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -88,7 +104,10 @@
                                     "created": 1642077964538,
                                     "text": "闭包",
                                     "note": "known\\javascript\\closure.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -98,7 +117,10 @@
                                     "created": 1642328953511,
                                     "text": "模块",
                                     "note": "known\\javascript\\module.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -107,7 +129,10 @@
                                     "id": "chybxp2pb1k0",
                                     "created": 1645101850924,
                                     "text": "BOM",
-                                    "note": "known\\javascript\\jsBOM.km"
+                                    "note": "known\\javascript\\jsBOM.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -116,7 +141,10 @@
                                     "id": "chybxx4h9kw0",
                                     "created": 1645101868446,
                                     "text": "DOM",
-                                    "note": "known\\javascript\\jsDOM.km"
+                                    "note": "known\\javascript\\jsDOM.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -125,7 +153,10 @@
                                     "id": "ci2m5awtjhc0",
                                     "created": 1645536897932,
                                     "text": "事件",
-                                    "note": "known\\javascript\\jsEvent.km"
+                                    "note": "known\\javascript\\jsEvent.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -134,7 +165,10 @@
                                     "id": "ci2m619l2wg0",
                                     "created": 1645536955301,
                                     "text": "动画",
-                                    "note": "known\\javascript\\jsAnimation.km"
+                                    "note": "known\\javascript\\jsAnimation.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -143,7 +177,10 @@
                                     "id": "ci2mbnj3w880",
                                     "created": 1645537395586,
                                     "text": "客户端存储/流/工作者线程",
-                                    "note": "known\\javascript\\jsStorage.km"
+                                    "note": "known\\javascript\\jsStorage.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -152,7 +189,10 @@
                                     "id": "cj235z5b0800",
                                     "created": 1649139508040,
                                     "text": "函数式编程",
-                                    "note": "javascript\\jsFunctional.km"
+                                    "note": "javascript\\jsFunctional.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -171,8 +211,16 @@
                                     "id": "ch21syys2x40",
                                     "created": 1641823350921,
                                     "text": "Flex介绍",
-                                    "note": "known\\css\\cssFlex.png",
-                                    "layout": null
+                                    "note": null,
+                                    "layout": null,
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/cssFlex.png",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 128,
+                                        "height": 200
+                                    },
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/cssFlex.png",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             },
@@ -181,8 +229,16 @@
                                     "id": "ch21t692r7c0",
                                     "created": 1641823366781,
                                     "text": "常见布局",
-                                    "note": "known\\css\\cssLayout.png",
-                                    "layout": null
+                                    "note": null,
+                                    "layout": null,
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/cssLayout.png",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 47,
+                                        "height": 200
+                                    },
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/cssLayout.png",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             },
@@ -191,8 +247,10 @@
                                     "id": "ch21w6bhb540",
                                     "created": 1641823602019,
                                     "text": "CSS选择器",
-                                    "note": "known\\css\\20210926_01.md",
-                                    "layout": null
+                                    "note": null,
+                                    "layout": null,
+                                    "hyperlink": "https://github.com/ZackZheng-xy/knownNet/blob/9c9453917c0c650e0b15d8e66b353dfc8d07acff/known/css/20210926_01.md",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             },
@@ -209,8 +267,10 @@
                                             "id": "ch21wlcnelc0",
                                             "created": 1641823634742,
                                             "text": "外边距塌陷",
-                                            "note": "known\\css\\20210926_02.md",
-                                            "layout": null
+                                            "note": null,
+                                            "layout": null,
+                                            "hyperlink": "https://github.com/ZackZheng-xy/knownNet/blob/9c9453917c0c650e0b15d8e66b353dfc8d07acff/known/css/20210926_02.md",
+                                            "hyperlinkTitle": ""
                                         },
                                         "children": []
                                     }
@@ -231,7 +291,11 @@
                                     "id": "cj417t6s2ag0",
                                     "created": 1649337129490,
                                     "text": "new Vue",
-                                    "note": "knownNet\\known\\vue\\newVue.km"
+                                    "note": "knownNet\\known\\vue\\newVue.km",
+                                    "font-weight": "bold",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -240,7 +304,10 @@
                                     "id": "cj41883erc80",
                                     "created": 1649337161938,
                                     "text": "vue源码文件结构",
-                                    "note": "knownNet\\known\\vue\\vueSourceFiles.km"
+                                    "note": "knownNet\\known\\vue\\vueSourceFiles.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -250,7 +317,10 @@
                                     "created": 1649337193660,
                                     "text": "事件总线的实现",
                                     "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/tree/main/demoCodes/javaScript/jsVueBus.js",
-                                    "hyperlinkTitle": ""
+                                    "hyperlinkTitle": "",
+                                    "resource": [
+                                        "代码"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -268,7 +338,10 @@
                                     "id": "chl6cdrq2m80",
                                     "created": 1643765795682,
                                     "text": "基础知识点",
-                                    "note": "knownNet\\known\\react\\main001.km"
+                                    "note": "knownNet\\known\\react\\main001.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -288,7 +361,10 @@
                                     "created": 1641822845218,
                                     "text": "浏览器架构",
                                     "note": "known\\mindMap\\browserPrinciples1.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": [
                                     {
@@ -297,7 +373,10 @@
                                             "created": 1641822951638,
                                             "text": "事件循环",
                                             "note": "known\\mindMap\\eventLoop.km",
-                                            "layout": null
+                                            "layout": null,
+                                            "resource": [
+                                                "关联脑图"
+                                            ]
                                         },
                                         "children": []
                                     }
@@ -311,7 +390,10 @@
                             "created": 1641734175517,
                             "text": "VS Code快捷键",
                             "note": "mindMap\\vsCodeOperation.km",
-                            "layout": null
+                            "layout": null,
+                            "resource": [
+                                "关联脑图"
+                            ]
                         },
                         "children": []
                     },
@@ -329,7 +411,10 @@
                                     "created": 1641823054433,
                                     "text": "基础",
                                     "note": "known\\node\\001.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -339,7 +424,10 @@
                                     "created": 1641823060972,
                                     "text": "文件操作",
                                     "note": "known\\node\\002.km",
-                                    "layout": null
+                                    "layout": null,
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -365,7 +453,10 @@
                                             "created": 1646316831456,
                                             "text": "大列表虚拟滚动(永远只渲染可视区域20条数据)",
                                             "hyperlink": "https://gitee.com/zackzhengxy/o-bricks/tree/main/demoCodes/vueDemo/betterRenderTable.vue",
-                                            "hyperlinkTitle": ""
+                                            "hyperlinkTitle": "",
+                                            "resource": [
+                                                "代码"
+                                            ]
                                         },
                                         "children": []
                                     }
@@ -394,7 +485,15 @@
                                     "id": "ch21ju6u0o00",
                                     "created": 1641822635247,
                                     "text": "Linux命令参考",
-                                    "note": "known\\linux\\linuxCmd.jpg"
+                                    "note": null,
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/linuxCmd.jpg",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 142,
+                                        "height": 200
+                                    },
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/linuxCmd.jpg",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             }
@@ -414,7 +513,10 @@
                             "id": "ch21myc2lts0",
                             "created": 1641822879363,
                             "text": "数据结构",
-                            "note": "known\\mindMap\\dataStructure.km"
+                            "note": "known\\mindMap\\dataStructure.km",
+                            "resource": [
+                                "关联脑图"
+                            ]
                         },
                         "children": []
                     }
@@ -432,7 +534,10 @@
                             "id": "ch166dkpqrc0",
                             "created": 1641734125940,
                             "text": "正则",
-                            "note": "known\\regExp\\20211130.km"
+                            "note": "known\\regExp\\20211130.km",
+                            "resource": [
+                                "关联脑图"
+                            ]
                         },
                         "children": [
                             {
@@ -440,7 +545,18 @@
                                     "id": "ch21q32zhyo0",
                                     "created": 1641823124790,
                                     "text": "速查表",
-                                    "note": "known\\regExp\\regExpSearch.jpg"
+                                    "note": null,
+                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/regExpSearch.jpg",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 62,
+                                        "height": 200
+                                    },
+                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/regExpSearch.jpg",
+                                    "hyperlinkTitle": "",
+                                    "resource": [
+                                        "图片"
+                                    ]
                                 },
                                 "children": []
                             }
@@ -459,7 +575,10 @@
                                     "id": "ch21rjp9fw00",
                                     "created": 1641823239330,
                                     "text": "Git基础",
-                                    "note": "known\\git\\gitAndGithub.km"
+                                    "note": "known\\git\\gitAndGithub.km",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -468,7 +587,11 @@
                                     "id": "ch21rmh7sbc0",
                                     "created": 1641823245374,
                                     "text": "Git操作",
-                                    "note": "known\\git\\gitAndGithub2.km"
+                                    "note": "known\\git\\gitAndGithub2.km",
+                                    "font-weight": "bold",
+                                    "resource": [
+                                        "关联脑图"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -477,7 +600,9 @@
                                     "id": "ch21xch9aww0",
                                     "created": 1641823693793,
                                     "text": "Git Emoji",
-                                    "note": "known\\git\\20210926.md"
+                                    "note": null,
+                                    "hyperlink": "https://github.com/ZackZheng-xy/knownNet/blob/9c9453917c0c650e0b15d8e66b353dfc8d07acff/known/git/20210926.md",
+                                    "hyperlinkTitle": ""
                                 },
                                 "children": []
                             }

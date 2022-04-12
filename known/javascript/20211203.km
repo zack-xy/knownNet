@@ -18,7 +18,7 @@
                             "id": 0,
                             "created": 1638519165361,
                             "text": "JS实现",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -179,7 +179,7 @@
                     "created": 1639362308949,
                     "text": "将JS插入Html",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -615,7 +615,7 @@
                     "created": 1639364556981,
                     "text": "语法",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -623,7 +623,7 @@
                             "id": 0,
                             "created": 1639364793662,
                             "text": "变量",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -632,7 +632,7 @@
                                     "id": 0,
                                     "created": 1639364799548,
                                     "text": "var",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -713,7 +713,10 @@
                                                     "created": 1643801199963,
                                                     "text": "变量提升的代码面试题",
                                                     "hyperlink": "https://github.com/ZackZheng-xy/o-bricks/blob/main/demoCodes/javaScript/jsScope.js",
-                                                    "hyperlinkTitle": ""
+                                                    "hyperlinkTitle": "",
+                                                    "resource": [
+                                                        "代码"
+                                                    ]
                                                 },
                                                 "children": []
                                             }
@@ -792,7 +795,7 @@
                                     "id": 0,
                                     "created": 1639364806437,
                                     "text": "let",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
                                 "children": [
@@ -1682,7 +1685,7 @@
                             "id": 0,
                             "created": 1639380649760,
                             "text": "传递参数",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -1711,7 +1714,7 @@
                             "id": 0,
                             "created": 1639381185128,
                             "text": "执行上下文和作用域",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -1834,7 +1837,10 @@
                             "text": "垃圾回收",
                             "layout": null,
                             "note": "known\\javascript\\memoryManage.km",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "resource": [
+                                "关联脑图"
+                            ]
                         },
                         "children": [
                             {
@@ -1843,7 +1849,7 @@
                                     "created": 1639382265672,
                                     "text": "标记清理",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1863,7 +1869,7 @@
                                     "created": 1639382271283,
                                     "text": "引用计数",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1901,7 +1907,7 @@
                                     "created": 1639382877977,
                                     "text": "性能",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -2061,7 +2067,10 @@
                             "id": "chxi41r7q0w0",
                             "created": 1645017715415,
                             "text": "类型转换",
-                            "note": "knownNet\\known\\javascript\\jsTypeSwitch.km"
+                            "note": "knownNet\\known\\javascript\\jsTypeSwitch.km",
+                            "resource": [
+                                "关联脑图"
+                            ]
                         },
                         "children": []
                     }

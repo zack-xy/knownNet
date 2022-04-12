@@ -3,7 +3,10 @@
         "data": {
             "id": "cj4mtl9jeu00",
             "created": 1649398079563,
-            "text": "http"
+            "text": "http",
+            "resource": [],
+            "progress": null,
+            "priority": null
         },
         "children": [
             {
@@ -11,8 +14,16 @@
                     "id": "cj4mtp7yqtc0",
                     "created": 1649398088174,
                     "text": "浏览器发起http请求的典型场景",
-                    "hyperlink": "https://gitee.com/zackzhengxy/knownNet/blob/main/known/http/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%91%E8%B5%B7HTTP%E8%AF%B7%E6%B1%82%E7%9A%84%E5%85%B8%E5%9E%8B%E5%9C%BA%E6%99%AF.PNG",
-                    "hyperlinkTitle": ""
+                    "hyperlink": "",
+                    "hyperlinkTitle": "",
+                    "layout": null,
+                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%91%E8%B5%B7HTTP%E8%AF%B7%E6%B1%82%E7%9A%84%E5%85%B8%E5%9E%8B%E5%9C%BA%E6%99%AF.PNG",
+                    "imageTitle": "",
+                    "imageSize": {
+                        "width": 200,
+                        "height": 126
+                    },
+                    "font-weight": "bold"
                 },
                 "children": []
             },
@@ -20,14 +31,23 @@
                 "data": {
                     "id": "cj4myehacs00",
                     "created": 1649398456614,
-                    "text": "HTTP协议格式"
+                    "text": "HTTP协议格式",
+                    "layout_right_offset": {
+                        "x": 68,
+                        "y": 6
+                    },
+                    "layout": null,
+                    "hyperlink": "",
+                    "hyperlinkTitle": "",
+                    "resource": []
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj4mylwj9000",
                             "created": 1649398472774,
-                            "text": "请求行、空行、请求体"
+                            "text": "请求行、空行、请求体",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -35,7 +55,8 @@
                         "data": {
                             "id": "cj4nohrghr40",
                             "created": 1649400501228,
-                            "text": "工具：xshell"
+                            "text": "工具：xshell",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -43,7 +64,14 @@
                         "data": {
                             "id": "cj4tvpq1lf40",
                             "created": 1649417993765,
-                            "text": "解决了什么问题？"
+                            "text": "解决了什么问题？",
+                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/http解决了什么问题.PNG",
+                            "imageTitle": "",
+                            "imageSize": {
+                                "width": 200,
+                                "height": 120
+                            },
+                            "layout": null
                         },
                         "children": []
                     }
@@ -53,14 +81,22 @@
                 "data": {
                     "id": "cj4trtrh4ug0",
                     "created": 1649417689102,
-                    "text": "OSI模型分层（概念7层）"
+                    "text": "OSI模型分层（概念7层）",
+                    "layout": null,
+                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/OSI概念模型.PNG",
+                    "imageTitle": "",
+                    "imageSize": {
+                        "width": 200,
+                        "height": 114
+                    }
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj4ts20tgmg0",
                             "created": 1649417707082,
-                            "text": "好处：每个层封装隔离，只与外层想干，相互影响较小"
+                            "text": "好处：每个层封装隔离，只与外层想干，相互影响较小",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -68,7 +104,8 @@
                         "data": {
                             "id": "cj4tsiolhg80",
                             "created": 1649417743348,
-                            "text": "坏处：层数多了，数据有延迟，性能有影响"
+                            "text": "坏处：层数多了，数据有延迟，性能有影响",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -78,28 +115,32 @@
                 "data": {
                     "id": "cj4u1sdl0ko0",
                     "created": 1649418469727,
-                    "text": "评估web架构的7个属性"
+                    "text": "评估web架构的7个属性",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj4u24tjhhk0",
                             "created": 1649418496814,
-                            "text": "1.性能：影响高可用的关键因素"
+                            "text": "1.性能：影响高可用的关键因素",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "cj4u7i0yriw0",
                                     "created": 1649418917381,
-                                    "text": "网络性能"
+                                    "text": "网络性能",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "cj4u7m3jilc0",
                                             "created": 1649418926244,
-                                            "text": "吞吐量(小于等于带宽)/开销"
+                                            "text": "吞吐量(小于等于带宽)/开销",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -110,17 +151,15 @@
                                     "id": "cj4u7vlvfow0",
                                     "created": 1649418946944,
                                     "text": "用户感知性能",
-                                    "layout_right_offset": {
-                                        "x": 0,
-                                        "y": -15
-                                    }
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "cj4u7zo7xhk0",
                                             "created": 1649418955793,
-                                            "text": "延迟、应用动作完成时间"
+                                            "text": "延迟、应用动作完成时间",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -130,14 +169,16 @@
                                 "data": {
                                     "id": "cj4u8b9dpl40",
                                     "created": 1649418981017,
-                                    "text": "网络效率"
+                                    "text": "网络效率",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "cj4u8hgla3c0",
                                             "created": 1649418994514,
-                                            "text": "重用缓存、交互次数数据传输距离、COD"
+                                            "text": "重用缓存、交互次数数据传输距离、COD",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -149,7 +190,8 @@
                         "data": {
                             "id": "cj4u2dggkg00",
                             "created": 1649418515614,
-                            "text": "2.可伸缩性：支持部署可以互相交互的大量组件"
+                            "text": "2.可伸缩性：支持部署可以互相交互的大量组件",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -157,7 +199,8 @@
                         "data": {
                             "id": "cj4u2po42qw0",
                             "created": 1649418542198,
-                            "text": "3.简单性：易理解、易实现、易验证"
+                            "text": "3.简单性：易理解、易实现、易验证",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -165,7 +208,8 @@
                         "data": {
                             "id": "cj4u33deq9c0",
                             "created": 1649418572025,
-                            "text": "4.可见性：对两个组件间的交互进行监视或者仲裁的能力。如缓存、分层设计等"
+                            "text": "4.可见性：对两个组件间的交互进行监视或者仲裁的能力。如缓存、分层设计等",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -173,7 +217,8 @@
                         "data": {
                             "id": "cj4u3te81vs0",
                             "created": 1649418628671,
-                            "text": "5.可移植性：在不同环境下的运行能力"
+                            "text": "5.可移植性：在不同环境下的运行能力",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -181,7 +226,8 @@
                         "data": {
                             "id": "cj4u423plpc0",
                             "created": 1649418647626,
-                            "text": "6.可靠性：出现部分故障时，对整体影响的程度"
+                            "text": "6.可靠性：出现部分故障时，对整体影响的程度",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -189,7 +235,8 @@
                         "data": {
                             "id": "cj4u4dxoclk0",
                             "created": 1649418673383,
-                            "text": "7.可修改：对系统做出修改的难易程度"
+                            "text": "7.可修改：对系统做出修改的难易程度",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -199,14 +246,16 @@
                 "data": {
                     "id": "cj4v167q67k0",
                     "created": 1649421242594,
-                    "text": "5种架构风格"
+                    "text": "5种架构风格",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj4v1dtvehs0",
                             "created": 1649421259170,
-                            "text": "数据流风格"
+                            "text": "数据流风格",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -214,7 +263,8 @@
                         "data": {
                             "id": "cj4v1hw8h000",
                             "created": 1649421268020,
-                            "text": "复制风格"
+                            "text": "复制风格",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -222,7 +272,8 @@
                         "data": {
                             "id": "cj4v1kvwqtk0",
                             "created": 1649421274531,
-                            "text": "分层风格"
+                            "text": "分层风格",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -230,7 +281,8 @@
                         "data": {
                             "id": "cj4v1pq9neo0",
                             "created": 1649421285074,
-                            "text": "移动代码风格"
+                            "text": "移动代码风格",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -238,7 +290,8 @@
                         "data": {
                             "id": "cj4v1v22s480",
                             "created": 1649421296672,
-                            "text": "点对点风格"
+                            "text": "点对点风格",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -248,14 +301,16 @@
                 "data": {
                     "id": "cj86nd14ub40",
                     "created": 1649758693523,
-                    "text": "chrome浏览器控制台network的使用"
+                    "text": "chrome浏览器控制台network的使用",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj86nomx68o0",
                             "created": 1649758718785,
-                            "text": "Hide data URLs: 隐藏base64编码的请求"
+                            "text": "Hide data URLs: 隐藏base64编码的请求",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -263,7 +318,14 @@
                         "data": {
                             "id": "cj86o7ug2740",
                             "created": 1649758760599,
-                            "text": "属性过滤："
+                            "text": "属性过滤：",
+                            "layout": null,
+                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/chrome浏览器network过滤器.PNG",
+                            "imageTitle": "",
+                            "imageSize": {
+                                "width": 200,
+                                "height": 99
+                            }
                         },
                         "children": []
                     }

@@ -642,18 +642,34 @@
                     "id": "chlhvbitaiw0",
                     "created": 1643798311918,
                     "text": "js执行图",
-                    "note": "known\\drawio\\jsExecute.drawio"
+                    "note": "known\\drawio\\jsExecute.drawio",
+                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/jsExecute.png",
+                    "imageTitle": "",
+                    "imageSize": {
+                        "width": 200,
+                        "height": 153
+                    },
+                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/jsExecute.png",
+                    "hyperlinkTitle": ""
                 },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "chlhzn1a9y80",
-                    "created": 1643798650436,
-                    "text": "代码面试题",
-                    "note": null
-                },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj8cdc5dwlc0",
+                            "created": 1649774834621,
+                            "text": "js执行图",
+                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/jsExecuteDemo3.png",
+                            "imageTitle": "",
+                            "imageSize": {
+                                "width": 200,
+                                "height": 150
+                            },
+                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/jsExecuteDemo3.png",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },

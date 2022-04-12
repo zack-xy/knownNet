@@ -6,6 +6,7 @@ css // Css相关
 drawio // 流程图 .drawio文件，需要vscode安装插件Draw.io Integration预览
 git // git
 html // Html相关
+http // http相关
 issues // 遇到的问题（不再更新，问题直接更新在github项目Issues）
 java //java相关
 javascript // JavaScript相关
