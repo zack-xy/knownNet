@@ -1,0 +1,148 @@
+{
+    "root": {
+        "data": {
+            "id": "cj95li7jz0g0",
+            "created": 1649857286914,
+            "text": "Vue基础"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj95ll9ex200",
+                    "created": 1649857293557,
+                    "text": "路由懒加载"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj95ltmd9i80",
+                            "created": 1649857311754,
+                            "text": "为什么需要懒加载"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj95m5icbcg0",
+                                    "created": 1649857337632,
+                                    "text": "单页面vue应用，如果没有懒加载，webpack打包后的文件比较大，进入首页时，需要加载的内容多，长时间白屏",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj95ndaqdkg0",
+                            "created": 1649857432950,
+                            "text": "实现3方式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj95nh3grrs0",
+                                    "created": 1649857441218,
+                                    "text": "vue异步组件"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj95o04cbfk0",
+                                            "created": 1649857482630,
+                                            "text": "一个组件生成一个js"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj95o5731y80",
+                                            "created": 1649857493680,
+                                            "text": "{path:'/home',name:'home',component: resolve => require(['@/components/home'],resolve)}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj95nk2j26g0",
+                                    "created": 1649857447692,
+                                    "text": "es提案的import()",
+                                    "layout_right_offset": {
+                                        "x": -35,
+                                        "y": 1
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj95pghkbls0",
+                                            "created": 1649857596622,
+                                            "text": "未指定webpackChunkName，一个组件打包一个js"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj95qbqi87k0",
+                                                    "created": 1649857664643,
+                                                    "text": "const Index = () => import('@/componets/home')"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cj95qnffdzc0",
+                                            "created": 1649857690095,
+                                            "text": "指定webpackChunkName，打包到一个js文件"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj95qy5xhh40",
+                                                    "created": 1649857713465,
+                                                    "text": "const Home = () => import(/*webpackChunkName: 'ImportFuncDemo'*/ '@/components/home')"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cj95npqlzso0",
+                                    "created": 1649857460032,
+                                    "text": "webpack的require、ensure"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cj95s79992o0",
+                                            "created": 1649857811621,
+                                            "text": "指定chunkName打包成一个js"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cj95sxxefp40",
+                                                    "created": 1649857869677,
+                                                    "text": "{path: '/home',name:'home', component: r => require。ensure([], ()=>r(require('@/components/home')),'chunkName')}"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

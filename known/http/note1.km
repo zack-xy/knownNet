@@ -404,6 +404,66 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "cj8d4uay1qw0",
+                    "created": 1649776989972,
+                    "text": "URI与URL的区别"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj8d624y8gg0",
+                            "created": 1649777085388,
+                            "text": "URL"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8d6gfjhjs0",
+                                    "created": 1649777116503,
+                                    "text": "表示资源的位置，期望提供查找资源的方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj8d6rxif7s0",
+                            "created": 1649777141535,
+                            "text": "URN"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8d6wuffqg0",
+                                    "created": 1649777152232,
+                                    "text": "期望为资源提供持久的、位置无关的标识方式，并允许简单地将多个命名空间映射到单个URN命名空间。例如磁力链"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cj8d7r610qo0",
+                            "created": 1649777218237,
+                            "text": "URI"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cj8d86jfi000",
+                                    "created": 1649777251699,
+                                    "text": "用以区分资源，URL和URN的超集"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
