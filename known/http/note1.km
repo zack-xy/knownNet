@@ -686,6 +686,63 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "cjcj4lj82b40",
+                    "created": 1650200137368,
+                    "text": "长连接与短连接",
+                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/长连接和短连接.PNG",
+                    "imageTitle": "",
+                    "imageSize": {
+                        "width": 150,
+                        "height": 200
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjcj6f4ugo00",
+                            "created": 1650200280166,
+                            "text": "keep-alive仅对一层有效，不是层层代理都keep-alive"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cjcjke1rcko0",
+                    "created": 1650201374901,
+                    "text": "代理服务器转发消息"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cjcjkiwsakw0",
+                            "created": 1650201385484,
+                            "text": "如何传递IP"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cjcjkrdlnug0",
+                                    "created": 1650201403915,
+                                    "text": "X-Forwarded-For"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cjcjl1xokn40",
+                                    "created": 1650201426897,
+                                    "text": "X-Real-IP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
