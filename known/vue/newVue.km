@@ -266,7 +266,11 @@
                     "id": "cj3xj1d7cmo0",
                     "created": 1649326724859,
                     "text": "new Vue()",
-                    "priority": 1
+                    "priority": 1,
+                    "layout_right_offset": {
+                        "x": -248.33332346545362,
+                        "y": -74.99999701976793
+                    }
                 },
                 "children": [
                     {
