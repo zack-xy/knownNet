@@ -15,7 +15,10 @@
                         "x": -33,
                         "y": -41
                     },
-                    "layout": null
+                    "layout": null,
+                    "image": "",
+                    "imageTitle": "",
+                    "imageSize": ""
                 },
                 "children": [
                     {
@@ -23,15 +26,16 @@
                             "id": "cjw507xyvts0",
                             "created": 1652191497922,
                             "text": "打包的文件运行时包含编译器",
-                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/vue%E4%BB%A5%E6%89%93%E5%8C%85%E8%A7%A3%E6%9E%90.jpg",
+                            "hyperlink": "https://note.youdao.com/s/8UCug8PZ",
                             "hyperlinkTitle": "",
-                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/vue%E4%BB%A5%E6%89%93%E5%8C%85%E8%A7%A3%E6%9E%90.jpg",
+                            "image": "",
                             "imageTitle": "",
-                            "imageSize": {
-                                "width": 141,
-                                "height": 200
-                            },
-                            "layout": null
+                            "imageSize": "",
+                            "layout": null,
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": -87
+                            }
                         },
                         "children": []
                     },
@@ -40,14 +44,11 @@
                             "id": "cjw5f3b4dog0",
                             "created": 1652192663296,
                             "text": "修正",
-                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/修正文件引入顺序.jpg",
+                            "hyperlink": "https://note.youdao.com/s/KRFZJJTI",
                             "hyperlinkTitle": "",
-                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/修正文件引入顺序.jpg",
+                            "image": "",
                             "imageTitle": "",
-                            "imageSize": {
-                                "width": 141,
-                                "height": 200
-                            },
+                            "imageSize": "",
                             "layout": null
                         },
                         "children": []
@@ -76,7 +77,7 @@
                             "id": "cjw5hwzegyw0",
                             "created": 1652192884619,
                             "text": "如笔记此图",
-                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/vue%E4%BB%A5%E6%89%93%E5%8C%85%E8%A7%A3%E6%9E%90.jpg",
+                            "hyperlink": "https://note.youdao.com/s/8UCug8PZ",
                             "hyperlinkTitle": "",
                             "layout": null
                         },
@@ -111,13 +112,10 @@
                                             "id": "cjw5plavsso0",
                                             "created": 1652193486105,
                                             "text": "_init做了什么",
-                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/_init.jpg",
+                                            "image": "",
                                             "imageTitle": "",
-                                            "imageSize": {
-                                                "width": 141,
-                                                "height": 200
-                                            },
-                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/_init.jpg",
+                                            "imageSize": "",
+                                            "hyperlink": "https://note.youdao.com/s/72xENoaZ",
                                             "hyperlinkTitle": ""
                                         },
                                         "children": [
@@ -133,12 +131,9 @@
                                                             "id": "cjw5sq9r7eo0",
                                                             "created": 1652193732014,
                                                             "text": "$mount",
-                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/$mount.jpg",
+                                                            "image": "",
                                                             "imageTitle": "",
-                                                            "imageSize": {
-                                                                "width": 141,
-                                                                "height": 200
-                                                            },
+                                                            "imageSize": "",
                                                             "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/$mount.jpg",
                                                             "hyperlinkTitle": ""
                                                         },
@@ -155,13 +150,10 @@
                                                                             "id": "cjw5w6jwb8w0",
                                                                             "created": 1652194002548,
                                                                             "text": "mountComponent做了什么",
-                                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/mountComponent.jpg",
+                                                                            "image": "",
                                                                             "imageTitle": "",
-                                                                            "imageSize": {
-                                                                                "width": 141,
-                                                                                "height": 200
-                                                                            },
-                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/mountComponent.jpg",
+                                                                            "imageSize": "",
+                                                                            "hyperlink": "https://note.youdao.com/s/N0anFrt0",
                                                                             "hyperlinkTitle": ""
                                                                         },
                                                                         "children": [
@@ -210,78 +202,98 @@
                                                                             },
                                                                             {
                                                                                 "data": {
-                                                                                    "id": "cjw5y5ogph40",
-                                                                                    "created": 1652194157376,
-                                                                                    "text": "此时已经有render函数了，需要new一个Watcher，也就是一个组件一个Watcher"
+                                                                                    "id": "ck4an9xo64g0",
+                                                                                    "created": 1653019889837,
+                                                                                    "text": "render的生成",
+                                                                                    "hyperlink": "https://note.youdao.com/s/5CzQAmEg",
+                                                                                    "hyperlinkTitle": ""
                                                                                 },
                                                                                 "children": [
                                                                                     {
                                                                                         "data": {
-                                                                                            "id": "cjw625zm49s0",
-                                                                                            "created": 1652194471506,
-                                                                                            "text": "watcher创建完毕后，内部的方法执行完毕，则挂载完成调用生命周期钩子mounted"
-                                                                                        },
-                                                                                        "children": []
-                                                                                    },
-                                                                                    {
-                                                                                        "data": {
-                                                                                            "id": "cjw643fg5u00",
-                                                                                            "created": 1652194622662,
-                                                                                            "text": "Watcher做了什么？",
-                                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/Watcher类.jpg",
-                                                                                            "hyperlinkTitle": "",
-                                                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/Watcher类.jpg",
-                                                                                            "imageTitle": "",
-                                                                                            "imageSize": {
-                                                                                                "width": 141,
-                                                                                                "height": 200
-                                                                                            }
+                                                                                            "id": "cjw5y5ogph40",
+                                                                                            "created": 1652194157376,
+                                                                                            "text": "此时已经有render函数了，需要new一个Watcher，也就是一个组件一个Watcher"
                                                                                         },
                                                                                         "children": [
                                                                                             {
                                                                                                 "data": {
-                                                                                                    "id": "cjw67jfwvn40",
-                                                                                                    "created": 1652194892611,
-                                                                                                    "text": "1.把自己放在Dep的target上"
+                                                                                                    "id": "cjw625zm49s0",
+                                                                                                    "created": 1652194471506,
+                                                                                                    "text": "watcher创建完毕后，内部的方法执行完毕，则挂载完成调用生命周期钩子mounted",
+                                                                                                    "expandState": "expand"
                                                                                                 },
                                                                                                 "children": [
                                                                                                     {
                                                                                                         "data": {
-                                                                                                            "id": "cjw6fhyi69c0",
-                                                                                                            "created": 1652195516295,
-                                                                                                            "text": "watcher设计Dep，关系在这里看并不明显"
+                                                                                                            "id": "cjw643fg5u00",
+                                                                                                            "created": 1652194622662,
+                                                                                                            "text": "Watcher做了什么？",
+                                                                                                            "hyperlink": "https://note.youdao.com/s/PUNSgyw0",
+                                                                                                            "hyperlinkTitle": "",
+                                                                                                            "image": "",
+                                                                                                            "imageTitle": "",
+                                                                                                            "imageSize": ""
                                                                                                         },
-                                                                                                        "children": []
-                                                                                                    }
-                                                                                                ]
-                                                                                            },
-                                                                                            {
-                                                                                                "data": {
-                                                                                                    "id": "cjw687ro3xc0",
-                                                                                                    "created": 1652194945565,
-                                                                                                    "text": " 2.调一下getter方法，实际上就是updateComponent，new Watcher传进来的",
-                                                                                                    "priority": 1
-                                                                                                },
-                                                                                                "children": []
-                                                                                            },
-                                                                                            {
-                                                                                                "data": {
-                                                                                                    "id": "cjw6d2dnyn40",
-                                                                                                    "created": 1652195325655,
-                                                                                                    "text": "3.从Dep上移除"
-                                                                                                },
-                                                                                                "children": [
-                                                                                                    {
-                                                                                                        "data": {
-                                                                                                            "id": "cjw6eh7k8kg0",
-                                                                                                            "created": 1652195436302,
-                                                                                                            "text": "注意看这里的代码，为什么这么写？"
-                                                                                                        },
-                                                                                                        "children": []
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cjw67jfwvn40",
+                                                                                                                    "created": 1652194892611,
+                                                                                                                    "text": "1.把自己放在Dep的target上"
+                                                                                                                },
+                                                                                                                "children": [
+                                                                                                                    {
+                                                                                                                        "data": {
+                                                                                                                            "id": "cjw6fhyi69c0",
+                                                                                                                            "created": 1652195516295,
+                                                                                                                            "text": "watcher设计Dep，关系在这里看并不明显"
+                                                                                                                        },
+                                                                                                                        "children": []
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cjw687ro3xc0",
+                                                                                                                    "created": 1652194945565,
+                                                                                                                    "text": " 2.调一下getter方法，实际上就是updateComponent，new Watcher传进来的",
+                                                                                                                    "priority": 1
+                                                                                                                },
+                                                                                                                "children": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cjw6d2dnyn40",
+                                                                                                                    "created": 1652195325655,
+                                                                                                                    "text": "3.从Dep上移除"
+                                                                                                                },
+                                                                                                                "children": [
+                                                                                                                    {
+                                                                                                                        "data": {
+                                                                                                                            "id": "cjw6eh7k8kg0",
+                                                                                                                            "created": 1652195436302,
+                                                                                                                            "text": "注意看这里的代码，为什么这么写？"
+                                                                                                                        },
+                                                                                                                        "children": []
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
                                                                                                     }
                                                                                                 ]
                                                                                             }
                                                                                         ]
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "ck4aoyct3m00",
+                                                                                            "created": 1653020021359,
+                                                                                            "text": "render生成详细过程",
+                                                                                            "hyperlink": "https://note.youdao.com/s/OathrVc7",
+                                                                                            "hyperlinkTitle": ""
+                                                                                        },
+                                                                                        "children": []
                                                                                     }
                                                                                 ]
                                                                             }
@@ -301,14 +313,11 @@
                                                                             "id": "cjw5vqmc6480",
                                                                             "created": 1652193967867,
                                                                             "text": "通过封装高级函数/工厂函数",
-                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/createCompilerCreator.jpg",
+                                                                            "hyperlink": "https://note.youdao.com/s/GxTUUzIt",
                                                                             "hyperlinkTitle": "",
-                                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/createCompilerCreator.jpg",
+                                                                            "image": "",
                                                                             "imageTitle": "",
-                                                                            "imageSize": {
-                                                                                "width": 141,
-                                                                                "height": 200
-                                                                            }
+                                                                            "imageSize": ""
                                                                         },
                                                                         "children": [
                                                                             {
@@ -318,7 +327,18 @@
                                                                                     "text": "模板编译是如何做的？？？",
                                                                                     "background": "#ff0000"
                                                                                 },
-                                                                                "children": []
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "ck49x3rqo1k0",
+                                                                                            "created": 1653017838949,
+                                                                                            "text": "编译器工作基本步骤",
+                                                                                            "hyperlink": "https://note.youdao.com/s/Lk6fozLK",
+                                                                                            "hyperlinkTitle": ""
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
@@ -340,14 +360,11 @@
                                                             "id": "cjw6hzyw89k0",
                                                             "created": 1652195712229,
                                                             "text": "initState做了什么？",
-                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/initState.jpg",
+                                                            "hyperlink": "https://note.youdao.com/s/37QzJFYr",
                                                             "hyperlinkTitle": "",
-                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/initState.jpg",
+                                                            "image": "",
                                                             "imageTitle": "",
-                                                            "imageSize": {
-                                                                "width": 141,
-                                                                "height": 200
-                                                            }
+                                                            "imageSize": ""
                                                         },
                                                         "children": [
                                                             {
@@ -376,14 +393,11 @@
                                                                                             "id": "cjw6o2v8l5s0",
                                                                                             "created": 1652196188723,
                                                                                             "text": "Observer类做了什么",
-                                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/类Observer的一些方法.jpg",
+                                                                                            "hyperlink": "https://note.youdao.com/s/D7DMfvtw",
                                                                                             "hyperlinkTitle": "",
-                                                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/类Observer的一些方法.jpg",
+                                                                                            "image": "",
                                                                                             "imageTitle": "",
-                                                                                            "imageSize": {
-                                                                                                "width": 141,
-                                                                                                "height": 200
-                                                                                            }
+                                                                                            "imageSize": ""
                                                                                         },
                                                                                         "children": [
                                                                                             {
@@ -455,7 +469,7 @@
                                                                                                                             "id": "cjw6wy2n0w80",
                                                                                                                             "created": 1652196883564,
                                                                                                                             "text": "get",
-                                                                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/defineReactive.jpg",
+                                                                                                                            "hyperlink": "https://note.youdao.com/s/TNzp2VVQ",
                                                                                                                             "hyperlinkTitle": ""
                                                                                                                         },
                                                                                                                         "children": []
@@ -465,14 +479,11 @@
                                                                                                                             "id": "cjw6yiara480",
                                                                                                                             "created": 1652197005955,
                                                                                                                             "text": "set",
-                                                                                                                            "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/defineReactive-get.jpg",
+                                                                                                                            "hyperlink": "https://note.youdao.com/s/MNiMtC6E",
                                                                                                                             "hyperlinkTitle": "",
-                                                                                                                            "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/defineReactive-get.jpg",
+                                                                                                                            "image": "",
                                                                                                                             "imageTitle": "",
-                                                                                                                            "imageSize": {
-                                                                                                                                "width": 141,
-                                                                                                                                "height": 200
-                                                                                                                            }
+                                                                                                                            "imageSize": ""
                                                                                                                         },
                                                                                                                         "children": [
                                                                                                                             {
@@ -508,6 +519,27 @@
                                                                                                                                                     "text": "涉及更新队列和diff算法"
                                                                                                                                                 },
                                                                                                                                                 "children": []
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "data": {
+                                                                                                                                                    "id": "ck4arpibmog0",
+                                                                                                                                                    "created": 1653020237194,
+                                                                                                                                                    "text": "数据变化通知组件更新",
+                                                                                                                                                    "hyperlink": "https://note.youdao.com/s/SGE5AY9q",
+                                                                                                                                                    "hyperlinkTitle": ""
+                                                                                                                                                },
+                                                                                                                                                "children": [
+                                                                                                                                                    {
+                                                                                                                                                        "data": {
+                                                                                                                                                            "id": "ck4at949rbs0",
+                                                                                                                                                            "created": 1653020358244,
+                                                                                                                                                            "text": "数据变化通知组件更新逻辑",
+                                                                                                                                                            "hyperlink": "https://note.youdao.com/s/aFlajlFE",
+                                                                                                                                                            "hyperlinkTitle": ""
+                                                                                                                                                        },
+                                                                                                                                                        "children": []
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             }
                                                                                                                                         ]
                                                                                                                                     }
@@ -527,13 +559,10 @@
                                                                                                                                     "id": "cjw71a8g25s0",
                                                                                                                                     "created": 1652197223493,
                                                                                                                                     "text": "Dep做了什么",
-                                                                                                                                    "image": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/Dep类.jpg",
+                                                                                                                                    "image": "",
                                                                                                                                     "imageTitle": "",
-                                                                                                                                    "imageSize": {
-                                                                                                                                        "width": 141,
-                                                                                                                                        "height": 200
-                                                                                                                                    },
-                                                                                                                                    "hyperlink": "https://cdn.jsdelivr.net/gh/ZackZheng-xy/picGallery/imgs/Dep类.jpg",
+                                                                                                                                    "imageSize": "",
+                                                                                                                                    "hyperlink": "https://note.youdao.com/s/TTAGNM89",
                                                                                                                                     "hyperlinkTitle": ""
                                                                                                                                 },
                                                                                                                                 "children": [
