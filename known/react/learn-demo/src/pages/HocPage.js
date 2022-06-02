@@ -19,12 +19,24 @@ function Child(props) {
 
 const Foo = foo(Child)
 
+@foo
+class ChildClass extends Component {
+  render() {
+    return (
+      <div className="border">
+        Child-class-{this.props.name}
+      </div>
+    )
+  }
+}
+
 export default class HocPage extends Component {
   render() {
     return (
       <div>
         <h1>HocPage</h1>
         <Foo name="zack" />
+        <ChildClass name="zack-class"/>
       </div>
     )
   }
