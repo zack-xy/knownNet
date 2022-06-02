@@ -32,6 +32,11 @@ Fn 键+方向右键 = End 键
 + ![win](./win.svg)： `ctrl+O`
 + ![apple](./apple.svg)： `⌘+O`
 
+
+#### 打开新的Vscode
++ ![win](./win.svg)： `ctrl+shhift+N`
++ ![apple](./apple.svg)： ``
+
 #### 打开文件夹
 
 + ![win](./win.svg)： `ctrl+K ctrl+O`
