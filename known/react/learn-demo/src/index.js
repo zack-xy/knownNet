@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ContextPage from './pages/ContextPage'
+// import ContextPage from './pages/ContextPage'
 import HocPage from './pages/HocPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
