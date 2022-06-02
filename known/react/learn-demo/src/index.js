@@ -5,12 +5,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import ContextPage from './pages/ContextPage'
+import HocPage from './pages/HocPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ContextPage></ContextPage>
+    {/* Context API的使用
+    <ContextPage></ContextPage> */}
+
+    <HocPage />
   </React.StrictMode>
 );
 
