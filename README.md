@@ -10,8 +10,11 @@ http // http相关
 issues // 遇到的问题（不再更新，问题直接更新在github项目Issues）
 java //java相关
 javascript // JavaScript相关
+keyboard // 快捷键
 linux // Linux相关
-mindMap // 脑图  .km文件，需要vscode安装插件vscode-mindmap预览
+mindMap // 脑图  .km文件，需要vscode安装插件
+后续脑图将使用xmind，更美的UI，更好的功能，需要使用xmind软件打开
+vscode-mindmap预览
 node  // node相关
 react // React相关
 regExp // 正则相关
