@@ -6,3 +6,4 @@ import React from 'react'
  */
 export const ThemeConext = React.createContext()
 export const ThemeProvider = ThemeConext.Provider;
+export const ThemeConsumer = ThemeConext.Consumer

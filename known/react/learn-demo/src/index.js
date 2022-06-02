@@ -4,17 +4,17 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import ContextPage from './pages/ContextPage'
-import HocPage from './pages/HocPage';
+import ContextPage from './pages/ContextPage'
+// import HocPage from './pages/HocPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* Context API的使用
-    <ContextPage></ContextPage> */}
+    {/* Context API的使用 */}
+    <ContextPage></ContextPage>
 
-    <HocPage />
+    {/* <HocPage /> */}
   </React.StrictMode>
 );
 
