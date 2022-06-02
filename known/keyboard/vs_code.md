@@ -27,6 +27,16 @@ Fn 键+方向右键 = End 键
 + ![win](./win.svg)： `ctrl+R`
 + ![apple](./apple.svg)： `⌘+R`
 
+#### 打开文件
+
++ ![win](./win.svg)： `ctrl+O`
++ ![apple](./apple.svg)： `⌘+O`
+
+#### 打开文件夹
+
++ ![win](./win.svg)： `ctrl+K ctrl+O`
++ ![apple](./apple.svg)： `⌘+K ⌘+O`
+
 
 #### 切换自动换行
 
