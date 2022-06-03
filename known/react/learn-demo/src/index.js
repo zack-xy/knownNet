@@ -6,7 +6,11 @@ import 'antd/dist/antd.less';
 import reportWebVitals from './reportWebVitals';
 
 import ContextPage from './pages/ContextPage'
+
 // import HocPage from './pages/HocPage';
+
+// Antd Form
+import AntdFormPage from './pages/AntdFormPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +20,9 @@ root.render(
     <ContextPage></ContextPage>
 
     {/* <HocPage /> */}
+
+
+    <AntdFormPage></AntdFormPage>
   </React.StrictMode>
 );
 
