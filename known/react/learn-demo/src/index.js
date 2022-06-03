@@ -10,7 +10,8 @@ import ContextPage from './pages/ContextPage'
 // import HocPage from './pages/HocPage';
 
 // Antd Form
-import AntdFormPage from './pages/AntdFormPage';
+// import AntdFormPage from './pages/AntdFormPage';
+import MyRcFieldForm from './pages/MyRcFieldForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,10 @@ root.render(
     {/* <HocPage /> */}
 
 
-    <AntdFormPage></AntdFormPage>
+    {/* <AntdFormPage></AntdFormPage> */}
+
+
+    <MyRcFieldForm></MyRcFieldForm>
   </React.StrictMode>
 );
 
