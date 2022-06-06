@@ -1,7 +1,4 @@
-import React from 'react'
+import React from "react";
 
-
-const FieldContext = React.createContext()
-export default FieldContext
-
-
+const FieldContext = React.createContext();
+export default FieldContext;
