@@ -327,3 +327,269 @@ function sameVnode (a, b) {
 > 1. key的作用主要是为了高效的更新虚拟DOM，其原理是vue在patch过程中通过key可以精确判断两个节点是否是同一个，从而避免频繁更新不同元素，使得整个patch过程更加高效，减少DOM操作量，提高性能
 > 2. 另外，若不设置key还可能在列表更新时引发一些隐藏的bug
 > 3. vue中在使用相同标签名元素的过渡切换时，会使用到key属性，其目的也是为了让vue可以他们，否者vue只会替换其内部属性而不会触发过渡效果(元素出现了复用)
+
+--------
+
+#### 怎么理解Vue中的diff算法
+
+源码分析1：必要性，lifecycle.js -- mountComponent()
+一个组件一个watcher，如果组件的data发生变化，需要知道如何更新页面，就需要diff算法
+源码分析2：执行方式，patch.js -- patchNode()
+patchVnode是diff发生的地方。策略：深度优先，同层比较
+源码分析3：高效性，patch.js -- updateChildren()
+
+
+
+patch.js -- patchNode 源码示例：
+
+```javascript
+  function patchVnode (
+    oldVnode,
+    vnode,
+    insertedVnodeQueue,
+    ownerArray,
+    index,
+    removeOnly
+  ) {
+    if (oldVnode === vnode) {
+      return
+    }
+
+    if (isDef(vnode.elm) && isDef(ownerArray)) {
+      // clone reused vnode
+      vnode = ownerArray[index] = cloneVNode(vnode)
+    }
+
+    const elm = vnode.elm = oldVnode.elm
+
+
+    // 猜测是只更新了placeholder
+    if (isTrue(oldVnode.isAsyncPlaceholder)) {
+      if (isDef(vnode.asyncFactory.resolved)) {
+        hydrate(oldVnode.elm, vnode, insertedVnodeQueue)
+      } else {
+        vnode.isAsyncPlaceholder = true
+      }
+      return
+    }
+
+
+    // 这里是对静态节点的处理
+    // reuse element for static trees.
+    // note we only do this if the vnode is cloned -
+    // if the new node is not cloned it means the render functions have been
+    // reset by the hot-reload-api and we need to do a proper re-render.
+    if (isTrue(vnode.isStatic) &&
+      isTrue(oldVnode.isStatic) &&
+      vnode.key === oldVnode.key &&
+      (isTrue(vnode.isCloned) || isTrue(vnode.isOnce))
+    ) {
+      vnode.componentInstance = oldVnode.componentInstance
+      return
+    }
+
+    // 这里是处理什么的？data上面还有hook函数
+    let i
+    const data = vnode.data
+    if (isDef(data) && isDef(i = data.hook) && isDef(i = i.prepatch)) {
+      i(oldVnode, vnode)
+    }
+
+
+    // 同层比较，深度优先，先比较子节点
+    const oldCh = oldVnode.children
+    const ch = vnode.children
+    if (isDef(data) && isPatchable(vnode)) {
+      for (i = 0; i < cbs.update.length; ++i) cbs.update[i](oldVnode, vnode)
+      if (isDef(i = data.hook) && isDef(i = i.update)) i(oldVnode, vnode)
+    }
+    // 如果新节点内非文本，且新老子节点有定义，更新子节点updateChildren
+    // 如果新节点内非文本，只新子节点有定义(老节点没有子节点)，若老节点有文本，将文本清空，向老节点添加节点
+    // 如果新节点内非文本，只老节点有定义（新节点没有定义），从老节点移除节点
+    // 如果新节点内非文本，新老节点都没子节点，更新文本内容
+
+    // 如果新节点有文本，比较新老文本是否是否相同，不同的话更新文本内容
+    // 如果data有定义，需要调用钩子函数
+    if (isUndef(vnode.text)) {
+      if (isDef(oldCh) && isDef(ch)) {
+        if (oldCh !== ch) updateChildren(elm, oldCh, ch, insertedVnodeQueue, removeOnly)
+      } else if (isDef(ch)) {
+        if (process.env.NODE_ENV !== 'production') {
+          checkDuplicateKeys(ch)
+        }
+        if (isDef(oldVnode.text)) nodeOps.setTextContent(elm, '')
+        addVnodes(elm, null, ch, 0, ch.length - 1, insertedVnodeQueue)
+      } else if (isDef(oldCh)) {
+        removeVnodes(oldCh, 0, oldCh.length - 1)
+      } else if (isDef(oldVnode.text)) {
+        nodeOps.setTextContent(elm, '')
+      }
+    } else if (oldVnode.text !== vnode.text) {
+      nodeOps.setTextContent(elm, vnode.text)
+    }
+    if (isDef(data)) {
+      if (isDef(i = data.hook) && isDef(i = i.postpatch)) i(oldVnode, vnode)
+    }
+  }
+```
+
+
+> 总结:
+> 1. diff算法是虚拟dom技术的必然产物，通过新旧虚拟dom作diff，将变化的地方更新在真实dom上；另外，也需要diff高效的执行对比过程，从而降低时间复杂度为O(n)
+> 2. vue2.x中为了降低Watcher的粒度，每个组件只有1个Watcher与之对应，只有引入diff才能精确找到发生变化的地方
+> 3. vue中diff执行的时刻是组件实例执行其更新函数时，它会比对上一次渲染结果oldNode和新的渲染结果newVnode，此过程称为patch
+> 4. diff过程整体遵循深度优先，同层比较的策略，两个节点之间比较会根据它们是否拥有子节点或者文本节点做不同的操作；比较两组子节点是算法的重点。这个过程具体参看上面源码的注释
+
+
+
+---------
+
+
+#### 谈一谈对vue组件的理解
+
+> 组件化定义：
+1. 全局定义
+```javascript
+Vue.component('comp', {
+  template: ''
+})
+```
+2. 单文件组件
+```html
+<template>
+  <div>
+    this is template
+  </div>
+</template>
+``` 
+vue-loader会编译template为render函数，最终导出的依然是组件配置对象
+
+> 源码解读：core\global-api\assets.js
+> 
+```javascript
+export function initAssetRegisters (Vue: GlobalAPI) {
+  /**
+   * Create asset registration methods.
+   */
+
+  // ASSET_TYPES = ['component','directive','filter'] 
+  ASSET_TYPES.forEach(type => {
+    Vue[type] = function (
+      id: string,
+      definition: Function | Object
+    ): Function | Object | void {
+      if (!definition) {
+        return this.options[type + 's'][id]
+      } else {
+        /* istanbul ignore if */
+        if (process.env.NODE_ENV !== 'production' && type === 'component') {
+          validateComponentName(id)
+        }
+        // 传入的def是一个对象，vue.component
+        if (type === 'component' && isPlainObject(definition)) {
+          definition.name = definition.name || id
+          // extend创建组件构造函数，def变成了构造函数
+          definition = this.options._base.extend(definition)
+        }
+        if (type === 'directive' && typeof definition === 'function') {
+          definition = { bind: definition, update: definition }
+        }
+
+        // 注册this.options[components][comp] = Ctor
+        this.options[type + 's'][id] = definition
+        return definition
+      }
+    }
+  })
+}
+
+```
+core\global-api\extend.js
+
+```javascript
+  // 传入组件配置对象，返回组件VueComponent（类\函数）
+  Vue.extend = function (extendOptions: Object): Function {
+    extendOptions = extendOptions || {}
+    const Super = this
+    const SuperId = Super.cid
+    const cachedCtors = extendOptions._Ctor || (extendOptions._Ctor = {})
+    if (cachedCtors[SuperId]) {
+      return cachedCtors[SuperId]
+    }
+
+    const name = extendOptions.name || Super.options.name
+    if (process.env.NODE_ENV !== 'production' && name) {
+      validateComponentName(name)
+    }
+
+    // 创建一个VueComponent类
+    const Sub = function VueComponent (options) {
+      this._init(options)
+    }
+    // 继承于Vue（Super）
+    Sub.prototype = Object.create(Super.prototype)
+    Sub.prototype.constructor = Sub
+    Sub.cid = cid++
+
+    // 选项合并
+    Sub.options = mergeOptions(
+      Super.options,
+      extendOptions
+    )
+    Sub['super'] = Super
+
+    // For props and computed properties, we define the proxy getters on
+    // the Vue instances at extension time, on the extended prototype. This
+    // avoids Object.defineProperty calls for each instance created.
+    if (Sub.options.props) {
+      initProps(Sub)
+    }
+    if (Sub.options.computed) {
+      initComputed(Sub)
+    }
+
+    // allow further extension/mixin/plugin usage
+    Sub.extend = Super.extend
+    Sub.mixin = Super.mixin
+    Sub.use = Super.use
+
+    // create asset registers, so extended classes
+    // can have their private assets too.
+    ASSET_TYPES.forEach(function (type) {
+      Sub[type] = Super[type]
+    })
+    // enable recursive self-lookup
+    if (name) {
+      Sub.options.components[name] = Sub
+    }
+
+    // keep a reference to the super options at extension time.
+    // later at instantiation we can check if Super's options have
+    // been updated.
+    Sub.superOptions = Super.options
+    Sub.extendOptions = extendOptions
+    Sub.sealedOptions = extend({}, Sub.options)
+
+    // cache constructor
+    cachedCtors[SuperId] = Sub
+    return Sub
+  }
+```
+
+> 组件化优点：
+对于经常变化的部分，提取出来组件，更高效的更新页面
+组件、Watcher、渲染函数和更新函数之间的关系
+> 组件化的实现：
+构造函数：core\global-api\extend.js
+实例化及挂载：core\vdom\patch.js -- createElm()
+
+> 总结：
+> 1. 组件是独立和可复用的代码组织单元。组件系统是Vue核心特性之一，它使开发者使用小型、独立和通常可复用的组件构建大型应用
+> 2. 组件化开发能大幅提高应用开发效率、测试性、复用性等
+> 3. 组件按使用分类有：页面组件、业务组件、通用组件
+> 4. vue的租价是基于配置的，我们通常编写的组件时组件配置而非组件，框架后续会生成其构造函数，他们基于VueComponent，扩展于Vue
+> 5. Vue中常见的组件化技术有：属性prop、自定义事件、插槽等，他们主要用于组件通信、扩展等
+> 6. 合理的划分组件，有助于提升应用性能
+> 7. 组件应该是高内聚、低耦合的
+> 8. 遵循单向数据流的原则
+
