@@ -10,7 +10,7 @@
                     "created": 1638496118677,
                     "text": "构造函数属性",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -134,7 +134,7 @@
                     "id": 0,
                     "created": 1638497980937,
                     "text": "RegExp实例",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
