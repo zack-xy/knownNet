@@ -1,13 +1,13 @@
 import './App.css';
 
 // import ColorFormUse from './components/ColorFormUse'
-import Star from './components/StateCom/Star'
+import StarRating from './components/StateCom/StarRating'
 
 function App() {
   return (
     <div className="App">
       {/* <ColorFormUse></ColorFormUse> */}
-      <Star />
+      <StarRating starsSelected={2} />
     </div>
   );
 }
