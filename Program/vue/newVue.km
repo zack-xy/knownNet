@@ -10,7 +10,8 @@
                 "data": {
                     "id": "cj3xmg09s3c0",
                     "created": 1649326991821,
-                    "text": "需要Vue构造函数"
+                    "text": "需要Vue构造函数",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -267,31 +268,32 @@
                     "created": 1649326724859,
                     "text": "new Vue()",
                     "priority": 1,
-                    "layout_right_offset": {
-                        "x": -248.33332346545362,
-                        "y": -74.99999701976793
-                    }
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cj3xj92p9fk0",
                             "created": 1649326741638,
-                            "text": "Vue构造函数"
+                            "text": "Vue构造函数",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "cj3xjfaa9cw0",
                                     "created": 1649326755158,
-                                    "text": "this._init()"
+                                    "text": "this._init()",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "cj3z48cxzdc0",
                                             "created": 1649331206838,
-                                            "text": "组件的options和系统默认的选项合并"
+                                            "text": "组件的options和系统默认的选项合并",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -299,21 +301,24 @@
                                         "data": {
                                             "id": "cj3z4icmywg0",
                                             "created": 1649331228588,
-                                            "text": "连续的几个操作"
+                                            "text": "连续的几个操作",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "cj3z5f91sfs0",
                                                     "created": 1649331300204,
-                                                    "text": "initLifecycle"
+                                                    "text": "initLifecycle",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "cj403mztmjc0",
                                                             "created": 1649333981442,
-                                                            "text": "$parent/$root/$children"
+                                                            "text": "$parent/$root/$children",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -323,14 +328,16 @@
                                                 "data": {
                                                     "id": "cj3z5kf0t0g0",
                                                     "created": 1649331311449,
-                                                    "text": "initEvents"
+                                                    "text": "initEvents",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "cj404ogvuag0",
                                                             "created": 1649334063015,
-                                                            "text": "事件监听"
+                                                            "text": "事件监听",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -340,14 +347,16 @@
                                                 "data": {
                                                     "id": "cj3z5n2s12w0",
                                                     "created": 1649331317239,
-                                                    "text": "initRender"
+                                                    "text": "initRender",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "cj405a0yy280",
                                                             "created": 1649334109942,
-                                                            "text": "slot/$createElement"
+                                                            "text": "slot/$createElement",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -357,7 +366,8 @@
                                                 "data": {
                                                     "id": "cj3z5qpg7a80",
                                                     "created": 1649331325141,
-                                                    "text": "callHook"
+                                                    "text": "callHook",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
@@ -365,7 +375,8 @@
                                                             "id": "cj3z5v6w8q00",
                                                             "created": 1649331334903,
                                                             "text": "beforeCreate",
-                                                            "priority": 2
+                                                            "priority": 2,
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -375,7 +386,8 @@
                                                 "data": {
                                                     "id": "cj3z63omqv40",
                                                     "created": 1649331353389,
-                                                    "text": "initInjections"
+                                                    "text": "initInjections",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -383,14 +395,16 @@
                                                 "data": {
                                                     "id": "cj3z6c2ygq00",
                                                     "created": 1649331371670,
-                                                    "text": "initState"
+                                                    "text": "initState",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "cj406guu0rc0",
                                                             "created": 1649334203172,
-                                                            "text": "组件数据初始化：props/data/methods/computed/watch"
+                                                            "text": "组件数据初始化：props/data/methods/computed/watch",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -400,7 +414,8 @@
                                                 "data": {
                                                     "id": "cj3z6ex2icg0",
                                                     "created": 1649331377844,
-                                                    "text": "initProvide"
+                                                    "text": "initProvide",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -408,7 +423,8 @@
                                                 "data": {
                                                     "id": "cj3z6hwukow0",
                                                     "created": 1649331384361,
-                                                    "text": "callHook"
+                                                    "text": "callHook",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
@@ -416,7 +432,8 @@
                                                             "id": "cj3z6kg1ge80",
                                                             "created": 1649331389875,
                                                             "text": "created",
-                                                            "priority": 3
+                                                            "priority": 3,
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -428,7 +445,8 @@
                                         "data": {
                                             "id": "cj3z6xncehs0",
                                             "created": 1649331418615,
-                                            "text": "如果有el"
+                                            "text": "如果有el",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -436,28 +454,32 @@
                                                     "id": "cj3z748azug0",
                                                     "created": 1649331432943,
                                                     "text": "$mount",
-                                                    "priority": null
+                                                    "priority": null,
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "cj3zbo2k7gg0",
                                                             "created": 1649331789588,
-                                                            "text": "entry-runtime-with-compiler.js"
+                                                            "text": "entry-runtime-with-compiler.js",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": "cj3z8122xx40",
                                                                     "created": 1649331504401,
-                                                                    "text": "代码逻辑"
+                                                                    "text": "代码逻辑",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "cj3z85eslds0",
                                                                             "created": 1649331513876,
-                                                                            "text": "$mount第1步：将template或者el转换为渲染函数，template优先级高于el"
+                                                                            "text": "$mount第1步：将template或者el转换为渲染函数，template优先级高于el",
+                                                                            "layout": null
                                                                         },
                                                                         "children": []
                                                                     }
@@ -467,28 +489,32 @@
                                                                 "data": {
                                                                     "id": "cj3zbs1kllc0",
                                                                     "created": 1649331798235,
-                                                                    "text": "$mount扩展自runtime/index.js"
+                                                                    "text": "$mount扩展自runtime/index.js",
+                                                                    "layout": null
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
                                                                             "id": "cj3zcyfs2lc0",
                                                                             "created": 1649331890519,
-                                                                            "text": "Vue原型对象上挂了2个"
+                                                                            "text": "Vue原型对象上挂了2个",
+                                                                            "layout": null
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
                                                                                     "id": "cj3zdlo7qzc0",
                                                                                     "created": 1649331941095,
-                                                                                    "text": "$mount"
+                                                                                    "text": "$mount",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": [
                                                                                     {
                                                                                         "data": {
                                                                                             "id": "cj3zft38d6w0",
                                                                                             "created": 1649332113969,
-                                                                                            "text": "$mount第2步：mountComponent"
+                                                                                            "text": "$mount第2步：mountComponent",
+                                                                                            "layout": null
                                                                                         },
                                                                                         "children": [
                                                                                             {
@@ -496,7 +522,8 @@
                                                                                                     "id": "cj3zi2trits0",
                                                                                                     "created": 1649332291893,
                                                                                                     "text": "callHook:beforeMount",
-                                                                                                    "priority": 4
+                                                                                                    "priority": 4,
+                                                                                                    "layout": null
                                                                                                 },
                                                                                                 "children": []
                                                                                             },
@@ -504,14 +531,16 @@
                                                                                                 "data": {
                                                                                                     "id": "cj40fhv4mhs0",
                                                                                                     "created": 1649334910645,
-                                                                                                    "text": "updateComponent"
+                                                                                                    "text": "updateComponent",
+                                                                                                    "layout": null
                                                                                                 },
                                                                                                 "children": [
                                                                                                     {
                                                                                                         "data": {
                                                                                                             "id": "cj40fjpiu4w0",
                                                                                                             "created": 1649334914659,
-                                                                                                            "text": "_render()获得虚拟DOM"
+                                                                                                            "text": "_render()获得虚拟DOM",
+                                                                                                            "layout": null
                                                                                                         },
                                                                                                         "children": []
                                                                                                     },
@@ -519,7 +548,8 @@
                                                                                                         "data": {
                                                                                                             "id": "cj40frrlfw80",
                                                                                                             "created": 1649334932199,
-                                                                                                            "text": "_update比对更新真实DOM"
+                                                                                                            "text": "_update比对更新真实DOM",
+                                                                                                            "layout": null
                                                                                                         },
                                                                                                         "children": []
                                                                                                     }
@@ -533,7 +563,8 @@
                                                                                 "data": {
                                                                                     "id": "cj3zdpxzbuw0",
                                                                                     "created": 1649331950393,
-                                                                                    "text": "__patch__"
+                                                                                    "text": "__patch__",
+                                                                                    "layout": null
                                                                                 },
                                                                                 "children": []
                                                                             }
