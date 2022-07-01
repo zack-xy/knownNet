@@ -1,0 +1,17 @@
+{
+  "name": "serverjstest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "zack zheng",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test1": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.4.5"
+  }
+}
