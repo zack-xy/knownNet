@@ -12,7 +12,8 @@
                     "id": "cge98v2ibts0",
                     "created": 1639406905076,
                     "text": "对象",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -246,7 +247,8 @@
                     "id": "cge9wi4e2m00",
                     "created": 1639408757631,
                     "text": "创建对象",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -377,7 +379,8 @@
                     "id": "cgf3bxhzz7s0",
                     "created": 1639491778755,
                     "text": "原型模式",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -546,7 +549,8 @@
                     "id": "cgf3nysc7fc0",
                     "created": 1639492721927,
                     "text": "对象属性",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
