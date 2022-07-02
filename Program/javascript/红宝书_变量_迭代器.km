@@ -10,7 +10,7 @@
                     "created": 1638519108236,
                     "text": "介绍JS",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -179,7 +179,7 @@
                     "created": 1639362308949,
                     "text": "将JS插入Html",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -615,7 +615,7 @@
                     "created": 1639364556981,
                     "text": "语法",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1609,7 +1609,7 @@
                     "id": 0,
                     "created": 1639377414112,
                     "text": "变量、作用域和内存",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -2082,7 +2082,7 @@
                     "created": 1639386816841,
                     "text": "迭代器和生成器",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
