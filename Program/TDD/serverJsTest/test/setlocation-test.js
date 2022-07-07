@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('setLocation test', () => {
   it('should set the URL into location of window', () => {
     const windowStub = {}
