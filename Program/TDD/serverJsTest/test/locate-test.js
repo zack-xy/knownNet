@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('locate test', () => {
   it('should register handles with getCurrentPosition', (done) => {
     const original = navigator.geolocation.getCurrentPosition
