@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('fetch location test', () => {
   it('should get lat and lon from fetchLocation', function (done) {
     const onSuccess = function (location) {

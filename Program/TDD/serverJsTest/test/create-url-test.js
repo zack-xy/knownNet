@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('create-url test', () => {
   it('should return proper url given lat and lon', () => {
     const latitude = -33.857
