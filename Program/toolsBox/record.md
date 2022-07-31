@@ -40,5 +40,5 @@ Java面试指南
 https://github.com/sunface/rust-course
 Rust教程
 
-https://blog.openreplay.com/how-to-use-chrome-as-a-code-editor-and-debugger
+
 https://github.com/eryajf/HowToStartOpenSource
