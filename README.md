@@ -6,9 +6,3 @@
 
 
 ### 知识点网络笔记
-
-##### issues：遇到的问题
-##### [Program文件夹，编程相关](https://github.com/zack-xy/knownNet/blob/72673f0f75f85fcc9d0d7203eee83bc209093516/Program/readme.md)
-##### [NotProgram文件夹，非编程相关](https://github.com/zack-xy/knownNet/blob/c4d4fec7aae2a61d761bd2d69e101ee6379bbc26/NotProgram/readme.md)
-##### [interview文件夹，面试题](https://github.com/zack-xy/knownNet/blob/ba0312f70ff5573a5d50af9f4d75f8eb76c4b966/interview/readme.md)
-##### [Blogs文件夹，文章](https://github.com/zack-xy/knownNet/blob/4ddc202b453ee5953398226b4b7d317f389af1d6/Blogs/readme.md)
