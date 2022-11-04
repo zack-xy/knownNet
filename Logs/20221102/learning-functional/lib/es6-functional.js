@@ -132,6 +132,34 @@ const zip = (leftArr, rightArr, fn) => {
     return results
 }
 
+// 日志函数
+const loggerHelper = (mode, initialMessage, errorMessage, lineNo) => {
+    if (mode === 'DEBUG')
+        console.debug(initialMessage, errorMessage + 'at line: ' + lineNo)
+    else if (mode === 'ERROR')
+        console.error(initialMessage, errorMessage + 'at line: ' + lineNo)
+    else if (mode === 'WARN')
+        console.warn(initialMessage, errorMessage + 'at line: ' + lineNo)
+    else
+        throw 'Wrong mode'
+}
+
+const curry = (fn) => {
+    if (typeof fn !== 'function') {
+        throw Error('NO function provided')
+    }
+
+    return function curriedFn(...args) {
+
+        if (args.length < fn.length) {
+            return function () {
+                return curriedFn.apply(null, args.concat([].slice.call(arguments)))
+            }
+        }
+        return fn.apply(null, args)
+    }
+}
+
 export {
     forEach,
     forEachObject,
