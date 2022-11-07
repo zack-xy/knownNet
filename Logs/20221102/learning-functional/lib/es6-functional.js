@@ -160,6 +160,16 @@ const curry = (fn) => {
     }
 }
 
+// 组合函数
+const compose = (...fns) =>
+    (value) =>
+        reduce(fns.reverse(), (acc, fn) => fn(acc), value)
+
+// 管道函数
+const pipe = (...fns) =>
+    (value) =>
+        reduce(fns, (acc, fn) => fn(acc), value)
+
 export {
     forEach,
     forEachObject,
