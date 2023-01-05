@@ -114,7 +114,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="git add&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="26" value="git add&amp;nbsp; -A" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="585" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="git commit -m" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
