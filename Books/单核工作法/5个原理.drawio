@@ -1,0 +1,142 @@
+<mxfile host="65bd71144e">
+    <diagram id="5JqvdB8Wc8zrz8l7-39E" name="Page-1">
+        <mxGraphModel dx="906" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="5个原理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div&gt;原理1:已经开始的任务会无条件地占据我们每天的所思所想&lt;/div&gt;&lt;div&gt;直到被完成或删除（开始做会让我们想要做完）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="70" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div&gt;原理2:多任务切换不仅会拖慢速度，而且注定会耗尽大脑能量&lt;/div&gt;&lt;div&gt;（多任务会降低速度，消耗能量）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="240" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div&gt;原理5:我们的方法必须适应环境；要根据自己的最新的个人经验，&lt;/div&gt;&lt;div&gt;一点一点调整。没有放之四海皆准的方法。&lt;/div&gt;&lt;div&gt;（拥抱变化、 持续改进才能适应日新月异的世界）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="610" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div&gt;原理4:经常休息、好好睡觉、锻炼身体、吃得健康。我们必须在这些&lt;/div&gt;&lt;div&gt;事情上进行投资，才能在日常工作中稳步前进&lt;/div&gt;&lt;div&gt;（休息、睡眠和健康的生活习惯是保持可持续步伐所必须的）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="490" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div&gt;原理3:我们应该负起区分优先级的责任，选出现在头号重要的&lt;/div&gt;&lt;div&gt;事来做。因为会不断有各种事情出现在我们脑海中，值得做的事数不清&lt;/div&gt;&lt;div&gt;（我们有责任按照重要性而非紧急度排列任务优先级）&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="350" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="要事第一" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="单核工作工作法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="问自己我此时此刻的时间最好用来做什么" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="列出5个任务，以整点或半点为一个块，进行任务，到点休息或循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="做最重要的事，每次只做一件事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="给当前的这个事划分小任务，但是没必要划分太细" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="1220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="完成这个事，目标具体是什么，谁受益，如果是别人受益，需要告诉他现在的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="1220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="如果中间有其他的事插进来了怎么办" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="1360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="不重要的，应该推到一起，在一个统一的时间里解决" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="1360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="最重要的事不超过5件，如果超过的话，就现在而言不是最重要的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="如果一件事在清单里很长时间都没有做，这不是一件重要的事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="每周整理一下清单，不重要的事应该删掉，因为没啥意义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="早晨划个时间安排最重要的5件事" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1020" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="持续做事推动力" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="940" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="头天下班前做一半留下&lt;br&gt;潜意识会一直惦记这个事，直到完成" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="950" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="拖延症" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="1580" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="44" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="拖延症其实就是各种害怕，恐惧心理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="614" y="1590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="解决办法就是暴露在害怕的东西面前，做一个最最小的行动，一旦开始做了，就没有那么害怕了" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="814" y="1590" width="256" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
