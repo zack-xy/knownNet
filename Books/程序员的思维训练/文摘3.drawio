@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="SsnHlWameW_ExwwjXrhh" name="Page-1">
+        <mxGraphModel dx="507" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="当你强烈的支持或者赞成一个观点时请记住" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="140" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="你提出的论据是逻辑性的&lt;br&gt;还是感情作怪&lt;br&gt;或者只是因为熟悉&lt;br&gt;在特定的情境中论据成立吗&lt;br&gt;你是否真的考虑过别人的看法&lt;br&gt;旁观者清，所以你需要从正反两个方面看待问题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="50" width="180" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="保持多样性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="280" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="在某种情况下别人的反应行为和你所设想的不一样&lt;br&gt;并不是他们疯了、懒惰或者非常难以相处&lt;br&gt;人们都是基于各自不同的性格类型做出反应的&lt;br&gt;有很多办法来制定出一个解决方案并达成妥协&lt;br&gt;唯一一个不会起作用的方式是试图改变别人的性格以适应自己&lt;br&gt;你无法改变别人&lt;br&gt;尊重不同人的不同性格，别人的性格缺陷肯定与你不同" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="420" width="420" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="蜥蜴逻辑：&lt;br&gt;战斗、逃跑或者恐惧&lt;br&gt;立刻行动&lt;br&gt;领头意识&lt;br&gt;守卫领土&lt;br&gt;受到伤害，愤愤不平&lt;br&gt;像我这样==好，不像我这样==坏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="650" width="190" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="心灵是自己的地方，在那里可以把地狱变成天堂，也可以把天堂变成地狱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="690" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="当一阵激烈的情绪涌上心头的时候&lt;br&gt;深深地呼气&lt;br&gt;摆脱变味的空气&lt;br&gt;深深的吸气&lt;br&gt;数到十&lt;br&gt;记住你是高级动物&lt;br&gt;让蜥蜴式的响应过去&lt;br&gt;请新大脑皮层来处理问题&lt;br&gt;像高级动物一样行动，请做深呼吸，而不要张口嘶鸣" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="860" width="290" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="获得更大的视野&lt;br&gt;测试自己的心理模型&lt;br&gt;问问自己" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="850" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="你怎么知道的？&lt;br&gt;谁说的？&lt;br&gt;有什么特别的？&lt;br&gt;我的做法会如何影响你？&lt;br&gt;与什么或者谁比较？&lt;br&gt;这总是发生吗？你能想到一个特例么？&lt;br&gt;如果你这样做（或者不这样做）会怎么样？&lt;br&gt;什么阻止了你？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="1000" width="250" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="一切都是折中的结果&lt;br&gt;任何一个决定都是一种权衡&lt;br&gt;不是没有免费的午餐&lt;br&gt;凡事都有两面性&lt;br&gt;我们通过逻辑来证明，通过直觉去发现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="1250" width="230" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
