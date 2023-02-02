@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="gd3hIsuXhY9H0Jxk0yMg" name="Page-1">
+        <mxGraphModel dx="424" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="106" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;exitX=1.004;exitY=0.283;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="16" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;第1章&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;作者应该是结合自身的职业发展经历介绍近20年的js发展&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;第2章&lt;br&gt;&lt;/b&gt;应该是介绍js里的一些语法，声明、语句、模块&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;第3章&lt;/b&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;可能是介绍如何使用js写面向对象的代码&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;第4章&lt;br&gt;&lt;/b&gt;js语言的结构化？不太懂什么意思&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;第5章&lt;br&gt;&lt;/b&gt;可能是介绍js的函数式编程&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;第6章&lt;br&gt;&lt;/b&gt;介绍js作为动态语言的一些特点&lt;br&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;第7章&lt;br&gt;&lt;/b&gt;介绍js如何如能否并行或者介绍异步开发？&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#1CA5B8;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#1CA5B8;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="50" width="250" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="目录阅读" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#1CA5B8;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;rounded=1;" parent="16" vertex="1">
+                    <mxGeometry width="250" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="110" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="应用环境&lt;br&gt;宿主环境&lt;br&gt;运行期环境&lt;br&gt;这里不太理解" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;" edge="1" parent="1" source="105" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;" edge="1" parent="1" source="105" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="声明：约定数据的生命周期和逻辑的作用域" style="whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fillColor=#ffffff;strokeColor=#1CA5B8;fontColor=#1CA5B8;shadow=0;dashed=0;spacing=20;spacingBottom=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="200" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="数据：变量和类型声明" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fillColor=#ffffff;strokeColor=#1CA5B8;fontColor=#1CA5B8;shadow=0;dashed=0;spacing=20;spacingBottom=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="80" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="逻辑：语句（包含流程控制语句）" style="whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fillColor=#ffffff;strokeColor=#1CA5B8;fontColor=#1CA5B8;shadow=0;dashed=0;spacing=20;spacingBottom=0;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="370" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="二者关系：表达式" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="170" width="100" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
