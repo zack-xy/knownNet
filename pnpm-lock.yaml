@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.35.1
+  '@unocss/preset-attributify': ^0.49.4
   '@unocss/preset-uno': ^0.49.4
   '@vitejs/plugin-vue-jsx': ^3.0.0
   eslint: ^8.33.0
@@ -13,6 +14,7 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config/0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
+  '@unocss/preset-attributify': registry.npmmirror.com/@unocss/preset-attributify/0.49.4
   '@unocss/preset-uno': registry.npmmirror.com/@unocss/preset-uno/0.49.4
   '@vitejs/plugin-vue-jsx': registry.npmmirror.com/@vitejs/plugin-vue-jsx/3.0.0_vite@4.1.1+vue@3.2.47
   eslint: registry.npmmirror.com/eslint/8.33.0
