@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import UnoCSS from 'unocss/vite'
-import presetUno from '@unocss/preset-uno'
-import presetAttributify from '@unocss/preset-attributify'
+import { presetAttributify, presetUno } from 'unocss'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
