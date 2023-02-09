@@ -1,11 +1,12 @@
 import { defineComponent } from 'vue'
+// import TestCom from './TestCom'
 
 export default defineComponent({
   setup() {
     return () => {
       return (
         <div id="app">
-          <h1>tsx组件</h1>
+          <h1>tsx页面</h1>
           <a-button type="primary">Primary Button</a-button>
           <div>
             <a-steps current="1">
@@ -14,6 +15,7 @@ export default defineComponent({
               <a-step title="Waiting" description="This is a description." />
             </a-steps>
           </div>
+          <div class="absolute left-3 hover:c-fuchsia">测试</div>
         </div >
       )
     }

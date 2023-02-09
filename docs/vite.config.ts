@@ -3,15 +3,11 @@ import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetUno } from 'unocss'
 import Components from 'unplugin-vue-components/vite'
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
+import AutoImport from 'unplugin-auto-import/vite'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
   plugins: [
-    vueJsx(),
-    Components({
-      include: [/\.vue$/, /\.vue\?vue/, /\.md$/, /\.tsx/, /\.jsx/],
-      resolvers: [AntDesignVueResolver()],
-    }),
     UnoCSS({
       presets: [
         presetAttributify({}),
@@ -48,5 +44,19 @@ export default defineConfig({
         },
       ],
     }),
+    vueJsx(),
+    Components({
+      dirs: ['.vitepress/theme/components'],
+      include: [/\.vue$/, /\.vue\?vue/, /\.md$/, /\.tsx/, /\.jsx/],
+      resolvers: [
+        AntDesignVueResolver({ resolveIcons: true }),
+      ],
+    }),
+    AutoImport({
+      dirs: ['.vitepress/theme/utils'],
+      imports: ['vue', '@vueuse/core'],
+      include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
+    }),
   ],
+  ssr: { noExternal: ['ant-design-vue'] },
 })
