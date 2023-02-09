@@ -10,3 +10,5 @@
 <button btn>我是一个按钮</button>
 <button btn-green>我是一个按钮</button>
 
+<my-component />
+

@@ -2,7 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import 'uno.css'
 import '@unocss/reset/normalize.css'
 import 'virtual:unocss-devtools'
-// import VueClickAwayExample from "../../../components/VueClickAwayExample.vue";
+import MyComponent from './components/MyComponent'
 // import myTheme from './MyTheme'
 
 export default {
@@ -10,6 +10,6 @@ export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
-    // ctx.app.component('VueClickAwayExample', VueClickAwayExample)
+    ctx.app.component('MyComponent', MyComponent)
   },
 }
