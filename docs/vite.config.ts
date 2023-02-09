@@ -11,6 +11,36 @@ export default defineConfig({
         presetAttributify({}),
         presetUno(),
       ],
+      rules: [
+        ['m-88', { margin: '0.88rem' }],
+      ],
+      // preflights: [
+      //   {
+      //     getCSS: ({ theme }) => `
+      //     * {
+      //       color: ${theme.colors?.gray?.[700] ?? '#333'};
+      //       padding: 0;
+      //       margin: 0;
+      //     }
+      //     `,
+      //   },
+      // ],
+      shortcuts: {
+        'btn': 'py-2 px-4 font-semibold rounded-lg shadow-md',
+        'btn-green': 'text-white bg-green-500 hover:bg-green-700',
+      },
+      variants: [
+        // hover:
+        (matcher) => {
+          if (!matcher.startsWith('hover:'))
+            return matcher
+          return {
+            // slice `hover:` prefix and passed to the next variants and rules
+            matcher: matcher.slice(6),
+            selector: s => `${s}:hover`,
+          }
+        },
+      ],
     }),
   ],
 })

@@ -4,5 +4,6 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "liveServer.settings.port": 5501,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "unocss.root": "docs/"
 }
