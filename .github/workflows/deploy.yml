@@ -76,7 +76,7 @@ jobs:
             env:
               SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }} #Gitee私钥
             with:
-              source-repo: git@github.com:zack-xy/knownNet.github.io.git #GitHub 源仓库地址
+              source-repo: git@github.com:zack-xy/knownNet.git #GitHub 源仓库地址
               destination-repo: git@gitee.com:zackzhengxy/knownNet.git #Gitee 目标仓库地址
           # 2、部署 Gitee Pages
           - name: Deploy Gitee Pages
