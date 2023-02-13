@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/knownNet/',
   title: '记录每一次成长',
   titleTemplate: '知识库',
   description: 'Zack Zheng\'s personal website',
