@@ -1,8 +1,15 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '知识不过如此',
-  description: '',
+  title: '记录每一次成长',
+  titleTemplate: '知识库',
+  description: 'Zack Zheng\'s personal website',
+  head: [
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+    ],
+  ],
   markdown: {
     lineNumbers: true,
   },

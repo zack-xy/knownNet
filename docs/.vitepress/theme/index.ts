@@ -2,6 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import 'uno.css'
 import '@unocss/reset/normalize.css'
 import 'virtual:unocss-devtools'
+import './styles/vars.css'
+import './styles/custom.css'
 import MyComponent from './components/MyComponent'
 // import myTheme from './MyTheme'
 
