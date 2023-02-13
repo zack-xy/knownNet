@@ -66,8 +66,8 @@ jobs:
           BRANCH: gh-pages
           FOLDER: docs/.vitepress/dist
 
-      # 任务2: 部署 Gitee Pages
-      deploy-gitee-pages:
+  # 任务2: 部署 Gitee Pages
+  deploy-gitee-pages:
         runs-on: ubuntu-latest
         steps:
           # 1、同步内容到 Gitee
