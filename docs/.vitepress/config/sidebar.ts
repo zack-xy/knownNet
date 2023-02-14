@@ -5,7 +5,8 @@ import matter from 'gray-matter'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/program/pieces/': getItemsByDate('program/pieces'),
 
-  // '/courses/java/': getItems('courses/java'),
+  '/books/socialSciences/': getItems('books/socialSciences'),
+  '/books/techAndCodes/': getItems('books/techAndCodes'),
   // '/courses/mysql/': getItems('courses/mysql'),
   // '/courses/mybatis/': getItems('courses/mybatis'),
 }

@@ -5,7 +5,7 @@ lastUpdated: false
 showComment: false
 ---
 
-## 社科类
+## 科技与编程
 
 ### 书中益友
 
@@ -19,7 +19,3 @@ showComment: false
 读书，跨域时间与空间，听作者之所言，想作者之所思。
 
 :::
-
-
-
-
