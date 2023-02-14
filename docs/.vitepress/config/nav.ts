@@ -6,27 +6,24 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: '大海拾遗', link: '/program/pieces/index', activeMatch: '/program/pieces/' },
       { text: '困难冲冲', link: '/program/issues/index', activeMatch: '/program/issues/' },
-      { text: '？？？', link: '/program/tools/index', activeMatch: '/categories/tools/' },
-      { text: '？？？', link: '/program/solutions/index', activeMatch: '/categories/solutions/' },
     ],
     activeMatch: '/program/',
   },
   {
-    text: '我的日志',
+    text: '我的阅读',
     items: [
-      { text: '？？？', link: '/courses/java/index', activeMatch: '/courses/java/' },
-      { text: '？？？', link: '/courses/mysql/index', activeMatch: '/courses/mysql/' },
-      { text: '？？？', link: '/courses/mybatis/index', activeMatch: '/courses/mybatis/' },
+      { text: '编程类', link: '/books/techAndCodes/index', activeMatch: '/books/techAndCodes/' },
+      { text: '社科类', link: '/books/socialSciences/index', activeMatch: '/books/socialSciences/' },
     ],
-    activeMatch: '/courses/',
+    activeMatch: '/books/',
   },
   {
     text: '我的博客',
-    link: '/tags',
-    activeMatch: '/tags',
+    link: '/blogs/index',
+    activeMatch: '/blogs',
   },
   {
-    text: '我的阅读',
+    text: '我的标签',
     link: '/tags',
     activeMatch: '/tags',
   },
@@ -38,7 +35,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '关于',
     items: [
-      { text: '关于知识库', link: '/about/index', activeMatch: '/about/index' },
+      { text: '关于本站', link: '/about/index', activeMatch: '/about/index' },
       { text: '关于我', link: '/about/me', activeMatch: '/about/me' },
     ],
     activeMatch: '/about/', // // 当前页面处于匹配路径下时, 对应导航菜单将突出显示
