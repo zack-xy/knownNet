@@ -1,10 +1,10 @@
 import type { DefaultTheme } from 'vitepress/theme'
 import { nav } from './nav'
-// import { sidebar } from './sidebar'
+import { sidebar } from './sidebar'
 
 export const themeConfig: DefaultTheme.Config = {
   nav, // 导航栏配置
-  // sidebar, // 侧边栏配置
+  sidebar, // 侧边栏配置
 
   logo: '/logo.png',
   outline: 'deep', // 右侧大纲标题层级

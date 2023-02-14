@@ -3,14 +3,11 @@ import { sync } from 'fast-glob'
 import matter from 'gray-matter'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/categories/issues/': getItemsByDate('categories/issues'),
-  '/categories/fragments/': getItemsByDate('categories/fragments'),
-  '/categories/solutions/': getItemsByDate('categories/solutions'),
-  '/categories/tools/': getItemsByDate('categories/tools'),
+  '/program/pieces/': getItemsByDate('program/pieces'),
 
-  '/courses/java/': getItems('courses/java'),
-  '/courses/mysql/': getItems('courses/mysql'),
-  '/courses/mybatis/': getItems('courses/mybatis'),
+  // '/courses/java/': getItems('courses/java'),
+  // '/courses/mysql/': getItems('courses/mysql'),
+  // '/courses/mybatis/': getItems('courses/mybatis'),
 }
 
 /**
@@ -19,7 +16,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
  * /categories/issues/2022/07/20/xxx.md
  *
  * @param path 扫描基础路径
- * @returns {DefaultTheme.SidebarGroup[]}
+ * @returns {DefaultTheme.SidebarItem[]}
  */
 function getItemsByDate(path: string) {
   // 侧边栏年份分组数组
