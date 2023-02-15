@@ -1,5 +1,13 @@
+---
+title: 空白页
+lang: en-US
+date: 2023-02-05 00:00:00
+editLink: true
+categories: '博客'
+tag: '沟通'
+---
+
 #### 我的博客文章
-[人际交流的几点经验](./20230205.md)
 
 <!-- <div w-xl h-xl m-88 c-yellow-500 border="~ solid red" c-teal-400>sssss</div>
 

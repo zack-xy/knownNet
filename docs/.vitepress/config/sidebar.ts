@@ -9,6 +9,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/books/techAndCodes/': getItems('books/techAndCodes'),
   // '/courses/mysql/': getItems('courses/mysql'),
   // '/courses/mybatis/': getItems('courses/mybatis'),
+
+  '/blogs/': getItems('blogs'),
 }
 
 /**

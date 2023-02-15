@@ -5,6 +5,7 @@ import 'virtual:unocss-devtools'
 import './styles/vars.css'
 import './styles/custom.css'
 import MyComponent from './components/MyComponent'
+import SimpleImg from './components/SimpleImg'
 // import myTheme from './MyTheme'
 
 export default {
@@ -13,5 +14,6 @@ export default {
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
     ctx.app.component('MyComponent', MyComponent)
+    ctx.app.component('SimpleImg', SimpleImg)
   },
 }
