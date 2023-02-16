@@ -1,3 +1,13 @@
+---
+title: js数组和weakmap
+author: Zack Zheng
+date: 2022/11/09 09:51
+categories:
+ - 大海拾遗
+tags:
+ - JavaScript
+---
+
 ## 集合引用类型
 #### Array
 from()：from()用于将类数组结构转换为数组实例

@@ -1,3 +1,13 @@
+---
+title: script标签上的常见属性解析
+author: Zack Zheng
+date: 2022/11/09 09:51
+categories:
+ - 大海拾遗
+tags:
+ - JavaScript
+---
+
 JavaScript是一门用来与网页交互的脚本语言，包含以下三个组成部分。
 ECMAScript：由ECMA-262定义并提供核心功能。
 文档对象模型（DOM）：提供与网页内容交互的方法和接口。

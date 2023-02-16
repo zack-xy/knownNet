@@ -1,3 +1,13 @@
+---
+title: js中的Date类型相关
+author: Zack Zheng
+date: 2022/11/09 09:51
+categories:
+ - 大海拾遗
+tags:
+ - JavaScript
+---
+
 ### 常见引用类型
 #### Date
 常见方法：

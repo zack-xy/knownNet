@@ -1,3 +1,13 @@
+---
+title: js代码内存管理
+author: Zack Zheng
+date: 2022/11/09 09:51
+categories:
+ - 大海拾遗
+tags:
+ - JavaScript
+---
+
 ------
 ##### Symbol类型
 符号是原始值，且符号实例是唯一、不可变的。符号的用途是确保对象属性使用唯一标识符
