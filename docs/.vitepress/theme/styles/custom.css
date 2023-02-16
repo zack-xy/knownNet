@@ -59,3 +59,7 @@ samp {
 .custom-simple-img .ant-image-mask.simple-img {
   opacity: 0;
 }
+
+img.ant-image-preview-img {
+  display: inline-block;
+}
