@@ -1,3 +1,14 @@
+---
+title: 常见的状态码/post请求与get请求的区别
+author: Zack Zheng
+date: 2022/02/16 09:51
+categories:
+ - 面向试试
+tags:
+ - Http
+ - 面试题
+---
+
 ## HTTP协议类
 
 #### HTTP协议的主要特点

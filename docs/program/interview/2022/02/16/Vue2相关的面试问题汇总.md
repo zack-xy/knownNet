@@ -1,3 +1,15 @@
+---
+title: Vue2相关的面试问题汇总
+author: Zack Zheng
+date: 2022/02/16 09:51
+categories:
+ - 面向试试
+tags:
+ - Vue2.0
+ - 面试题
+---
+
+
 #### v-if和v-for哪一个优先级更高？如果同时出现，如何优化获得更好性能
 
 源码：complier/codegen/index.js
