@@ -11,7 +11,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // '/courses/mysql/': getItems('courses/mysql'),
   // '/courses/mybatis/': getItems('courses/mybatis'),
 
-  '/blogs/': getItems('blogs'),
+  '/blogs/': getBlogs('blogs'),
+  '/program/issues/': getBlogs('program/issues'),
 }
 
 /**
@@ -158,6 +159,29 @@ function getItems(path: string) {
   // 添加序号
   addOrderNumber(groups)
   return groups
+}
+
+// 获取博客文章
+function getBlogs(path: string): Array<DefaultTheme.SidebarItem> {
+  const items: DefaultTheme.SidebarItem[] = []
+  // 获取所有文章
+  sync(`docs/${path}/*`, {
+    onlyFiles: true,
+    objectMode: true,
+  }).forEach((article) => {
+    const articleFile = matter.read(`${article.path}`)
+    const { data } = articleFile
+    noDefaultPage(article.name) && items.push({
+      text: data.title,
+      link: `/${path}/${article.name.replace('.md', '')}`,
+    })
+  })
+
+  return items
+}
+
+function noDefaultPage(name: string): boolean {
+  return name !== 'index.md'
 }
 
 /**
