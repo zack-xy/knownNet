@@ -15,6 +15,7 @@ showComment: false
 | JavaScript高级程序设计       |    第1遍结束     | 第1遍 |     🤔 |
 | 深入理解Typescript           | Tips之后都没有读 | 第1遍 |     🤔 |
 | JavaScript语言精髓与编程实践 |        ?         | 第1遍 |     🤔 |
+| Vue.js设计与实现             |        ?         | 第1遍 |     🤔 |
 
 ::: tip 何来此页❓
 
