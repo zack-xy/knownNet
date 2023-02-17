@@ -6,6 +6,7 @@ import './styles/vars.css'
 import './styles/custom.css'
 import MyComponent from './components/MyComponent'
 import SimpleImg from './components/SimpleImg'
+import MyBooks from './components/MyBooks'
 // import myTheme from './MyTheme'
 
 export default {
@@ -15,5 +16,6 @@ export default {
     DefaultTheme.enhanceApp(ctx)
     ctx.app.component('MyComponent', MyComponent)
     ctx.app.component('SimpleImg', SimpleImg)
+    ctx.app.component('MyBooks', MyBooks)
   },
 }
