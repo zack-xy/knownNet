@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import type { TableColumnsType, TableProps } from 'ant-design-vue'
+import type { BKColumn, BKColumns, BKData } from '../../types/MyBooks'
 // import { SmileOutlined } from '@ant-design/icons-vue'
 
 export default defineComponent({
@@ -7,13 +7,13 @@ export default defineComponent({
   //   SmileOutlined,
   // },
   setup() {
-    const columns: Readonly<TableColumnsType> = Object.freeze([
+    const columns: Readonly<BKColumns> = Object.freeze([
       { title: '书名', dataIndex: 'name', key: 'name' },
       { title: '进度', dataIndex: 'progress', key: 'progress' },
       { title: '遍数', dataIndex: 'times', key: 'times' },
       { title: '状态', dataIndex: 'status', key: 'status' },
     ])
-    const dataSource: Readonly<TableProps['dataSource']> = Object.freeze([
+    const dataSource: Readonly<BKData> = Object.freeze([
       { key: '1', name: '置身事内 中国政府与经济发展', progress: '第1遍结束', times: '第1遍', status: '队列待定' },
       { key: '2', name: '单核工作法', progress: '第4章', times: '第1遍', status: '未读待定' },
       { key: '3', name: '佛陀传', progress: '30%', times: '第1遍', status: '正在阅读' },
@@ -29,7 +29,7 @@ export default defineComponent({
 
           <a-table dataSource={dataSource} columns={columns} pagination={false}>
             {{
-              headerCell: ({ column }: { column: { key: string; title: string } }) => (column.key === 'name' ? <span>📖书名</span> : column.title),
+              headerCell: ({ column }: { column: BKColumn }) => (column.key === 'name' ? <span>📖书名</span> : column.title),
             }}
           </a-table>
         </div>
