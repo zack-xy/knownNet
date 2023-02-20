@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /
+      link: /program/pieces/
     - theme: alt
       text: View on GitHub
       link: https://github.com/zack-xy/knownNet

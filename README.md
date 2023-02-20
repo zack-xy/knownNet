@@ -8,10 +8,11 @@
 ### 我的笔记站
 
 #### 使用技术
-+ vite
++ vue@3.x
++ vite@4.x
 + vitepress
 + typescript(jsx)
-+ ant-design-vue
++ ant-design-vue@3.x
 + unocss
 
 #### 网站链接
