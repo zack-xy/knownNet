@@ -47,6 +47,7 @@ export default defineConfig({
     vueJsx(),
     Components({
       dirs: ['.vitepress/theme/components'],
+      extensions: ['vue', 'tsx'],
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/, /\.tsx/, /\.jsx/],
       resolvers: [
         AntDesignVueResolver({ resolveIcons: true }),
