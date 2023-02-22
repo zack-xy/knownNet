@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons-vue': ^6.1.0
   '@antfu/eslint-config': ^0.35.1
   '@unocss/preset-attributify': ^0.49.4
   '@unocss/preset-uno': ^0.49.4
@@ -20,6 +21,7 @@ specifiers:
   vue: ^3.2.47
 
 devDependencies:
+  '@ant-design/icons-vue': registry.npmmirror.com/@ant-design/icons-vue/6.1.0_vue@3.2.47
   '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config/0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
   '@unocss/preset-attributify': registry.npmmirror.com/@unocss/preset-attributify/0.49.4
   '@unocss/preset-uno': registry.npmmirror.com/@unocss/preset-uno/0.49.4
