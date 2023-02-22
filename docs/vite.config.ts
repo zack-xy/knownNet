@@ -47,9 +47,12 @@ export default defineConfig({
     vueJsx(),
     Components({
       dirs: ['.vitepress/theme/components'],
+      extensions: ['vue', 'tsx'],
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/, /\.tsx/, /\.jsx/],
       resolvers: [
-        AntDesignVueResolver({ resolveIcons: true }),
+        AntDesignVueResolver({
+          resolveIcons: true,
+        }),
       ],
     }),
     AutoImport({
@@ -58,5 +61,5 @@ export default defineConfig({
       include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
     }),
   ],
-  ssr: { noExternal: ['ant-design-vue'] },
+  ssr: { noExternal: ['ant-design-vue', '@ant-design/icons-vue'] },
 })

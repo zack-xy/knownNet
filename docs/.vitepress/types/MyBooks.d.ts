@@ -1,5 +1,5 @@
 import type { TableColumnsType, TableProps } from 'ant-design-vue'
-type ColumnKeys = 'name' | 'progress' | 'times' | 'status'
+export type ColumnKeys = 'name' | 'progress' | 'times' | 'status'
 
 export interface BKColumn {
   title: string
