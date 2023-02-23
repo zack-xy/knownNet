@@ -1,11 +1,8 @@
-import type { Cloud, Tag } from '../../types/MyTag'
+import type { Article, Cloud, Tag } from '../../types/MyTag'
+import articleData from '../../../../article-data.json'
 
 export default defineComponent({
   props: {
-    tags: {
-      type: Array<Tag>,
-      required: true,
-    },
     width: {
       type: String,
       default: '600',
@@ -20,18 +17,32 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const tags = [
-      { name: '01. 人员招聘难', color: '#006666' },
-      { name: '02. 人才复制难', color: '#009999' },
-      { name: '03. 门店管理难', color: '#333333' },
-      { name: '04. 客户引流难', color: '#660099' },
-      { name: '05. 客户不稳定', color: '#990066' },
-      { name: '06. 技术门槛高', color: '#CC0099' },
-      { name: '07. 营销策划能力弱', color: '#CC3300' },
-      { name: '08. 行业内卷利润低', color: '#FF9900' },
-      { name: '09. 产品严重同质化', color: '#006633' },
-      { name: '10. 技术项目被浮夸' }, // color 可以不传，默认黑色
-    ]
+    // console.log(articleData)
+
+    const tagsRef = computed(() => initTags(articleData))
+    const { value: tags } = tagsRef
+
+    // 初始化tags
+    function initTags(articleData: Article[]): Tag[] {
+      const tagsMap: { [propName: string]: number } = {}
+      const tags: Array<Tag & { total: number }> = []
+      for (let i = 0; i < articleData.length; i++) {
+        const article = articleData[i]
+        const articleTags = article.tags
+        if (Array.isArray(articleTags)) {
+          articleTags.forEach((articleTag) => {
+            if (!tagsMap[articleTag])
+              tagsMap[articleTag] = 0
+            tagsMap[articleTag]++
+          })
+        }
+      }
+      for (const name in tagsMap)
+        tags.push({ name, total: tagsMap[name], color: randomHexColorCode() })
+
+      return tags
+    }
+
     let speedX = Math.PI / 360
     let speedY = Math.PI / 360
     const clouds: Cloud[] = reactive([])
