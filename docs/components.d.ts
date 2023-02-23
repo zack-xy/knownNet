@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AAvatar: typeof import('ant-design-vue/es')['Avatar']
     AButton: typeof import('ant-design-vue/es')['Button']
     AImage: typeof import('ant-design-vue/es')['Image']
     AStep: typeof import('ant-design-vue/es')['Step']
