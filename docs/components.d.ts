@@ -16,6 +16,7 @@ declare module '@vue/runtime-core' {
     MyComponent: typeof import('./.vitepress/theme/components/MyComponent.tsx')['default']
     MyTag: typeof import('./.vitepress/theme/components/MyTag.tsx')['default']
     SimpleImg: typeof import('./.vitepress/theme/components/SimpleImg.tsx')['default']
+    TagsOutlined: typeof import('@ant-design/icons-vue')['TagsOutlined']
     TestCom: typeof import('./.vitepress/theme/components/TestCom.tsx')['default']
   }
 }
