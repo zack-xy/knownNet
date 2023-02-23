@@ -56,7 +56,7 @@ export default defineConfig({
       ],
     }),
     AutoImport({
-      dirs: ['.vitepress/theme/utils'],
+      dirs: ['.vitepress/utils'],
       imports: ['vue', '@vueuse/core'],
       include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
     }),

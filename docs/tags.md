@@ -7,5 +7,5 @@ showComment: false
 ---
 
 <ClientOnly>
-	<my-tag />
+	<my-tag width="800" height="180" radius="100" />
 </ClientOnly>

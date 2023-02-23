@@ -7,8 +7,8 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "node get_tags.mjs && vitepress dev docs",
+    "build": "node get_tags.mjs && vitepress build docs",
     "preview": "vitepress preview docs",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
