@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": []
+  },
+  "include": [
+    ".vitepress/**/*.tsx",
+    "auto-imports.d.ts"
+  ]
+}
