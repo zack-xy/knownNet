@@ -1,0 +1,104 @@
+<mxfile host="65bd71144e">
+    <diagram id="VdMC3i_taJLlwU5W3txt" name="Page-1">
+        <mxGraphModel dx="462" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;‘内联’指‘外在盒子’&lt;br&gt;inline-block&lt;br&gt;inline-table都是内联元素&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="160" width="290" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="内联元素" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#0085FC;fontColor=#212529;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="2">
+                    <mxGeometry width="290" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="幽灵空白节点&lt;br&gt;【内联元素前面都有一个透明、没有宽度的空白节点】" style="whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=bottom;fillColor=#ffffff;strokeColor=#0085FC;fontColor=#0085FC;shadow=0;dashed=0;spacing=20;spacingBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="200" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;content box&lt;br&gt;padding box&lt;br&gt;border box&lt;br&gt;margin box&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="470" width="290" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="盒尺寸" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#0085FC;fontColor=#212529;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="8">
+                    <mxGeometry width="290" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="850.3333333333333" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;替换元素（内容可替换）&lt;br&gt;img、video、object、iframe、textarea、input、select&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#0085FC;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="470" width="290" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="content" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#0085FC;fontColor=#212529;resizeWidth=1;fontSize=18;align=left;spacing=20;" vertex="1" parent="10">
+                    <mxGeometry width="290" height="50" relative="1" as="geometry"/>
+                                   </mxCell>
+                <mxCell id="13" value="内容外观不受页面CSS影响" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="430" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="有默认尺寸（默认显示）" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="490" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="有些css属性有自己的规则" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="560" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="410" width="220" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="特点" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="16">
+                    <mxGeometry x="20" y="-10" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="都是内联元素，不一定都是内内联" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="620" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="ellipse;html=1;strokeWidth=4;fillColor=#10739E;strokeColor=#ffffff;shadow=0;fontSize=10;fontColor=#FFFFFF;align=center;fontStyle=0;whiteSpace=wrap;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="750" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="ellipse;html=1;strokeWidth=4;fillColor=#F2931E;strokeColor=#ffffff;shadow=0;fontSize=10;fontColor=#FFFFFF;align=center;fontStyle=0;whiteSpace=wrap;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="850" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="ellipse;html=1;strokeWidth=4;fillColor=#AE4132;strokeColor=#ffffff;shadow=0;fontSize=10;fontColor=#FFFFFF;align=center;fontStyle=0;whiteSpace=wrap;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="950" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="固有尺寸&lt;br&gt;（默认尺寸）&lt;br&gt;图片就是图片&lt;br&gt;自己的大小" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="805" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="HTML尺寸&lt;br&gt;比如textarea的rows" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="880" width="162.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="CSS尺寸&lt;br&gt;（content box）" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="1">
+                    <mxGeometry x="775" y="780" width="175" height="60" as="geometry"/>
+                </mxCell>
+                               <mxCell id="34" value="尺寸计算规则" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#DB2843;fontColor=#FFFFFF;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+                    <mxGeometry x="812.5" y="720" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.99;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="35" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="看到这根线了么&lt;br&gt;意味着世界不是完美统一的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="37">
+                    <mxGeometry x="-0.0498" y="-3" relative="1" as="geometry">
+                        <mxPoint x="15" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="img不是默认300x150" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="37">
+                    <mxGeometry x="-0.296" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="如果任何尺寸都没有&lt;br&gt;默认300像素x150" style="whiteSpace=wrap;html=1;shadow=0;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
+
