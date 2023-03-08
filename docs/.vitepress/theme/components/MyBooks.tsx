@@ -22,6 +22,7 @@ export default defineComponent({
       { key: '7', name: 'JavaScript语言精髓与编程实践', progress: '?', times: '第1遍', status: '未知' },
       { key: '8', name: 'Vue.js设计与实现', progress: '?', times: '第1遍', status: '未知' },
       { key: '9', name: 'CSS世界', progress: '第四章 温和的padding属性', times: '第1遍', status: '未知' },
+      { key: '10', name: '编程与类型系统', progress: '?', times: '第1遍', status: '未知' },
     ])
 
     const getTableIcon = (column: BKColumn) => {
