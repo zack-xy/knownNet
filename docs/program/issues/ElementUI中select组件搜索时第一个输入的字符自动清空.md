@@ -25,6 +25,54 @@ tags:
 将简单的demo，复制到项目里，经过对比修改不停的尝试，后来发现了最小的可复现bug
 （最小复现跟他项目里稍有不同，并不是第一次输入清空，而是第二次输入清空，但是bug类似）   
 
+最小复现
+```vue
+<script>
+import { escapeRegexpString } from 'element-ui/src/utils/util'
+export default {
+  data() {
+    return {
+      options: [],
+      optionsCopy: [{ label: 'Aby', value: '10', }, { label: 'Ady', value: '11', }, { label: 'aByds', value: '12', }, { label: 'Csyra', value: '13', }, { label: 'ITDWp', value: '14', }, { label: 'REWR', value: '15', },],
+    }
+  },
+  methods: {
+    filterMethod(val) {
+      if (val !== '')
+        this.options = this.optionsCopy.filter(item => new RegExp(escapeRegexpString(val.trim()), 'i').test(item.label))
+      else this.options = this.optionsCopy
+    },
+    queryOptions(visible) {
+      if (visible)
+        this.options = this.optionsCopy
+    },
+  },
+}
+</script>
+
+<template>
+  <div>
+    <label for="">下拉框</label>
+    <el-select
+      v-model="value"
+      placeholder="请选择"
+      filterable
+      :filter-method="filterMethod"
+      @visible-change="queryOptions"
+    >
+      <el-option
+        v-for="(item, index) in options"
+        :key="index"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select>
+  </div>
+</template>
+
+<style lang="scss" scoped></style>
+```
+
 `key绑定的值是index` 
 `只要修改key不只绑定index，则上面的bug就会消失`   
 
