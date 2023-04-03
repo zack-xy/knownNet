@@ -24,7 +24,7 @@ export const themeConfig: DefaultTheme.Config = {
   // 全文搜索配置
   algolia: {
     appId: 'IGRM6UDLUS',
-    apiKey: 'bf5f53e07dfb533e028ba9b2f33b358a',
+    apiKey: '2cc228f8a0aab418f8cc840cca9c7d4a',
     indexName: 'zackzheng',
   },
   // 导航栏右侧社交链接配置
