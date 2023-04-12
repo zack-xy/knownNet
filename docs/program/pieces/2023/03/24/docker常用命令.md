@@ -47,7 +47,7 @@ tags:
 
   删除全部：docker rmi -f $(docker images -qa)   // 注释：$()里面是【镜像命令】第一个列出了所有镜像只显示镜像id 
 
-  :question:什么是虚悬镜像:question::就是Repository(仓库名)和Tag(标签)都是<none>,这种镜像没什么用，可以删除
+  :question:什么是虚悬镜像:question::就是Repository(仓库名)和Tag(标签)都是`<none>`,这种镜像没什么用，可以删除
 
 ### 容器命令
 
