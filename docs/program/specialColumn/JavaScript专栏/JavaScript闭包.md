@@ -1,0 +1,12 @@
+---
+title: JavaScript闭包
+author: Zack Zheng
+date: 2022/11/09 00:00
+categories:
+ - JavaScript专栏
+tags:
+ - JavaScript
+---
+
+
+<simple-img src="JavaScript闭包.svg" />
