@@ -29,3 +29,56 @@ tags:
 + #### [如何让循环停下来Generator](https://github.com/zack-xy/try-projects/blob/main/learn-es6789/static/lesson2-8.js)
 
 + #### [Interator](https://github.com/zack-xy/try-projects/blob/main/learn-es6789/static/lesson2-9.js)
+
+----
+
++ ##### ES7数组如何判断元素是否存在(includes)
+
++ ##### ES7乘方：2 ** 5 表示 2的5次方
+
+-----
+
++ ##### ES8【async/await】【 Object.keys()】【Object.values()】【const [k,v] = Object.entries】
+
+```javascript
+// 字符串补足长度
+// 数字补0
+for(let i=0;i<10;i++) {
+	console.log(i.toString().padStart(2,'0'))   // padStart 第一个参数，2位，第二个参数，补0
+}
+
+```
+
+```javascript
+// 属性描述符
+
+const data = {
+  PortLand: '78/50',
+  Dublin: '88/52',
+  Lima: '58/40'
+}
+
+// 限定"Lima"属性不能被枚举
+Object.defineProperty(data, 'Lima', {
+  enumerable: false
+})
+
+console.log(Object.keys(data)) // ["PortLand","Dublin"]
+
+// 查看属性描述符
+console.log(Object.getOwnPropertyDescriptors(data))
+console.log(Object.getOwnPropertyDescriptor(data, 'Liam'))
+```
+
+----
+
++ #### [ES9 for await of及自定义数据的for await of](https://github.com/zack-xy/try-projects/blob/main/learn-es6789/static/lesson5-1.js)
+
+对象rest、spread对象展开
+
+[正则dotAll/match正则分组可以加一个名字](https://github.com/zack-xy/try-projects/blob/main/learn-es6789/static/lesson5-3.js)
+
+----
+
++ #### [ES10对语法进行了增强](https://github.com/zack-xy/try-projects/blob/main/learn-es6789/static/lesson6-1.js)
+
