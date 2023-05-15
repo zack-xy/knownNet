@@ -25,3 +25,5 @@ tags:
 + #### [手写数组迭代器](https://github.com/zack-xy/write-js/blob/cb1a21cbd549e7e3d667ab52aed3b01247432d4c/Array/interator.js)
 
 + #### [手写实现JSON.stringify](https://github.com/zack-xy/write-js/blob/main/JSONStringify/jsonStringify.js)
+
++ #### [手写数组扁平化](https://github.com/zack-xy/write-js/blob/main/Array/flat.js)
