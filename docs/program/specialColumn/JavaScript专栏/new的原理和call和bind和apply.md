@@ -1,5 +1,5 @@
 ---
-title: new的原理和call\bind\apply
+title: new的原理和call和bind和apply
 author: Zack Zheng
 date: 2022/11/09 00:00
 categories:
