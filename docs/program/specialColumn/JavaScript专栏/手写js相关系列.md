@@ -27,3 +27,11 @@ tags:
 + #### [手写实现JSON.stringify](https://github.com/zack-xy/write-js/blob/main/JSONStringify/jsonStringify.js)
 
 + #### [手写数组扁平化](https://github.com/zack-xy/write-js/blob/main/Array/flat.js)
+
++ #### [手写数组push方法](https://github.com/zack-xy/write-js/blob/main/Array/push.js)
+
++ #### [手写数组pop方法](https://github.com/zack-xy/write-js/blob/main/Array/pop.js)
+
++ #### [手写数组map方法](https://github.com/zack-xy/write-js/blob/main/Array/map.js)
+
++ #### [手写数组reduce方法](https://github.com/zack-xy/write-js/blob/main/Array/reduce.js)
