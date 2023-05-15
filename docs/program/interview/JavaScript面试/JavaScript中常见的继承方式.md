@@ -89,7 +89,7 @@ Child4.prototype = Parent4.prototype
 ```
 
 ```js [组合方式继承优化2]
-// 5.组合继承优化2
+// 5.组合继承优化2(寄生组合式继承 extends的原理)
 function Parent5() {
   this.name = 'parent5'
   this.play = [1, 2, 3]
@@ -103,3 +103,5 @@ Child5.prototype.constructor = Child5
 ```
 
 :::
+
+ 
