@@ -71,7 +71,7 @@ func.bind(thisArg, param1, param2, ...)  // 不立即执行
   console.log(min )
   ```
 
-+ [继承](https://zack-xy.github.io/knownNet/program/interview/JavaScript%E9%9D%A2%E8%AF%95/JavaScript%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F.html)
++ [继承](https://zack-xy.github.io/knownNet/program/specialColumn/JavaScript%E4%B8%93%E6%A0%8F/JavaScript%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F.html)
 
 ##### [手写call&apply&bind](https://github.com/zack-xy/write-js/blob/main/apply&call&bind/apply_call_bind.js)
 
