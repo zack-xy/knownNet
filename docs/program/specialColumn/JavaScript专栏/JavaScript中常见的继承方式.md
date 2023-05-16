@@ -3,7 +3,7 @@ title: JavaScript中常见的几种继承方式
 author: Zack Zheng
 date: 2022/02/16 09:51
 categories:
- - 面向试试
+ - JavaScript专栏
 tags:
  - JavaScript
  - 面试题

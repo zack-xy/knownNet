@@ -1,12 +1,11 @@
 ---
 title: 常见的状态码/post请求与get请求的区别
 author: Zack Zheng
-date: 2022/02/16 09:51
+date: 2021/09/01 09:51
 categories:
- - 面向试试
+ - 大海拾遗
 tags:
  - Http
- - 面试题
 ---
 
 ## HTTP协议类

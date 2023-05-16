@@ -6,7 +6,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: '大海拾遗', link: '/program/pieces/index', activeMatch: '/program/pieces/' },
       { text: '困难冲冲', link: '/program/issues/index', activeMatch: '/program/issues/' },
-      { text: '面向试试', link: '/program/interview/index', activeMatch: '/program/interview/' },
+      // { text: '面向试试', link: '/program/interview/index', activeMatch: '/program/interview/' },
       { text: '体系专栏', link: '/program/specialColumn/index', activeMatch: '/program/specialColumn/' },
     ],
     activeMatch: '/program/',
