@@ -10,4 +10,6 @@ tags:
 
 ![git分支合并解决冲突](/svgs/git分支合并解决冲突.svg)
 
+<simple-img src="Git常见操作汇总.svg" />
+
 
