@@ -35,3 +35,5 @@ tags:
 + #### [手写数组map方法](https://github.com/zack-xy/write-js/blob/main/Array/map.js)
 
 + #### [手写数组reduce方法](https://github.com/zack-xy/write-js/blob/main/Array/reduce.js)
+
++ #### [手写EventEmitter](https://github.com/zack-xy/write-js/blob/main/EventEmitter/eventEmitter.js)
