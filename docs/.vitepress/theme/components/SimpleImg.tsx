@@ -14,7 +14,7 @@ export default defineComponent({
             preview={{
               maskClassName: 'simple-img',
             }}
-            src={`/knownNet/svgs/${src}`} />
+            src={src?.startsWith('http') ? src : `/knownNet/svgs/${src}`} />
         </div >
       )
     }
