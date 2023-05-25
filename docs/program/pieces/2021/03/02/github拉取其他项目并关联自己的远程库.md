@@ -24,4 +24,6 @@ tags:
 
 commit本地代码，强推到远程仓库(一般远程是新建的，没有代码，如果有会覆盖原有代码)  
 
-`git push -u origin main -f`  
+`git push -u origin main -f`  (每次都要强推)
+
+`git push --set-upstream origin main` (本地分支关联main不用每次都强推)
