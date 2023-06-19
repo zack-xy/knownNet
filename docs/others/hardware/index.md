@@ -5,10 +5,10 @@ lastUpdated: false
 showComment: false
 ---
 
-# 面向试试
+# 玩转硬件
 
 ::: tip 何来此页❓
 
-面试题，巩固知识，查缺补漏
+硬核的软件
 
 :::
