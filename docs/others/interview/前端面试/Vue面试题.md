@@ -639,3 +639,101 @@ const vCopy = { //
 
 export default vCopy;
 ```
+
+### 自定义v-model
+
+实现1:
+
+```
+<template>
+  <div>
+    <my-custom-input v-model="myValue"></my-custom-input>
+  </div>
+</template>
+```
+
+完整的自定义v-model的组件示例代码如下：
+
+```vue
+<template>
+  export default {
+  props: {
+  value: {
+  type: String,
+  default: ''
+  }
+  },
+  methods: {
+  updateValue(newValue) {
+  this.$emit('input', newValue)
+  }
+  }
+  }
+</template>
+
+<template>
+  <div>
+    <input :value="value" @input="updateValue($event.target.value)">
+  </div>
+</template>
+```
+
+实现2:（为什么model属性）
+
+```vue
+<script>
+// change需要和model中的event对应
+// model中的prop对应props中text
+export default {
+  model: {
+    prop: 'text',
+    event: 'change1'
+  },
+  props: {
+    text: String,
+    default() {
+      return ''
+    }
+  }
+}
+</script>
+
+<template>
+  <input type="text" :value="text" @input="$emit('change1', $event.target.value)">
+</template>
+```
+
+对于一些组件，例如区间选择，它们需要在值改变时同时发出一个名为`start`和一个名为`end`的事件。我们同样可以使用 `model` 对象来简写这种用法。
+
+```vue
+Vue.component('my-range', {
+  model: {
+    prop: 'range',
+    event: 'change'
+  },
+  props:  {
+    range: {
+      type: Array,
+      default: function () {
+        return [0, 100]
+      }
+    }
+  },
+  templates: `
+    <div>
+      <input
+        :value="range[0]"
+        @input="$emit('change', [+$event.target.value, range[1]])">
+      <input
+        :value="range[1]"
+        @input="$emit('change', [range[0], +$event.target.value])">
+    </div>
+  `
+})
+```
+
+```vue
+<!-- 使用 -->
+<my-range v-model="range"></my-range>
+```
+
