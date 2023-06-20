@@ -27,6 +27,43 @@ tags:
 
 ### 为何v-for中要用key
 
+使用场景
+
+1. 当我们在使用`v-for`时，需要给单元加上`key`
+
+   ```js
+   <ul>
+       <li v-for="item in items" :key="item.id">...</li>
+   </ul>
+   ```
+
+2. 用`+new Date()`生成的时间戳作为`key`，手动强制触发重新渲染
+
+   ```js
+   <Comp :key="+new Date()" />
+   ```
+
+> key是给每一个vnode的唯一id，也是diff的一种优化策略，可以根据key，更准确， 更快的找到对应的vnode节点
+
+当我们在使用`v-for`时，需要给单元加上`key`
+
+- 如果不用key，Vue会采用就地复用原则：最小化element的移动，并且会尝试尽最大程度在同适当的地方对相同类型的element，做patch或者reuse。
+- 如果使用了key，Vue会根据keys的顺序记录element，曾经拥有了key的element如果不再出现的话，会被直接remove或者destoryed
+
+用`+new Date()`生成的时间戳作为`key`，手动强制触发重新渲染
+
+- 当拥有新值的rerender作为key时，拥有了新key的Comp出现了，那么旧key Comp会被移除，新key Comp触发渲染
+
+设置key值一定能提高diff效率吗？
+
+其实不然，文档中也明确表示
+
+> 当 Vue.js 用 v-for 正在更新已渲染过的元素列表时，它默认用“就地复用”策略。如果数据项的顺序被改变，Vue 将不会移动 DOM 元素来匹配数据项的顺序， 而是简单复用此处每个元素，并且确保它在特定索引下显示已被渲染过的每个元素
+
+这个默认的模式是高效的，但是只适用于不依赖子组件状态或临时 DOM 状态 (例如：表单输入值) 的列表渲染输出
+
+建议尽可能在使用 `v-for` 时提供 `key`，除非遍历输出的 DOM 内容非常简单，或者是刻意依赖默认行为以获取性能上的提升
+
 ### v-if和v-for为什么不能一起使用
 
 在`vue`模板编译的时候，会将指令系统转化成可执行的`render`函数
@@ -737,3 +774,244 @@ Vue.component('my-range', {
 <my-range v-model="range"></my-range>
 ```
 
+#### 说说你对slot的理解？slot使用场景有哪些？
+
+`slot`可以分来以下三种：
+
+- 默认插槽
+
+  子组件`Child.vue`
+
+  ```html
+  <template>
+      <slot>
+        <p>插槽后备的内容</p>
+      </slot>
+  </template>
+  ```
+
+  父组件
+
+  ```html
+  <Child>
+    <div>默认插槽</div>  
+  </Child>
+  ```
+
+- 具名插槽
+
+  子组件`Child.vue`
+
+  ```html
+  <template>
+      <slot>插槽后备的内容</slot>
+    <slot name="content">插槽后备的内容</slot>
+  </template>
+  ```
+
+  父组件
+
+  ```html
+  <child>
+      <template v-slot:default>具名插槽</template>
+      <!-- 具名插槽⽤插槽名做参数 -->
+      <template v-slot:content>内容...</template>
+  </child>
+  ```
+
+- 作用域插槽
+
+  父组件中在使用时通过`v-slot:`（简写：#）获取子组件的信息，在内容中使用
+
+  子组件`Child.vue`
+
+  ```html
+  <template> 
+    <slot name="footer" testProps="子组件的值">
+            <h3>没传footer插槽</h3>
+      </slot>
+  </template>
+  ```
+
+​		父组件
+
+```html
+<child> 
+    <!-- 把v-slot的值指定为作⽤域上下⽂对象 -->
+    <template v-slot:default="slotProps">
+      来⾃⼦组件数据：{{slotProps.testProps}}
+    </template>
+    <template #default="slotProps">
+      来⾃⼦组件数据：{{slotProps.testProps}}
+    </template>
+</child>
+```
+
+`slot`本质上是返回`VNode`的函数，一般情况下，`Vue`中的组件要渲染到页面上需要经过`template -> render function -> VNode -> DOM` 过程
+
+### 动态给vue的data添加一个新的属性时会发生什么？怎样解决？
+
+直接点设置对象属性，页面没有更新
+
+`Vue` 不允许在已经创建的实例上动态添加新的响应式属性
+
+若想实现数据与视图同步更新，可采取下面三种解决方案：
+
+- Vue.set()
+
+- Object.assign()
+
+  ```js
+  this.someObject = Object.assign({},this.someObject,{newProperty1:1,newProperty2:2 ...})
+  ```
+
+- $forcecUpdated() （不建议）
+
+### 什么是动态组件
+
+在Vue 2中，动态组件是指可以根据父组件的数据动态切换子组件的组件。通过使用Vue的<component>元素，可以在父组件中动态地绑定一个组件，从而实现动态组件的效果。
+
+动态组件的实现方式有两种：
+
+使用<component>元素的is属性，将其绑定到一个变量或计算属性，然后根据该变量或计算属性的值动态地渲染不同的子组件。
+
+例如：
+
+```html
+<component :is="currentComponent"></component>
+```
+
+其中，currentComponent是一个变量或计算属性，它的值可以是不同的子组件的名称。
+
+使用Vue的<keep-alive>元素，可以缓存动态组件的状态，从而在组件切换时保留其状态。
+
+例如：
+
+```html
+<keep-alive>
+  <component :is="currentComponent"></component>
+</keep-alive>
+```
+
+其中，<keep-alive>元素用于缓存动态组件的状态，从而在组件切换时保留其状态。
+
+### 什么是异步组件
+
+在Vue 2中，异步组件是指在需要时才会被加载的组件。它们可以帮助我们优化应用程序的性能，因为在初始渲染时不会加载所有组件，而是只加载当前需要的组件。
+
+异步组件的实现方式有两种：
+
+1. 使用工厂函数。在组件定义时，使用一个工厂函数来返回一个Promise对象，在该Promise对象resolve时，返回组件的定义。这样，在需要加载组件时，Vue会执行该工厂函数来加载组件。
+
+例如：
+
+```javascript
+Vue.component('async-component', function (resolve, reject) {
+  setTimeout(function () {
+    resolve({
+      template: '<div>Async Component</div>'
+    })
+  }, 1000)
+})
+```
+
+在上面的例子中，异步组件定义了一个工厂函数，该函数会在1秒钟后返回组件的定义
+
+2. 使用动态import。在组件定义时，使用ES6的动态import语法来加载组件。当需要加载组件时，Vue会自动执行import语句来加载组件。
+
+例如：
+
+```javascript
+Vue.component('async-component', () => import('./AsyncComponent.vue'))
+```
+
+在上面的例子中，异步组件使用了ES6的动态import语法来加载组件。当需要加载组件时，Vue会自动执行import语句来加载组件。
+
+### 怎样缓存组件，缓存后怎样更新，说说你对keep-alive的理解
+
+keep-alive是vue中的内置组件，能在组件切换过程中将状态保留在内存中，防止重复渲染DOM
+
+当一个组件被包裹在<keep-alive>组件中时，该组件的状态会被缓存到内存中。当该组件再次被渲染时，Vue会从内存中获取已缓存的组件实例，并将其重新挂载到DOM中，从而避免了重新创建组件实例和销毁已有的组件实例的开销。
+
+`keep-alive`可以设置以下`props`属性：
+
+- `include` - 字符串或正则表达式。只有名称匹配的组件会被缓存
+- `exclude` - 字符串或正则表达式。任何名称匹配的组件都不会被缓存
+- `max` - 数字。最多可以缓存多少组件实例
+
+设置了 keep-alive 缓存的组件，会多出两个生命周期钩子（`activated`与`deactivated`）：
+
+- 首次进入组件时：`beforeRouteEnter` > `beforeCreate` > `created`> `mounted` > `activated` > ... ... > `beforeRouteLeave` > `deactivated`
+
+- 再次进入组件时：`beforeRouteEnter` >`activated` > ... ... > `beforeRouteLeave` > `deactivated`
+
+  
+
+缓存后获取数据可以有以下两种：
+
+- beforeRouteEnter
+- actived
+
+每次组件渲染的时候，都会执行`beforeRouteEnter`
+
+```go
+beforeRouteEnter(to, from, next){
+    next(vm=>{
+        console.log(vm)
+        // 每次进入路由执行
+        vm.getData()  // 获取数据
+    })
+},
+```
+
+在`keep-alive`缓存的组件被激活的时候，都会执行`actived`钩子
+
+```go
+activated(){
+   this.getData() // 获取数据
+},
+```
+
+::: warning
+
+注意：服务器端渲染期间`avtived`不被调用
+
+::: 
+
+原理：keep-alive组件没有`template`，而是用了`render`，在组件渲染的时候会自动执行`render`函数
+
+### 说说你对vue的mixin的理解，有什么应用场景？
+
+mixin 是一种用于复用组件选项的方式。使用 mixin 可以将组件选项合并到多个组件中，从而减少重复代码，提高代码复用性。
+
+本质其实就是一个`js`对象，它可以包含我们组件中任意功能选项，如`data`、`components`、`methods`、`created`、`computed`等等
+
+局部混入：
+
+```js
+Vue.component('componentA',{
+  mixins: [myMixin]
+})
+```
+
+全局混入：
+
+```js
+Vue.mixin({
+  created: function () {
+      console.log("全局混入")
+    }
+})
+```
+
+- 替换型策略有`props`、`methods`、`inject`、`computed`，就是将新的同名参数替代旧的参数
+- 合并型策略是`data`, 通过`set`方法进行合并和重新赋值
+- 队列型策略有生命周期函数和`watch`，原理是将函数存入一个数组，然后正序遍历依次执行
+- 叠加型有`component`、`directives`、`filters`，通过原型链进行层层的叠加
+
+存在的问题：
+
+1. 命名冲突：如果多个 mixin 中定义了同名的属性或方法，合并时会发生命名冲突，导致其中一个 mixin 被覆盖。
+2. 继承顺序：mixin 的选项会按照定义顺序依次被合并到组件中，如果多个 mixin 中存在相同的选项，合并顺序会影响最终结果。
+3. 隐式依赖：mixin 可以访问组件的数据和方法，但是组件无法知道 mixin 中使用了哪些数据和方法，这会导致隐式依赖，增加代码的复杂度和维护难度。
+4. 命名空间污染：如果 mixin 中定义了全局变量或函数，可能会与组件中的变量或函数发生命名冲突，导致命名空间污染。
