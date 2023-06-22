@@ -829,7 +829,7 @@ Vue.component('my-range', {
   <template> 
     <slot name="footer" testProps="子组件的值">
             <h3>没传footer插槽</h3>
-      </slot>
+    </slot>
   </template>
   ```
 
@@ -862,18 +862,18 @@ Vue.component('my-range', {
 - Object.assign()
 
   ```js
-  this.someObject = Object.assign({},this.someObject,{newProperty1:1,newProperty2:2 ...})
+  this.someObject = Object.assign({}, this.someObject, { newProperty1: 1, newProperty2: 2 })
   ```
 
 - $forcecUpdated() （不建议）
 
 ### 什么是动态组件
 
-在Vue 2中，动态组件是指可以根据父组件的数据动态切换子组件的组件。通过使用Vue的<component>元素，可以在父组件中动态地绑定一个组件，从而实现动态组件的效果。
+在Vue 2中，动态组件是指可以根据父组件的数据动态切换子组件的组件。通过使用Vue的`<component>`元素，可以在父组件中动态地绑定一个组件，从而实现动态组件的效果。
 
 动态组件的实现方式有两种：
 
-使用<component>元素的is属性，将其绑定到一个变量或计算属性，然后根据该变量或计算属性的值动态地渲染不同的子组件。
+使用`<component>`元素的is属性，将其绑定到一个变量或计算属性，然后根据该变量或计算属性的值动态地渲染不同的子组件。
 
 例如：
 
@@ -883,7 +883,7 @@ Vue.component('my-range', {
 
 其中，currentComponent是一个变量或计算属性，它的值可以是不同的子组件的名称。
 
-使用Vue的<keep-alive>元素，可以缓存动态组件的状态，从而在组件切换时保留其状态。
+使用Vue的`<keep-alive>`元素，可以缓存动态组件的状态，从而在组件切换时保留其状态。
 
 例如：
 
@@ -893,7 +893,7 @@ Vue.component('my-range', {
 </keep-alive>
 ```
 
-其中，<keep-alive>元素用于缓存动态组件的状态，从而在组件切换时保留其状态。
+其中，`<keep-alive>`元素用于缓存动态组件的状态，从而在组件切换时保留其状态。
 
 ### 什么是异步组件
 
@@ -931,7 +931,7 @@ Vue.component('async-component', () => import('./AsyncComponent.vue'))
 
 keep-alive是vue中的内置组件，能在组件切换过程中将状态保留在内存中，防止重复渲染DOM
 
-当一个组件被包裹在<keep-alive>组件中时，该组件的状态会被缓存到内存中。当该组件再次被渲染时，Vue会从内存中获取已缓存的组件实例，并将其重新挂载到DOM中，从而避免了重新创建组件实例和销毁已有的组件实例的开销。
+当一个组件被包裹在`<keep-alive>`组件中时，该组件的状态会被缓存到内存中。当该组件再次被渲染时，Vue会从内存中获取已缓存的组件实例，并将其重新挂载到DOM中，从而避免了重新创建组件实例和销毁已有的组件实例的开销。
 
 `keep-alive`可以设置以下`props`属性：
 
@@ -989,7 +989,7 @@ mixin 是一种用于复用组件选项的方式。使用 mixin 可以将组件�
 局部混入：
 
 ```js
-Vue.component('componentA',{
+Vue.component('ComponentA', {
   mixins: [myMixin]
 })
 ```
@@ -998,9 +998,9 @@ Vue.component('componentA',{
 
 ```js
 Vue.mixin({
-  created: function () {
-      console.log("全局混入")
-    }
+  created() {
+    console.log('全局混入')
+  }
 })
 ```
 
