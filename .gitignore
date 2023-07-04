@@ -22,4 +22,5 @@ package-lock.json
 coverage/
 docs/.vitepress/cache/
 xmind/
+drawio/
 template.txt
