@@ -230,11 +230,15 @@ ____
 
 配置校验，使提交前，代码都要符合eslint规范
 
-1. 在pre-commit钩子里，添加eslint校验
+1. 安装lint-staged
+
+   `pnpm add lint-staged -D`
+
+2. 在pre-commit钩子里，添加eslint校验
 
    `npx husky add .husky/pre-commit "npx eslint --ext .js,.vue src"`
 
-2. 配置自动eslint修复，使用lint-staged(只检查本次修改更新的代码)
+3. 配置自动eslint修复，使用lint-staged(只检查本次修改更新的代码)
 
    2.1 添加package.json配置
 
