@@ -1,4 +1,4 @@
-import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{"title":"配置项目git提交规范（约定式提交）","description":"","frontmatter":{"title":"配置项目git提交规范（约定式提交）","author":"Zack Zheng","date":"2023/07/10 00:00","categories":["git"],"tags":["规范","git"]},"headers":[],"relativePath":"program/pieces/2023/07/10/配置项目git提交规范.md","lastUpdated":1689304054000}'),p={name:"program/pieces/2023/07/10/配置项目git提交规范.md"},e=l(`<p><a href="https://www.conventionalcommits.org/zh-hans/v1.0.0/" target="_blank" rel="noreferrer">什么是约定式提交规范</a></p><p>提交的信息大致规范是这样：</p><div class="language- line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight vp-code-dark"><code><span class="line"><span style="color:#A6ACCD;">&lt;类型&gt;[可选 范围]: &lt;描述&gt;</span></span>
+import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{"title":"配置项目git提交规范（约定式提交）","description":"","frontmatter":{"title":"配置项目git提交规范（约定式提交）","author":"Zack Zheng","date":"2023/07/10 00:00","categories":["git"],"tags":["规范","git"]},"headers":[],"relativePath":"program/pieces/2023/07/10/配置项目git提交规范.md","lastUpdated":1689318007000}'),p={name:"program/pieces/2023/07/10/配置项目git提交规范.md"},e=l(`<p><a href="https://www.conventionalcommits.org/zh-hans/v1.0.0/" target="_blank" rel="noreferrer">什么是约定式提交规范</a></p><p>提交的信息大致规范是这样：</p><div class="language- line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight vp-code-dark"><code><span class="line"><span style="color:#A6ACCD;">&lt;类型&gt;[可选 范围]: &lt;描述&gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span>
 <span class="line"><span style="color:#A6ACCD;">[可选 正文]</span></span>
 <span class="line"><span style="color:#A6ACCD;">[可选 脚注]</span></span>
@@ -176,7 +176,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">    { value: &#39;chore&#39;, name: &#39;chore: 构建过程或辅助工具的变动&#39; },</span></span>
 <span class="line"><span style="color:#A6ACCD;">    { value: &#39;revert&#39;, name: &#39;revert: 回退&#39; },</span></span>
 <span class="line"><span style="color:#A6ACCD;">    { value: &#39;build&#39;, name: &#39;build: 打包&#39; },</span></span>
-<span class="line"><span style="color:#A6ACCD;">    { value: &#39;WIP&#39;, name: &#39;WIP:      Work in progress&#39; },</span></span>
+<span class="line"><span style="color:#A6ACCD;">    { value: &#39;wip&#39;, name: &#39;WIP:      Work in progress&#39; },</span></span>
 <span class="line"><span style="color:#A6ACCD;">  ],</span></span>
 <span class="line"><span style="color:#A6ACCD;">  // 消息步骤</span></span>
 <span class="line"><span style="color:#A6ACCD;">  messages: {</span></span>
@@ -207,7 +207,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#abb2bf;">    { value: &#39;chore&#39;, name: &#39;chore: 构建过程或辅助工具的变动&#39; },</span></span>
 <span class="line"><span style="color:#abb2bf;">    { value: &#39;revert&#39;, name: &#39;revert: 回退&#39; },</span></span>
 <span class="line"><span style="color:#abb2bf;">    { value: &#39;build&#39;, name: &#39;build: 打包&#39; },</span></span>
-<span class="line"><span style="color:#abb2bf;">    { value: &#39;WIP&#39;, name: &#39;WIP:      Work in progress&#39; },</span></span>
+<span class="line"><span style="color:#abb2bf;">    { value: &#39;wip&#39;, name: &#39;WIP:      Work in progress&#39; },</span></span>
 <span class="line"><span style="color:#abb2bf;">  ],</span></span>
 <span class="line"><span style="color:#abb2bf;">  // 消息步骤</span></span>
 <span class="line"><span style="color:#abb2bf;">  messages: {</span></span>
@@ -228,7 +228,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">  // 继承的规则</span></span>
 <span class="line"><span style="color:#A6ACCD;">  extends: [&#39;@commitlint/config-conventional&#39;],</span></span>
 <span class="line"><span style="color:#A6ACCD;">  // 定义规则</span></span>
-<span class="line"><span style="color:#A6ACCD;">  roles: {</span></span>
+<span class="line"><span style="color:#A6ACCD;">  rules: {</span></span>
 <span class="line"><span style="color:#A6ACCD;">    // type的类型定义: 表示git提交的type必须在以下类型范围之内</span></span>
 <span class="line"><span style="color:#A6ACCD;">    &#39;type-enum&#39;: [</span></span>
 <span class="line"><span style="color:#A6ACCD;">      // 当前验证错误级别</span></span>
@@ -246,10 +246,10 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">        &#39;test&#39;,</span></span>
 <span class="line"><span style="color:#A6ACCD;">        &#39;chore&#39;,</span></span>
 <span class="line"><span style="color:#A6ACCD;">        &#39;revert&#39;,</span></span>
-<span class="line"><span style="color:#A6ACCD;">        &#39;WIP&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">        &#39;wip&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      ]</span></span>
 <span class="line"><span style="color:#A6ACCD;">    ],</span></span>
-<span class="line"><span style="color:#A6ACCD;">    // subject大小写不做校验</span></span>
+<span class="line"><span style="color:#A6ACCD;">    // subject大小写不做校验 新版可能没有这个配置项了</span></span>
 <span class="line"><span style="color:#A6ACCD;">    &#39;subject-case&#39;: [0]</span></span>
 <span class="line"><span style="color:#A6ACCD;">  }</span></span>
 <span class="line"><span style="color:#A6ACCD;">}</span></span>
@@ -257,7 +257,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#abb2bf;">  // 继承的规则</span></span>
 <span class="line"><span style="color:#abb2bf;">  extends: [&#39;@commitlint/config-conventional&#39;],</span></span>
 <span class="line"><span style="color:#abb2bf;">  // 定义规则</span></span>
-<span class="line"><span style="color:#abb2bf;">  roles: {</span></span>
+<span class="line"><span style="color:#abb2bf;">  rules: {</span></span>
 <span class="line"><span style="color:#abb2bf;">    // type的类型定义: 表示git提交的type必须在以下类型范围之内</span></span>
 <span class="line"><span style="color:#abb2bf;">    &#39;type-enum&#39;: [</span></span>
 <span class="line"><span style="color:#abb2bf;">      // 当前验证错误级别</span></span>
@@ -275,10 +275,10 @@ import{_ as s,c as n,o as a,a as l}from"./app.5b981e59.js";const C=JSON.parse('{
 <span class="line"><span style="color:#abb2bf;">        &#39;test&#39;,</span></span>
 <span class="line"><span style="color:#abb2bf;">        &#39;chore&#39;,</span></span>
 <span class="line"><span style="color:#abb2bf;">        &#39;revert&#39;,</span></span>
-<span class="line"><span style="color:#abb2bf;">        &#39;WIP&#39;</span></span>
+<span class="line"><span style="color:#abb2bf;">        &#39;wip&#39;</span></span>
 <span class="line"><span style="color:#abb2bf;">      ]</span></span>
 <span class="line"><span style="color:#abb2bf;">    ],</span></span>
-<span class="line"><span style="color:#abb2bf;">    // subject大小写不做校验</span></span>
+<span class="line"><span style="color:#abb2bf;">    // subject大小写不做校验 新版可能没有这个配置项了</span></span>
 <span class="line"><span style="color:#abb2bf;">    &#39;subject-case&#39;: [0]</span></span>
 <span class="line"><span style="color:#abb2bf;">  }</span></span>
 <span class="line"><span style="color:#abb2bf;">}</span></span>
