@@ -143,7 +143,7 @@ ____
        { value: 'chore', name: 'chore: 构建过程或辅助工具的变动' },
        { value: 'revert', name: 'revert: 回退' },
        { value: 'build', name: 'build: 打包' },
-       { value: 'WIP', name: 'WIP:      Work in progress' },
+       { value: 'wip', name: 'WIP:      Work in progress' },
      ],
      // 消息步骤
      messages: {
@@ -185,7 +185,7 @@ ____
      // 继承的规则
      extends: ['@commitlint/config-conventional'],
      // 定义规则
-     roles: {
+     rules: {
        // type的类型定义: 表示git提交的type必须在以下类型范围之内
        'type-enum': [
          // 当前验证错误级别
@@ -203,10 +203,10 @@ ____
            'test',
            'chore',
            'revert',
-           'WIP'
+           'wip'
          ]
        ],
-       // subject大小写不做校验
+       // subject大小写不做校验 新版可能没有这个配置项了
        'subject-case': [0]
      }
    }

@@ -20,10 +20,8 @@ module.exports = {
         'test',
         'chore',
         'revert',
-        'WIP'
+        'wip'
       ]
     ],
-    // subject大小写不做校验
-    'subject-case': [0]
   }
 }
