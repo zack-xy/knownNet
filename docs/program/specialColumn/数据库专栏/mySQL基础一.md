@@ -83,3 +83,20 @@ REGEXP 正则匹配
 > SELECT LEAST('g','b','t'),CREATEST('g','b','t') FROM DUAL;
 > SELECT LEAST(last_name,first_name) FROM employees; # 相当于js中的sort函数
 > SELECT LEAST(LENGTH(last_name),LENGTH(first_name)) FROM employees; # 比较两个字段的长度，较小长度的，列出来
+> SELECT employee_id,last_name,salary FROM employees WHERE salary bbetween 6000 AND 8000; # 包含边界，也可以这样写WHERE salary>=6000 && salary<=8000
+
+
+### IN / NOT IN是在离散的集合里查找
+in(10,20,30)
+
+### LIKE 模糊查询
+> SELECT last_name FROM employees WHERE last_name LIKE '%a%' # %表示不确定个数的字符（0个或者多个）   
+> SELECT last_name FROM employees WHERE last_name LIKE '_a%' # _表示有一个字符，这句就是查询第二个字符是a的（转义字符是\）   
+
+> SELECT last_name FROM  employees WHERE last_name LIKE '_$_a' ESCAPE 
+'$' # 自定义转义字符为$，这句表示第2个字符为下划线，第三个字符为a
+
+LIKE使用正则：REGEXP
+
+### 排序：ORDER BY 字段 ASC/DESC
+### 分页：LIMIT 偏移 每页数目
