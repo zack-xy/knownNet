@@ -30,6 +30,7 @@ showComment: false
 + [Httpster](http://httpster.net)
 + [Awwwards](http://awwwards.com)
 + [Dribbble](http://dribbble.com)
++ [仅靠 CSS 与 HTML 就可以实现的动效UI](https://www.handsome-css.com/)
 
 UI 资源，可在几分钟内创建精美的设计
 + [组件：](https://headlessui.com/)
