@@ -8,4 +8,4 @@ tags:
  - C++
 ---
 
-[![c++基础](https://z1.ax1x.com/2023/11/30/pirRMqJ.jpg)](https://imgse.com/i/pirRMqJ)
+<simple-img src="https://s11.ax1x.com/2023/11/30/pirRMqJ.jpg"/>

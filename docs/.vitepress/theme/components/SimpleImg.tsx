@@ -10,7 +10,7 @@ export default defineComponent({
           <a-image
             width="100%"
             height="100%"
-            fallback="/svgs/not_found.svg"
+            fallback="/knownNet/svgs/not_found.svg"
             preview={{
               maskClassName: 'simple-img',
             }}
