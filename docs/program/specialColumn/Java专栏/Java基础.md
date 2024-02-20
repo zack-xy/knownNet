@@ -8,4 +8,5 @@ tags:
  - Java
 ---
 
-[![pF8rQ6P.png](https://s11.ax1x.com/2024/02/13/pF8rQ6P.png)](https://imgse.com/i/pF8rQ6P)
+
+<simple-img src="https://imgse.com/i/pF8rQ6P"/>
