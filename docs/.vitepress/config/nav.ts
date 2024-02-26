@@ -36,11 +36,11 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/tags',
     activeMatch: '/tags',
   },
-  {
-    text: '我的归档',
-    link: '/archives',
-    activeMatch: '/archives',
-  },
+  // {
+  //   text: '我的归档',
+  //   link: '/archives',
+  //   activeMatch: '/archives',
+  // },
   {
     text: '关于',
     items: [
