@@ -1,5 +1,5 @@
 ---
-title: CSS常用之居中布局和文本截断和块截断
+title: CSS居中布局和文本截断和块截断
 author: Zack Zheng
 date: 2022/11/09 00:00
 categories:
