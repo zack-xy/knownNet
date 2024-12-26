@@ -12,7 +12,6 @@ declare module '@vue/runtime-core' {
     AImage: typeof import('ant-design-vue/es')['Image']
     AStep: typeof import('ant-design-vue/es')['Step']
     ASteps: typeof import('ant-design-vue/es')['Steps']
-    ATable: typeof import('ant-design-vue/es')['Table']
     MePage: typeof import('./.vitepress/theme/components/MePage.tsx')['default']
     MyBooks: typeof import('./.vitepress/theme/components/MyBooks.tsx')['default']
     MyComponent: typeof import('./.vitepress/theme/components/MyComponent.tsx')['default']

@@ -7,14 +7,19 @@ import './styles/custom.css'
 import MyComponent from './components/MyComponent'
 import SimpleImg from './components/SimpleImg'
 import MyTag from './components/MyTag'
-import MyLayout from './MyLayout';
+import { h } from 'vue'
+import MyLayout from './MyLayout.tsx';
 
 // import myTheme from './MyTheme'
 
 export default {
   // ...myTheme,
   ...DefaultTheme,
-  Layout: MyLayout,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'doc-after': () => h(MyLayout)
+    })
+  },
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
     ctx.app.component('MyComponent', MyComponent)

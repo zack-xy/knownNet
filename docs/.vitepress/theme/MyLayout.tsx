@@ -1,14 +1,12 @@
-import { defineComponent, watch, nextTick, onMounted } from "vue";
-import DefaultTheme from 'vitepress/theme';
 import "gitalk/dist/gitalk.css";
 import { useRouter } from "vitepress";
 import createGitalk from "../gitalk";
 
-const { Layout } = DefaultTheme;
 
 export default defineComponent({
   setup() {
-    const { route } = useRouter(); // 页面路由对象
+
+    let { route } = useRouter(); // 页面路由对象
 
     // 初始化 Gitalk
     const initGitalk = () => {
@@ -28,7 +26,7 @@ export default defineComponent({
       // 监听路由变化
       watch(
         () => route.path,
-        () => {
+        (newPath) => {
           nextTick(() => {
             initGitalk();
           });
@@ -36,14 +34,8 @@ export default defineComponent({
       );
     });
 
-    return () => {
-      return (
-        <Layout>
-          <template v-slot:docAfter>
-            <div id="gitalk-container"></div>
-          </template>
-        </Layout>
-      )
-    }
+    return () => (
+      <div id="gitalk-container"></div>
+    );
   }
-});
+})
