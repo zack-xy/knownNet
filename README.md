@@ -18,7 +18,7 @@
 #### 网站链接
 
 [Github pages](https://zack-xy.github.io/knownNet/)  
-[Gitee pages](https://zackzhengxy.gitee.io/knownnet)
+[~~Gitee pages~~](https://zackzhengxy.gitee.io/knownnet)
 
 <img width="1501" alt="截屏2023-04-10 11 31 49" src="https://user-images.githubusercontent.com/18522167/230820865-e2a50d4f-c21b-4806-8f7e-32ec1e7bf7e4.png">   
 
