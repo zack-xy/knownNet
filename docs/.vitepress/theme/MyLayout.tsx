@@ -36,12 +36,14 @@ export default defineComponent({
       );
     });
 
-    return () => (
-      <Layout>
-        <template #doc-after>
-          <div id="gitalk-container"></div>
-        </template>
-      </Layout>
-    );
+    return () => {
+      return (
+        <Layout>
+          <template>
+            <div id="gitalk-container"></div>
+          </template>
+        </Layout>
+      )
+    }
   }
 });
