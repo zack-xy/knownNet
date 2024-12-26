@@ -8,7 +8,7 @@ import MyComponent from './components/MyComponent'
 import SimpleImg from './components/SimpleImg'
 import MyTag from './components/MyTag'
 import { h } from 'vue'
-import MyLayout from './MyLayout.tsx';
+import MyLayout from './MyLayout';
 
 // import myTheme from './MyTheme'
 
