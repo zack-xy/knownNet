@@ -39,7 +39,7 @@ export default defineComponent({
     return () => {
       return (
         <Layout>
-          <template>
+          <template v-slot:docAfter>
             <div id="gitalk-container"></div>
           </template>
         </Layout>
