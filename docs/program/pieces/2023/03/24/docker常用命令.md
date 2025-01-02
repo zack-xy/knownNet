@@ -51,13 +51,18 @@ tags:
 
 ### 容器命令
 
+#### 命令基本格式：`docker container 操作`     
+（container可以省略，最好写上，清晰一些）   
+
 + 新建+启动容器：`docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 
   OPTIONS: 
 
   --name="容器新名字"
 
-  -d: 后台运行容器并返回容器id，即启动守护式容器（后台运行）
+  -d: 后台运行容器并返回容器id，即启动守护式容器（后台运行）  
+
+  将后台运行的容器attach到前台:`docker attach 容器id`   （不推荐，ctrl+c会退出容器的运行）
 
   -i:  以交互模式运行容器，通常与-t同时使用
 
@@ -80,6 +85,7 @@ tags:
   -n：显示最近n个创建的容器
 
   -q： 静默模式，只显示容器编号 
+  
 
 + 退出容器
 
@@ -90,7 +96,9 @@ tags:
 
 + 重启容器： `docker restart 容器ID或者容器名`
 
-+ 停止容器: `docker stop 容器ID或者容器名`
++ 停止容器: `docker stop 容器ID或者容器名`    
+一次性停止所有的容器：`docker container stop $(docker container ps -aq)`    
+（`docker container ps -aq`会列出所有容器的id）    
 
 + 强制停止容器: `docker kill  容器ID或者容器名`
 
@@ -98,9 +106,8 @@ tags:
 
   一次性删除多个容器：
 
-  docker rm -f $(docker ps -a -q)
-
-  docker ps -a -q | xargs docker rm 
+  `docker container rm -f $(docker ps -a -q)`   
+  rm不能删除正在运行的容器，-f表示强制删除。   
 
 + 查看容器网络
 
@@ -108,7 +115,8 @@ tags:
 
   `docker network inspect 容器名`
 
-+ 查看容器日志： `docker logs 容器ID `
++ 查看容器日志： `docker logs 容器ID `   
+  (动态跟踪logs:`docker logs -f 容器ID`)
 
 + 查看容器内运行的进程： `docker top 容器ID `
 
@@ -116,7 +124,7 @@ tags:
 
 + 进入正在运行的容器并以命令行交互： 
 
-  + `docker exec -it 容器ID bashShell`   （打开新的终端，启动新的进程，使用exit退出不会导致容器停止  ）
+  + `docker exec -it 容器ID sh`   （打开新的终端，启动新的进程，使用exit退出不会导致容器停止  ）
   + `docker attach 容器ID`   （直接进入容器启动的命令终端，不会启动新的进程，用exit退出会导致容器停止）
 
 +  从容器内拷贝文件到主机 ： `docker cp 容器ID:容器内路径 目的主机路径`
@@ -128,6 +136,22 @@ tags:
   `cat 文件名.tar | docker import  - 镜像用户/镜像名：镜像版本号 `
 
 
+---------------------------------------------------------------
+#### 运行`docker container run`后发生了什么？
+
+下面以这一行语句为例：   
+`docker container run -d -p 80:80 --name webhost nginx`    
+
++ 1. 在本地查找是否有nginx这个image镜像     
++ 2. 去远程image registry查找nginx镜像(默认的registry是Docker Hub)     
++ 3. 下载最新版本的nginx镜像（nginx:latest默认）   
++ 4. 基于nginx镜像来创建一个新的容器，并且准备运行    
++ 5. docker engine分配给这个容器一个虚拟ip地址    
++ 6. 在宿主机上打开80端口并把这个容器的80端口转发到宿主机上   
++ 7. 启动容器，运行指定的命令（这里是一个shell脚本去启动nginx）      
+
+
+---------------------------------------------------------------
 
 #### docker-compose是啥
 
