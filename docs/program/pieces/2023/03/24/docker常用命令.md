@@ -22,39 +22,53 @@ tags:
 
 ### 镜像命令
 
-+ 列出本地主机上的镜像：`docker images `  
++ 列出本地主机上的镜像：`docker image ls`  
   OPTIONS:  
   -a: 列出本地所有镜像（含历史镜像层）  
   -q: 只显示镜像id  
 
-+ 查某个镜像：`docker search 某个xx镜像名字 `
++ 查看镜像的详细信息：`docker image inspect 镜像id`
+
++ 查某个镜像：`docker image search 某个xx镜像名字 `
 
   OPTIONS: 
 
   --limit: 只列出N个镜像，默认25个 
 
-+ 拉某个镜像: `docker pull 某个xx镜像名字`
++ 拉某个镜像: `docker image pull 某个xx镜像名字`
 
   docker pull 镜像名字[:TAG]，比如docker pull redis:6.0.8
 
   没有TAG就是最新版，等价于docker pull 镜像名字:lates
 
-+ 查看镜像/容器/数据卷所占的空间：`docker system df`
++ 查看镜像/容器/数据卷所占的空间：`docker image system df`
 
-+ 删除镜像：`docker rmi 某个XXX镜像名字/ ID`
++ 删除镜像：`docker image rm 镜像id`
 
   -f 强制删除
 
-  删除全部：docker rmi -f $(docker images -qa)   // 注释：$()里面是【镜像命令】第一个列出了所有镜像只显示镜像id 
+  删除全部：docker image rm -f $(docker images -qa)   // 注释：$()里面是【镜像命令】第一个列出了所有镜像只显示镜像id 
 
   :question:什么是虚悬镜像:question::就是Repository(仓库名)和Tag(标签)都是`<none>`,这种镜像没什么用，可以删除
+
++ 保存镜像
+  `docker image save nginx:1.20.0 -o nginx.image`      
+  (-o表示导出，nginx.image是导出的文件名)
+
++ 导入镜像
+  `docker image load -i .\nginx.image`    
+  (-i表示导入)  
+
++ 容器生成镜像
+`docker container commit container的id 镜像:版本`
+
 
 ### 容器命令
 
 #### 命令基本格式：`docker container 操作`     
 （container可以省略，最好写上，清晰一些）   
 
-+ 新建+启动容器：`docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
++ 新建+启动容器：`docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]`
 
   OPTIONS: 
 
@@ -74,7 +88,7 @@ tags:
 
   -p：指定端口映射.  -p 8080:80
 
-+ 列出正在运行的容器：`docker ps [OPTIONS]`
++ 列出正在运行的容器：`docker container ps [OPTIONS]`
 
   OPTIONS: 
 
