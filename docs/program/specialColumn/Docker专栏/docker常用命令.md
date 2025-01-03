@@ -51,6 +51,8 @@ tags:
 
   :question:什么是虚悬镜像:question::就是Repository(仓库名)和Tag(标签)都是`<none>`,这种镜像没什么用，可以删除
 
+ + 删除所有没有使用的镜像：`docker image prune -a`   
+
 + 保存镜像
   `docker image save nginx:1.20.0 -o nginx.image`      
   (-o表示导出，nginx.image是导出的文件名)
@@ -122,6 +124,8 @@ tags:
 
   `docker container rm -f $(docker ps -a -q)`   
   rm不能删除正在运行的容器，-f表示强制删除。   
+
++ 清理所有已停止的容器: `docker system prune -f`  
 
 + 查看容器网络
 

@@ -38,7 +38,7 @@ print("hello docker")
 
 `docker image build -t hello .`
 
-(-t就是tag，名字，这里的名字是hello，后面可以跟版本，比如hello:1.0，什么都不加，默认是latest，最后面的点. 是当前文件夹的意思 )
+(-t就是tag，名字，这里的名字是hello，后面可以跟版本，比如hello:1.0，什么都不加，默认是latest，最后面的点. 是当前文件夹的意思，如果有copy文件，就是从当前文件夹下copy文件)
 
 
 ### 上传镜像到Docker hub
