@@ -152,10 +152,17 @@ tags:
   `docker export 容器ID > 文件名.tar`
 
   `cat 文件名.tar | docker import  - 镜像用户/镜像名：镜像版本号 `
+  
+---------------------------------------------------------------
 
+### Volume命令
+
++ 列出volume: `docker volume ls`
++ 查看具体信息：`docker volume inspect volume的名字`
++ 删除未使用的所有volume：`docker volume prune`
 
 ---------------------------------------------------------------
-#### 运行`docker container run`后发生了什么？
+### 运行`docker container run`后发生了什么？
 
 下面以这一行语句为例：   
 `docker container run -d -p 80:80 --name webhost nginx`    
@@ -171,7 +178,7 @@ tags:
 
 ---------------------------------------------------------------
 
-#### docker-compose是啥
+### docker-compose是啥
 
 Compose 项⽬是 Docker 官⽅的开源项⽬，负责实现对 Docker 容器集群的快速编排
 
