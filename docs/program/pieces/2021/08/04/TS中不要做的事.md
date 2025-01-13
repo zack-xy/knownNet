@@ -8,4 +8,4 @@ tags:
  - TypeScript
 ---
 
-![TS中不要做的事](/svgs/TS中不要做的事.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS中不要做的事.svg)

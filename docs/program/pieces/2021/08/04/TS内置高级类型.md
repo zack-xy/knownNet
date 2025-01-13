@@ -8,7 +8,7 @@ tags:
  - TypeScript
 ---
 
-![TS类型工具](/svgs/TS类型工具.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS类型工具.svg)
 
 ### Parameters
 

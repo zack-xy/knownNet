@@ -9,7 +9,7 @@ tags:
  - 函数式编程
 ---
 
-![javascript函数式编程概念](/svgs/javascript函数式编程概念.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/javascript函数式编程概念.svg)
 
 ---- 
 

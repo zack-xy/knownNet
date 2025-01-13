@@ -10,4 +10,4 @@ tags:
 ---
 
 
-<simple-img src="CSS世界之内联元素.svg"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/CSS世界之再看宽高.svg"/>

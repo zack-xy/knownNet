@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="JS代码执行过程.png" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/JS代码执行过程.png" />

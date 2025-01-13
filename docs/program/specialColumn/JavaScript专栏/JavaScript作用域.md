@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="JavaScript作用域.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/JavaScript作用域.svg" />

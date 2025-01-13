@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="UnoCSS学习梳理.png" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/UnoCSS学习梳理.png" />

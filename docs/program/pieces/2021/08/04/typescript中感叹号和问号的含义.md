@@ -8,4 +8,4 @@ tags:
  - TypeScript
 ---
 
-![typescript中感叹号和问号的含义](/svgs/typescript中感叹号和问号的含义.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/typescript中感叹号和问号的含义.svg)

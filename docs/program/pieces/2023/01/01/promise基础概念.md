@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="Promise基础.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/Promise基础.svg" />

@@ -9,4 +9,4 @@ tags:
 - Github
 ---
 
-<simple-img src="fork的项目如何同步原仓库.png"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/fork的项目如何同步原仓库.png"/>

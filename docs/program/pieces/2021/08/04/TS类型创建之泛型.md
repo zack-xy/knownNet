@@ -8,4 +8,4 @@ tags:
  - TypeScript
 ---
 
-![TS类型创建之泛型](/svgs/TS类型创建之泛型.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS类型创建之泛型.svg)

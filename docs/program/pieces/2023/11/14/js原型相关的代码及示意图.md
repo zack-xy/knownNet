@@ -32,7 +32,7 @@ hua.show()
 
 #### 上面代码的栈堆示意图
 
-<simple-img src="对象开辟的栈堆内存图.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/对象开辟的栈堆内存图.svg" />
 
 可以看到commonFirends被开辟多次，希望commonFirends可以复用一个，则需要原型（继承）   
 
@@ -49,5 +49,5 @@ User.prototype = {}
 // 这样再覆盖原型，因为prototype指向一个新的对象，覆盖前创建的实例指向另一个对象，所以无法访问覆盖后的原型
 ```
 
-<simple-img src="原型对象图.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/原型对象图.svg" />
 

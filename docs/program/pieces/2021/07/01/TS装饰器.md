@@ -8,7 +8,7 @@ tags:
  - TypeScript
 ---
 
-![TS装饰器](/svgs/TS装饰器.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS装饰器.svg)
 
 
 ::: code-group

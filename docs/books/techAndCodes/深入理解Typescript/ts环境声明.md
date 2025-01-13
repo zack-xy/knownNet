@@ -8,5 +8,5 @@ tags:
  - TypeScript
 ---
 
-<simple-img src="ts环境声明.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/ts环境声明.svg" />
 

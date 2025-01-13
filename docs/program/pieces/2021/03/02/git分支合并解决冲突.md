@@ -8,8 +8,8 @@ tags:
  - Git
 ---
 
-![git分支合并解决冲突](/svgs/git分支合并解决冲突.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/git分支合并解决冲突.svg)
 
-<simple-img src="Git常见操作汇总.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/Git常见操作汇总.svg" />
 
 

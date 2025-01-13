@@ -10,7 +10,7 @@ tags:
 ---
 
 
-<simple-img src="CSS世界随记1.svg"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/CSS世界随记1.svg"/>
 
 
 #### 块元素清除浮动  

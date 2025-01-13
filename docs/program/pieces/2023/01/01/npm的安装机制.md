@@ -9,7 +9,7 @@ tags:
 ---
 
 
-<simple-img src="npm的安装机制.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/npm的安装机制.svg" />
 
 ##### npm缓存机制    
 

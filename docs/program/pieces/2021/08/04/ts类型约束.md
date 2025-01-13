@@ -8,7 +8,7 @@ tags:
  - TypeScript
 ---
 
-![ts类型约束](/svgs/ts类型约束.svg)   
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/ts类型约束.svg)
 
 + [类的接口类型约束](https://github.com/zack-xy/try-projects/blob/main/typescript-learn/%E7%B1%BB%E7%9A%84%E6%8E%A5%E5%8F%A3%E7%BA%A6%E6%9D%9F.ts)  
 

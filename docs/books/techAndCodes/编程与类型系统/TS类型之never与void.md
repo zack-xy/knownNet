@@ -8,7 +8,7 @@ tags:
  - TypeScript
 ---
 
-<simple-img src="TS类型之never与void.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS类型之never与void.svg" />
 
 
 ::: code-group

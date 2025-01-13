@@ -8,6 +8,6 @@ tags:
  - Git
 ---
 
-![git基础](/svgs/git基础.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/git基础.svg)
 
 

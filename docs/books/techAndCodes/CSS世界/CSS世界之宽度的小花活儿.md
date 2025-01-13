@@ -10,4 +10,4 @@ tags:
 ---
 
 
-<simple-img src="CSS世界之宽度的小花活儿.svg"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/CSS世界之宽度的小花活儿.svg"/>

@@ -8,4 +8,4 @@ tags:
  - pnpm
 ---
 
-![pnpm包管理器概念](/svgs/pnpm包管理器概念.svg)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/pnpm包管理器概念.svg)

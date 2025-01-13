@@ -27,4 +27,4 @@ tags:
 
 #### Html是如何渲染的
 
-<simple-img src="HTML如何渲染在浏览器.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/HTML如何渲染在浏览器.svg" />

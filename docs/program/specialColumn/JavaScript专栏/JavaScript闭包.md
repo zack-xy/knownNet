@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="JavaScript闭包.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/JavaScript闭包.svg" />

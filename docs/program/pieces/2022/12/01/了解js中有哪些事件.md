@@ -8,7 +8,7 @@ tags:
  - JavaScript
 ---
 
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/了解js中有哪些事件.png" />
 
-<simple-img src="了解js中有哪些事件.png" />
 
 

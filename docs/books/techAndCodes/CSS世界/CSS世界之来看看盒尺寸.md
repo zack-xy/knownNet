@@ -10,7 +10,7 @@ tags:
 ---
 
 
-<simple-img src="CSS世界之来看看盒尺寸.svg"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/CSS世界之来看看盒尺寸.svg"/>
 
 
 #### Loading动画

@@ -8,4 +8,4 @@ tags:
  - JavaScript
 ---
 
-<simple-img src="JavaScript数据类型.svg"></simple-img>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/JavaScript数据类型.svg"></simple-img>

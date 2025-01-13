@@ -9,4 +9,4 @@ tags:
 ---
 
 
-<simple-img src="TS常用的一些类型.svg" />
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS常用的一些类型.svg" />

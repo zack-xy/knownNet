@@ -9,4 +9,4 @@ tags:
  - svg
 ---
 
-<simple-img src="canvas和svg的区别.png"/>
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/canvas和svg的区别.png"/>
