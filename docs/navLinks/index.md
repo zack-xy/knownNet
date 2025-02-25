@@ -16,7 +16,6 @@ showComment: false
 + [Vuejs技术揭秘](https://ustbhuangyi.github.io/vue-analysis)  
 + [学习正则](https://github.com/ziishaned/learn-regex)  
 + [学习css游戏](https://codingfantasy.com/games)   
-+ [Java面试指南](https://javaguide.cn)  
 + [Rust教程](https://github.com/sunface/rust-course)  
 
 
