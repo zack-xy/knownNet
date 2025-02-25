@@ -16,6 +16,7 @@ declare module '@vue/runtime-core' {
     ATimelineItem: typeof import('ant-design-vue/es')['TimelineItem']
     MePage: typeof import('./.vitepress/theme/components/MePage.tsx')['default']
     MyBooks: typeof import('./.vitepress/theme/components/MyBooks.tsx')['default']
+    MyCodes: typeof import('./.vitepress/theme/components/MyCodes.tsx')['default']
     MyComponent: typeof import('./.vitepress/theme/components/MyComponent.tsx')['default']
     MyTag: typeof import('./.vitepress/theme/components/MyTag.tsx')['default']
     MyTimeLine: typeof import('./.vitepress/theme/components/MyTimeLine.tsx')['default']

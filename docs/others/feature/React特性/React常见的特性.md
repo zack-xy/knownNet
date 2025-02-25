@@ -8,4 +8,8 @@ tags:
  - React
 ---
 
-<iframe src="https://github.com/zack-xy/o-bricks/blob/main/demoCodes/react-study/my_demo.html" width="100%" height="500px"></iframe>
+
+<Suspense>
+  <my-codes repo="o-bricks" path="demoCodes/react-study/my_demo.html" />
+</Suspense>
+
