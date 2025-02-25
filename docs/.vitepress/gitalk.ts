@@ -2,7 +2,7 @@ import Gitalk from 'gitalk';
 import 'gitalk/dist/gitalk.css';
 import SHA256 from 'crypto-js/sha256';
 
-const generateId = (input: string) => {
+export const generateId = (input: string) => {
   // 使用 CryptoJS 的 sha256 函数对输入字符串进行哈希处理
   let hash = SHA256(input);
   // 将哈希结果转换为字符串

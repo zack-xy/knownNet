@@ -33,15 +33,12 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/blogs',
   },
   {
-    text: '我的标签',
-    link: '/tags',
-    activeMatch: '/tags',
+    text: '本站统计',
+    items: [
+      { text: '我的标签', link: '/tags', activeMatch: '/tags' },
+      { text: '我的归档', link: '/timeline/index', activeMatch: '/timeline/index' },
+    ],
   },
-  // {
-  //   text: '我的归档',
-  //   link: '/archives',
-  //   activeMatch: '/archives',
-  // },
   {
     text: '关于',
     items: [
