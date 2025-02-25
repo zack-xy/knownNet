@@ -7,8 +7,6 @@ showComment: false
 
 # 我的导航
 
-+ [笔记备份](https://www.alipan.com/s/MwL3ExjjEdh)
-
 -----------
 
 ## 技术向

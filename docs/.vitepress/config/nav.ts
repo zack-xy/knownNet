@@ -22,6 +22,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '我的杂项',
     items: [
       { text: '编程面试', link: '/others/interview/index', activeMatch: '/others/interview/' },
+      { text: '何以编程', link: '/others/feature/index', activeMatch: '/others/feature/' },
       { text: '玩转硬件', link: '/others/hardware/index', activeMatch: '/others/hardware/' },
     ],
     activeMatch: '/others/',
