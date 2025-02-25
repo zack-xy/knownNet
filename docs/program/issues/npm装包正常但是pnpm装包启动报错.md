@@ -1,7 +1,7 @@
 ---
 title: npm装包正常但是pnpm装包启动报错
 lang: en-US
-date: 2023-07-14 00:00:00
+date: 2023/07/14 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

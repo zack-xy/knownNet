@@ -1,7 +1,7 @@
 ---
 title: 多个窗口打开了同一网站，如何监听tab全部关闭
 lang: en-US
-date: 2023-06-08 00:00:00
+date: 2023/06/08 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

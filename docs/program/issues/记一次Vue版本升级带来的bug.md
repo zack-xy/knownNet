@@ -1,7 +1,7 @@
 ---
 title: 记一次Vue版本升级带来的bug
 lang: en-US
-date: 2021-06-04 00:00:00
+date: 2021/06/04 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

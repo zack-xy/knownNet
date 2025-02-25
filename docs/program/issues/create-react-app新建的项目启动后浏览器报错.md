@@ -1,7 +1,7 @@
 ---
 title: create-react-app 新建的项目，启动后，浏览器报错'globalThis is not defined'
 lang: en-US
-date: 2023-03-23 00:00:00
+date: 2023/03/23 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

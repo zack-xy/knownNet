@@ -1,7 +1,7 @@
 ---
 title: 使用ts-node启动项目，全局自定义的类型找不到
 lang: en-US
-date: 2023-07-21 00:00:00
+date: 2023/07/21 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

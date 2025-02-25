@@ -1,7 +1,7 @@
 ---
 title: Vscode如何指定eslint server运行在哪个版本的node
 lang: en-US
-date: 2023-03-23 00:00:00
+date: 2023/03/23 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

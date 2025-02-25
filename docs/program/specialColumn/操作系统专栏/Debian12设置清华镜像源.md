@@ -1,6 +1,6 @@
 ---
 title: 设置Debian12清华镜像源
-date: 2024-01-02 00:00:00
+date: 2024/01/02 00:00:00
 categories: 
 - Debian
 tags: 

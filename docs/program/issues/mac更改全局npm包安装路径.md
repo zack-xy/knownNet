@@ -1,7 +1,7 @@
 ---
 title: mac更改全局npm包安装路径
 lang: en-US
-date: 2023-02-21 00:00:00
+date: 2023/02/21 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

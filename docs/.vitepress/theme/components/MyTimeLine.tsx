@@ -19,16 +19,26 @@ export default defineComponent({
         path: item.path!,
         categories: item.categories || [],
         time: item.date || '',
-      }))
+      })).sort((a, b) => new Date(a.time) > new Date(b.time) ? -1 : 1)
     }
 
-    const timelines = computed(() => initData(articleData))
+    const allArticleData = ref(initData(articleData))
+    const page = ref(10)
+    const timelines = computed(() => allArticleData.value.slice(0, page.value))
+
+    const loadMore = () => {
+      if (page.value === allArticleData.value.length)
+        return
+      page.value += 10
+      if (page.value > allArticleData.value.length)
+        page.value = allArticleData.value.length
+    }
 
     return () => {
       return (
         <>
           <h3 class="text-[#FFA500]">我的归档</h3>
-          <a-timeline mode="alternate" reverse={true}>
+          <a-timeline mode="alternate">
             {timelines.value.map((item: TimeLine) => (
               <a-timeline-item key={item.id}>
                 {item.time} - <a href={`/knownNet/${item.path}`} style={{ fontSize: '16px', fontWeight: 600 }}>{item.title}</a>
@@ -36,6 +46,9 @@ export default defineComponent({
               </a-timeline-item>
             ))}
           </a-timeline>
+          <a-button type="primary" onClick={loadMore}>
+            {page.value < allArticleData.value.length ? '加载更多' : '没有更多了'}
+          </a-button>
         </>
       )
     }

@@ -1,7 +1,7 @@
 ---
 title: ElementPlus中resetFields方法无法移除下拉框校验结果
 lang: en-US
-date: 2021-06-04 00:00:00
+date: 2021/06/04 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

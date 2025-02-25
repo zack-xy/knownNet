@@ -1,7 +1,7 @@
 ---
 title: 记一个同事的bug及平常写代码注意点
 lang: en-US
-date: 2023-05-26 00:00:00
+date: 2023/05/26 00:00:00
 editLink: true
 categories: 
 - 困难冲冲

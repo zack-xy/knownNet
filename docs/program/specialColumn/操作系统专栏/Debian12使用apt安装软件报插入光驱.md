@@ -1,6 +1,6 @@
 ---
 title: Debian12使用apt安装软件报插入光驱
-date: 2024-01-02 00:00:00
+date: 2024/01/02 00:00:00
 categories: 
 - Debian
 tags: 
