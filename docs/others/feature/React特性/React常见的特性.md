@@ -1,5 +1,5 @@
 ---
-title: React常见的特性
+title: useState的特性
 author: Zack Zheng
 date: 2025/02/25 14:05
 categories:
@@ -10,6 +10,6 @@ tags:
 
 
 <Suspense>
-  <my-codes repo="o-bricks" path="demoCodes/react-study/my_demo.html" />
+  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useStateDemo.js" />
 </Suspense>
 
