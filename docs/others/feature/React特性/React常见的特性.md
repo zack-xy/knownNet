@@ -10,6 +10,6 @@ tags:
 
 
 <Suspense>
-  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useStateDemo.jsx" />
+  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useStateDemo.jsx" lang="js" />
 </Suspense>
 
