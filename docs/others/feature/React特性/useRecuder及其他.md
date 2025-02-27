@@ -1,5 +1,5 @@
 ---
-title: useRecuder和startTransition、useTransition、useDeferredValue
+title: useRecuder和startTransition、useTransition、useDeferredValue、传送门
 author: Zack Zheng
 date: 2025/02/27 11:04
 categories:
@@ -24,3 +24,33 @@ useTransition会得到一个表示过渡任务的等待状态，和一个启动�
 
 startTransition的简化写法
 
+#### 传送门  
+createPortal
+
+#### 异步组件
+
+React.lazy与React.Suspense
+
+```jsx
+import React, { Suspense } from 'react'
+import { useState } from 'react'
+const Welcome = React.lazy(() => import('./components/Welcome'))
+const Welcome2 = React.lazy(() => import('./components/Welcome2')) 
+export default function App() {
+  const [ show, setShow ] = useState(true)
+  const handleClick = () => {
+    setShow(false)
+  }
+
+  return (
+    <div>
+      <h2>hello lazy</h2>
+      <button onClick={handleClick}>点击</button>
+      <Suspense fallback={<div>loading...</div>}>
+        {show ? <Welcome /> : <Welcome2 />}
+      </Suspense>
+    </div>
+  )
+}
+ 
+```
