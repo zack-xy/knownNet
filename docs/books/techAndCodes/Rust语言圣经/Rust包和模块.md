@@ -12,5 +12,5 @@ tags:
 
 
 <Suspense>
-  <my-codes repo="o-bricks" path="demoCodes/RustCodes/world_hello/src/module_demo.rs"/>
+  <my-codes repo="o-bricks" path="demoCodes/RustCodes/world_hello/src/module_demo.rs" lang="rust"/>
 </Suspense>
