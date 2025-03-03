@@ -1,5 +1,5 @@
 ---
-title: Rust语言圣经所有权借用和生命周期
+title: Rust包和模块
 author: Zack Zheng
 date: 2025/03/03 13:55
 categories:
