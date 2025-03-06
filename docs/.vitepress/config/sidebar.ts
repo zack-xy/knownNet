@@ -15,6 +15,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/program/issues/': getBlogs('program/issues'),
   '/others/interview/': getItems('others/interview'),
   '/others/feature/': getItems('others/feature'),
+  '/others/dsa/': getItems('others/dsa'),
   '/others/hardware/': getBlogs('others/hardware'),
 }
 
@@ -142,6 +143,7 @@ function getItems(path: string) {
       // 向前追加标题
       items.push({
         text: data.title,
+        time: data.date || '',
         link: `/${path}/${groupName}/${article.name.replace('.md', '')}`,
       })
       total++
@@ -152,7 +154,7 @@ function getItems(path: string) {
     groups.push({
       text: `${groupName.substring(groupName.indexOf('-') + 1)} (${items.length}篇)`,
       collapsed: items.length < groupCollapsedSize || total > titleCollapsedSize,
-      items,
+      items: items.sort((a, b) => new Date(a.time!) > new Date(b.time!) ? -1 : 1),
     })
 
     // 4.清空侧边栏分组下标题数组
