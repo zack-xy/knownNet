@@ -11,6 +11,7 @@ import MyTimeLine from './components/MyTimeLine'
 import { h } from 'vue'
 import MyLayout from './MyLayout'
 import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css'
 
 // import myTheme from './MyTheme'
 
