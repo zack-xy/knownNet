@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress/theme'
-import { sync } from 'fast-glob'
+import fastGlob from 'fast-glob'
 import matter from 'gray-matter'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
@@ -8,8 +8,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 
   '/books/socialSciences/': getItems('books/socialSciences'),
   '/books/techAndCodes/': getItems('books/techAndCodes'),
-  // '/courses/mysql/': getItems('courses/mysql'),
-  // '/courses/mybatis/': getItems('courses/mybatis'),
 
   '/blogs/': getBlogs('blogs'),
   '/program/issues/': getBlogs('program/issues'),
@@ -35,7 +33,7 @@ function getItemsByDate(path: string) {
   const topArticleItems: DefaultTheme.SidebarItem[] = []
 
   // 1.获取所有年份目录
-  sync(`docs/${path}/*`, {
+  fastGlob.sync(`docs/${path}/*`, {
     onlyDirectories: true,
     objectMode: true,
   }).forEach(({ name }) => {
@@ -44,20 +42,20 @@ function getItemsByDate(path: string) {
     const articleItems: DefaultTheme.SidebarItem[] = []
 
     // 2.获取所有月份目录
-    sync(`docs/${path}/${year}/*`, {
+    fastGlob.sync(`docs/${path}/${year}/*`, {
       onlyDirectories: true,
       objectMode: true,
     }).forEach(({ name }) => {
       const month = name
 
       // 3.获取所有日期目录
-      sync(`docs/${path}/${year}/${month}/*`, {
+      fastGlob.sync(`docs/${path}/${year}/${month}/*`, {
         onlyDirectories: true,
         objectMode: true,
       }).forEach(({ name }) => {
         const day = name
         // 4.获取日期目录下的所有文章
-        sync(`docs/${path}/${year}/${month}/${day}/*`, {
+        fastGlob.sync(`docs/${path}/${year}/${month}/${day}/*`, {
           onlyFiles: true,
           objectMode: true,
         }).forEach((article) => {
@@ -121,20 +119,20 @@ function getItems(path: string) {
   // 侧边栏分组数组
   const groups: DefaultTheme.SidebarItem[] = []
   // 侧边栏分组下标题数组
-  let items: DefaultTheme.SidebarItem[] = []
+  let items: (DefaultTheme.SidebarItem & { time: string })[] = []
   let total = 0
   // 当分组内文章数量少于 2 篇或文章总数显示超过 20 篇时，自动折叠分组
   const groupCollapsedSize = 2
   const titleCollapsedSize = 20
 
   // 1.获取所有分组目录
-  sync(`docs/${path}/*`, {
+  fastGlob.sync(`docs/${path}/*`, {
     onlyDirectories: true,
     objectMode: true,
   }).forEach(({ name }) => {
     const groupName = name
     // 2.获取分组下的所有文章
-    sync(`docs/${path}/${groupName}/*`, {
+    fastGlob.sync(`docs/${path}/${groupName}/*`, {
       onlyFiles: true,
       objectMode: true,
     }).forEach((article) => {
@@ -170,7 +168,7 @@ function getItems(path: string) {
 function getBlogs(path: string): Array<DefaultTheme.SidebarItem> {
   const items: DefaultTheme.SidebarItem[] = []
   // 获取所有文章
-  sync(`docs/${path}/*`, {
+  fastGlob.sync(`docs/${path}/*`, {
     onlyFiles: true,
     objectMode: true,
   }).forEach((article) => {
