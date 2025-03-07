@@ -10,6 +10,7 @@ import MyTag from './components/MyTag'
 import MyTimeLine from './components/MyTimeLine'
 import { h } from 'vue'
 import MyLayout from './MyLayout'
+import Antd from 'ant-design-vue';
 
 // import myTheme from './MyTheme'
 
@@ -23,6 +24,7 @@ export default {
   },
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
+    ctx.app.use(Antd)
     ctx.app.component('MyComponent', MyComponent)
     ctx.app.component('SimpleImg', SimpleImg)
     ctx.app.component('MyTimeline', MyTimeLine)
