@@ -1,9 +1,10 @@
 import type { DefaultTheme } from 'vitepress/theme'
 import fastGlob from 'fast-glob'
 import matter from 'gray-matter'
+import { createLogger } from 'vite'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/program/pieces/': getItemsByDate('program/pieces'),
+  '/program/pieces/': getItemsByYear('program/pieces'),
   '/program/specialColumn/': getItems('program/specialColumn'),
 
   '/books/socialSciences/': getItems('books/socialSciences'),
@@ -18,89 +19,54 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 }
 
 /**
- * 根据 某分类/YYYY/MM/dd/xxx.md 的目录格式, 获取侧边栏分组及分组下标题
- *
- * /categories/issues/2022/07/20/xxx.md
  *
  * @param path 扫描基础路径
  * @returns {DefaultTheme.SidebarItem[]}
  */
-function getItemsByDate(path: string) {
+function getItemsByYear(path: string) {
   // 侧边栏年份分组数组
   const yearGroups: DefaultTheme.SidebarItem[] = []
-
+  const yearGroupsMap: Map<number, (DefaultTheme.SidebarItem & { time: string })[]> = new Map()
   // 置顶数组
   const topArticleItems: DefaultTheme.SidebarItem[] = []
-
-  // 1.获取所有年份目录
   fastGlob.sync(`docs/${path}/*`, {
-    onlyDirectories: true,
+    onlyFiles: true,
     objectMode: true,
-  }).forEach(({ name }) => {
-    const year = name
-    // 年份数组
-    const articleItems: DefaultTheme.SidebarItem[] = []
+  }).forEach((article) => {
+    if (article.name !== "index.md") {
+      const articleFile = matter.read(`${article.path}`)
+      const { data } = articleFile
+      const link = `/${path}/${article.name.replace('.md', '')}`
+      if (data.isTop) {
+        topArticleItems.push({ text: data.title, link })
+      }
+      const year = new Date(data.date).getFullYear()
+      if (yearGroupsMap.has(year)) {
+        const yearItems = yearGroupsMap.get(year)
+        yearItems?.push({ text: data.title, link, time: data.date })
+        yearItems?.sort((a, b) => new Date(a.time!) > new Date(b.time!) ? -1 : 1)
+      } else {
+        yearGroupsMap.set(year, [{ text: data.title, link, time: data.date }])
+      }
+    }
+  })
 
-    // 2.获取所有月份目录
-    fastGlob.sync(`docs/${path}/${year}/*`, {
-      onlyDirectories: true,
-      objectMode: true,
-    }).forEach(({ name }) => {
-      const month = name
-
-      // 3.获取所有日期目录
-      fastGlob.sync(`docs/${path}/${year}/${month}/*`, {
-        onlyDirectories: true,
-        objectMode: true,
-      }).forEach(({ name }) => {
-        const day = name
-        // 4.获取日期目录下的所有文章
-        fastGlob.sync(`docs/${path}/${year}/${month}/${day}/*`, {
-          onlyFiles: true,
-          objectMode: true,
-        }).forEach((article) => {
-          const articleFile = matter.read(`${article.path}`)
-          const { data } = articleFile
-          if (data.isTop) {
-            // 向置顶分组前追加标题
-            topArticleItems.unshift({
-              text: data.title,
-              link: `/${path}/${year}/${month}/${day}/${article.name.replace('.md', '')}`,
-            })
-          }
-
-          // 向年份分组前追加标题
-          articleItems.unshift({
-            text: data.title,
-            link: `/${path}/${year}/${month}/${day}/${article.name.replace('.md', '')}`,
-          })
-        })
-      })
-    })
-
-    // 添加年份分组
-    yearGroups.unshift({
-      text: `${year}年 (${articleItems.length}篇)`,
-      collapsed: true,
-      items: articleItems,
+  const years = Array.from(yearGroupsMap.keys()).sort((a, b) => b - a)
+  const nowYear = (new Date()).getFullYear()
+  years.forEach(year => {
+    const items = yearGroupsMap.get(year) ?? []
+    yearGroups.push({
+      text: `${year}年 (${items.length}篇)`,
+      collapsed: year !== nowYear,
+      items
     })
   })
 
-  if (topArticleItems.length > 0) {
-    // 添加置顶分组
-    yearGroups.unshift({
-      text: `📑 我的置顶 (${topArticleItems.length}篇)`,
-      collapsed: false,
-      items: topArticleItems,
-    })
-
-    // 将最近年份分组展开
-    yearGroups[1].collapsed = false
-  }
-  else {
-    // 将最近年份分组展开
-    yearGroups[0].collapsed = false
-  }
+  yearGroups.unshift({
+    text: `🏅我的置顶 (${topArticleItems.length}篇)`,
+    collapsed: false,
+    items: topArticleItems,
+  })
 
   // 添加序号
   addOrderNumber(yearGroups)
@@ -108,9 +74,6 @@ function getItemsByDate(path: string) {
 }
 
 /**
- * 根据 某小课/序号-分组/序号-xxx.md 的目录格式, 获取侧边栏分组及分组下标题
- *
- * courses/mybatis/01-MyBatis基础/01-xxx.md
  *
  * @param path 扫描基础路径
  * @returns {DefaultTheme.SidebarGroup[]}
