@@ -63,3 +63,14 @@ main();
 `esModuleInterop`：启用后，TypeScript 会生成一些额外的代码来支持 CommonJS 和 ESM 之间的互操作。    
 `allowSyntheticDefaultImports`：允许从没有默认导出的模块中进行默认导入。
 
+##### 纯ESM项目下cjs的包配置项怎么修改
+
+最简单的解决方案。即使你的项目是 ESM，仍然可以在项目中保留部分文件为 CommonJS 格式。
+
+比如将配置文件重命名为 .cz-config.cjs：
+
+将 .cz-config.js 或 .cz-config.mjs 重命名为 .cz-config.cjs。
+
+.cjs 扩展名会告诉 Node.js 这是一个 CommonJS 模块。
+
+
