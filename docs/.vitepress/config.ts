@@ -11,6 +11,11 @@ export default defineConfig({
   head,
   markdown,
   themeConfig,
+  vite: {
+    ssr: {
+      noExternal: ['ant-design-vue', '@ant-design/icons-vue'],
+    },
+  },
   buildEnd: () => {
     generateSitemap()
   }
