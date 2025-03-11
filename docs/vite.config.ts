@@ -30,6 +30,7 @@ export default defineConfig({
       shortcuts: {
         'btn': 'py-2 px-4 font-semibold rounded-lg shadow-md',
         'btn-green': 'text-white bg-green-500 hover:bg-green-700',
+        'block-center': 'absolute left-1/2 -translate-x-1/2'
       },
       variants: [
         // hover:
