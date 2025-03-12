@@ -19,7 +19,8 @@ tags:
 
 （nano命令：ctrl+o然后回车保存，ctrl+x退出）
 
-![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/截屏2025-01-09 10.50.07.png)
+![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/Debian12配置ssh.png)
+
 
 增加配置如上
 
