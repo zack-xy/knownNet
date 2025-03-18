@@ -120,9 +120,9 @@ export default defineComponent({
 
     return () => {
       return (
-        <div class="h-xs w-full" border="solid blue rd-6">
-          <tags-outlined class="text-xl color-#2C73D2 font-semibold m-2" />
-          <label htmlFor="" class="text-xl color-#FF9671 font-semibold">我的标签</label>
+        <div class="h-[600px] pt-[50px]">
+          {/* <tags-outlined class="text-xl color-#2C73D2 font-semibold m-2" />
+          <label htmlFor="" class="text-xl color-#FF9671 font-semibold">我的标签</label> */}
           <div class="relative w-full"
             onMousemove={listener}>
             {clouds.map(cloud => (
