@@ -10,7 +10,7 @@
 + [Vue3](https://cn.vuejs.org/api/)  
 + [Unocss](http://www.unocss.cn/) 
 + [Typescript(JSX)](https://ts.nodejs.cn/)
-+ [Ant-design-vue](https://www.antdv.com/components/overview-cn)
++ [Ant-design-vue@3.x](https://3x.antdv.com/components/overview-cn/)
 + [Algolia](https://dashboard.algolia.com/account/overview)
 + [gitalk](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
 + [prismjs](https://prismjs.com/)
