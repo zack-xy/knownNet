@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     AAvatar: typeof import('ant-design-vue/es')['Avatar']
     AButton: typeof import('ant-design-vue/es')['Button']
     ACard: typeof import('ant-design-vue/es')['Card']
+    ADivider: typeof import('ant-design-vue/es')['Divider']
     AImage: typeof import('ant-design-vue/es')['Image']
     AStep: typeof import('ant-design-vue/es')['Step']
     ASteps: typeof import('ant-design-vue/es')['Steps']
