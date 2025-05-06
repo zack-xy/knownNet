@@ -14,6 +14,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/program/issues/': getBlogs('program/issues'),
   '/others/interview/': getItems('others/interview'),
   '/others/feature/': getItems('others/feature'),
+  '/others/economy/': getBlogs('others/economy'),
   '/others/dsa/': getItems('others/dsa'),
   '/others/hardware/': getBlogs('others/hardware'),
 }
