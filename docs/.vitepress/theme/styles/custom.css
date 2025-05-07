@@ -13,6 +13,10 @@ html body {
   background-color: unset;
 }
 
+.dark body {
+  color: var(--vp-c-text-1);
+}
+
 pre,
 code,
 kbd,
