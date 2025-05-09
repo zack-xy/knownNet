@@ -130,7 +130,7 @@ function getItems(path: string) {
 
 // 获取博客文章
 function getBlogs(path: string): Array<DefaultTheme.SidebarItem> {
-  const items: DefaultTheme.SidebarItem[] = []
+  const items: (DefaultTheme.SidebarItem & { time: string })[] = []
   // 获取所有文章
   fastGlob.sync(`docs/${path}/*`, {
     onlyFiles: true,
@@ -140,11 +140,12 @@ function getBlogs(path: string): Array<DefaultTheme.SidebarItem> {
     const { data } = articleFile
     noDefaultPage(article.name) && items.push({
       text: data.title,
+      time: data.date || '',
       link: `/${path}/${article.name.replace('.md', '')}`,
     })
   })
 
-  return items
+  return items.sort((a, b) => new Date(a.time) > new Date(b.time) ? -1 : 1)
 }
 
 function noDefaultPage(name: string): boolean {
