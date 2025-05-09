@@ -33,6 +33,7 @@ showComment: false
 + [在浏览器中调试安卓设备(ADB)](https://github.com/yume-chan/ya-webadb)  
 + [在线查看抽象语法树代码](https://astexplorer.net/)
 + [生成纯字符串banner，显示在终端](https://manytools.org/hacker-tools/ascii-banner)  
++ [压缩炸弹](https://zerosun.top/2019/07/07/A-better-zip-bomb/)
 
 ## UI设计
 
