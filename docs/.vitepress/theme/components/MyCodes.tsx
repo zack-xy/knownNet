@@ -1,5 +1,7 @@
-import Prism from 'prismjs'
-import 'prismjs/themes/prism-okaidia.css'
+// import Prism from 'prismjs'
+// import LoadLanguages from "prismjs/components/index";
+// import 'prismjs/themes/prism.css';
+import 'prismjs/themes/prism-tomorrow.css'
 
 export default defineComponent({
   props: {
@@ -19,10 +21,20 @@ export default defineComponent({
   async setup(props) {
     const { repo, path, lang } = props
     const codeRef = ref<HTMLElement | null>(null)
+    const owner = 'zack-xy'
+    const language = lang || path.split('.').pop()
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 
     onMounted(() => {
-      if (codeRef.value)
-        Prism.highlightElement(codeRef.value)
+      if (codeRef.value) {
+        import('prismjs').then(Prism => {
+          import('prismjs/components/prism-java').then(() => {
+            // LoadLanguages(language ? [language] : undefined)
+            Prism.highlightElement(codeRef.value!)
+          })
+        })
+
+      }
     })
 
     if (!repo || !path) {
@@ -34,9 +46,6 @@ export default defineComponent({
         )
       }
     }
-    const owner = 'zack-xy'
-    const language = lang || path.split('.').pop()
-    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 
     try {
       const response = await fetch(apiUrl)
