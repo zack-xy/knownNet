@@ -3,6 +3,95 @@
 // import 'prismjs/themes/prism.css';
 import 'prismjs/themes/prism-tomorrow.css'
 
+async function loadPrismLanguage(language: string) {
+  switch (language) {
+    case 'java':
+      return import('prismjs/components/prism-java');
+    case 'javadoc':
+      return import('prismjs/components/prism-javadoc');
+    case 'python':
+      return import('prismjs/components/prism-python');
+    case 'py':
+      return import('prismjs/components/prism-python');
+    case 'typescript':
+      return import('prismjs/components/prism-typescript');
+    case 'ts':
+      return import('prismjs/components/prism-typescript');
+    case 'css':
+      return import('prismjs/components/prism-css');
+    case 'c':
+      return import('prismjs/components/prism-core');
+    case 'cs':
+      return import('prismjs/components/prism-csharp');
+    case 'cpp':
+      return import('prismjs/components/prism-cpp');
+    case 'docker':
+      return import('prismjs/components/prism-docker');
+    case 'git':
+      return import('prismjs/components/prism-git');
+    case 'go':
+      return import('prismjs/components/prism-go');
+    case 'gradle':
+      return import('prismjs/components/prism-gradle');
+    case 'graphql':
+      return import('prismjs/components/prism-graphql');
+    case 'js':
+      return import('prismjs/components/prism-javascript');
+    case 'jsdoc':
+      return import('prismjs/components/prism-jsdoc');
+    case 'json':
+      return import('prismjs/components/prism-json');
+    case 'webmanifest':
+      return import('prismjs/components/prism-json');
+    case 'jsonp':
+      return import('prismjs/components/prism-jsonp');
+    case 'jsx':
+      return import('prismjs/components/prism-jsx');
+    case 'kt':
+      return import('prismjs/components/prism-kotlin');
+    case 'kts':
+      return import('prismjs/components/prism-kotlin');
+    case 'less':
+      return import('prismjs/components/prism-less');
+    case 'log':
+      return import('prismjs/components/prism-log');
+    case 'md':
+      return import('prismjs/components/prism-markdown');
+    case 'mongodb':
+      return import('prismjs/components/prism-mongodb');
+    case 'perl':
+      return import('prismjs/components/prism-perl');
+    case 'php':
+      return import('prismjs/components/prism-php');
+    case 'regex':
+      return import('prismjs/components/prism-regex');
+    case 'rust':
+      return import('prismjs/components/prism-rust');
+    case 'ruby':
+      return import('prismjs/components/prism-ruby');
+    case 'rb':
+      return import('prismjs/components/prism-ruby');
+    case 'tsx':
+      return import('prismjs/components/prism-tsx');
+    case 'sass':
+      return import('prismjs/components/prism-sass');
+    case 'scss':
+      return import('prismjs/components/prism-sass');
+    case 'scheme':
+      return import('prismjs/components/prism-scheme');
+    case 'sql':
+      return import('prismjs/components/prism-sql');
+    case 'swift':
+      return import('prismjs/components/prism-swift');
+    case 'yaml':
+      return import('prismjs/components/prism-yaml');
+    case 'yml':
+      return import('prismjs/components/prism-yaml');
+    default:
+      return 'javascript'
+  }
+}
+
 export default defineComponent({
   props: {
     repo: {
@@ -28,7 +117,7 @@ export default defineComponent({
     onMounted(() => {
       if (codeRef.value) {
         import('prismjs').then(Prism => {
-          import('prismjs/components/prism-java').then(() => {
+          loadPrismLanguage(language || '').then(() => {
             // LoadLanguages(language ? [language] : undefined)
             Prism.highlightElement(codeRef.value!)
           })
