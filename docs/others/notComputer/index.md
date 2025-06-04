@@ -5,10 +5,10 @@ lastUpdated: false
 showComment: false
 ---
 
-# 了解一点
+# 不是编程
 
 ::: tip 何来此页❓
 
-什么都了解一点
+生活不止有编程
 
 :::
