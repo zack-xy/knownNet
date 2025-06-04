@@ -78,3 +78,7 @@ samp {
 img.ant-image-preview-img {
   display: inline-block;
 }
+
+.ant-popover-inner-content {
+  max-width: 15rem;
+}

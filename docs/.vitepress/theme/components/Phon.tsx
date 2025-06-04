@@ -18,6 +18,14 @@ export default defineComponent({
     const { phon, type, mean } = toRefs(props)
     const slots = useSlots()
     const content = slots.default()[0].children
+
+    function getAudio() {
+      const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${content}&type=1`)
+      audio.play().catch(error => {
+        console.log(`单词${content}播放失败:`, error);
+      })
+    }
+
     return () => {
       return (
         (
@@ -28,7 +36,7 @@ export default defineComponent({
             }}>
               <b class="cursor-pointer">{content}</b>
             </a-popover>
-            <rp>(</rp><rt class="text-[15px] text-blue-500 bg-gray-100 px-1 py-0.5 rounded">{phon.value}</rt><rp>)</rp>
+            <rp>(</rp><rt onClick={getAudio} class="text-[15px] text-blue-500 bg-gray-100 px-1 py-0.5 rounded cursor-default">{phon.value}</rt><rp>)</rp>
           </ruby >
         )
       )
