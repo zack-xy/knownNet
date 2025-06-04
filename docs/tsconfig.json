@@ -8,6 +8,7 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "jsx": "preserve",
+    "jsxImportSource": "vue",
     "sourceMap": true,
     "noUnusedLocals": true,
     "lib": [
