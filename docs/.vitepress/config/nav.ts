@@ -24,7 +24,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '编程面试', link: '/others/interview/index', activeMatch: '/others/interview/' },
       { text: '何以编程', link: '/others/feature/index', activeMatch: '/others/feature/' },
       { text: '数据结构与算法', link: '/others/dsa/index', activeMatch: '/others/dsa/' },
-      { text: '经济学和金融学', link: '/others/economy/index', activeMatch: '/others/economy/' },
+      { text: '了解一点', link: '/others/notComputer/index', activeMatch: '/others/notComputer/' },
     ],
     activeMatch: '/others/',
   },
