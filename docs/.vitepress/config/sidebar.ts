@@ -9,12 +9,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 
   '/books/socialSciences/': getItems('books/socialSciences'),
   '/books/techAndCodes/': getItems('books/techAndCodes'),
+  '/books/english/': getItems('books/english'),
 
   '/blogs/': getBlogs('blogs'),
   '/program/issues/': getBlogs('program/issues'),
   '/others/interview/': getItems('others/interview'),
   '/others/feature/': getItems('others/feature'),
-  '/others/economy/': getBlogs('others/economy'),
+  '/others/notComputer/': getBlogs('others/notComputer'),
   '/others/dsa/': getItems('others/dsa'),
   '/others/hardware/': getBlogs('others/hardware'),
 }
