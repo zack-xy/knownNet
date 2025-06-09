@@ -127,12 +127,13 @@ export default defineComponent({
         (newVal) => {
           if (newVal) {
             if (window.Prism) {
-              window.Prism.highlightElement(codeRef.value!)
+              loadPrismLanguage(language || '').then(() => {
+                window.Prism.highlightElement(codeRef.value!)
+              })
             } else {
               import('prismjs').then(Prism => {
                 window.Prism = Prism
                 loadPrismLanguage(language || '').then(() => {
-                  // LoadLanguages(language ? [language] : undefined)
                   Prism.highlightElement(codeRef.value!)
                 })
               })
