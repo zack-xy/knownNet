@@ -27,7 +27,7 @@ tags:
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/extend_example.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/annotations/userDefined.java" lang="java" lazy/>
 </Suspense>
 
 
@@ -37,7 +37,7 @@ tags:
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/InterfaceImplementExample.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/InterfaceImplementExample.java" lang="java" lazy/>
 </Suspense>
 
 --------------------------------------
@@ -46,7 +46,7 @@ tags:
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/singleCase.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/singleCase.java" lang="java" lazy/>
 </Suspense>
 
 --------------------------------------
@@ -60,15 +60,15 @@ tags:
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/generics/GenericsRange.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/generics/GenericsRange.java" lang="java" lazy/>
 </Suspense>
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/generics/GenericsDemo.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/generics/GenericsDemo.java" lang="java" lazy/>
 </Suspense>
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/generics/GenericsArray.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/generics/GenericsArray.java" lang="java" lazy/>
 </Suspense>
 
 --------------------------------------
@@ -100,13 +100,13 @@ JDK1.8提供2个：`@Repeatable`、`@Native`
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/annotations/demo.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/annotations/demo.java" lang="java" lazy/>
 </Suspense>
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/annotations/metaAnnotation.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/annotations/metaAnnotation.java" lang="java" lazy/>
 </Suspense>
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/annotations/userDefined.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/annotations/userDefined.java" lang="java" lazy/>
 </Suspense>
