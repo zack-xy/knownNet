@@ -1,6 +1,7 @@
 // import Prism from 'prismjs'
 // import LoadLanguages from "prismjs/components/index";
 // import 'prismjs/themes/prism.css';
+import { SearchOutlined } from '@ant-design/icons-vue';
 import 'prismjs/themes/prism-tomorrow.css'
 
 async function loadPrismLanguage(language: string) {
@@ -106,25 +107,113 @@ export default defineComponent({
       type: String,
       default: '',
     },
+    lazy: {
+      type: Boolean,
+      default: false
+    }
   },
   async setup(props) {
-    const { repo, path, lang } = props
+    const { repo, path, lang, lazy } = props
     const codeRef = ref<HTMLElement | null>(null)
+    const decodedString = ref<string>("")
+    const pulling = ref<boolean>(!lazy)
     const owner = 'zack-xy'
     const language = lang || path.split('.').pop()
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 
     onMounted(() => {
-      if (codeRef.value) {
-        import('prismjs').then(Prism => {
-          loadPrismLanguage(language || '').then(() => {
-            // LoadLanguages(language ? [language] : undefined)
-            Prism.highlightElement(codeRef.value!)
-          })
-        })
-
-      }
+      watch(
+        () => decodedString.value,
+        (newVal) => {
+          if (newVal) {
+            if (window.Prism) {
+              window.Prism.highlightElement(codeRef.value!)
+            } else {
+              import('prismjs').then(Prism => {
+                window.Prism = Prism
+                loadPrismLanguage(language || '').then(() => {
+                  // LoadLanguages(language ? [language] : undefined)
+                  Prism.highlightElement(codeRef.value!)
+                })
+              })
+            }
+          }
+        },
+        { immediate: true }
+      );
     })
+
+    async function getCodeFromGithub() {
+      try {
+        if (pulling.value) {
+          const response = await fetch(apiUrl)
+          if (!response.ok) {
+            return () => {
+              return (
+                <div>
+                  <p>{response.status === 404 ? '未找到代码资源' : '请求github代码出现错误，可能是因为GitHub API受限'}</p>
+                  <p>请重试，或自行访问：<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
+                </div>
+              )
+            }
+          }
+          const data = await response.json()
+          const content = atob(data.content)
+          const uint8Array = new Uint8Array(content.length)
+          for (let i = 0; i < content.length; i++)
+            uint8Array[i] = content.charCodeAt(i)
+          // 使用 TextDecoder 指定 utf-8 编码进行解码
+          const decoder = new TextDecoder('utf-8')
+          decodedString.value = decoder.decode(uint8Array)
+          pulling.value = false
+        }
+        return () => {
+          return (
+            <>
+              <a-empty
+                style={{ display: decodedString.value ? 'none' : 'block' }}
+                v-slots={{
+                  description: () => (
+                    pulling.value ? <a-spin /> :
+                      <span>
+                        从Github拉取演示代码:
+                        <a href={`https://github.com/${owner}/${repo}/blob/main/${path}`} target="_blank">链接</a>
+                      </span>
+                  )
+                }}
+              >
+                <a-button style={{ disabled: pulling }} onClick={() => activePulling()} type="primary" v-slots={{
+                  icon: () => (<><SearchOutlined /></>)
+                }}>
+                  获取代码
+                </a-button>
+              </a-empty>
+              <pre>
+                <code ref={codeRef} class={`language-${language}`}>
+                  {decodedString.value}
+                </code>
+              </pre>
+            </>
+          )
+        }
+      }
+      catch (error) {
+        return () => {
+          return (
+            <div>
+              <p>请求github代码出现错误：{error}</p>
+              <p>请重试，或自行访问<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
+            </div>
+          )
+        }
+      }
+    }
+
+    // 按钮主动获取代码
+    async function activePulling() {
+      pulling.value = true
+      await getCodeFromGithub()
+    }
 
     if (!repo || !path) {
       return () => {
@@ -135,42 +224,6 @@ export default defineComponent({
         )
       }
     }
-
-    try {
-      const response = await fetch(apiUrl)
-      if (!response.ok) {
-        return (
-          <div>
-            <p>{response.status === 404 ? '未找到代码资源' : '请求github代码出现错误，可能是因为GitHub API受限'}</p>
-            <p>请重试，或自行访问：<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
-          </div>
-        )
-      }
-      const data = await response.json()
-      const content = atob(data.content)
-      const uint8Array = new Uint8Array(content.length)
-      for (let i = 0; i < content.length; i++)
-        uint8Array[i] = content.charCodeAt(i)
-      // 使用 TextDecoder 指定 utf-8 编码进行解码
-      const decoder = new TextDecoder('utf-8')
-      const decodedString = decoder.decode(uint8Array)
-      return () => {
-        return (
-          <pre>
-            <code ref={codeRef} class={`language-${language}`}>
-              {decodedString}
-            </code>
-          </pre>
-        )
-      }
-    }
-    catch (error) {
-      return (
-        <div>
-          <p>请求github代码出现错误：{error}</p>
-          <p>请重试，或自行访问<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
-        </div>
-      )
-    }
+    return await getCodeFromGithub()
   },
 })
