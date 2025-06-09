@@ -8,8 +8,5 @@ tags:
  - Java
 ---
 
-<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/Java永久代.png"></simple-img>
-
-
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/Java堆区方法区永久代的解释.png"></simple-img>
 
