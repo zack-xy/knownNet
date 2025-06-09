@@ -10,6 +10,7 @@ export default defineComponent({
           <a-image
             width="100%"
             height="100%"
+            loading="lazy"
             fallback="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/not_found.svg"
             preview={{
               maskClassName: 'simple-img',
