@@ -17,7 +17,7 @@ export default defineComponent({
   setup(props) {
     const { phon, type, mean } = toRefs(props)
     const slots = useSlots()
-    const content = slots.default()[0].children
+    const content = slots.default?.()[0].children
 
     function getAudio() {
       const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${content}&type=1`)

@@ -107,7 +107,7 @@ export default defineComponent({
     }
 
     // 定时器
-    let timer: number
+    let timer: NodeJS.Timeout
     onMounted(() => {
       timer = setInterval(() => {
         rotateX(speedX)
