@@ -2,6 +2,7 @@
 // import LoadLanguages from "prismjs/components/index";
 // import 'prismjs/themes/prism.css';
 import { SearchOutlined } from '@ant-design/icons-vue';
+import { Empty } from 'ant-design-vue';
 import 'prismjs/themes/prism-tomorrow.css'
 
 async function loadPrismLanguage(language: string) {
@@ -173,6 +174,7 @@ export default defineComponent({
             <>
               <a-empty
                 style={{ display: decodedString.value ? 'none' : 'block' }}
+                image={Empty.PRESENTED_IMAGE_DEFAULT}
                 v-slots={{
                   description: () => (
                     pulling.value ? <a-spin /> :
