@@ -9,5 +9,5 @@ tags:
 ---
 
 <Suspense>
-  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useContextDemo.jsx" lang="js" />
+  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useContextDemo.jsx" lang="js" lazy />
 </Suspense>
