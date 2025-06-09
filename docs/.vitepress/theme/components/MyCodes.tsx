@@ -191,7 +191,7 @@ export default defineComponent({
                   获取代码
                 </a-button>
               </a-empty>
-              <pre>
+              <pre style={{ padding: decodedString.value ? undefined : "0", margin: decodedString.value ? undefined : "0" }}>
                 <code ref={codeRef} class={`language-${language}`}>
                   {decodedString.value}
                 </code>
