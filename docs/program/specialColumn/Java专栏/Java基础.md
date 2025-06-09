@@ -18,7 +18,7 @@ tags:
 ##### 代码示例
 
 <Suspense>
-  <my-codes repo="o-bricks" path="src/example/ObjectCommonMethod.java" lang="java" lazy/>
+  <my-codes repo="o-bricks" path="demoCodes/javaCodes/practice/src/example/ObjectCommonMethod.java" lang="java" lazy/>
 </Suspense>
 
 --------------------------------------
