@@ -183,8 +183,7 @@ export default defineComponent({
                   description: () => (
                     pulling.value ? <a-spin /> :
                       <span>
-                        {title}:
-                        <a href={`https://github.com/${owner}/${repo}/blob/main/${path}`} target="_blank">链接</a>
+                        <a href={`https://github.com/${owner}/${repo}/blob/main/${path}`} target="_blank">{title}</a>
                       </span>
                   )
                 }}

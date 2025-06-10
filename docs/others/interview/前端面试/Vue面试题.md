@@ -337,15 +337,15 @@ A
 
    - `EventBus`：`EventBus` 是一个全局的事件总线，通常是作为一个单例对象存在，用于在不同组件或模块之间传递事件和数据。在 Vue.js 中，Vue 实例可以充当 `EventBus` 的角色。
   
-  <Suspense>
-    <my-codes title="EventBus手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
-  </Suspense>
+<Suspense>
+  <my-codes title="EventBus手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
+</Suspense>
 
    - `EventEmitter`：`EventEmitter` 是一个基于类的模块，通常是作为一个实例对象存在，用于在单个组件或模块内部实现事件的发布和订阅。
 
-    <Suspense>
-      <my-codes title="EventEmitter手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
-    </Suspense>
+<Suspense>
+  <my-codes title="EventEmitter手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
+</Suspense>
 
 1. $parent 或$root
 
