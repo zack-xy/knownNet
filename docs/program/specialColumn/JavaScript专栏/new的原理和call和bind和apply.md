@@ -25,7 +25,11 @@ var p = new Person()
 console.log(p.name)
 ```
 
-##### [手写new](https://github.com/zack-xy/write-js/blob/main/New/myNew.js)
+##### 手写new
+
+<Suspense>
+  <my-codes title="手写new演示代码" repo="o-bricks" path="jsFragment/implement/new.js" lang="js" lazy/>
+</Suspense>
 
 #### call & apply & bind原理介绍
 
@@ -73,5 +77,9 @@ func.bind(thisArg, param1, param2, ...)  // 不立即执行
 
 + [继承](https://zack-xy.github.io/knownNet/program/specialColumn/JavaScript%E4%B8%93%E6%A0%8F/JavaScript%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F.html)
 
-##### [手写call&apply&bind](https://github.com/zack-xy/write-js/blob/main/apply&call&bind/apply_call_bind.js)
+##### 手写call & apply & bind
+
+<Suspense>
+  <my-codes title="手写call、apply、bind" repo="o-bricks" path="jsFragment/implement/bind/apply_call_bind.js" lang="js" lazy/>
+</Suspense>
 
