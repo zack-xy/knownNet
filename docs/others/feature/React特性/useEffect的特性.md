@@ -10,6 +10,6 @@ tags:
 
 
 <Suspense>
-  <my-codes repo="o-bricks" path="demoCodes/react-study/react-demo/src/useEffectDemo.jsx" lang="js" lazy />
+  <my-codes repo="o-bricks" path="demoCodes/React/react-demo/src/useEffectDemo.jsx" lang="js" lazy />
 </Suspense>
 

@@ -8,4 +8,6 @@ tags:
  - 框架
 ---
 
-[基础实现的手写](https://github.com/zack-xy/write-js/blob/main/underscore/_.js)
+<Suspense>
+  <my-codes title="underscore演示代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
+</Suspense>
