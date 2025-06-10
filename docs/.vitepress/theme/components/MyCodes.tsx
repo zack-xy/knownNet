@@ -108,13 +108,17 @@ export default defineComponent({
       type: String,
       default: '',
     },
+    title: {
+      type: String,
+      default: '从Github拉取演示代码',
+    },
     lazy: {
       type: Boolean,
       default: false
     }
   },
   async setup(props) {
-    const { repo, path, lang, lazy } = props
+    const { repo, path, lang, lazy, title } = props
     const codeRef = ref<HTMLElement | null>(null)
     const decodedString = ref<string>("")
     const pulling = ref<boolean>(!lazy)
@@ -179,7 +183,7 @@ export default defineComponent({
                   description: () => (
                     pulling.value ? <a-spin /> :
                       <span>
-                        从Github拉取演示代码:
+                        {title}:
                         <a href={`https://github.com/${owner}/${repo}/blob/main/${path}`} target="_blank">链接</a>
                       </span>
                   )
