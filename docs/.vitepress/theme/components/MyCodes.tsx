@@ -1,8 +1,8 @@
 // import Prism from 'prismjs'
 // import LoadLanguages from "prismjs/components/index";
 // import 'prismjs/themes/prism.css';
-import { SearchOutlined } from '@ant-design/icons-vue';
-import { Empty } from 'ant-design-vue';
+import { SearchOutlined, BugOutlined } from '@ant-design/icons-vue';
+import { Empty, notification } from 'ant-design-vue';
 import 'prismjs/themes/prism-tomorrow.css'
 
 async function loadPrismLanguage(language: string) {
@@ -99,10 +99,12 @@ export default defineComponent({
     repo: {
       type: String,
       default: 'o-bricks',
+      required: true
     },
     path: {
       type: String,
       default: '',
+      required: true
     },
     lang: {
       type: String,
@@ -153,12 +155,18 @@ export default defineComponent({
       try {
         if (pulling.value) {
           const response = await fetch(apiUrl)
+
           if (!response.ok) {
+            notification.warning({
+              message: '获取代码失败 💔',
+              description: response.status === 404 ? '未找到代码资源 404' : `请求发生错误，可能是GitHub API受限，状态码：${response.status}`,
+              icon: () => h(BugOutlined, { style: 'color: #faad14' }),
+            })
+            pulling.value = false
             return () => {
               return (
                 <div>
-                  <p>{response.status === 404 ? '未找到代码资源' : '请求github代码出现错误，可能是因为GitHub API受限'}</p>
-                  <p>请重试，或自行访问：<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
+                  <p>获取代码失败 💔</p>
                 </div>
               )
             }
@@ -204,11 +212,16 @@ export default defineComponent({
         }
       }
       catch (error) {
+        notification.open({
+          message: '获取代码失败 💔',
+          description: String(error),
+          icon: () => h(BugOutlined, { style: 'color: #108ee9' }),
+        })
+        pulling.value = false
         return () => {
           return (
             <div>
-              <p>请求github代码出现错误：{error}</p>
-              <p>请重试，或自行访问<a target="_blank" rel="noopener noreferrer" href={`https://github.com/${owner}/${repo}/blob/main/${path}`}>github代码地址</a></p>
+              <p>请求github代码出现错误</p>
             </div>
           )
         }

@@ -13,6 +13,6 @@ tags:
 具体是实现了几个组件，扩展了elementui的功能，不知道现在是不是已经支持了，不重要了，老技术了。     
 
 
-[详细信息](https://github.com/zack-xy/o-bricks/tree/c5039060f2e9b9fe099173aca143515ebaf82814/vue-element-date)
+[详细信息](https://github.com/zack-xy/o-bricks/blob/main/demoCodes/Vue/Vue2/vue-element-date/README.md)
 
 
