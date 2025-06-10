@@ -112,7 +112,7 @@ export default defineComponent({
     },
     title: {
       type: String,
-      default: '从Github拉取演示代码',
+      default: '演示代码',
     },
     lazy: {
       type: Boolean,
