@@ -158,6 +158,18 @@ number = Math.floor(Math.random() * 10 + 1)  // [1-10]
   <my-codes repo="o-bricks" path="jsFragment/implement/Array/reduce.js" lang="js" lazy/>
 </Suspense>
 
+##### 手写数组forEach方法
+
+<Suspense>
+  <my-codes repo="o-bricks" path="jsFragment/implement/Array/forEach.js" lang="js" lazy/>
+</Suspense>
+
+##### 手写数组filter方法
+
+<Suspense>
+  <my-codes repo="o-bricks" path="jsFragment/implement/Array/filter.js" lang="js" lazy/>
+</Suspense>
+
 ##### 手写EventEmitter
 
 <Suspense>
