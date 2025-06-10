@@ -335,10 +335,19 @@ A
    this.$bus.$on('foo', this.handle)  
    ```
 
-   - [`EventBus`](https://github.com/zack-xy/write-js/blob/main/EventBus/eventBus.js)：`EventBus` 是一个全局的事件总线，通常是作为一个单例对象存在，用于在不同组件或模块之间传递事件和数据。在 Vue.js 中，Vue 实例可以充当 `EventBus` 的角色。
-   - [`EventEmitter`](https://github.com/zack-xy/write-js/blob/dd25befc4a76c7ce17d7715ec3d517d3dce75f2b/EventEmitter/eventEmitter.js)：`EventEmitter` 是一个基于类的模块，通常是作为一个实例对象存在，用于在单个组件或模块内部实现事件的发布和订阅。
+   - `EventBus`：`EventBus` 是一个全局的事件总线，通常是作为一个单例对象存在，用于在不同组件或模块之间传递事件和数据。在 Vue.js 中，Vue 实例可以充当 `EventBus` 的角色。
+  
+  <Suspense>
+    <my-codes title="EventBus手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
+  </Suspense>
 
-5. $parent 或$root
+   - `EventEmitter`：`EventEmitter` 是一个基于类的模块，通常是作为一个实例对象存在，用于在单个组件或模块内部实现事件的发布和订阅。
+
+    <Suspense>
+      <my-codes title="EventEmitter手写示例代码" repo="o-bricks" path="jsFragment/underscore/_.js" lang="js" lazy/>
+    </Suspense>
+
+1. $parent 或$root
 
    通过共同祖辈`$parent`或者`$root`搭建通信桥连
 
@@ -354,7 +363,7 @@ A
    this.$parent.emit('add')
    ```
 
-6. attrs 与 listeners (祖先传递数据给子孙)
+2. attrs 与 listeners (祖先传递数据给子孙)
 
    ```vue
    // child：并未在props中声明foo
@@ -379,7 +388,7 @@ A
    </div>
    ```
 
-7. Provide 与 Inject
+3. Provide 与 Inject
 
    祖先组件
 
@@ -397,7 +406,7 @@ A
    inject:['foo'] // 获取到祖先组件传递过来的值
    ```
 
-8. Vuex 
+4. Vuex 
 
    - 父子关系的组件数据传递选择 `props` 与 `$emit`进行传递，也可选择`ref`
    - 兄弟关系的组件数据传递可选择`$bus`，其次可以选择`$parent`进行传递
