@@ -12,4 +12,4 @@ tags:
   <my-codes repo="o-bricks" path="web_layout/vertical_center.html" lazy/>
 </Suspense>
 
-<a href="https://codesandbox.io/p/sandbox/github/zack-xy/o-bricks/tree/main/web_layout" target="_blank">codesandbox</a>
+<a href="https://codesandbox.io/p/sandbox/github/zack-xy/o-bricks/tree/main/web_layout/verticalCenter" target="_blank">codesandbox</a>

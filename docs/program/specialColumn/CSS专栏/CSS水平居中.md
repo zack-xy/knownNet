@@ -9,8 +9,8 @@ tags:
 ---
 
 <Suspense>
-  <my-codes repo="o-bricks" path="web_layout/horizontal_center.html" lazy/>
+  <my-codes repo="o-bricks" path="web_layout/horizontalCenter/index.html" lazy/>
 </Suspense>
 
 
-<a href="https://codesandbox.io/p/sandbox/github/zack-xy/o-bricks/tree/main/web_layout" target="_blank">codesandbox</a>
+<a href="https://codesandbox.io/p/sandbox/github/zack-xy/o-bricks/tree/main/web_layout/horizontalCenter" target="_blank">codesandbox</a>
