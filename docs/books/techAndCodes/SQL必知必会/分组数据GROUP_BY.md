@@ -1,5 +1,5 @@
 ---
-title: 检索数据SELECT
+title: 分组数据GROUP_BY
 author: Zack Zheng
 date: 2025/06/19 09:38
 categories:
@@ -9,5 +9,5 @@ tags:
 ---
 
 <Suspense>
-  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/select.sql" lang="sql" lazy />
+  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/group_by.sql" lang="sql" lazy />
 </Suspense>

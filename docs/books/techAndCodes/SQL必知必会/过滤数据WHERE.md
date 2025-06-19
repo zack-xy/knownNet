@@ -1,5 +1,5 @@
 ---
-title: 检索数据SELECT
+title: 过滤数据WHERE
 author: Zack Zheng
 date: 2025/06/19 09:38
 categories:
@@ -8,6 +8,7 @@ tags:
  - SQL
 ---
 
+
 <Suspense>
-  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/select.sql" lang="sql" lazy />
+  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/where.sql" lang="sql" lazy />
 </Suspense>
