@@ -9,7 +9,7 @@ tags:
 ---
 
 <Suspense>
-  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/order_by.sql" lang="sql" lazy />
+  <my-codes repo="o-bricks" path="sql/sqlIn10Minutes/order_by.sql" lang="sql" />
 </Suspense>
 
 
