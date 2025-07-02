@@ -1,5 +1,5 @@
 ---
-title: docker_compose运行的容器没法用默认用户登陆
+title: docker_compose运行的PostgreSQL容器没法用默认用户登陆
 lang: en-US
 date: 2025/07/01 16:55:00
 editLink: true
