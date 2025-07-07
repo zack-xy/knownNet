@@ -8,6 +8,10 @@ tags:
  - Docker
 ---
 
+#### Dockerfile常用命令
+
+<simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/dockerfile常用指令.png"></simple-img>
+
 #### RUN执行指令
 
 1. 指令写一行，也就是一个run，通过&&连接指令，多个RUN会导致镜像多层，体积大
