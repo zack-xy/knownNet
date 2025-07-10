@@ -5,6 +5,9 @@ export const markdown: MarkdownOptions = {
     light: 'one-dark-pro',
     dark: 'material-theme-palenight',
   },
+  image: {
+    lazyLoading: true
+  },
   math: true,
   lineNumbers: true, // 启用行号
   config: (md) => {
