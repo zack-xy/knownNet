@@ -32,6 +32,7 @@ declare module '@vue/runtime-core' {
     MyComponent: typeof import('./.vitepress/theme/components/MyComponent.tsx')['default']
     MyTag: typeof import('./.vitepress/theme/components/MyTag.tsx')['default']
     MyTimeLine: typeof import('./.vitepress/theme/components/MyTimeLine.tsx')['default']
+    MyXmind: typeof import('./.vitepress/theme/components/MyXmind.tsx')['default']
     Phon: typeof import('./.vitepress/theme/components/Phon.tsx')['default']
     SearchOutlined: typeof import('@ant-design/icons-vue')['SearchOutlined']
     SimpleImg: typeof import('./.vitepress/theme/components/SimpleImg.tsx')['default']
