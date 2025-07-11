@@ -38,14 +38,16 @@ export default defineComponent({
     return () => (
       // <div id="gitalk-container"></div>
       <Giscus id="comments"
+        key={route.path}
         repo="zack-xy/knownNet"
         repoId="R_kgDOGQRJAw"
         category="General"
         categoryId="DIC_kwDOGQRJA84CszS-"
-        mapping="title"
+        mapping="pathname"
         term="Welcome to @giscus/vue component!"
         reactionsEnabled="1"
         emitMetadata="0"
+        strict="1"
         inputPosition="bottom"
         theme="preferred_color_scheme"
         lang="zh-CN"
