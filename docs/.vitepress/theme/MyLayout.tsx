@@ -1,6 +1,7 @@
 import "gitalk/dist/gitalk.css";
 import { useRouter } from "vitepress";
 import createGitalk from "../gitalk";
+import Giscus from '@giscus/vue';
 
 
 export default defineComponent({
@@ -21,21 +22,35 @@ export default defineComponent({
 
     onMounted(() => {
       // 初次加载时初始化 Gitalk
-      initGitalk();
+      // initGitalk();
 
       // 监听路由变化
       watch(
         () => route.path,
         (newPath) => {
           nextTick(() => {
-            initGitalk();
+            // initGitalk();
           });
         }
       );
     });
 
     return () => (
-      <div id="gitalk-container"></div>
+      // <div id="gitalk-container"></div>
+      <Giscus id="comments"
+        repo="zack-xy/knownNet"
+        repoId="R_kgDOGQRJAw"
+        category="General"
+        categoryId="DIC_kwDOGQRJA84CszS-"
+        mapping="title"
+        term="Welcome to @giscus/vue component!"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="bottom"
+        theme="preferred_color_scheme"
+        lang="zh-CN"
+        loading="lazy">
+      </Giscus>
     );
   }
 })

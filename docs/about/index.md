@@ -12,5 +12,6 @@
 + [Typescript(JSX)](https://ts.nodejs.cn/)
 + [Ant-design-vue@3.x](https://3x.antdv.com/components/overview-cn/)
 + [Algolia](https://dashboard.algolia.com/account/overview)
-+ [gitalk](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
++ [~~gitalk~~](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
++ [giscus](https://github.com/giscus/giscus/)
 + [prismjs](https://prismjs.com/)
