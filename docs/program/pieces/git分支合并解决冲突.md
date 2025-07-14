@@ -20,3 +20,5 @@ tags:
 集成分支上的代码回滚<b class="red">坚决不用</b>`reset --hard`方式，因为：   
 
 可能有人基于你的commit拉取了代码，你删了集成分支的commit，等他合并的时候，又会把这些commit带回来    
+
+正确的处理方式是找到对应的Merge Request,点击Revert     
