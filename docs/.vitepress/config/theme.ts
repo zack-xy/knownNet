@@ -7,9 +7,10 @@ export const themeConfig: DefaultTheme.Config = {
   sidebar, // 侧边栏配置
 
   logo: '/logo.png',
-  outline: 'deep', // 右侧大纲标题层级
-  outlineTitle: '目录', // 右侧大纲标题文本配置
-  outlineBadges: false, // 是否在大纲中显示 Badge 文本
+  outline: {
+    level: 'deep',
+    label: '页面导航'
+  }, // 右侧大纲标题层级
   lastUpdatedText: '最后更新', // 最后更新时间文本配置, 需先配置lastUpdated为true
   // 文档页脚文本配置
   docFooter: {
