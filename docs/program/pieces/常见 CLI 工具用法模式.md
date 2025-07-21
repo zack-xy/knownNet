@@ -11,6 +11,38 @@ tags:
 
 ##### 参数选项式：`mycli --name zack --env prod`
 
+###### 在cli开发中如何获取？
+
++ 原生方式(`process.argv`)
+
+```ts
+import process from 'node:process'
+
+console.log(process.argv)
+
+// 以这个 node cli.js hello --name=zack --age 18 cli命令为例
+
+/* 输出
+
+[
+  '/usr/local/bin/node',
+  '/path/to/cli.js',
+  'hello',
+  '--name=zack',
+  '--age',
+  '18'
+]
+
+*/
+const args = process.argv.slice(2)
+
+```
+
++ 使用解析库commander
+
+[commander.js](https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md)
+
+
 ##### 子命令式：`mycli init`、`mycli build`、`mycli deploy`
 
 ##### 管道式输入（stdin）：`echo "hello" | mycli`
