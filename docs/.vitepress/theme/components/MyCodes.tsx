@@ -3,7 +3,7 @@
 // import 'prismjs/themes/prism.css';
 import { SearchOutlined, BugOutlined } from '@ant-design/icons-vue';
 import { Empty, notification } from 'ant-design-vue';
-import 'prismjs/themes/prism-tomorrow.css'
+import 'prism-themes/themes/prism-vsc-dark-plus.css'
 
 async function loadPrismLanguage(language: string) {
   switch (language) {

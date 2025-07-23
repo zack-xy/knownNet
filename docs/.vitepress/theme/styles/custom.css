@@ -82,3 +82,9 @@ img.ant-image-preview-img {
 .ant-popover-inner-content {
   max-width: 15rem;
 }
+
+pre[class*="language-"],
+code[class*="language-"] {
+  font-size: 16px !important;
+  line-height: 1.6;
+}

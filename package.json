@@ -61,6 +61,7 @@
     "@giscus/vue": "^3.1.1",
     "crypto-js": "^4.2.0",
     "gitalk": "^1.8.0",
+    "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0"
   }
 }
