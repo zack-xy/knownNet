@@ -74,7 +74,7 @@ async function loadPrismLanguage(language: string) {
     case 'rb':
       return import('prismjs/components/prism-ruby');
     case 'tsx':
-      return import('prismjs/components/prism-tsx');
+      return loadPrismTsxComponents();
     case 'sass':
       return import('prismjs/components/prism-sass');
     case 'scss':
@@ -92,6 +92,12 @@ async function loadPrismLanguage(language: string) {
     default:
       return 'javascript'
   }
+}
+
+async function loadPrismTsxComponents() {
+  await import('prismjs/components/prism-typescript');
+  await import('prismjs/components/prism-jsx');
+  await import('prismjs/components/prism-tsx');
 }
 
 export default defineComponent({
