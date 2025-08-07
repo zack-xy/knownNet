@@ -12,10 +12,14 @@ export default defineComponent({
     mean: {
       type: String,
       default: ''
+    },
+    sentence: {
+      type: Array<String>,
+      default: []
     }
   },
   setup(props) {
-    const { phon, type, mean } = toRefs(props)
+    const { phon, type, mean, sentence } = toRefs(props)
     const slots = useSlots()
     const content = slots.default?.()[0].children
 
@@ -31,7 +35,15 @@ export default defineComponent({
         (
           <ruby>
             <a-popover placement="topLeft" v-slots={{
-              content: () => (<><p>{mean.value}</p></>),
+              content: () => (
+                <>
+                  <p>{mean.value}</p>
+                  <hr />
+                  {sentence.value.map((item, idx) =>
+                    <p class={'text-[14px] mb-1.25 ' + (idx % 2 == 0 ? 'text-indigo' : 'text-coolgray text-indent-1rem')} key={idx}>
+                      {idx % 2 == 0 ? <span class="text-[16px] font-700">{idx + 1}. </span> : <></>}{item}
+                    </p>)}
+                </>),
               title: () => <span>{type.value}</span>
             }}>
               <b class="cursor-pointer">{content}</b>

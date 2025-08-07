@@ -15,6 +15,7 @@ export default defineConfig({
       ],
       rules: [
         ['m-88', { margin: '0.88rem' }],
+        ['text-indent-1rem', { 'text-indent': '1rem' }],
       ],
       // preflights: [
       //   {
