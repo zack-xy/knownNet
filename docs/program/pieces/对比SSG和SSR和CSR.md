@@ -2,13 +2,14 @@
 title: 对比SSG和SSR和CSR
 author: Zack Zheng
 date: 2025/06/18 11:07
+pageClass: ai-generate-flag
 categories:
  - 大海拾遗
 tags:
  - 前端
 ---
 
-#### SSG (Static Site Generation) 静态站点生成
+#### SSG (Static Site Generation) 静态站点生成 <Badge type="danger" text="AI文，注意辨别" />
 
 在构建时生成预渲染的HTML文件。
 
@@ -53,3 +54,8 @@ SPA（单页应用）通常采用CSR（客户端渲染）模式实现
 
 
 适用场景及特点：首屏性能较低、SEO不友好、交互性强、用户操作响应快   
+
+
+<script setup lang="ts">
+
+</script>

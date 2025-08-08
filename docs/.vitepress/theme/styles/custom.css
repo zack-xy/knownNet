@@ -88,3 +88,63 @@ code[class*="language-"] {
   font-size: 16px !important;
   line-height: 1.6;
 }
+
+
+.ai-generate-flag .VPSidebarItem.is-active {
+  /* 容器定位，让伪元素可以绝对定位 */
+  position: relative;
+  /* 容器的内边距，给徽标留出空间 */
+  padding-right: 40px;
+  /* 为了演示效果，这里添加一些基础样式 */
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* 伪元素徽标样式 */
+.ai-generate-flag .VPSidebarItem.is-active::before {
+  /* 徽标文字内容 */
+  content: "AI文";
+
+  /* 绝对定位，将其放在容器的右上角 */
+  position: absolute;
+  top: -10px;
+  right: 0px;
+
+  /* 醒目的颜色和高对比度 */
+  background-color: #b8272c;
+  /* 醒目的洋红色背景 */
+  color: #fff;
+  /* 白色文字 */
+
+  /* 徽标基础样式 */
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 50px;
+  /* 圆角边框 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  /* 增加阴影，使徽标更具立体感 */
+
+  /* 动画设置 */
+  animation: pulse 1.5s infinite;
+  /* 应用名为 'pulse' 的动画，持续1.5秒，无限循环 */
+}
+
+/* 关键帧动画 */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  50% {
+    transform: scale(1.1);
+    /* 放大到 1.1 倍 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+}
