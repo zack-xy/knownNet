@@ -148,3 +148,18 @@ code[class*="language-"] {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
 }
+
+@keyframes hue-change {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.VPHomeHero {
+   animation: hue-change 10s linear infinite;
+   transform: translateZ(0);
+}
