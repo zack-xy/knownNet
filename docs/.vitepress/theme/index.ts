@@ -10,7 +10,9 @@ import MyTag from './components/MyTag'
 import MyTimeLine from './components/MyTimeLine'
 import { h } from 'vue'
 import MyLayout from './MyLayout'
-import Antd from 'ant-design-vue';
+import PageTags from './components/PageTags'
+import ToTop from './components/ToTop'
+import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 
 // import myTheme from './MyTheme'
@@ -20,6 +22,8 @@ export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
+      'doc-before': () => h(PageTags),
+      'doc-bottom': () => h(ToTop),
       'doc-after': () => h(MyLayout)
     })
   },

@@ -8,9 +8,12 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AAvatar: typeof import('ant-design-vue/es')['Avatar']
+    ABackTop: typeof import('ant-design-vue/es')['BackTop']
+    ABadge: typeof import('ant-design-vue/es')['Badge']
     AButton: typeof import('ant-design-vue/es')['Button']
     ACard: typeof import('ant-design-vue/es')['Card']
     ADivider: typeof import('ant-design-vue/es')['Divider']
+    ADrawer: typeof import('ant-design-vue/es')['Drawer']
     AEmpty: typeof import('ant-design-vue/es')['Empty']
     AImage: typeof import('ant-design-vue/es')['Image']
     AList: typeof import('ant-design-vue/es')['List']
@@ -23,6 +26,7 @@ declare module '@vue/runtime-core' {
     ATable: typeof import('ant-design-vue/es')['Table']
     ATabPane: typeof import('ant-design-vue/es')['TabPane']
     ATabs: typeof import('ant-design-vue/es')['Tabs']
+    ATag: typeof import('ant-design-vue/es')['Tag']
     ATimeline: typeof import('ant-design-vue/es')['Timeline']
     ATimelineItem: typeof import('ant-design-vue/es')['TimelineItem']
     HomeOutlined: typeof import('@ant-design/icons-vue')['HomeOutlined']
@@ -33,10 +37,14 @@ declare module '@vue/runtime-core' {
     MyTag: typeof import('./.vitepress/theme/components/MyTag.tsx')['default']
     MyTimeLine: typeof import('./.vitepress/theme/components/MyTimeLine.tsx')['default']
     MyXmind: typeof import('./.vitepress/theme/components/MyXmind.tsx')['default']
+    PageTags: typeof import('./.vitepress/theme/components/PageTags.tsx')['default']
     Phon: typeof import('./.vitepress/theme/components/Phon.tsx')['default']
     SearchOutlined: typeof import('@ant-design/icons-vue')['SearchOutlined']
     SimpleImg: typeof import('./.vitepress/theme/components/SimpleImg.tsx')['default']
+    SlotDemo: typeof import('./.vitepress/theme/components/SlotDemo.tsx')['default']
     TagsOutlined: typeof import('@ant-design/icons-vue')['TagsOutlined']
     TestCom: typeof import('./.vitepress/theme/components/TestCom.tsx')['default']
+    ToTop: typeof import('./.vitepress/theme/components/ToTop.tsx')['default']
+    TwitterOutlined: typeof import('@ant-design/icons-vue')['TwitterOutlined']
   }
 }
