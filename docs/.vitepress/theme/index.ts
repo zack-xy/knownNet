@@ -22,7 +22,7 @@ export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'doc-before': () => h(PageTags),
+      // 'doc-before': () => h(PageTags),
       'doc-bottom': () => h(ToTop),
       'doc-after': () => h(MyLayout)
     })
