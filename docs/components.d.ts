@@ -32,6 +32,7 @@ declare module '@vue/runtime-core' {
     PageTags: typeof import('./.vitepress/theme/components/PageTags.tsx')['default']
     Phon: typeof import('./.vitepress/theme/components/Phon.tsx')['default']
     SimpleImg: typeof import('./.vitepress/theme/components/SimpleImg.tsx')['default']
+    TagsDrawer: typeof import('./.vitepress/theme/components/TagsDrawer.tsx')['default']
     TestCom: typeof import('./.vitepress/theme/components/TestCom.tsx')['default']
     ToTop: typeof import('./.vitepress/theme/components/ToTop.tsx')['default']
   }
