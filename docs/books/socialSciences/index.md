@@ -11,7 +11,7 @@ showComment: false
 
 ::: tip 何来此页❓
 
-书读百遍，其义自见
+社科类书籍
 
 :::
 

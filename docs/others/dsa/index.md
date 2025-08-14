@@ -9,6 +9,6 @@ showComment: false
 
 ::: tip 何来此页❓
 
-翻译整理(偷)自：[programiz网站](https://www.programiz.com/dsa/getting-started)
+~~偷自~~（读书人的事情怎么能叫偷呢？）：[programiz网站](https://www.programiz.com/dsa/getting-started)
 
 :::

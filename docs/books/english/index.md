@@ -15,6 +15,6 @@ showComment: false
 
 ::: tip 何来此页❓
 
-学好英语
+一定要和国际接轨
 
 :::

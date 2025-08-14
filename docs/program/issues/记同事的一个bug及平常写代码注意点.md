@@ -7,6 +7,7 @@ categories:
 - 困难冲冲
 tags: 
 - Bug
+- 工作日常
 ---
 
 这是一个同事遇到的bug

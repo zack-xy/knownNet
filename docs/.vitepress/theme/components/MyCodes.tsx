@@ -118,7 +118,7 @@ export default defineComponent({
     },
     title: {
       type: String,
-      default: '演示代码',
+      default: '点我查看远程代码',
     },
     lazy: {
       type: Boolean,
