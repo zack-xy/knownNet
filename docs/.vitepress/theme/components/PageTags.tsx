@@ -2,20 +2,22 @@ import { useData } from 'vitepress'
 import articleData from '../../../../article-data.json'
 import type { Article } from '../../types/MyTag'
 import { CodeSandboxOutlined } from '@ant-design/icons-vue'
+// import { useRouter } from "vitepress";
 
 export default defineComponent({
 
   setup(props) {
 
     const { frontmatter, page } = useData()
+    // const { route } = useRouter();
     const visible = ref<boolean>(false)
     const currentTag = ref<string>('')
     const articles = ref<Array<Article>>([])
 
     watch(
-      () => currentTag.value,
-      (newVal) => {
-        articles.value = articleData.filter(a => a.path !== page.value.relativePath.replace('.md', '') && a.tags && a.tags.includes(newVal))
+      [currentTag, page],
+      ([newTag, newPage]) => {
+        articles.value = articleData.filter(a => a.path !== newPage.relativePath.replace('.md', '') && a.tags && a.tags.includes(newTag))
       }
     )
 

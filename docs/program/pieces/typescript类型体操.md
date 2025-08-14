@@ -3,7 +3,7 @@ title: typescript类型体操
 author: Zack Zheng
 date: 2023/03/05 00:00
 categories:
- - TypeScript
+ - 大海拾遗
 tags:
  - TypeScript
 ---

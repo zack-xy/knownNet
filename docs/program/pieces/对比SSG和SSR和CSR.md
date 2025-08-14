@@ -7,6 +7,7 @@ categories:
  - 大海拾遗
 tags:
  - 前端
+ - AI生成
 ---
 
 #### SSG (Static Site Generation) 静态站点生成 <Badge type="danger" text="AI文，注意辨别" />
