@@ -30,7 +30,7 @@ export default defineComponent({
 
     return () => {
       return (
-        <>
+        <ClientOnly>
           {(frontmatter.value.tags && frontmatter.value.tags.length > 0) ? (frontmatter.value.tags as string[]).map(tag => <a-tag class="cursor-pointer" onClick={() => handleTagClicked(tag)} color={randomHexColorCode()} v-slots={{ icon: () => <CodeSandboxOutlined /> }} key={tag}>{tag}</a-tag>) : <></>}
           {frontmatter.value.tags && frontmatter.value.tags.length > 0 && <a-divider style="border-color: #7cb305" dashed />}
           <a-drawer
@@ -47,7 +47,7 @@ export default defineComponent({
             }} />}
 
           </a-drawer>
-        </>
+        </ClientOnly>
       )
     }
   }
