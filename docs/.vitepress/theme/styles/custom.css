@@ -163,3 +163,8 @@ code[class*="language-"] {
    animation: hue-change 10s linear infinite;
    transform: translateZ(0);
 }
+
+.VPHomeFeatures .items .item:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
