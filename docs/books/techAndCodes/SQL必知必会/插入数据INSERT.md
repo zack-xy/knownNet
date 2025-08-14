@@ -6,6 +6,7 @@ categories:
  - SQL必知必会
 tags:
  - SQL
+ - Remote Code
 ---
 
 ##### 插入的方式

@@ -6,6 +6,8 @@ categories:
  - Java专栏
 tags:
  - Java
+ - Remote Code
+ - 后端
 ---
 
 #### Object通用方法

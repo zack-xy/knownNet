@@ -6,6 +6,7 @@ categories:
  - 操作系统专栏
 tags:
  - Shell
+ - Remote Code
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/ Shell基础知识.png"></simple-img>

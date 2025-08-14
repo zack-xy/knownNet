@@ -6,6 +6,7 @@ categories:
  - 大海拾遗
 tags:
  - TypeScript
+ - drawio
 ---
 
 ![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS类型创建之泛型.svg)

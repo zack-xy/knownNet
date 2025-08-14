@@ -6,6 +6,7 @@ categories:
  - SQL必知必会
 tags:
  - SQL
+ - Remote Code
 ---
 
 ##### 什么时候需要用到UNION？

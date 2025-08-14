@@ -6,6 +6,7 @@ categories:
  - 大海拾遗
 tags:
  - JavaScript
+ - Xmind
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/了解js中有哪些事件.png" />

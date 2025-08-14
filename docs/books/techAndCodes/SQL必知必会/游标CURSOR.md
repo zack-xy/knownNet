@@ -6,6 +6,7 @@ categories:
  - SQL必知必会
 tags:
  - SQL
+ - Remote Code
 ---
 
 需要在检索的数据行中前进或后退1行或者多行，此时就需要游标。     

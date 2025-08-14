@@ -6,6 +6,8 @@ categories:
  - 大海拾遗
 tags:
  - Git
+ - drawio
+ - Xmind
 ---
 
 ![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/git基础.svg)   

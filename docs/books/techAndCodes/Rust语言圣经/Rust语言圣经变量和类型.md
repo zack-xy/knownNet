@@ -6,6 +6,7 @@ categories:
  - Rust
 tags:
  - Rust
+ - Xmind
 ---
 
 

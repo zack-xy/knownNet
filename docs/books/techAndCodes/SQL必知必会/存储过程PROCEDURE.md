@@ -6,6 +6,7 @@ categories:
  - SQL必知必会
 tags:
  - SQL
+ - Remote Code
 ---
 
 存储过程就是为以后使用而保存的一条或多条SQL语句

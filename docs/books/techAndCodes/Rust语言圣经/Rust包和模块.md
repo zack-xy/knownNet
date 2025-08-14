@@ -6,6 +6,8 @@ categories:
  - Rust
 tags:
  - Rust
+ - Xmind
+ - Remote Code
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/包和模块.png"></simple-img>  

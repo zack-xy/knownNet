@@ -7,6 +7,7 @@ categories:
 tags:
  - SQL
  - 唐成 
+ - PostgreSQL
 ---
 
 #### 数据库基本操作

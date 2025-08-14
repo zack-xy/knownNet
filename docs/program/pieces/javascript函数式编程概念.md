@@ -7,6 +7,7 @@ categories:
 tags:
  - JavaScript
  - 函数式编程
+ - drawio
 ---
 
 ![](https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/javascript函数式编程概念.svg)

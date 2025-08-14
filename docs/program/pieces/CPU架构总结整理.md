@@ -6,6 +6,7 @@ categories:
  - CPU
 tags:
  - CPU
+ - Xmind
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/CPU架构.png"></simple-img>  
