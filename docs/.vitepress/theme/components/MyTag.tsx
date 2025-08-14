@@ -21,6 +21,8 @@ export default defineComponent({
 
     const tagsRef = computed(() => initTags(articleData))
     const { value: tags } = tagsRef
+    const currentTag = ref<string>('')
+    const visible = ref<boolean>(false)
 
     // 初始化tags
     function initTags(articleData: Article[]): Tag[] {
@@ -106,6 +108,15 @@ export default defineComponent({
       }
     }
 
+    const handleTagClick = (tag: string) => {
+      visible.value = true
+      currentTag.value = tag
+    }
+
+    const handleCloseDrawer = () => {
+      visible.value = false
+    }
+
     // 定时器
     let timer: NodeJS.Timeout
     onMounted(() => {
@@ -120,24 +131,29 @@ export default defineComponent({
 
     return () => {
       return (
-        <div class="h-[600px] pt-[50px]">
-          {/* <tags-outlined class="text-xl color-#2C73D2 font-semibold m-2" />
+        <>
+          <div class="h-[600px] pt-[50px]">
+            {/* <tags-outlined class="text-xl color-#2C73D2 font-semibold m-2" />
           <label htmlFor="" class="text-xl color-#FF9671 font-semibold">我的标签</label> */}
-          <div class="relative w-full"
-            onMousemove={listener}>
-            {clouds.map(cloud => (
-              <div
-                class="absolute transition-100 p-xy text-xl"
-                style={{
-                  transform: `translate3d(${cloud.x}px,${cloud.y}px,${cloud.z}px) scale(${(400 + cloud.z) / 600})`,
-                  opacity: (400 + cloud.z) / 600,
-                  color: cloud.color,
-                }}>
-                {cloud.text}
-              </div>
-            ))}
+            <div class="relative w-full"
+              onMousemove={listener}>
+              {clouds.map(cloud => (
+                <div
+                  class="cursor-pointer absolute transition-100 p-xy text-xl"
+                  style={{
+                    transform: `translate3d(${cloud.x}px,${cloud.y}px,${cloud.z}px) scale(${(400 + cloud.z) / 600})`,
+                    opacity: (400 + cloud.z) / 600,
+                    color: cloud.color,
+                  }}
+                  onClick={() => handleTagClick(cloud.text)}>
+                  {cloud.text}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+          <tags-drawer visible={visible.value} currentTag={currentTag.value} onCloseDrawer={handleCloseDrawer}></tags-drawer>
+        </>
+
       )
     }
   },
