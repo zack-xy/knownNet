@@ -21,7 +21,7 @@ export default defineComponent({
     watch(
       [currentTag, page],
       ([newTag, newPage]) => {
-        articles.value = articleData.filter(a => a.path !== newPage.relativePath.replace('.md', '') && a.tags && a.tags.includes(newTag))
+        articles.value = articleData.filter(a => a.path !== newPage.relativePath.replace('.md', '') && a.tags && a.tags.includes(newTag)) as Array<Article>
       }
     )
 
@@ -34,7 +34,7 @@ export default defineComponent({
         <a-drawer
           visible={visible.value}
           class="custom-class"
-          title="类似的文章📖"
+          title={`标记为【${currentTag.value}】的文章`}
           placement="right"
           onClose={handleCloseDrawer}
         >
