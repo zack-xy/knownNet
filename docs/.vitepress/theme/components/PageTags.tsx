@@ -21,7 +21,7 @@ export default defineComponent({
     return () => {
       return (
         <ClientOnly>
-          {(frontmatter.value.tags && frontmatter.value.tags.length > 0) ? (frontmatter.value.tags as string[]).map(tag => <a-tag class="cursor-pointer" onClick={() => handleTagClicked(tag)} color={randomHexColorCode()} v-slots={{
+          {(frontmatter.value.tags && frontmatter.value.tags.length > 0) ? (frontmatter.value.tags as string[]).map(tag => <a-tag class="cursor-pointer dark:saturate-70 dark:brightness(0.8)" onClick={() => handleTagClicked(tag)} color={randomHexColorCode()} v-slots={{
             icon: () => {
               if (tag.toLowerCase().includes("bug")) return <BugFilled />
               if (tag.toLowerCase().includes("前端") || tag.toLowerCase().includes("html")) return <Html5Filled />
