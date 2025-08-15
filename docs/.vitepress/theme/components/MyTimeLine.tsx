@@ -22,7 +22,7 @@ export default defineComponent({
       })).sort((a, b) => new Date(a.time) > new Date(b.time) ? -1 : 1)
     }
 
-    const allArticleData = ref(initData(articleData))
+    const allArticleData = ref(initData(articleData as Article[]))
     const page = ref(10)
     const timelines = computed(() => allArticleData.value.slice(0, page.value))
 
@@ -37,7 +37,7 @@ export default defineComponent({
     return () => {
       return (
         <>
-          <h3 class="text-[#FFA500]">我的归档</h3>
+          <h3 class="text-[#FFA500]">我的归档: {allArticleData.value.length} 篇</h3>
           <a-timeline mode="alternate">
             {timelines.value.map((item: TimeLine) => (
               <a-timeline-item key={item.id}>

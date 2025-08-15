@@ -19,7 +19,7 @@ export default defineComponent({
   setup(props) {
     // console.log(articleData)
 
-    const tagsRef = computed(() => initTags(articleData))
+    const tagsRef = computed(() => initTags(articleData as Article[]))
     const { value: tags } = tagsRef
     const currentTag = ref<string>('')
     const visible = ref<boolean>(false)
