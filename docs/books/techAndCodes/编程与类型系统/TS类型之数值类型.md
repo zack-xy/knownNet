@@ -6,6 +6,7 @@ categories:
  - 编程与类型系统
 tags:
  - TypeScript
+ - 计算机
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/TS类型之数值类型.svg" />

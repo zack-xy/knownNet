@@ -6,6 +6,7 @@ categories:
  - 深入理解Typescript
 tags:
  - TypeScript
+ - 计算机
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/ts环境声明.svg" />
