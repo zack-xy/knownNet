@@ -20,16 +20,16 @@ hero:
       link: https://github.com/zack-xy/knownNet
 
 features:
-  - icon: 🫵
-    title: 瞄准目标
-    details: 如果你不知道去往何处，那么你必须多加小心，因为你很可能无法到达那里。
-  - icon: ✍️
-    title: 主动学习
-    details: 大脑不是一个用于填充的容器，而是一束需要点燃的火焰。
-  - icon: 🗣️
-    title: 戒除浮躁
-    details: 学很多东西的诀窍，就是一下子不要学很多东西。
-  - icon: 🧠
-    title: 谨慎思考
-    details: 读书不是为了雄辩和驳斥，也不是为了轻信和盲从，而是为了思考和权衡。
+  - icon: 💻
+    title: 我的编程
+    details: 作为一名coder，有关编码的一些记录
+  - icon: 📙
+    title: 我的阅读
+    details: 好消息，书我看了；坏消息，没记住
+  - icon: 🧶
+    title: 我的杂项
+    details: 依旧还是技术向，惊不惊喜，意不意外
+  - icon: ☕️
+    title: 我的博客
+    details: 保证跟code没有关系
 ---
