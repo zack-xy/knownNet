@@ -6,7 +6,7 @@ categories:
  - JavaScript专栏
 tags:
  - JavaScript
- - xmind
+ - Xmind
 ---
 
 

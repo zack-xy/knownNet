@@ -7,6 +7,7 @@ categories:
 - 困难冲冲
 tags: 
 - Github
+- Xmind
 ---
 
 <simple-img src="https://gitee.com/zackzhengxy/picGallery/raw/main/imgs/fork的项目如何同步原仓库.png"/>
