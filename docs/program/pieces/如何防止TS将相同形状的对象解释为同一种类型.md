@@ -19,4 +19,8 @@ class Ns {
     this.value = value
   }
 }
+
+interface UniqueInterface {
+  [NsType]: never
+}
 ```
