@@ -6,6 +6,8 @@ categories:
  - 大海拾遗
 tags:
  - npm
+ - node
+ - 脚手架
 ---
 
 ##### 本地测试打包
@@ -19,6 +21,11 @@ npm pack
 ```bash
 npm install ./your-package-name-1.0.0.tgz
 ```
+
+##### 本地测试2
+
+`npm link`
+[详情查看这个文章](./npm的安装机制.md)
 
 ##### 发布
 

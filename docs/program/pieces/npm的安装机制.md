@@ -7,6 +7,9 @@ categories:
 tags:
  - JavaScript
  - Xmind
+ - npm
+ - node
+ - 脚手架
 ---
 
 
@@ -69,9 +72,17 @@ _cacache文件夹中有3个目录
 
      `npm unlink <package-name>`
 
+   + 查看全局链接的包，包括 npm link 注册的包
+  
+      `npm -g ls --depth=0` 
+
    + 在本地包目录中运行以下命令，取消全局链接
 
      `npm unlink`
+
+   + 如果项目里也unlink了，包里也unlink了，还能用，就手动删除
+
+      `rm -f $(which 包命令)`
 
    [参考资料地址](https://www.cnblogs.com/an-shiguang/p/18269056)
 
