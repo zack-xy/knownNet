@@ -34,6 +34,7 @@ showComment: false
 + [在线查看抽象语法树代码](https://astexplorer.net/)
 + [生成纯字符串banner，显示在终端](https://manytools.org/hacker-tools/ascii-banner)  
 + [压缩炸弹](https://zerosun.top/2019/07/07/A-better-zip-bomb/)
++ [在线mock假数据](https://jsonplaceholder.typicode.com/)
 
 ## UI设计
 
