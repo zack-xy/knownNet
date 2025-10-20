@@ -16,6 +16,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '编程类', link: '/books/techAndCodes/index', activeMatch: '/books/techAndCodes/' },
       { text: '社科类', link: '/books/socialSciences/index', activeMatch: '/books/socialSciences/' },
       { text: '英语类', link: '/books/english/index', activeMatch: '/books/english/' },
+      { text: '日语类', link: '/books/japanese/index', activeMatch: '/books/japanese/' },
     ],
     activeMatch: '/books/',
   },

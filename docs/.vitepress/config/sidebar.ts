@@ -10,6 +10,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/books/socialSciences/': getItems('books/socialSciences'),
   '/books/techAndCodes/': getItems('books/techAndCodes'),
   '/books/english/': getItems('books/english'),
+  '/books/japanese/': getItems('books/japanese'),
 
   '/blogs/': getBlogs('blogs'),
   '/program/issues/': getBlogs('program/issues'),
