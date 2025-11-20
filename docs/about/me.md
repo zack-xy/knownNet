@@ -115,7 +115,7 @@ const columns = ref([
 ])
 const dataSource = ref([
   {
-    key: '1',
+    key: 'knownNet',
     name: 'knownNet',
     github: 'https://github.com/zack-xy/knownNet',
     desc: '我的笔记站点，记录一些学习的知识。',
@@ -135,7 +135,7 @@ const dataSource = ref([
     ],
   },
   {
-    key: '2',
+    key: 'allMock',
     name: 'allMock',
     github: 'https://github.com/zack-xy/allMock',
     desc: '一个node服务，用来生成mock数据',
@@ -150,7 +150,7 @@ const dataSource = ref([
     ],
   },
   {
-    key: '3',
+    key: 'o-bricks',
     name: 'o-bricks',
     github: 'https://github.com/zack-xy/o-bricks',
     desc: '一个Demo项目，实现一些Demo',
@@ -170,7 +170,7 @@ const dataSource = ref([
     ],
   },
   {
-    key: '4',
+    key: 'o-algorithm',
     name: 'o-algorithm',
     github: 'https://github.com/zack-xy/o-algorithm',
     desc: '算法训练笔记+代码',
@@ -184,7 +184,24 @@ const dataSource = ref([
     ]
   },
   {
-    key: '5',
+    key: 'vue2-bms',
+    name: 'vue3-bms',
+    github: 'https://github.com/zack-xy-bms/vue2-bms',
+    desc: 'Vue2通用后台管理页面',
+    techStack: [
+      'Vue2',
+      'JavaScript',
+      'Element',
+      'Sass',
+      'wangeditor',
+      'xlsx',
+      'sortablejs',
+      'Echart'
+    ],
+    others: []
+  },
+  {
+    key: 'vue3-bms',
     name: 'vue3-bms',
     github: 'https://github.com/zack-xy-bms/vue3-bms',
     desc: 'Vue3通用后台管理页面',
@@ -200,7 +217,20 @@ const dataSource = ref([
     others: []
   },
   {
-    key: '6',
+    key: 'react-admin',
+    name: 'react-admin',
+    github: 'https://github.com/zack-xy-bms/react-admin',
+    desc: 'React19后台管理页面',
+    techStack: [
+      'React19',
+      'TypeScript',
+      'Antd',
+      'tailwindcss',
+    ],
+    others: []
+  },
+  {
+    key: 'manage-attendance',
     name: 'manage-attendance',
     github: 'https://github.com/zack-xy/manage-attendance',
     desc: '考勤后管系统',
@@ -228,7 +258,7 @@ const dataSource = ref([
     ]
   },
   {    
-    key: '7',
+    key: 'zack-commit',
     name: 'zack-commit',
     github: 'https://github.com/zack-xy/zack-commit',
     desc: 'cli工具，快速为项目配置约定式提交规范和eslint(基于@antfu/eslint-config)',
@@ -241,7 +271,7 @@ const dataSource = ref([
     ]
   },
 {    
-    key: '8',
+    key: 'zack-logs',
     name: 'zack-logs',
     github: 'https://github.com/zack-xy/zack-logs',
     desc: 'cli工具，控制台输出打印我的banner信息',
@@ -254,7 +284,7 @@ const dataSource = ref([
     ]
   },
   {
-    key: '9',
+    key: 'react-tailwind-admin-dashboard',
     name: 'react-tailwind-admin-dashboard',
     github: 'https://github.com/zack-xy-bms/react-tailwind-admin-dashboard',
     desc: '基于shadcnUI和React的后管系统页面',
