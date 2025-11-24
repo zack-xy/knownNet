@@ -8,8 +8,6 @@ tags:
  - CSS
 ---
 
-<simple-img src="https://s11.ax1x.com/2024/02/24/pFU7NJe.png"></simple-img>
-
 #### Flex容器属性
 
 <simple-img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/584b5a15ed2b45bba8615773ca4291cc~tplv-k3u1fbpfcp-zoom-1.image"></simple-img>
