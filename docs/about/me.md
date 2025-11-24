@@ -76,7 +76,6 @@ const tachColors = ref({
   'Antd': '#1677FF',
   'Element-ui': '#409EFF',
   'Element-plus': '#409EFF',
-  Vite: '#646CFF',
   Algolia: '#5468FF',
   Giscus: '#F6705D',
   PrismJS: '#F5A623',
