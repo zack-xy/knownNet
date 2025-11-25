@@ -22,14 +22,14 @@ hero:
 features:
   - icon: 💻
     title: 我的编程
-    details: 作为一名coder，有关编码的一些记录
+    details: code
   - icon: 📙
     title: 我的阅读
-    details: 好消息，书我看了；坏消息，没记住
+    details: 摘抄
   - icon: 🧶
     title: 我的杂项
-    details: 依旧还是技术向，惊不惊喜，意不意外
+    details: code
   - icon: ☕️
     title: 我的博客
-    details: 保证跟code没有关系
+    details: 摘抄
 ---
